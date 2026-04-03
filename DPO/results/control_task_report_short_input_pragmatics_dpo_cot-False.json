@@ -1,0 +1,31 @@
+{
+    "model": "pragmatics_dpo",
+    "conversation_input_type": "short",
+    "accessible:set:ALL*": 0.0,
+    "accessible:set:ALL": 0.4,
+    "accessible:belief:multiple-choice": 90.9,
+    "accessible:belief:distance": 83.5,
+    "accessible:belief_true_word-f1": 32.9,
+    "accessible:answerability:set:ALL": 0.4,
+    "accessible:answerability:list": 58.5,
+    "accessible:answerability:binary-f1": 11.899999999999999,
+    "accessible:info_accessibility:set:ALL": 42.4,
+    "accessible:info_accessibility:list": 76.9,
+    "accessible:info_accessibility:binary-f1": 89.7,
+    "fact_word-f1": 37.6,
+    "accessible:tom:lists:wrong_reasons:freq": {
+        "excluded_aware_character": 90,
+        "included_unaware_character": 3,
+        "did_both": 2
+    },
+    "accessible:tom:binary:wrong_reasons:freq": {
+        "false_negative": 886
+    },
+    "accessible:first-order": 88.2,
+    "accessible:second-order": 80.30000000000001,
+    "accessible:second-order:accessible": 82.19999999999999,
+    "accessible:second-order:acyclic": 62.5,
+    "accessible:second-order:cyclic": 64.7,
+    "accessible:set:ALL_character": 16.900000000000002,
+    "accessible:set:character_answer_consistency": 6.6000000000000005
+}

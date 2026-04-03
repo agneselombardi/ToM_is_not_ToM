@@ -1,0 +1,931 @@
+ID,Context utterance,Target,Question,Choices,Human answer,Correct Answer,Prompt,choices_prob,sentences_prob,choice_win,Generated Text
+1,"Honey , a typhoon is coming .","Really ? Wow , I don't have to go to school tomorrow .",What is the intended meaning of the target?,"[""I won't go to school tomorrow"", ""I don't like school"", ""I'll stay home home tomorrow"", 'I am happy to stay at home']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Honey , a typhoon is coming .
+Target sentence: Really ? Wow , I don't have to go to school tomorrow .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I won't go to school tomorrow
+2. I don't like school
+3. I'll stay home home tomorrow
+4. I am happy to stay at home
+ The correct answer is:","[(""I won't go to school tomorrow"", 0.332904577255249), (""I don't like school"", 0.08960004895925522), (""I'll stay home home tomorrow"", 0.4550265967845917), ('I am happy to stay at home', 0.1224687471985817)]","[(""I won't go to school tomorrow"", 0.7307446002960205), (""I don't like school"", 0.08198727667331696), (""I'll stay home home tomorrow"", 0.029233461245894432), ('I am happy to stay at home', 0.15803460776805878)]",I'll stay home home tomorrow,I won't go to school tomorrow
+2,Here’ s your hot dog and beer . What happened ? Did I miss anything ?,"Yeah , Cal Ripen just hit a home run .",What is the intended meaning of the target?,"['Cal Ripen got at least one point', 'Cal Ripen got one point', 'Cal Ripen is a baseball player', 'Cal Ripen ran home']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Here’ s your hot dog and beer . What happened ? Did I miss anything ?
+Target sentence: Yeah , Cal Ripen just hit a home run .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Cal Ripen got at least one point
+2. Cal Ripen got one point
+3. Cal Ripen is a baseball player
+4. Cal Ripen ran home
+ The correct answer is:","[('Cal Ripen got at least one point', 0.2180330902338028), ('Cal Ripen got one point', 0.4073394238948822), ('Cal Ripen is a baseball player', 0.20482312142848969), ('Cal Ripen ran home', 0.16980433464050293)]","[('Cal Ripen got at least one point', 0.10709986835718155), ('Cal Ripen got one point', 0.03939983993768692), ('Cal Ripen is a baseball player', 0.8164876699447632), ('Cal Ripen ran home', 0.037012726068496704)]",Cal Ripen got one point,Cal Ripen is a baseball player
+3,Do you have a lighter ?,"Sorry , I don't smoke .",What is the intended meaning of the target?,"['I am not a smoker', 'I would like to be a smoker', 'I will start smoking', ""I don't like the smell of smoke""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Do you have a lighter ?
+Target sentence: Sorry , I don't smoke .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I am not a smoker
+2. I would like to be a smoker
+3. I will start smoking
+4. I don't like the smell of smoke
+ The correct answer is:","[('I am not a smoker', 0.41352981328964233), ('I would like to be a smoker', 0.2079358547925949), ('I will start smoking', 0.1429120898246765), (""I don't like the smell of smoke"", 0.23562219738960266)]","[('I am not a smoker', 0.2788049876689911), ('I would like to be a smoker', 0.2788049876689911), ('I will start smoking', 0.049212001264095306), (""I don't like the smell of smoke"", 0.3931780457496643)]",I am not a smoker,I don't like the smell of smoke
+4,There's a Folk concert tomorrow evening . Do you Want to go ?,I don't like Folk music very much .,What is the intended meaning of the target?,"[""I don't listen to Folk music"", 'I like rock music', 'Folk music is my favourite one', ""I don't like music""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: There's a Folk concert tomorrow evening . Do you Want to go ?
+Target sentence: I don't like Folk music very much .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I don't listen to Folk music
+2. I like rock music
+3. Folk music is my favourite one
+4. I don't like music
+ The correct answer is:","[(""I don't listen to Folk music"", 0.2940143346786499), ('I like rock music', 0.5160111784934998), ('Folk music is my favourite one', 0.05109202489256859), (""I don't like music"", 0.13888253271579742)]","[(""I don't listen to Folk music"", 0.5102465748786926), ('I like rock music', 0.035269517451524734), ('Folk music is my favourite one', 0.16826145350933075), (""I don't like music"", 0.286222368478775)]",I like rock music,I don't listen to Folk music
+5,"Could you tell me the right time , please ?",Well . My watch says five past two . But it' s no use rely on it because it has been gaining and losing these last a few days .,What is the intended meaning of the target?,"['The time indicated by my watch could be wrong', ""It's five past two"", ""It's not five past two"", 'I have lost and found my watch in the past two days']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Could you tell me the right time , please ?
+Target sentence: Well . My watch says five past two . But it' s no use rely on it because it has been gaining and losing these last a few days .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The time indicated by my watch could be wrong
+2. It's five past two
+3. It's not five past two
+4. I have lost and found my watch in the past two days
+ The correct answer is:","[('The time indicated by my watch could be wrong', 0.25277936458587646), (""It's five past two"", 0.3677918016910553), (""It's not five past two"", 0.2864365577697754), ('I have lost and found my watch in the past two days', 0.09299232810735703)]","[('The time indicated by my watch could be wrong', 0.31810450553894043), (""It's five past two"", 0.11702410131692886), (""It's not five past two"", 0.13681504130363464), ('I have lost and found my watch in the past two days', 0.42805638909339905)]",It's five past two,I have lost and found my watch in the past two days
+6,I'll never ever work together with him !,What happened ? Quarrel again ?,What is the intended meaning of the target?,"['This is not the first quarrel', 'This is the second quarrel', 'This is the first quarrel', 'There was no quarrel']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I'll never ever work together with him !
+Target sentence: What happened ? Quarrel again ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. This is not the first quarrel
+2. This is the second quarrel
+3. This is the first quarrel
+4. There was no quarrel
+ The correct answer is:","[('This is not the first quarrel', 0.21076160669326782), ('This is the second quarrel', 0.3264339566230774), ('This is the first quarrel', 0.17472751438617706), ('There was no quarrel', 0.2880769670009613)]","[('This is not the first quarrel', 0.1987604945898056), ('This is the second quarrel', 0.29374897480010986), ('This is the first quarrel', 0.28919482231140137), ('There was no quarrel', 0.21829569339752197)]",This is the second quarrel,This is the second quarrel
+7,If you are staying late will you be sure to lock up the office before you leave?,I hope I won't leave within an hour,What is the intended meaning of the target?,"['I will stay for at least another hour', 'I will leave in about an hour', ""I won't leave"", 'I will be staying less than an hour']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: If you are staying late will you be sure to lock up the office before you leave?
+Target sentence: I hope I won't leave within an hour
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I will stay for at least another hour
+2. I will leave in about an hour
+3. I won't leave
+4. I will be staying less than an hour
+ The correct answer is:","[('I will stay for at least another hour', 0.21216937899589539), ('I will leave in about an hour', 0.22585313022136688), (""I won't leave"", 0.3498081564903259), ('I will be staying less than an hour', 0.21216937899589539)]","[('I will stay for at least another hour', 0.3353375494480133), ('I will leave in about an hour', 0.179493248462677), (""I won't leave"", 0.09311987459659576), ('I will be staying less than an hour', 0.39204931259155273)]",I won't leave,I will be staying less than an hour
+8,Let me help you with those packages?,"Thanks, but it is only three quarters to the block",What is the intended meaning of the target?,"['The place I need to reach is not too far', 'The place I need to reach is far', 'The block is more than three quarters away', 'The block is less than three quarters away']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Let me help you with those packages?
+Target sentence: Thanks, but it is only three quarters to the block
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The place I need to reach is not too far
+2. The place I need to reach is far
+3. The block is more than three quarters away
+4. The block is less than three quarters away
+ The correct answer is:","[('The place I need to reach is not too far', 0.14201515913009644), ('The place I need to reach is far', 0.17130298912525177), ('The block is more than three quarters away', 0.437437504529953), ('The block is less than three quarters away', 0.24924439191818237)]","[('The place I need to reach is not too far', 0.12902067601680756), ('The place I need to reach is far', 0.05052521824836731), ('The block is more than three quarters away', 0.4230424761772156), ('The block is less than three quarters away', 0.39741164445877075)]",The block is more than three quarters away,The block is more than three quarters away
+9,This calculator is not working right?,I think you got the battery on upside down,What is the intended meaning of the target?,"['The battery is not correctly positioned', 'The battery is correctly positioned', 'The battery is broken', 'You need to buy a new battery']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: This calculator is not working right?
+Target sentence: I think you got the battery on upside down
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The battery is not correctly positioned
+2. The battery is correctly positioned
+3. The battery is broken
+4. You need to buy a new battery
+ The correct answer is:","[('The battery is not correctly positioned', 0.4250236749649048), ('The battery is correctly positioned', 0.4816149175167084), ('The battery is broken', 0.02397819422185421), ('You need to buy a new battery', 0.06938321143388748)]","[('The battery is not correctly positioned', 0.12461493909358978), ('The battery is correctly positioned', 0.09705021232366562), ('The battery is broken', 0.09406428784132004), ('You need to buy a new battery', 0.6842706203460693)]",The battery is correctly positioned,You need to buy a new battery
+10,Are you still waiting for Bob?,I don’t know why I bother. The store wll be closed by the time we get there.,What is the intended meaning of the target?,"['The store will close before we arrive', 'The store will close earlier', 'The store is too far', 'We will reach the store before closing']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Are you still waiting for Bob?
+Target sentence: I don’t know why I bother. The store wll be closed by the time we get there.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The store will close before we arrive
+2. The store will close earlier
+3. The store is too far
+4. We will reach the store before closing
+ The correct answer is:","[('The store will close before we arrive', 0.2796069383621216), ('The store will close earlier', 0.2796069383621216), ('The store is too far', 0.05860879644751549), ('We will reach the store before closing', 0.38217735290527344)]","[('The store will close before we arrive', 0.3836626708507538), ('The store will close earlier', 0.10008439421653748), ('The store is too far', 0.13259027898311615), ('We will reach the store before closing', 0.3836626708507538)]",We will reach the store before closing,The store will close before we arrive
+11, Don’t you think that professor Mark’s tests are too difficult?,well I must had been. I was expecting past more than a passing grade in Biology,What is the intended meaning of the target?,"['I got a passing grade in Biology', 'I got more than a passing grade in Biology', 'I think my grade in Biology is wrong', 'I hate Biology']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance:  Don’t you think that professor Mark’s tests are too difficult?
+Target sentence: well I must had been. I was expecting past more than a passing grade in Biology
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I got a passing grade in Biology
+2. I got more than a passing grade in Biology
+3. I think my grade in Biology is wrong
+4. I hate Biology
+ The correct answer is:","[('I got a passing grade in Biology', 0.2424338012933731), ('I got more than a passing grade in Biology', 0.5815684795379639), ('I think my grade in Biology is wrong', 0.12190337479114532), ('I hate Biology', 0.05409429594874382)]","[('I got a passing grade in Biology', 0.5695844292640686), ('I got more than a passing grade in Biology', 0.38540008664131165), ('I think my grade in Biology is wrong', 0.03474487364292145), ('I hate Biology', 0.010270564816892147)]",I got more than a passing grade in Biology,I got a passing grade in Biology
+12,Lets charge for another mile.,I will try. But I am running out of steam,What is the intended meaning of the target?,"[""I've lost my enthusiasm"", 'I am full of energy', 'I want to go home', 'I want a steaming cup of coffee']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Lets charge for another mile.
+Target sentence: I will try. But I am running out of steam
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I've lost my enthusiasm
+2. I am full of energy
+3. I want to go home
+4. I want a steaming cup of coffee
+ The correct answer is:","[(""I've lost my enthusiasm"", 0.14077286422252655), ('I am full of energy', 0.24706406891345978), ('I want to go home', 0.204823300242424), ('I want a steaming cup of coffee', 0.40733978152275085)]","[(""I've lost my enthusiasm"", 0.033492520451545715), ('I am full of energy', 0.19273614883422852), ('I want to go home', 0.4080224335193634), ('I want a steaming cup of coffee', 0.36574894189834595)]",I want a steaming cup of coffee,I want to go home
+13,I spent the whole weekend totally absorbed in this biography,And you still have not finished reading it,What is the intended meaning of the target?,"['You are still reading', ""You're done reading"", 'You are a slow reader', 'You are not enjoying your reading']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I spent the whole weekend totally absorbed in this biography
+Target sentence: And you still have not finished reading it
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You are still reading
+2. You're done reading
+3. You are a slow reader
+4. You are not enjoying your reading
+ The correct answer is:","[('You are still reading', 0.2346777319908142), (""You're done reading"", 0.5288544297218323), ('You are a slow reader', 0.11085391044616699), ('You are not enjoying your reading', 0.12561392784118652)]","[('You are still reading', 0.1961326152086258), (""You're done reading"", 0.13907884061336517), ('You are a slow reader', 0.5855438113212585), ('You are not enjoying your reading', 0.07924473285675049)]",You're done reading,You are a slow reader
+14, I can’t seem to find my photo album,I think Mary is looking at it in the living room,What is the intended meaning of the target?,"['Mary is in the living room', 'Mary is in the kitchen', 'Mary is watching television', 'Mary is sleeping on the sofa']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance:  I can’t seem to find my photo album
+Target sentence: I think Mary is looking at it in the living room
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Mary is in the living room
+2. Mary is in the kitchen
+3. Mary is watching television
+4. Mary is sleeping on the sofa
+ The correct answer is:","[('Mary is in the living room', 0.42678943276405334), ('Mary is in the kitchen', 0.21460320055484772), ('Mary is watching television', 0.2284439355134964), ('Mary is sleeping on the sofa', 0.13016343116760254)]","[('Mary is in the living room', 0.6745256185531616), ('Mary is in the kitchen', 0.27253299951553345), ('Mary is watching television', 0.007039306685328484), ('Mary is sleeping on the sofa', 0.04590204358100891)]",Mary is in the living room,Mary is in the living room
+15,Did you hear that Mary turned out that job?,The hours were convenient. But it was not enough to make the ends meet,What is the intended meaning of the target?,"['It was necessary something more to make the ends meet', ""The hours weren't enough to make the ends meet"", 'There needed to be fewer hours to be convenient', 'It was perfect to make the ends meet']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Did you hear that Mary turned out that job?
+Target sentence: The hours were convenient. But it was not enough to make the ends meet
+Question: What is the intended meaning of the target?
+Choices:
+
+1. It was necessary something more to make the ends meet
+2. The hours weren't enough to make the ends meet
+3. There needed to be fewer hours to be convenient
+4. It was perfect to make the ends meet
+ The correct answer is:","[('It was necessary something more to make the ends meet', 0.2579824924468994), (""The hours weren't enough to make the ends meet"", 0.5130594372749329), ('There needed to be fewer hours to be convenient', 0.11447903513908386), ('It was perfect to make the ends meet', 0.11447903513908386)]","[('It was necessary something more to make the ends meet', 0.0920637920498848), (""The hours weren't enough to make the ends meet"", 0.6909770965576172), ('There needed to be fewer hours to be convenient', 0.033868372440338135), ('It was perfect to make the ends meet', 0.1830907016992569)]",The hours weren't enough to make the ends meet,The hours weren't enough to make the ends meet
+16,Have you had a chance to wear your new shirt yet,I have been trying to exchange it for a larger size.,What is the intended meaning of the target?,"['The size was wrong', 'The size was right', 'I wanted to buy a new one', 'I obtained a larger size']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Have you had a chance to wear your new shirt yet
+Target sentence: I have been trying to exchange it for a larger size.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The size was wrong
+2. The size was right
+3. I wanted to buy a new one
+4. I obtained a larger size
+ The correct answer is:","[('The size was wrong', 0.13176390528678894), ('The size was right', 0.38127148151397705), ('I wanted to buy a new one', 0.054927367717027664), ('I obtained a larger size', 0.43203720450401306)]","[('The size was wrong', 0.018954649567604065), ('The size was right', 0.005430597811937332), ('I wanted to buy a new one', 0.8851872682571411), ('I obtained a larger size', 0.09042757004499435)]",I obtained a larger size,I wanted to buy a new one
+17,Did you call Carl to the concert?,I tried several times.,What is the intended meaning of the target?,"['I tried more than one time', 'I tried one time', 'I tried for a lot of time', 'I tried a couple of time']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Did you call Carl to the concert?
+Target sentence: I tried several times.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I tried more than one time
+2. I tried one time
+3. I tried for a lot of time
+4. I tried a couple of time
+ The correct answer is:","[('I tried more than one time', 0.225389763712883), ('I tried one time', 0.5755529403686523), ('I tried for a lot of time', 0.05353476479649544), ('I tried a couple of time', 0.1455225795507431)]","[('I tried more than one time', 0.24602892994880676), ('I tried one time', 0.05157046765089035), ('I tried for a lot of time', 0.4056331217288971), ('I tried a couple of time', 0.29676753282546997)]",I tried one time,I tried for a lot of time
+18,It's bad isn't it?,We should get you to the doctor.,What is the intended meaning of the target?,"['You need a doctor', ""You shouldn't go to the doctor on your own"", ""You shouldn't stay alone"", ""You souldn't see a doctor""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It's bad isn't it?
+Target sentence: We should get you to the doctor.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You need a doctor
+2. You shouldn't go to the doctor on your own
+3. You shouldn't stay alone
+4. You souldn't see a doctor
+ The correct answer is:","[('You need a doctor', 0.32700905203819275), (""You shouldn't go to the doctor on your own"", 0.44696834683418274), (""You shouldn't stay alone"", 0.11301129311323166), (""You souldn't see a doctor"", 0.11301129311323166)]","[('You need a doctor', 0.05466047674417496), (""You shouldn't go to the doctor on your own"", 0.8821754455566406), (""You shouldn't stay alone"", 0.013395125977694988), (""You souldn't see a doctor"", 0.04976893216371536)]",You shouldn't go to the doctor on your own,You shouldn't go to the doctor on your own
+19,How does that sound?,About as bad as you smell!,What is the intended meaning of the target?,"['You have a bad smell', 'You have a good smell', 'You should worry about your smell', 'I hate your smell']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How does that sound?
+Target sentence: About as bad as you smell!
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You have a bad smell
+2. You have a good smell
+3. You should worry about your smell
+4. I hate your smell
+ The correct answer is:","[('You have a bad smell', 0.2859235107898712), ('You have a good smell', 0.23703892529010773), ('You should worry about your smell', 0.15304382145404816), ('I hate your smell', 0.3239937722682953)]","[('You have a bad smell', 0.6013305187225342), ('You have a good smell', 0.21441099047660828), ('You should worry about your smell', 0.13004684448242188), ('I hate your smell', 0.05421159416437149)]",I hate your smell,You have a bad smell
+20,"Hey, what kind of bread is this on the patty melt, anyway?",Look on the menu. It explains everything,What is the intended meaning of the target?,"['Everything is written on the menu', 'The menu contains every explanation', 'The menu is well written', 'The menu lacks some explanation']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Hey, what kind of bread is this on the patty melt, anyway?
+Target sentence: Look on the menu. It explains everything
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Everything is written on the menu
+2. The menu contains every explanation
+3. The menu is well written
+4. The menu lacks some explanation
+ The correct answer is:","[('Everything is written on the menu', 0.144217848777771), ('The menu contains every explanation', 0.5358343124389648), ('The menu is well written', 0.08217285573482513), ('The menu lacks some explanation', 0.2377750426530838)]","[('Everything is written on the menu', 0.682758629322052), ('The menu contains every explanation', 0.017092527821660042), ('The menu is well written', 0.25914594531059265), ('The menu lacks some explanation', 0.04100284352898598)]",The menu contains every explanation,Everything is written on the menu
+21,"and I put my arm around you.   I want to hold you, okay?",You're too ugly,What is the intended meaning of the target?,"['I think you are ugly', ""You're not beautiful"", ""I don't like you"", 'I think you are beautiful']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: and I put my arm around you.   I want to hold you, okay?
+Target sentence: You're too ugly
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I think you are ugly
+2. You're not beautiful
+3. I don't like you
+4. I think you are beautiful
+ The correct answer is:","[('I think you are ugly', 0.15130940079689026), (""You're not beautiful"", 0.16106802225112915), (""I don't like you"", 0.12543989717960358), ('I think you are beautiful', 0.562182605266571)]","[('I think you are ugly', 0.1712266355752945), (""You're not beautiful"", 0.12924863398075104), (""I don't like you"", 0.282304972410202), ('I think you are beautiful', 0.41721972823143005)]",I think you are beautiful,I think you are beautiful
+22,"Getting into trouble a little early today, aren't we Aladdin?",Trouble?   You're only in trouble if you get caught,What is the intended meaning of the target?,"[""There's no trouble if you are not getting caught"", 'The only trouble is getting caught', ""I don't want to be caught"", ""We're in trouble""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Getting into trouble a little early today, aren't we Aladdin?
+Target sentence: Trouble?   You're only in trouble if you get caught
+Question: What is the intended meaning of the target?
+Choices:
+
+1. There's no trouble if you are not getting caught
+2. The only trouble is getting caught
+3. I don't want to be caught
+4. We're in trouble
+ The correct answer is:","[(""There's no trouble if you are not getting caught"", 0.140304833650589), ('The only trouble is getting caught', 0.6288025975227356), (""I don't want to be caught"", 0.09058760851621628), (""We're in trouble"", 0.140304833650589)]","[(""There's no trouble if you are not getting caught"", 0.14053811132907867), ('The only trouble is getting caught', 0.15925054252147675), (""I don't want to be caught"", 0.6397667527198792), (""We're in trouble"", 0.06044468656182289)]",The only trouble is getting caught,I don't want to be caught
+23,What have you done?,Trust me!,What is the intended meaning of the target?,"['I want you to trust me', 'You should trust me', ""I suspect you don't trust me"", ""Don't trust me""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What have you done?
+Target sentence: Trust me!
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want you to trust me
+2. You should trust me
+3. I suspect you don't trust me
+4. Don't trust me
+ The correct answer is:","[('I want you to trust me', 0.5587469339370728), ('You should trust me', 0.23292036354541779), (""I suspect you don't trust me"", 0.11711972206830978), (""Don't trust me"", 0.0912129282951355)]","[('I want you to trust me', 0.42441442608833313), ('You should trust me', 0.034838058054447174), (""I suspect you don't trust me"", 0.1662030667066574), (""Don't trust me"", 0.3745444118976593)]",I want you to trust me,I want you to trust me
+24,What are you doing here in the middle of the night?,"You're just in time for supper, dear!",What is the intended meaning of the target?,"[""It's not late for supper"", ""It's early for supper"", 'You have arrived at the right time', ""It's late for supper""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What are you doing here in the middle of the night?
+Target sentence: You're just in time for supper, dear!
+Question: What is the intended meaning of the target?
+Choices:
+
+1. It's not late for supper
+2. It's early for supper
+3. You have arrived at the right time
+4. It's late for supper
+ The correct answer is:","[(""It's not late for supper"", 0.12632042169570923), (""It's early for supper"", 0.11866705864667892), ('You have arrived at the right time', 0.6026410460472107), (""It's late for supper"", 0.15237151086330414)]","[(""It's not late for supper"", 0.30427637696266174), (""It's early for supper"", 0.08449450135231018), ('You have arrived at the right time', 0.3341822326183319), (""It's late for supper"", 0.277046799659729)]",You have arrived at the right time,You have arrived at the right time
+25,How about if we go out to eat tonight. How about Chinese food?,Don't you think we should finish the left over?,What is the intended meaning of the target?,"['I think we should finish the left over', 'I suggest to finish the left over', 'I want to eat the left over', ""We shouldn't finish the left over""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How about if we go out to eat tonight. How about Chinese food?
+Target sentence: Don't you think we should finish the left over?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I think we should finish the left over
+2. I suggest to finish the left over
+3. I want to eat the left over
+4. We shouldn't finish the left over
+ The correct answer is:","[('I think we should finish the left over', 0.4180496633052826), ('I suggest to finish the left over', 0.21020856499671936), ('I want to eat the left over', 0.1974726766347885), (""We shouldn't finish the left over"", 0.17426902055740356)]","[('I think we should finish the left over', 0.5480232238769531), ('I suggest to finish the left over', 0.11668088287115097), ('I want to eat the left over', 0.18071886897087097), (""We shouldn't finish the left over"", 0.15457704663276672)]",I think we should finish the left over,I think we should finish the left over
+26,Did she present well?,She was a rock star at our last business presentation,What is the intended meaning of the target?,"['She behaved like a rock star at out last business presentation', 'She dressed up like a rock star at our last business presentation', 'She sang at our last business presentation', 'The last presentation was a disaster']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Did she present well?
+Target sentence: She was a rock star at our last business presentation
+Question: What is the intended meaning of the target?
+Choices:
+
+1. She behaved like a rock star at out last business presentation
+2. She dressed up like a rock star at our last business presentation
+3. She sang at our last business presentation
+4. The last presentation was a disaster
+ The correct answer is:","[('She behaved like a rock star at out last business presentation', 0.4533383250236511), ('She dressed up like a rock star at our last business presentation', 0.24265453219413757), ('She sang at our last business presentation', 0.24265453219413757), ('The last presentation was a disaster', 0.061352670192718506)]","[('She behaved like a rock star at out last business presentation', 0.3470233380794525), ('She dressed up like a rock star at our last business presentation', 0.5291473865509033), ('She sang at our last business presentation', 0.09052644670009613), ('The last presentation was a disaster', 0.03330281749367714)]",She behaved like a rock star at out last business presentation,She dressed up like a rock star at our last business presentation
+27,Would you care for a drink before you order ?,A glass of Qingdao beer .,What is the intended meaning of the target?,"['I want a glass of Qingdao beer', 'I would like to drink a beer', 'My favourite beer is the Qingdao one', ""I don't like Qingdao beer""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Would you care for a drink before you order ?
+Target sentence: A glass of Qingdao beer .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want a glass of Qingdao beer
+2. I would like to drink a beer
+3. My favourite beer is the Qingdao one
+4. I don't like Qingdao beer
+ The correct answer is:","[('I want a glass of Qingdao beer', 0.4012400209903717), ('I would like to drink a beer', 0.3769301176071167), ('My favourite beer is the Qingdao one', 0.1476079523563385), (""I don't like Qingdao beer"", 0.07422194629907608)]","[('I want a glass of Qingdao beer', 0.5476064682006836), ('I would like to drink a beer', 0.16187216341495514), ('My favourite beer is the Qingdao one', 0.13845659792423248), (""I don't like Qingdao beer"", 0.15206481516361237)]",I want a glass of Qingdao beer,I want a glass of Qingdao beer
+28,Is Tom available please?,"He's on the other line , can you hold for a minute ?",What is the intended meaning of the target?,"['There are two lines and he is on the other one', 'He is not in this line', 'You should wait', 'There is only one line']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Is Tom available please?
+Target sentence: He's on the other line , can you hold for a minute ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. There are two lines and he is on the other one
+2. He is not in this line
+3. You should wait
+4. There is only one line
+ The correct answer is:","[('There are two lines and he is on the other one', 0.2476557493209839), ('He is not in this line', 0.15021079778671265), ('You should wait', 0.33850526809692383), ('There is only one line', 0.26362815499305725)]","[('There are two lines and he is on the other one', 0.7468575835227966), ('He is not in this line', 0.08249597251415253), ('You should wait', 0.0013757506385445595), ('There is only one line', 0.16927075386047363)]",You should wait,There are two lines and he is on the other one
+29,Are you ready to leave ?,Give me a sec .,What is the intended meaning of the target?,"['I need more time', 'I need exactly one second', 'I need no more than one second', ""I'm ready""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Are you ready to leave ?
+Target sentence: Give me a sec .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I need more time
+2. I need exactly one second
+3. I need no more than one second
+4. I'm ready
+ The correct answer is:","[('I need more time', 0.14206185936927795), ('I need exactly one second', 0.5981028079986572), ('I need no more than one second', 0.14206185936927795), (""I'm ready"", 0.11777342855930328)]","[('I need more time', 0.406206339597702), ('I need exactly one second', 0.06229376047849655), ('I need no more than one second', 0.5055319666862488), (""I'm ready"", 0.025967903435230255)]",I need exactly one second,I need no more than one second
+30,Why did you stay home today ?,I'm off today .,What is the intended meaning of the target?,"[""I'm not working today"", ""I'm sick"", ""I'm going out"", ""I'm feeling healthy today""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Why did you stay home today ?
+Target sentence: I'm off today .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm not working today
+2. I'm sick
+3. I'm going out
+4. I'm feeling healthy today
+ The correct answer is:","[(""I'm not working today"", 0.23705068230628967), (""I'm sick"", 0.20919649302959442), (""I'm going out"", 0.16292238235473633), (""I'm feeling healthy today"", 0.39083048701286316)]","[(""I'm not working today"", 0.34154123067855835), (""I'm sick"", 0.039536263793706894), (""I'm going out"", 0.452468603849411), (""I'm feeling healthy today"", 0.16645389795303345)]",I'm feeling healthy today,I'm going out
+31,Cheese ! It tastes like cardboard .,I think so . Maybe that ’ s why it ’ s cheap here .,What is the intended meaning of the target?,"['The place is cheap', 'The place is expensive', 'The place is not cheap', ""I don't like spending too much money""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Cheese ! It tastes like cardboard .
+Target sentence: I think so . Maybe that ’ s why it ’ s cheap here .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The place is cheap
+2. The place is expensive
+3. The place is not cheap
+4. I don't like spending too much money
+ The correct answer is:","[('The place is cheap', 0.31782767176628113), ('The place is expensive', 0.08035942912101746), ('The place is not cheap', 0.3833733797073364), (""I don't like spending too much money"", 0.21843957901000977)]","[('The place is cheap', 0.006567142438143492), ('The place is expensive', 0.00398317351937294), ('The place is not cheap', 0.014799283817410469), (""I don't like spending too much money"", 0.9746503829956055)]",The place is not cheap,I don't like spending too much money
+32,Hello . Excuse me . Do you know if there's a Commercial Bank around here ?,Go straight and turn right. It's just a couple of minutes far,What is the intended meaning of the target?,"['It will take couple of minutes to reach the place', 'You should walk for a couple of minutes', 'You should take a bus', 'The place you want to reach is far']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Hello . Excuse me . Do you know if there's a Commercial Bank around here ?
+Target sentence: Go straight and turn right. It's just a couple of minutes far
+Question: What is the intended meaning of the target?
+Choices:
+
+1. It will take couple of minutes to reach the place
+2. You should walk for a couple of minutes
+3. You should take a bus
+4. The place you want to reach is far
+ The correct answer is:","[('It will take couple of minutes to reach the place', 0.27926620841026306), ('You should walk for a couple of minutes', 0.2972773313522339), ('You should take a bus', 0.1919366717338562), ('The place you want to reach is far', 0.23151981830596924)]","[('It will take couple of minutes to reach the place', 0.4404863119125366), ('You should walk for a couple of minutes', 0.4404863119125366), ('You should take a bus', 0.01762166991829872), ('The place you want to reach is far', 0.10140570998191833)]",You should walk for a couple of minutes,It will take couple of minutes to reach the place
+33,"Peter , do you want to learn to play the piano ?","No , mom . Piano is for girls .",What is the intended meaning of the target?,"['I think playing the piano is for girls', 'Only girls can play the piano', 'All the girls play the piano', ""Girls don't play the piano""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Peter , do you want to learn to play the piano ?
+Target sentence: No , mom . Piano is for girls .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I think playing the piano is for girls
+2. Only girls can play the piano
+3. All the girls play the piano
+4. Girls don't play the piano
+ The correct answer is:","[('I think playing the piano is for girls', 0.37480849027633667), ('Only girls can play the piano', 0.2919011414051056), ('All the girls play the piano', 0.15624341368675232), (""Girls don't play the piano"", 0.1770469844341278)]","[('I think playing the piano is for girls', 0.15806780755519867), ('Only girls can play the piano', 0.19671857357025146), ('All the girls play the piano', 0.10205624997615814), (""Girls don't play the piano"", 0.5431573987007141)]",I think playing the piano is for girls,Girls don't play the piano
+34,"Dad, can I go there to play ball ?","Watch out for strangers , and don't go too far away . Alright ?",What is the intended meaning of the target?,"['You should be careful', 'You better stay close', 'You should remember to be polite with strangers', 'There is no danger']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Dad, can I go there to play ball ?
+Target sentence: Watch out for strangers , and don't go too far away . Alright ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You should be careful
+2. You better stay close
+3. You should remember to be polite with strangers
+4. There is no danger
+ The correct answer is:","[('You should be careful', 0.27792543172836304), ('You better stay close', 0.3568633198738098), ('You should remember to be polite with strangers', 0.1487627625465393), ('There is no danger', 0.21644854545593262)]","[('You should be careful', 0.3966045081615448), ('You better stay close', 0.08313281834125519), ('You should remember to be polite with strangers', 0.2560671269893646), ('There is no danger', 0.2641955614089966)]",You better stay close,You should be careful
+35,"Honey , I need to have a talk with you .","Dad , I have to do my homework .",What is the intended meaning of the target?,"['I have not done my homework yet', 'I have a lot of homework', ""I don't have homework to do"", 'I like doing my homework']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Honey , I need to have a talk with you .
+Target sentence: Dad , I have to do my homework .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I have not done my homework yet
+2. I have a lot of homework
+3. I don't have homework to do
+4. I like doing my homework
+ The correct answer is:","[('I have not done my homework yet', 0.3338143229484558), ('I have a lot of homework', 0.3553434908390045), (""I don't have homework to do"", 0.10837364941835403), ('I like doing my homework', 0.2024686336517334)]","[('I have not done my homework yet', 0.3932555913925171), ('I have a lot of homework', 0.32602033019065857), (""I don't have homework to do"", 0.22407029569149017), ('I like doing my homework', 0.05665384232997894)]",I have a lot of homework,I have not done my homework yet
+36,I'm thinking of taking you and Peter swimming . What do you think ?,Dad ! It's cold now !,What is the intended meaning of the target?,"['The weather is cold', 'The weather is not nice', ""It's not a sunny day"", 'My dad is cold']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I'm thinking of taking you and Peter swimming . What do you think ?
+Target sentence: Dad ! It's cold now !
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The weather is cold
+2. The weather is not nice
+3. It's not a sunny day
+4. My dad is cold
+ The correct answer is:","[('The weather is cold', 0.7230685353279114), ('The weather is not nice', 0.12565046548843384), (""It's not a sunny day"", 0.05935307964682579), ('My dad is cold', 0.09192784875631332)]","[('The weather is cold', 0.1146414577960968), ('The weather is not nice', 0.1259090155363083), (""It's not a sunny day"", 0.680657684803009), ('My dad is cold', 0.07879184931516647)]",The weather is cold,It's not a sunny day
+37,"We can't go that way , the road is blocked for the next few days ","Oh , that's right . They're filming a movie up there , aren't they ?",What is the intended meaning of the target?,"[""I'm not sure if someone is filming a movie"", 'Someone is filming a movie', ""I'm sure they are filming a movie"", 'The movie will be out soon']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: We can't go that way , the road is blocked for the next few days 
+Target sentence: Oh , that's right . They're filming a movie up there , aren't they ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm not sure if someone is filming a movie
+2. Someone is filming a movie
+3. I'm sure they are filming a movie
+4. The movie will be out soon
+ The correct answer is:","[(""I'm not sure if someone is filming a movie"", 0.09477280080318451), ('Someone is filming a movie', 0.5805537700653076), (""I'm sure they are filming a movie"", 0.2919207811355591), ('The movie will be out soon', 0.03275260329246521)]","[(""I'm not sure if someone is filming a movie"", 0.4913647770881653), ('Someone is filming a movie', 0.2146613746881485), (""I'm sure they are filming a movie"", 0.22850583493709564), ('The movie will be out soon', 0.06546802073717117)]",Someone is filming a movie,I'm not sure if someone is filming a movie
+38,It's time to go . Are you ready ?,Almost . Let me get my bag .,What is the intended meaning of the target?,"['I have to take my bag', 'I have a bag', ""I don't have a bag"", 'I want to buy a new bag']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It's time to go . Are you ready ?
+Target sentence: Almost . Let me get my bag .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I have to take my bag
+2. I have a bag
+3. I don't have a bag
+4. I want to buy a new bag
+ The correct answer is:","[('I have to take my bag', 0.2650020122528076), ('I have a bag', 0.3196534514427185), (""I don't have a bag"", 0.2820931673049927), ('I want to buy a new bag', 0.1332513839006424)]","[('I have to take my bag', 0.0437663309276104), ('I have a bag', 0.1992359608411789), (""I don't have a bag"", 0.39622801542282104), ('I want to buy a new bag', 0.36076971888542175)]",I have a bag,I don't have a bag
+39,It is my first time coming to China . I want to buy something unique of China to my friends as gifts .,We have a great variety of Chinese antiques and porcelain .,What is the intended meaning of the target?,"['There are both Chinese antiques and porcelain', 'The antiques are from China', 'The porcelain is typical of China', 'There are antiques but not porcelain']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It is my first time coming to China . I want to buy something unique of China to my friends as gifts .
+Target sentence: We have a great variety of Chinese antiques and porcelain .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. There are both Chinese antiques and porcelain
+2. The antiques are from China
+3. The porcelain is typical of China
+4. There are antiques but not porcelain
+ The correct answer is:","[('There are both Chinese antiques and porcelain', 0.2827055752277374), ('The antiques are from China', 0.2655773162841797), ('The porcelain is typical of China', 0.3410080373287201), ('There are antiques but not porcelain', 0.11070910096168518)]","[('There are both Chinese antiques and porcelain', 0.6393205523490906), ('The antiques are from China', 0.1831684112548828), ('The porcelain is typical of China', 0.0763559564948082), ('There are antiques but not porcelain', 0.10115519911050797)]",The porcelain is typical of China,There are both Chinese antiques and porcelain
+40,"Mom , is there anything in the fridge I can eat before dinner ?",There's some leftover pizza from last night .,What is the intended meaning of the target?,"['The pizza is leftover from last night', 'The pizza is not whole', ""The pizza isn't leftover"", ""The pizza wasn't good, so it left over""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Mom , is there anything in the fridge I can eat before dinner ?
+Target sentence: There's some leftover pizza from last night .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The pizza is leftover from last night
+2. The pizza is not whole
+3. The pizza isn't leftover
+4. The pizza wasn't good, so it left over
+ The correct answer is:","[('The pizza is leftover from last night', 0.3358512222766876), ('The pizza is not whole', 0.21684184670448303), (""The pizza isn't leftover"", 0.27843043208122253), (""The pizza wasn't good, so it left over"", 0.16887660324573517)]","[('The pizza is leftover from last night', 0.5458106994628906), ('The pizza is not whole', 0.08370278775691986), (""The pizza isn't leftover"", 0.028926907107234), (""The pizza wasn't good, so it left over"", 0.34155961871147156)]",The pizza is leftover from last night,The pizza is leftover from last night
+41,"Mom , I want to get a motorcycle . Is that all right with you ?",You mean a murder cycle ? Did you know more cyclists die in accidents than motorists ?,What is the intended meaning of the target?,"['I think that motorcycles are more dangerous than cars', 'I think that motorcycle can lead to death', 'There is a cycle of murders linked to motorcycle', 'Motorcycle are safer than cars']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Mom , I want to get a motorcycle . Is that all right with you ?
+Target sentence: You mean a murder cycle ? Did you know more cyclists die in accidents than motorists ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I think that motorcycles are more dangerous than cars
+2. I think that motorcycle can lead to death
+3. There is a cycle of murders linked to motorcycle
+4. Motorcycle are safer than cars
+ The correct answer is:","[('I think that motorcycles are more dangerous than cars', 0.322511225938797), ('I think that motorcycle can lead to death', 0.3890227973461151), ('There is a cycle of murders linked to motorcycle', 0.16216883063316345), ('Motorcycle are safer than cars', 0.1262972056865692)]","[('I think that motorcycles are more dangerous than cars', 0.5657603740692139), ('I think that motorcycle can lead to death', 0.13437986373901367), ('There is a cycle of murders linked to motorcycle', 0.15227234363555908), ('Motorcycle are safer than cars', 0.14758741855621338)]",I think that motorcycle can lead to death,I think that motorcycles are more dangerous than cars
+42,Why is there water all over the bathroom floor ?,I was filling the bathtub and I left the water running too long.,What is the intended meaning of the target?,"['I was in the bathroom', 'I wanted to take a bath', ""I didn't fill completely the bathtub"", 'I filled the bathtub']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Why is there water all over the bathroom floor ?
+Target sentence: I was filling the bathtub and I left the water running too long.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I was in the bathroom
+2. I wanted to take a bath
+3. I didn't fill completely the bathtub
+4. I filled the bathtub
+ The correct answer is:","[('I was in the bathroom', 0.15981188416481018), ('I wanted to take a bath', 0.24752148985862732), (""I didn't fill completely the bathtub"", 0.23252491652965546), ('I filled the bathtub', 0.3601416349411011)]","[('I was in the bathroom', 0.47991544008255005), ('I wanted to take a bath', 0.2568802237510681), (""I didn't fill completely the bathtub"", 0.14186273515224457), ('I filled the bathtub', 0.12134162336587906)]",I filled the bathtub,I was in the bathroom
+43,"Look , this is a pimple !",I think it's because of your bad habits !,What is the intended meaning of the target?,"['I think you have bad habits', 'You should improve your habits', ""It's important to have good habits"", 'I think you have good habits']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Look , this is a pimple !
+Target sentence: I think it's because of your bad habits !
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I think you have bad habits
+2. You should improve your habits
+3. It's important to have good habits
+4. I think you have good habits
+ The correct answer is:","[('I think you have bad habits', 0.23552632331848145), ('You should improve your habits', 0.16187472641468048), (""It's important to have good habits"", 0.134198859333992), ('I think you have good habits', 0.4684000313282013)]","[('I think you have bad habits', 0.2848610281944275), ('You should improve your habits', 0.07910305261611938), (""It's important to have good habits"", 0.4276270568370819), ('I think you have good habits', 0.20840878784656525)]",I think you have good habits,It's important to have good habits
+44,What's up ? You sound a little down in dumps,I quarreled with my roommate last night . He is really stubborn .,What is the intended meaning of the target?,"[""I don't get along with my roommate"", 'I think my roommate is stubborn', 'I hate my roommate', 'My roommate and I are good friends']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What's up ? You sound a little down in dumps
+Target sentence: I quarreled with my roommate last night . He is really stubborn .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I don't get along with my roommate
+2. I think my roommate is stubborn
+3. I hate my roommate
+4. My roommate and I are good friends
+ The correct answer is:","[(""I don't get along with my roommate"", 0.14825481176376343), ('I think my roommate is stubborn', 0.707284152507782), ('I hate my roommate', 0.05453989654779434), ('My roommate and I are good friends', 0.08992109447717667)]","[(""I don't get along with my roommate"", 0.7618451118469238), ('I think my roommate is stubborn', 0.06156652048230171), ('I hate my roommate', 0.019372764974832535), ('My roommate and I are good friends', 0.15721562504768372)]",I think my roommate is stubborn,I don't get along with my roommate
+45,Hi Barbara . Have you lost weight ?,Hi Julie . I've been on a diet for a couple of months now .,What is the intended meaning of the target?,"['I started the diet a couple of months ago', ""I'm still on a diet"", 'I hate dieting', ""I haven't been on a diet""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Hi Barbara . Have you lost weight ?
+Target sentence: Hi Julie . I've been on a diet for a couple of months now .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I started the diet a couple of months ago
+2. I'm still on a diet
+3. I hate dieting
+4. I haven't been on a diet
+ The correct answer is:","[('I started the diet a couple of months ago', 0.31203147768974304), (""I'm still on a diet"", 0.5476322770118713), ('I hate dieting', 0.05093773826956749), (""I haven't been on a diet"", 0.08939851075410843)]","[('I started the diet a couple of months ago', 0.35264578461647034), (""I'm still on a diet"", 0.15167105197906494), ('I hate dieting', 0.013673560693860054), (""I haven't been on a diet"", 0.482009619474411)]",I'm still on a diet,I haven't been on a diet
+46,Nathan said he didn't have any fun at his new school this week .,I think he hasn't made any new friends yet .,What is the intended meaning of the target?,"['He could be lonely', 'He has no friends', ""He doesn't want any new friends"", 'He has many new friends']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Nathan said he didn't have any fun at his new school this week .
+Target sentence: I think he hasn't made any new friends yet .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. He could be lonely
+2. He has no friends
+3. He doesn't want any new friends
+4. He has many new friends
+ The correct answer is:","[('He could be lonely', 0.22593338787555695), ('He has no friends', 0.39652541279792786), (""He doesn't want any new friends"", 0.21224476397037506), ('He has many new friends', 0.16529637575149536)]","[('He could be lonely', 0.06877508014440536), ('He has no friends', 0.03248704969882965), (""He doesn't want any new friends"", 0.6732330322265625), ('He has many new friends', 0.2255048155784607)]",He has no friends,He doesn't want any new friends
+47,I found a great school for Junior !,We haven't even had the baby yet !.,What is the intended meaning of the target?,"['The baby has not yet been born', ""We're expecting a baby"", ""We won't have a baby"", 'We have no children']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I found a great school for Junior !
+Target sentence: We haven't even had the baby yet !.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The baby has not yet been born
+2. We're expecting a baby
+3. We won't have a baby
+4. We have no children
+ The correct answer is:","[('The baby has not yet been born', 0.46665504574775696), (""We're expecting a baby"", 0.34141212701797485), (""We won't have a baby"", 0.11084028333425522), ('We have no children', 0.0810924842953682)]","[('The baby has not yet been born', 0.4059462249279022), (""We're expecting a baby"", 0.1359749436378479), (""We won't have a baby"", 0.4321275055408478), ('We have no children', 0.02595127373933792)]",The baby has not yet been born,We won't have a baby
+48,"Mom , there isn't any hot water",Ok . I'll check the heater .,What is the intended meaning of the target?,"['The heater needs to be checked', 'There is a heater', 'The heater is broken', 'The heater is working well']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Mom , there isn't any hot water
+Target sentence: Ok . I'll check the heater .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. The heater needs to be checked
+2. There is a heater
+3. The heater is broken
+4. The heater is working well
+ The correct answer is:","[('The heater needs to be checked', 0.45776647329330444), ('There is a heater', 0.2608274817466736), ('The heater is broken', 0.15819986164569855), ('The heater is working well', 0.12320617586374283)]","[('The heater needs to be checked', 0.27905723452568054), ('There is a heater', 0.1801729053258896), ('The heater is broken', 0.33660727739334106), ('The heater is working well', 0.20416264235973358)]",The heater needs to be checked,The heater is broken
+49,What kind of wine do you offer ?,Here is the wine list .,What is the intended meaning of the target?,"['There is a wine list', 'The list contains all the wines', 'Not all wines are on the list', 'The list contains wines and food']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What kind of wine do you offer ?
+Target sentence: Here is the wine list .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. There is a wine list
+2. The list contains all the wines
+3. Not all wines are on the list
+4. The list contains wines and food
+ The correct answer is:","[('There is a wine list', 0.3271056115627289), ('The list contains all the wines', 0.2886696755886078), ('Not all wines are on the list', 0.27118006348609924), ('The list contains wines and food', 0.11304467916488647)]","[('There is a wine list', 0.17398065328598022), ('The list contains all the wines', 0.11957503855228424), ('Not all wines are on the list', 0.6881068348884583), ('The list contains wines and food', 0.018337426707148552)]",There is a wine list,Not all wines are on the list
+50,"Oh , dear ! which dress should I choose ? I can't make up my mind . Please help me .",You know I don't know anything about fashion.,What is the intended meaning of the target?,"['I could know more about fashion', ""I'm not interested in fashion"", ""I don't like fashion"", 'I know everything about fashion']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Oh , dear ! which dress should I choose ? I can't make up my mind . Please help me .
+Target sentence: You know I don't know anything about fashion.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I could know more about fashion
+2. I'm not interested in fashion
+3. I don't like fashion
+4. I know everything about fashion
+ The correct answer is:","[('I could know more about fashion', 0.2046530544757843), (""I'm not interested in fashion"", 0.2977684438228607), (""I don't like fashion"", 0.1806056946516037), ('I know everything about fashion', 0.31697285175323486)]","[('I could know more about fashion', 0.05585865676403046), (""I'm not interested in fashion"", 0.4000439941883087), (""I don't like fashion"", 0.11825277656316757), ('I know everything about fashion', 0.42584460973739624)]",I know everything about fashion,I know everything about fashion
+51,Can you help me pick out a gift for my niece ?,Most normal little girls go wild over Barbie dolls,What is the intended meaning of the target?,"['Barbie dolls are very popular between little girls', 'More than one little girl likes Barbie dolls', 'Every little girl likes Barbie dolls', ""Barbie dolls aren't very popular between little girls""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Can you help me pick out a gift for my niece ?
+Target sentence: Most normal little girls go wild over Barbie dolls
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Barbie dolls are very popular between little girls
+2. More than one little girl likes Barbie dolls
+3. Every little girl likes Barbie dolls
+4. Barbie dolls aren't very popular between little girls
+ The correct answer is:","[('Barbie dolls are very popular between little girls', 0.3467715382575989), ('More than one little girl likes Barbie dolls', 0.21032759547233582), ('Every little girl likes Barbie dolls', 0.3929436504840851), (""Barbie dolls aren't very popular between little girls"", 0.04995718225836754)]","[('Barbie dolls are very popular between little girls', 0.537930428981781), ('More than one little girl likes Barbie dolls', 0.062269967049360275), ('Every little girl likes Barbie dolls', 0.06839018315076828), (""Barbie dolls aren't very popular between little girls"", 0.3314093351364136)]",Every little girl likes Barbie dolls,Barbie dolls are very popular between little girls
+52,Will this be cash or charge ?,"Here , take my credit card .",What is the intended meaning of the target?,"[""I'm giving you my credit card"", 'I have a credit card', 'My credit card is empty', ""I don't have a credit card""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Will this be cash or charge ?
+Target sentence: Here , take my credit card .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm giving you my credit card
+2. I have a credit card
+3. My credit card is empty
+4. I don't have a credit card
+ The correct answer is:","[(""I'm giving you my credit card"", 0.298683762550354), ('I have a credit card', 0.36028140783309937), ('My credit card is empty', 0.15987390279769897), (""I don't have a credit card"", 0.18116086721420288)]","[(""I'm giving you my credit card"", 0.3302608132362366), ('I have a credit card', 0.18525952100753784), ('My credit card is empty', 0.040065184235572815), (""I don't have a credit card"", 0.44441449642181396)]",I have a credit card,I don't have a credit card
+53,Hello ! Where can I buy an inexpensive cashmere sweater ?,Maybe you should look around for an outlet .,What is the intended meaning of the target?,"['You should go to an outlet', 'The outlet is not far from here', 'The outlet is open', 'The outlet is closed']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Hello ! Where can I buy an inexpensive cashmere sweater ?
+Target sentence: Maybe you should look around for an outlet .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You should go to an outlet
+2. The outlet is not far from here
+3. The outlet is open
+4. The outlet is closed
+ The correct answer is:","[('You should go to an outlet', 0.4707197844982147), ('The outlet is not far from here', 0.30391955375671387), ('The outlet is open', 0.1266925185918808), ('The outlet is closed', 0.09866822510957718)]","[('You should go to an outlet', 0.5574110150337219), ('The outlet is not far from here', 0.3598915934562683), ('The outlet is open', 0.032445210963487625), ('The outlet is closed', 0.05025213211774826)]",You should go to an outlet,You should go to an outlet
+54,"Can I see the paper when you're through , Sally ?",OK . I just want to read the comics .,What is the intended meaning of the target?,"[""I haven't read the comics yet"", 'There are the comics', 'I like to read the comics', ""I don't care about the comics""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Can I see the paper when you're through , Sally ?
+Target sentence: OK . I just want to read the comics .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I haven't read the comics yet
+2. There are the comics
+3. I like to read the comics
+4. I don't care about the comics
+ The correct answer is:","[(""I haven't read the comics yet"", 0.13632483780384064), ('There are the comics', 0.271114319562912), ('I like to read the comics', 0.5391752123832703), (""I don't care about the comics"", 0.05338557809591293)]","[(""I haven't read the comics yet"", 0.3311079144477844), ('There are the comics', 0.0045776888728141785), ('I like to read the comics', 0.38110285997390747), (""I don't care about the comics"", 0.2832115888595581)]",I like to read the comics,I like to read the comics
+55,"Let's get this card for mom , it's funny .","Brad , it's her birthday . Let's get her something really special .",What is the intended meaning of the target?,"['We have to buy a birthday gift', ""It's someone's birthday"", ""It's Brad's birthday"", 'Birthday is a special day']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Let's get this card for mom , it's funny .
+Target sentence: Brad , it's her birthday . Let's get her something really special .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. We have to buy a birthday gift
+2. It's someone's birthday
+3. It's Brad's birthday
+4. Birthday is a special day
+ The correct answer is:","[('We have to buy a birthday gift', 0.1536390334367752), (""It's someone's birthday"", 0.36856088042259216), (""It's Brad's birthday"", 0.41763418912887573), ('Birthday is a special day', 0.06016591191291809)]","[('We have to buy a birthday gift', 0.15618719160556793), (""It's someone's birthday"", 0.15618719160556793), (""It's Brad's birthday"", 0.30105867981910706), ('Birthday is a special day', 0.38656699657440186)]",It's Brad's birthday,Birthday is a special day
+56,"I want to keep a pet , but I don't know which one to buy ?","Dogs are nice , but they are really energetic , and you need to make sure they get enough exercise every day .",What is the intended meaning of the target?,"['Dogs require a lot of effort', 'I like dogs', 'Dogs are the worst pet', 'Dogs are easy to take care of']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I want to keep a pet , but I don't know which one to buy ?
+Target sentence: Dogs are nice , but they are really energetic , and you need to make sure they get enough exercise every day .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Dogs require a lot of effort
+2. I like dogs
+3. Dogs are the worst pet
+4. Dogs are easy to take care of
+ The correct answer is:","[('Dogs require a lot of effort', 0.1728861778974533), ('I like dogs', 0.5002627372741699), ('Dogs are the worst pet', 0.10486076772212982), ('Dogs are easy to take care of', 0.22199024260044098)]","[('Dogs require a lot of effort', 0.15178902447223663), ('I like dogs', 0.009405001066625118), ('Dogs are the worst pet', 0.0434882827103138), ('Dogs are easy to take care of', 0.7953176498413086)]",I like dogs,Dogs are easy to take care of
+57,Are you going to introduce us ?,"Well , he has already taken you know , that's his wife right there .",What is the intended meaning of the target?,"['He has a wife', 'His wife is near him', 'He just got married', 'He is single']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Are you going to introduce us ?
+Target sentence: Well , he has already taken you know , that's his wife right there .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. He has a wife
+2. His wife is near him
+3. He just got married
+4. He is single
+ The correct answer is:","[('He has a wife', 0.3951706290245056), ('His wife is near him', 0.4206569492816925), ('He just got married', 0.10635872930288315), ('He is single', 0.07781371474266052)]","[('He has a wife', 0.21413664519786835), ('His wife is near him', 0.33166131377220154), ('He just got married', 0.40005990862846375), ('He is single', 0.05414222180843353)]",His wife is near him,He just got married
+58,The music is on. May I have the pleasure to dance with you ?,"Sorry , I'm engaged for the foxtrot. Will the next Walls be all right ?",What is the intended meaning of the target?,"[""I have to dance the foxtrot with someone, but I'm free for the next Walls"", ""I'm free for the foxtrot"", 'Someone is playing', ""I'm engaged""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The music is on. May I have the pleasure to dance with you ?
+Target sentence: Sorry , I'm engaged for the foxtrot. Will the next Walls be all right ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I have to dance the foxtrot with someone, but I'm free for the next Walls
+2. I'm free for the foxtrot
+3. Someone is playing
+4. I'm engaged
+ The correct answer is:","[(""I have to dance the foxtrot with someone, but I'm free for the next Walls"", 0.30844852328300476), (""I'm free for the foxtrot"", 0.22566577792167664), ('Someone is playing', 0.24021995067596436), (""I'm engaged"", 0.22566577792167664)]","[(""I have to dance the foxtrot with someone, but I'm free for the next Walls"", 0.36991554498672485), (""I'm free for the foxtrot"", 0.555308997631073), ('Someone is playing', 0.010493696667253971), (""I'm engaged"", 0.06428167968988419)]","I have to dance the foxtrot with someone, but I'm free for the next Walls",I'm free for the foxtrot
+59,How was your education going on in Australia ?,I'm going to graduate this summer .,What is the intended meaning of the target?,"['I will finish my course this summer', 'I will finish my course the next year', 'I will finish my course in a few months', 'Next summer I will finish my studies']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How was your education going on in Australia ?
+Target sentence: I'm going to graduate this summer .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I will finish my course this summer
+2. I will finish my course the next year
+3. I will finish my course in a few months
+4. Next summer I will finish my studies
+ The correct answer is:","[('I will finish my course this summer', 0.5663688778877258), ('I will finish my course the next year', 0.1345243901014328), ('I will finish my course in a few months', 0.12637397646903992), ('Next summer I will finish my studies', 0.17273275554180145)]","[('I will finish my course this summer', 0.18144576251506805), ('I will finish my course the next year', 0.16520825028419495), ('I will finish my course in a few months', 0.493220716714859), ('Next summer I will finish my studies', 0.16012531518936157)]",I will finish my course this summer,I will finish my course in a few months
+60,So the company decided to cancel your trip to Hong Kong ?,The SARS epidemic is not under effective control yet . So I'd better not risk it .,What is the intended meaning of the target?,"[""I don't want to risk contracting the SARS"", ""I don't mind to risk contracting the SARS"", 'The SARS is not risky', 'The SARS is risky']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: So the company decided to cancel your trip to Hong Kong ?
+Target sentence: The SARS epidemic is not under effective control yet . So I'd better not risk it .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I don't want to risk contracting the SARS
+2. I don't mind to risk contracting the SARS
+3. The SARS is not risky
+4. The SARS is risky
+ The correct answer is:","[(""I don't want to risk contracting the SARS"", 0.2228172868490219), (""I don't mind to risk contracting the SARS"", 0.11203957349061966), ('The SARS is not risky', 0.16301661729812622), ('The SARS is risky', 0.5021265149116516)]","[(""I don't want to risk contracting the SARS"", 0.6881057024002075), (""I don't mind to risk contracting the SARS"", 0.245351642370224), ('The SARS is not risky', 0.049846213310956955), ('The SARS is risky', 0.016696389764547348)]",The SARS is risky,I don't want to risk contracting the SARS
+61,"How about seconds , Victor ?",No.thanks . I'm full .,What is the intended meaning of the target?,"[""I don't want to continue eating"", ""I'm still hungry"", 'I ate a lot', 'I will take the dessert']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How about seconds , Victor ?
+Target sentence: No.thanks . I'm full .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I don't want to continue eating
+2. I'm still hungry
+3. I ate a lot
+4. I will take the dessert
+ The correct answer is:","[(""I don't want to continue eating"", 0.19150523841381073), (""I'm still hungry"", 0.26175662875175476), ('I ate a lot', 0.3157387673854828), ('I will take the dessert', 0.2309994250535965)]","[(""I don't want to continue eating"", 0.3533864915370941), (""I'm still hungry"", 0.4004393517971039), ('I ate a lot', 0.20774519443511963), ('I will take the dessert', 0.03842899575829506)]",I ate a lot,I'm still hungry
+62,Cigarette ?,"Oh , uh ... Thanks . Henry , do you have a light ?",What is the intended meaning of the target?,"['I want to know if you have a lighter', 'I want to know if you own a lighter', 'I want to know if bought a lighter', 'I am asking you to turn on the light']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Cigarette ?
+Target sentence: Oh , uh ... Thanks . Henry , do you have a light ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want to know if you have a lighter
+2. I want to know if you own a lighter
+3. I want to know if bought a lighter
+4. I am asking you to turn on the light
+ The correct answer is:","[('I want to know if you have a lighter', 0.47436627745628357), ('I want to know if you own a lighter', 0.27028578519821167), ('I want to know if bought a lighter', 0.1276739537715912), ('I am asking you to turn on the light', 0.1276739537715912)]","[('I want to know if you have a lighter', 0.5525932908058167), ('I want to know if you own a lighter', 0.29119622707366943), ('I want to know if bought a lighter', 0.055575769394636154), ('I am asking you to turn on the light', 0.10063471645116806)]",I want to know if you have a lighter,I want to know if you have a lighter
+63,"Stop running around in front of the TV , will you ? Why don't you just sit and watch ?","I've tried , but I can't stand the bald man talking so loudly in the program .",What is the intended meaning of the target?,"[""I can't stand the man because he is talking loudly"", ""I can't stand the man because he is bald"", ""I can't stand the man because he is talking softly"", 'I tried to talk with the bald man']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Stop running around in front of the TV , will you ? Why don't you just sit and watch ?
+Target sentence: I've tried , but I can't stand the bald man talking so loudly in the program .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I can't stand the man because he is talking loudly
+2. I can't stand the man because he is bald
+3. I can't stand the man because he is talking softly
+4. I tried to talk with the bald man
+ The correct answer is:","[(""I can't stand the man because he is talking loudly"", 0.44864320755004883), (""I can't stand the man because he is bald"", 0.3083476722240448), (""I can't stand the man because he is talking softly"", 0.07796250283718109), ('I tried to talk with the bald man', 0.16504661738872528)]","[(""I can't stand the man because he is talking loudly"", 0.2476033717393875), (""I can't stand the man because he is bald"", 0.39566904306411743), (""I can't stand the man because he is talking softly"", 0.1755770742893219), ('I tried to talk with the bald man', 0.18115048110485077)]",I can't stand the man because he is talking loudly,I can't stand the man because he is bald
+64,"Okay , can I ask you something direct ?",Ha ! It's not like you've ever been one to beat around the bush .,What is the intended meaning of the target?,"[""You've always asked direct"", 'You never discussed a matter without coming to the point', ""You're a direct person"", 'You never come to the point']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Okay , can I ask you something direct ?
+Target sentence: Ha ! It's not like you've ever been one to beat around the bush .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You've always asked direct
+2. You never discussed a matter without coming to the point
+3. You're a direct person
+4. You never come to the point
+ The correct answer is:","[(""You've always asked direct"", 0.25784656405448914), ('You never discussed a matter without coming to the point', 0.18864455819129944), (""You're a direct person"", 0.4525347650051117), ('You never come to the point', 0.10097415745258331)]","[(""You've always asked direct"", 0.08193439990282059), ('You never discussed a matter without coming to the point', 0.2686525583267212), (""You're a direct person"", 0.4864669442176819), ('You never come to the point', 0.16294601559638977)]",You're a direct person,You're a direct person
+65,What do you think of the coming match ?,Winning is a piece of cake to me .,What is the intended meaning of the target?,"['For me winning is easy', 'I always win', 'I think winning is better than losing', 'I just winned a piece of cake']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What do you think of the coming match ?
+Target sentence: Winning is a piece of cake to me .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. For me winning is easy
+2. I always win
+3. I think winning is better than losing
+4. I just winned a piece of cake
+ The correct answer is:","[('For me winning is easy', 0.32992690801620483), ('I always win', 0.1375339925289154), ('I think winning is better than losing', 0.2911594808101654), ('I just winned a piece of cake', 0.24137969315052032)]","[('For me winning is easy', 0.12071891874074936), ('I always win', 0.016337528824806213), ('I think winning is better than losing', 0.5243790745735168), ('I just winned a piece of cake', 0.33856457471847534)]",For me winning is easy,I think winning is better than losing
+66,Where is John ? I can't find him anywhere .,Haven't you heard that he is in prison ?,What is the intended meaning of the target?,"[""I don't know if you are aware that he is in prison"", 'You should be aware that he is in prison', 'You know perfectly well that he is in prison', ""I don't know if you've heard from anyone from prison""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Where is John ? I can't find him anywhere .
+Target sentence: Haven't you heard that he is in prison ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I don't know if you are aware that he is in prison
+2. You should be aware that he is in prison
+3. You know perfectly well that he is in prison
+4. I don't know if you've heard from anyone from prison
+ The correct answer is:","[(""I don't know if you are aware that he is in prison"", 0.20457413792610168), ('You should be aware that he is in prison', 0.359038770198822), ('You know perfectly well that he is in prison', 0.23181286454200745), (""I don't know if you've heard from anyone from prison"", 0.20457413792610168)]","[(""I don't know if you are aware that he is in prison"", 0.4650535583496094), ('You should be aware that he is in prison', 0.24892523884773254), ('You know perfectly well that he is in prison', 0.2338436096906662), (""I don't know if you've heard from anyone from prison"", 0.052177563309669495)]",You should be aware that he is in prison,I don't know if you are aware that he is in prison
+67,So you're learning Chinese songs ?,You can say that . I can actually sing some of them now .,What is the intended meaning of the target?,"[""I can't sing all the songs"", 'I can sing all the songs', ""I can't sing any of the songs"", ""You can say that I'm a singer""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: So you're learning Chinese songs ?
+Target sentence: You can say that . I can actually sing some of them now .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I can't sing all the songs
+2. I can sing all the songs
+3. I can't sing any of the songs
+4. You can say that I'm a singer
+ The correct answer is:","[(""I can't sing all the songs"", 0.24575325846672058), ('I can sing all the songs', 0.5202596783638), (""I can't sing any of the songs"", 0.08493006229400635), (""You can say that I'm a singer"", 0.14905689656734467)]","[(""I can't sing all the songs"", 0.2278396338224411), ('I can sing all the songs', 0.14036792516708374), (""I can't sing any of the songs"", 0.3815595805644989), (""You can say that I'm a singer"", 0.25023287534713745)]",I can sing all the songs,I can't sing any of the songs
+68,"I ’ m so excited , mother . Oh , a new baby !", My first grandchild . ,What is the intended meaning of the target?,"['There is no other grandchild', 'There is another grandchild', 'The baby will be a boy', 'The baby will be a girl']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I ’ m so excited , mother . Oh , a new baby !
+Target sentence:  My first grandchild . 
+Question: What is the intended meaning of the target?
+Choices:
+
+1. There is no other grandchild
+2. There is another grandchild
+3. The baby will be a boy
+4. The baby will be a girl
+ The correct answer is:","[('There is no other grandchild', 0.1978299468755722), ('There is another grandchild', 0.4188060164451599), ('The baby will be a boy', 0.23862849175930023), ('The baby will be a girl', 0.14473550021648407)]","[('There is no other grandchild', 0.09034210443496704), ('There is another grandchild', 0.14894893765449524), ('The baby will be a boy', 0.38035446405410767), ('The baby will be a girl', 0.38035446405410767)]",There is another grandchild,The baby will be a boy
+69,Did you get any rewards or honors in college ?,I received the scholarship 3 times on end .,What is the intended meaning of the target?,"['I received more than one scholarship', 'I received less than three scholarship', 'I received more than three scholarship', 'I received the scholarship at the end of college']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Did you get any rewards or honors in college ?
+Target sentence: I received the scholarship 3 times on end .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I received more than one scholarship
+2. I received less than three scholarship
+3. I received more than three scholarship
+4. I received the scholarship at the end of college
+ The correct answer is:","[('I received more than one scholarship', 0.39919862151145935), ('I received less than three scholarship', 0.10093321651220322), ('I received more than three scholarship', 0.2421262115240097), ('I received the scholarship at the end of college', 0.2577420175075531)]","[('I received more than one scholarship', 0.14546528458595276), ('I received less than three scholarship', 0.027762535959482193), ('I received more than three scholarship', 0.04039425030350685), ('I received the scholarship at the end of college', 0.7863779067993164)]",I received more than one scholarship,I received the scholarship at the end of college
+70,The weekend's finally here !,And it's a long one . I have Monday off . It's Memorial Day or something like that .,What is the intended meaning of the target?,"[""Next Monday is off because it's Memorial Day"", 'Every Monday is off', 'Next Monday is a workinh day', 'There is a holiday similar to memorial day on Monday']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The weekend's finally here !
+Target sentence: And it's a long one . I have Monday off . It's Memorial Day or something like that .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Next Monday is off because it's Memorial Day
+2. Every Monday is off
+3. Next Monday is a workinh day
+4. There is a holiday similar to memorial day on Monday
+ The correct answer is:","[(""Next Monday is off because it's Memorial Day"", 0.5408385992050171), ('Every Monday is off', 0.16494646668434143), ('Next Monday is a workinh day', 0.06875991821289062), ('There is a holiday similar to memorial day on Monday', 0.22545506060123444)]","[(""Next Monday is off because it's Memorial Day"", 0.46368274092674255), ('Every Monday is off', 0.020372798666357994), ('Next Monday is a workinh day', 0.10674583166837692), ('There is a holiday similar to memorial day on Monday', 0.4091985821723938)]",Next Monday is off because it's Memorial Day,Next Monday is off because it's Memorial Day
+71,"Dad , what's the date ?",In seven days it will be Christmas Day .,What is the intended meaning of the target?,"[""It's December eighteenth"", ""It's November eighteenth"", 'Christmas Day just passed', ""It's the Christmas Day""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Dad , what's the date ?
+Target sentence: In seven days it will be Christmas Day .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. It's December eighteenth
+2. It's November eighteenth
+3. Christmas Day just passed
+4. It's the Christmas Day
+ The correct answer is:","[(""It's December eighteenth"", 0.1818852722644806), (""It's November eighteenth"", 0.08591651916503906), ('Christmas Day just passed', 0.09735617786645889), (""It's the Christmas Day"", 0.6348419785499573)]","[(""It's December eighteenth"", 0.054732393473386765), (""It's November eighteenth"", 0.03319687396287918), ('Christmas Day just passed', 0.24529358744621277), (""It's the Christmas Day"", 0.6667770743370056)]",It's the Christmas Day,It's the Christmas Day
+72,"I ’ Ve told you a thousand times that I ’ m learning to play the drums . Now that I know how to play well , I would like to form a rock band .","Aside from yourself , who are the other members of the band ?",What is the intended meaning of the target?,"['You are one of the band members', 'I already know the other members of the band', 'You already know the other members of the band', 'You are not a member of the band']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I ’ Ve told you a thousand times that I ’ m learning to play the drums . Now that I know how to play well , I would like to form a rock band .
+Target sentence: Aside from yourself , who are the other members of the band ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You are one of the band members
+2. I already know the other members of the band
+3. You already know the other members of the band
+4. You are not a member of the band
+ The correct answer is:","[('You are one of the band members', 0.21563102304935455), ('I already know the other members of the band', 0.21563102304935455), ('You already know the other members of the band', 0.37844422459602356), ('You are not a member of the band', 0.19029369950294495)]","[('You are one of the band members', 0.1806240677833557), ('I already know the other members of the band', 0.2430562674999237), ('You already know the other members of the band', 0.14974261820316315), ('You are not a member of the band', 0.42657700181007385)]",You already know the other members of the band,You are not a member of the band
+73,Is this your first year in college ?,I transferred from another school .,What is the intended meaning of the target?,"['I studied in another school', 'This is the only school where I studied', 'This is my first school', 'I just moved to a new city']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Is this your first year in college ?
+Target sentence: I transferred from another school .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I studied in another school
+2. This is the only school where I studied
+3. This is my first school
+4. I just moved to a new city
+ The correct answer is:","[('I studied in another school', 0.27340131998062134), ('This is the only school where I studied', 0.25683677196502686), ('This is my first school', 0.25683677196502686), ('I just moved to a new city', 0.21292516589164734)]","[('I studied in another school', 0.010984713211655617), ('This is the only school where I studied', 0.5634083151817322), ('This is my first school', 0.11446334421634674), ('I just moved to a new city', 0.3111436367034912)]",I studied in another school,This is the only school where I studied
+74,What are the good sights to see in Beijing ?,"Well , I know you are interested in architecture , so you should't miss the Temple of Heaven , and the Great wall is a must too .",What is the intended meaning of the target?,"['I suggest you to visit the Temple of Heaven and the Great wall ', 'The Temple of Heaven and the Great wall are two architectural beauties', 'The Temple of Heaven is near the Great wall', 'You can only visit the Great wall after seeing the Temple of Heaven']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What are the good sights to see in Beijing ?
+Target sentence: Well , I know you are interested in architecture , so you should't miss the Temple of Heaven , and the Great wall is a must too .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I suggest you to visit the Temple of Heaven and the Great wall 
+2. The Temple of Heaven and the Great wall are two architectural beauties
+3. The Temple of Heaven is near the Great wall
+4. You can only visit the Great wall after seeing the Temple of Heaven
+ The correct answer is:","[('I suggest you to visit the Temple of Heaven and the Great wall ', 0.4526371359825134), ('The Temple of Heaven and the Great wall are two architectural beauties', 0.31109264492988586), ('The Temple of Heaven is near the Great wall', 0.12182563543319702), ('You can only visit the Great wall after seeing the Temple of Heaven', 0.11444459110498428)]","[('I suggest you to visit the Temple of Heaven and the Great wall ', 0.3788420855998993), ('The Temple of Heaven and the Great wall are two architectural beauties', 0.29046830534935), ('The Temple of Heaven is near the Great wall', 0.1460566371679306), ('You can only visit the Great wall after seeing the Temple of Heaven', 0.18463288247585297)]",I suggest you to visit the Temple of Heaven and the Great wall ,I suggest you to visit the Temple of Heaven and the Great wall 
+75,"In my wedding ceremony , where do my parents sit in the church ?",The bride's parents ' seating arrangement is on the left side of the aisle and the groom's parents is on the right side .,What is the intended meaning of the target?,"[""If you are a bride's parent you sit on the left side of the aisle"", ""If you are a groom's parent you sit on the left side of the aisle"", ""If you are a bride's parent you sit on the right side of the aisle"", 'All the parents sit together']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: In my wedding ceremony , where do my parents sit in the church ?
+Target sentence: The bride's parents ' seating arrangement is on the left side of the aisle and the groom's parents is on the right side .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. If you are a bride's parent you sit on the left side of the aisle
+2. If you are a groom's parent you sit on the left side of the aisle
+3. If you are a bride's parent you sit on the right side of the aisle
+4. All the parents sit together
+ The correct answer is:","[(""If you are a bride's parent you sit on the left side of the aisle"", 0.21684183180332184), (""If you are a groom's parent you sit on the left side of the aisle"", 0.16887658834457397), (""If you are a bride's parent you sit on the right side of the aisle"", 0.27843040227890015), ('All the parents sit together', 0.33585119247436523)]","[(""If you are a bride's parent you sit on the left side of the aisle"", 0.4431696832180023), (""If you are a groom's parent you sit on the left side of the aisle"", 0.2906377911567688), (""If you are a bride's parent you sit on the right side of the aisle"", 0.26052600145339966), ('All the parents sit together', 0.005666534416377544)]",All the parents sit together,If you are a bride's parent you sit on the left side of the aisle
+76,Is your brother older or younger than you ?,"He is five years older than me , He got married last Sunday.My brother and my sister-in-law are the same age .",What is the intended meaning of the target?,"[""I'm five years younger than my brother and my sister in law"", ""I'm five years older than my brother and my sister in law"", 'My sister in law and I are the same age', 'My brother is five years older than my sister in law']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Is your brother older or younger than you ?
+Target sentence: He is five years older than me , He got married last Sunday.My brother and my sister-in-law are the same age .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm five years younger than my brother and my sister in law
+2. I'm five years older than my brother and my sister in law
+3. My sister in law and I are the same age
+4. My brother is five years older than my sister in law
+ The correct answer is:","[(""I'm five years younger than my brother and my sister in law"", 0.27890706062316895), (""I'm five years older than my brother and my sister in law"", 0.20405277609825134), ('My sister in law and I are the same age', 0.15891645848751068), ('My brother is five years older than my sister in law', 0.3581237494945526)]","[(""I'm five years younger than my brother and my sister in law"", 0.24364148080348969), (""I'm five years older than my brother and my sister in law"", 0.267587810754776), ('My sister in law and I are the same age', 0.22533152997493744), ('My brother is five years older than my sister in law', 0.26343923807144165)]",My brother is five years older than my sister in law,I'm five years older than my brother and my sister in law
+77,What did the nurse say ?,She said I have a fever.,What is the intended meaning of the target?,"['I have nothing worse than fever', 'I have something worse than fever', ""I'm feeling healthy"", ""It's not sure that I have a fever""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What did the nurse say ?
+Target sentence: She said I have a fever.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I have nothing worse than fever
+2. I have something worse than fever
+3. I'm feeling healthy
+4. It's not sure that I have a fever
+ The correct answer is:","[('I have nothing worse than fever', 0.22929732501506805), ('I have something worse than fever', 0.378047376871109), (""I'm feeling healthy"", 0.07924303412437439), (""It's not sure that I have a fever"", 0.31341227889060974)]","[('I have nothing worse than fever', 0.0417826771736145), ('I have something worse than fever', 0.12474003434181213), (""I'm feeling healthy"", 0.007260740734636784), (""It's not sure that I have a fever"", 0.8262165188789368)]",I have something worse than fever,It's not sure that I have a fever
+78,"Oh , flowers ! What for , my dear ?","Happy Mother's Day to you , Mum !",What is the intended meaning of the target?,"[""It's Mother's Day"", ""It's the Christmas Day"", ""It's my mother's birthday"", ""It's sunday""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Oh , flowers ! What for , my dear ?
+Target sentence: Happy Mother's Day to you , Mum !
+Question: What is the intended meaning of the target?
+Choices:
+
+1. It's Mother's Day
+2. It's the Christmas Day
+3. It's my mother's birthday
+4. It's sunday
+ The correct answer is:","[(""It's Mother's Day"", 0.744143545627594), (""It's the Christmas Day"", 0.08349059522151947), (""It's my mother's birthday"", 0.08349059522151947), (""It's sunday"", 0.08887527137994766)]","[(""It's Mother's Day"", 0.3159615993499756), (""It's the Christmas Day"", 0.014777721837162971), (""It's my mother's birthday"", 0.6688907146453857), (""It's sunday"", 0.000369952991604805)]",It's Mother's Day,It's my mother's birthday
+79,How many people are there in your family ?,"Five . Besides my parents and me , there are my brother and sister .",What is the intended meaning of the target?,"['I have a brother and a sister', 'I have more than one brother and a sister', 'I am an only child', 'There are more than 5 people in my family']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How many people are there in your family ?
+Target sentence: Five . Besides my parents and me , there are my brother and sister .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I have a brother and a sister
+2. I have more than one brother and a sister
+3. I am an only child
+4. There are more than 5 people in my family
+ The correct answer is:","[('I have a brother and a sister', 0.5112646818161011), ('I have more than one brother and a sister', 0.35138675570487976), ('I am an only child', 0.08346166461706161), ('There are more than 5 people in my family', 0.05388689786195755)]","[('I have a brother and a sister', 0.27610325813293457), ('I have more than one brother and a sister', 0.07787849754095078), ('I am an only child', 0.09692135453224182), ('There are more than 5 people in my family', 0.5490968823432922)]",I have a brother and a sister,There are more than 5 people in my family
+80,"So Alex , you ’ re off to the Olympic stadium then ?","Yes , I should get there just in time for the women ’ s 400m relay .",What is the intended meaning of the target?,"[""I want to see the women's 400m relay"", ""I don't want to see the women's 400m relay"", ""I'm late"", ""I want to arrive before the women's 400m relay""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: So Alex , you ’ re off to the Olympic stadium then ?
+Target sentence: Yes , I should get there just in time for the women ’ s 400m relay .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want to see the women's 400m relay
+2. I don't want to see the women's 400m relay
+3. I'm late
+4. I want to arrive before the women's 400m relay
+ The correct answer is:","[(""I want to see the women's 400m relay"", 0.2787904739379883), (""I don't want to see the women's 400m relay"", 0.14018464088439941), (""I'm late"", 0.14922578632831573), (""I want to arrive before the women's 400m relay"", 0.43179911375045776)]","[(""I want to see the women's 400m relay"", 0.39060667157173157), (""I don't want to see the women's 400m relay"", 0.2948453724384308), (""I'm late"", 0.0006865687319077551), (""I want to arrive before the women's 400m relay"", 0.31386128067970276)]",I want to arrive before the women's 400m relay,I want to see the women's 400m relay
+81,Is it true that you have a heavy work schedule ?,"That ’ s right . I report to work at 5am everyday , and I only get 45 minutes for lunch .",What is the intended meaning of the target?,"['I start working at 5 am', 'I start working after 5 am', 'I start working before 5 am', 'I report to work 45 minutes early']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Is it true that you have a heavy work schedule ?
+Target sentence: That ’ s right . I report to work at 5am everyday , and I only get 45 minutes for lunch .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I start working at 5 am
+2. I start working after 5 am
+3. I start working before 5 am
+4. I report to work 45 minutes early
+ The correct answer is:","[('I start working at 5 am', 0.4022696912288666), ('I start working after 5 am', 0.25972482562065125), ('I start working before 5 am', 0.19001874327659607), ('I report to work 45 minutes early', 0.1479867547750473)]","[('I start working at 5 am', 0.14649200439453125), ('I start working after 5 am', 0.07366080582141876), ('I start working before 5 am', 0.03589940816164017), ('I report to work 45 minutes early', 0.7439478039741516)]",I start working at 5 am,I report to work 45 minutes early
+82,"Hello , Julia , I know a party that will begin at midnight . Would you love to go ?","I'd love to , but my mother asks me to go home before 11:00 every night . She will worry if I get home late .",What is the intended meaning of the target?,"[""I can't go home after 11:00"", 'I can go home after 11:00', 'I usually go home at 11:00', 'I can go home when I want']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Hello , Julia , I know a party that will begin at midnight . Would you love to go ?
+Target sentence: I'd love to , but my mother asks me to go home before 11:00 every night . She will worry if I get home late .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I can't go home after 11:00
+2. I can go home after 11:00
+3. I usually go home at 11:00
+4. I can go home when I want
+ The correct answer is:","[(""I can't go home after 11:00"", 0.17431043088436127), ('I can go home after 11:00', 0.50438392162323), ('I usually go home at 11:00', 0.1357530951499939), ('I can go home when I want', 0.1855524778366089)]","[(""I can't go home after 11:00"", 0.24344688653945923), ('I can go home after 11:00', 0.35979118943214417), ('I usually go home at 11:00', 0.32251474261283875), ('I can go home when I want', 0.07424710690975189)]",I can go home after 11:00,I can go home after 11:00
+83,"Most of our customers are foreigners . How many foreign languages can you speak , Elizabeth ?",Two . French and Spanish .,What is the intended meaning of the target?,"['I speak three languages', 'I speak two languages', 'I usually go home at 11:00', 'I can go home when I want']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Most of our customers are foreigners . How many foreign languages can you speak , Elizabeth ?
+Target sentence: Two . French and Spanish .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I speak three languages
+2. I speak two languages
+3. I usually go home at 11:00
+4. I can go home when I want
+ The correct answer is:","[('I speak three languages', 0.1449391394853592), ('I speak two languages', 0.6495721340179443), ('I usually go home at 11:00', 0.07758033275604248), ('I can go home when I want', 0.12790833413600922)]","[('I speak three languages', 0.13579969108104706), ('I speak two languages', 0.08767886459827423), ('I usually go home at 11:00', 0.48903346061706543), ('I can go home when I want', 0.2874879240989685)]",I speak two languages,I usually go home at 11:00
+84,When can we expect you for dinner ? Can you come tonight ?,Not tonight . I promised to go to a concert with my sister .,What is the intended meaning of the target?,"[""I'm going to a concert with my sister"", ""I don't know if I will go to a concert with my sister"", 'My sister wants to go to a concert', ""My sister doesn't want to go to a concert""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: When can we expect you for dinner ? Can you come tonight ?
+Target sentence: Not tonight . I promised to go to a concert with my sister .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm going to a concert with my sister
+2. I don't know if I will go to a concert with my sister
+3. My sister wants to go to a concert
+4. My sister doesn't want to go to a concert
+ The correct answer is:","[(""I'm going to a concert with my sister"", 0.3167702853679657), (""I don't know if I will go to a concert with my sister"", 0.38209792971611023), ('My sister wants to go to a concert', 0.2045222967863083), (""My sister doesn't want to go to a concert"", 0.09660948812961578)]","[(""I'm going to a concert with my sister"", 0.23666009306907654), (""I don't know if I will go to a concert with my sister"", 0.2899619936943054), ('My sister wants to go to a concert', 0.23299100995063782), (""My sister doesn't want to go to a concert"", 0.2403869330883026)]",I don't know if I will go to a concert with my sister,I don't know if I will go to a concert with my sister
+85,"Let me guess , your parents want you to marry a Chinese man , right ?",You are right . It is giving me a real headache . I feel like I ’ m between a rock and a hard place .,What is the intended meaning of the target?,"['I am in an awkward situation', ""I don't know what to do"", 'I am in a dangerous place', ""I'm at the hardware store""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Let me guess , your parents want you to marry a Chinese man , right ?
+Target sentence: You are right . It is giving me a real headache . I feel like I ’ m between a rock and a hard place .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I am in an awkward situation
+2. I don't know what to do
+3. I am in a dangerous place
+4. I'm at the hardware store
+ The correct answer is:","[('I am in an awkward situation', 0.29789406061172485), (""I don't know what to do"", 0.5228203535079956), ('I am in a dangerous place', 0.05510485917329788), (""I'm at the hardware store"", 0.12418071925640106)]","[('I am in an awkward situation', 0.062164999544620514), (""I don't know what to do"", 0.885402262210846), ('I am in a dangerous place', 0.020182019099593163), (""I'm at the hardware store"", 0.03225077688694)]",I don't know what to do,I don't know what to do
+86,I wish I had access to the public library .,it's easy ! Just go and get a card .,What is the intended meaning of the target?,"[""You don't have a card yet"", 'You already have a card', 'I have a card', ""I don't have a card""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I wish I had access to the public library .
+Target sentence: it's easy ! Just go and get a card .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You don't have a card yet
+2. You already have a card
+3. I have a card
+4. I don't have a card
+ The correct answer is:","[(""You don't have a card yet"", 0.3454013466835022), ('You already have a card', 0.44350412487983704), ('I have a card', 0.1121354028582573), (""I don't have a card"", 0.09895914793014526)]","[(""You don't have a card yet"", 0.501624345779419), ('You already have a card', 0.10351603478193283), ('I have a card', 0.08581780642271042), (""I don't have a card"", 0.3090417981147766)]",You already have a card,You don't have a card yet
+87,"Eric , how long will you be in China ?","I don't know . Well , my contract here is for one year , and I don't know what I should do after that . Maybe going around for a while .",What is the intended meaning of the target?,"['After a year my contract will expire', 'My contract lasts less than a year', 'My contract lasts more than a year', 'My contract requires me to travel']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Eric , how long will you be in China ?
+Target sentence: I don't know . Well , my contract here is for one year , and I don't know what I should do after that . Maybe going around for a while .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. After a year my contract will expire
+2. My contract lasts less than a year
+3. My contract lasts more than a year
+4. My contract requires me to travel
+ The correct answer is:","[('After a year my contract will expire', 0.24409376084804535), ('My contract lasts less than a year', 0.3134225904941559), ('My contract lasts more than a year', 0.29443326592445374), ('My contract requires me to travel', 0.14805033802986145)]","[('After a year my contract will expire', 0.2838648855686188), ('My contract lasts less than a year', 0.1472671777009964), ('My contract lasts more than a year', 0.14273622632026672), ('My contract requires me to travel', 0.4261316657066345)]",My contract lasts less than a year,My contract requires me to travel
+88,What are you thinking about ?,About my boyfriend .,What is the intended meaning of the target?,"['I have a boyfriend', ""I don't have a boyfriend"", 'I would like to have a boyfriend', ""I don't want to have a boyfirend""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What are you thinking about ?
+Target sentence: About my boyfriend .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I have a boyfriend
+2. I don't have a boyfriend
+3. I would like to have a boyfriend
+4. I don't want to have a boyfirend
+ The correct answer is:","[('I have a boyfriend', 0.39008525013923645), (""I don't have a boyfriend"", 0.162611722946167), ('I would like to have a boyfriend', 0.30379870533943176), (""I don't want to have a boyfirend"", 0.14350435137748718)]","[('I have a boyfriend', 0.06447383761405945), (""I don't have a boyfriend"", 0.3710213303565979), ('I would like to have a boyfriend', 0.24715347588062286), (""I don't want to have a boyfirend"", 0.3173513412475586)]",I have a boyfriend,I don't have a boyfriend
+89,"Mom , why do chinese people like to touch my head ? sometimes they even touch my cheeks .","That is a part of chinese culture , if they think you are a lovely child , they touch your head and say , how cute you are .",What is the intended meaning of the target?,"[""Chinese people touch lovely kids' head"", 'Chinese culture has strange customs', ""Chinese culture dictates touching people's heads"", ""Chinese culture dictates touching kids' heads""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Mom , why do chinese people like to touch my head ? sometimes they even touch my cheeks .
+Target sentence: That is a part of chinese culture , if they think you are a lovely child , they touch your head and say , how cute you are .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Chinese people touch lovely kids' head
+2. Chinese culture has strange customs
+3. Chinese culture dictates touching people's heads
+4. Chinese culture dictates touching kids' heads
+ The correct answer is:","[(""Chinese people touch lovely kids' head"", 0.41217881441116333), ('Chinese culture has strange customs', 0.063209667801857), (""Chinese culture dictates touching people's heads"", 0.3417082130908966), (""Chinese culture dictates touching kids' heads"", 0.1829032450914383)]","[(""Chinese people touch lovely kids' head"", 0.4022979140281677), ('Chinese culture has strange customs', 0.11891903728246689), (""Chinese culture dictates touching people's heads"", 0.2764950394630432), (""Chinese culture dictates touching kids' heads"", 0.20228809118270874)]",Chinese people touch lovely kids' head,Chinese people touch lovely kids' head
+90,Do you think I still fashionable in this dress ?,I think so . Blue is still very fashionable at the moment .,What is the intended meaning of the target?,"['Blue was and still is in fashion', 'Blue just became trendy', 'Blue is no longer in fashion', 'Blue is my favourite color']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Do you think I still fashionable in this dress ?
+Target sentence: I think so . Blue is still very fashionable at the moment .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Blue was and still is in fashion
+2. Blue just became trendy
+3. Blue is no longer in fashion
+4. Blue is my favourite color
+ The correct answer is:","[('Blue was and still is in fashion', 0.6321569681167603), ('Blue just became trendy', 0.14105328917503357), ('Blue is no longer in fashion', 0.11693728715181351), ('Blue is my favourite color', 0.10985241085290909)]","[('Blue was and still is in fashion', 0.11599913984537125), ('Blue just became trendy', 0.005775257013738155), ('Blue is no longer in fashion', 0.4048767685890198), ('Blue is my favourite color', 0.4733489155769348)]",Blue was and still is in fashion,Blue is my favourite color
+91,Is this your brother-in-law ?,"Yes , he married my sister ten years ago .",What is the intended meaning of the target?,"['My sister has been married for 10 years', 'My sister has been married for less 10 years', 'My sister has been married for more 10 years', 'My sister is not married']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Is this your brother-in-law ?
+Target sentence: Yes , he married my sister ten years ago .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. My sister has been married for 10 years
+2. My sister has been married for less 10 years
+3. My sister has been married for more 10 years
+4. My sister is not married
+ The correct answer is:","[('My sister has been married for 10 years', 0.5799368619918823), ('My sister has been married for less 10 years', 0.14663100242614746), ('My sister has been married for more 10 years', 0.16615469753742218), ('My sister is not married', 0.1072775349020958)]","[('My sister has been married for 10 years', 0.5235624313354492), ('My sister has been married for less 10 years', 0.17813314497470856), ('My sister has been married for more 10 years', 0.22169028222560883), ('My sister is not married', 0.07661411166191101)]",My sister has been married for 10 years,My sister has been married for 10 years
+92,How many people are there in your family ?,"My immediate family is very large . It's my mother , my father , my two older brothers , my younger sister and me .",What is the intended meaning of the target?,"['My family consists of 6 people', 'My family consists of 5 people', 'I have two younger brothers and an older sister', 'I have two older sisters and a younger brother']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How many people are there in your family ?
+Target sentence: My immediate family is very large . It's my mother , my father , my two older brothers , my younger sister and me .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. My family consists of 6 people
+2. My family consists of 5 people
+3. I have two younger brothers and an older sister
+4. I have two older sisters and a younger brother
+ The correct answer is:","[('My family consists of 6 people', 0.527741014957428), ('My family consists of 5 people', 0.2492872029542923), ('I have two younger brothers and an older sister', 0.1253494769334793), ('I have two older sisters and a younger brother', 0.09762227535247803)]","[('My family consists of 6 people', 0.27036961913108826), ('My family consists of 5 people', 0.21056407690048218), ('I have two younger brothers and an older sister', 0.2878069579601288), ('I have two older sisters and a younger brother', 0.23125939071178436)]",My family consists of 6 people,I have two younger brothers and an older sister
+93,Flight BE407 to Rome is delayed . Will passengers please wait in the lounge .,It's infuriating . I have to be in Rome by five .,What is the intended meaning of the target?,"[""I can't get to Rome after five"", 'I can arrive to Rome after five', ""I can't get to Rome before five"", 'I can get to Rome whenever I want']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Flight BE407 to Rome is delayed . Will passengers please wait in the lounge .
+Target sentence: It's infuriating . I have to be in Rome by five .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I can't get to Rome after five
+2. I can arrive to Rome after five
+3. I can't get to Rome before five
+4. I can get to Rome whenever I want
+ The correct answer is:","[(""I can't get to Rome after five"", 0.22148500382900238), ('I can arrive to Rome after five', 0.5655817985534668), (""I can't get to Rome before five"", 0.12619836628437042), ('I can get to Rome whenever I want', 0.08673477917909622)]","[(""I can't get to Rome after five"", 0.181120827794075), ('I can arrive to Rome after five', 0.15492086112499237), (""I can't get to Rome before five"", 0.3834328055381775), ('I can get to Rome whenever I want', 0.28052544593811035)]",I can arrive to Rome after five,I can't get to Rome before five

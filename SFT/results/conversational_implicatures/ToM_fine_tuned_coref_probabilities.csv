@@ -1,0 +1,901 @@
+ID,Context utterance,Target,Question,Choices,Human answer,Correct Answer,Prompt,choices_prob,sentences_prob,choice_win,Generated Text
+1,Megan said it would be liberating to go out without makeup.,The girl never wore makeup when she left the house.,Who is the girl?,"['A different girl from Megan', 'Megan', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Megan said it would be liberating to go out without makeup.
+Target sentence: The girl never wore makeup when she left the house.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Megan
+2. Megan
+3. It cannot be said
+ The correct answer is:","[('A different girl from Megan', 0.2738029360771179), ('Megan', 0.5796408653259277), ('It cannot be said', 0.14655616879463196)]","[('A different girl from Megan', 0.07639394700527191), ('Megan', 0.049323637038469315), ('It cannot be said', 0.8742824196815491)]",Megan,It cannot be said
+2,Megan said it would be liberating to go out without makeup.,The girl always wore makeup when she left the house.,Who is the girl?,"['A different girl from Megan', 'Megan', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Megan said it would be liberating to go out without makeup.
+Target sentence: The girl always wore makeup when she left the house.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Megan
+2. Megan
+3. It cannot be said
+ The correct answer is:","[('A different girl from Megan', 0.25418534874916077), ('Megan', 0.6097589731216431), ('It cannot be said', 0.1360556185245514)]","[('A different girl from Megan', 0.06951657682657242), ('Megan', 0.028978820890188217), ('It cannot be said', 0.901504635810852)]",Megan,It cannot be said
+3,Lindsey loved the taste of duck,The girl ordered the kung pao chicken for dinner.,Who is the girl?,"['A different girl from Lindsey', 'Lindasy', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Lindsey loved the taste of duck
+Target sentence: The girl ordered the kung pao chicken for dinner.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Lindsey
+2. Lindasy
+3. It cannot be said
+ The correct answer is:","[('A different girl from Lindsey', 0.28376853466033936), ('Lindasy', 0.564341127872467), ('It cannot be said', 0.1518903523683548)]","[('A different girl from Lindsey', 0.3482074439525604), ('Lindasy', 0.0776955857872963), ('It cannot be said', 0.5740970373153687)]",Lindasy,It cannot be said
+4,Lindsey loved the taste of duck,The girl ordered the Peking Duck for dinner.,Who is the girl?,"['A different girl from Lindsey', 'Lindsay', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Lindsey loved the taste of duck
+Target sentence: The girl ordered the Peking Duck for dinner.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Lindsey
+2. Lindsay
+3. It cannot be said
+ The correct answer is:","[('A different girl from Lindsey', 0.25197431445121765), ('Lindsay', 0.6044549942016602), ('It cannot be said', 0.1435706466436386)]","[('A different girl from Lindsey', 0.26380202174186707), ('Lindsay', 0.019109753891825676), ('It cannot be said', 0.7170882225036621)]",Lindsay,It cannot be said
+5,Handling emergencies was never very difficult for Kevin,The man could remain calm under pressure.,Who is the man?,"['A different man from Kevin', 'Kevin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Handling emergencies was never very difficult for Kevin
+Target sentence: The man could remain calm under pressure.
+Question: Who is the man?
+Choices:
+
+1. A different man from Kevin
+2. Kevin
+3. It cannot be said
+ The correct answer is:","[('A different man from Kevin', 0.18789994716644287), ('Kevin', 0.6981329917907715), ('It cannot be said', 0.11396707594394684)]","[('A different man from Kevin', 0.14127448201179504), ('Kevin', 0.14127448201179504), ('It cannot be said', 0.7174510359764099)]",Kevin,It cannot be said
+6,Handling emergencies was never very difficult for Kevin,The man wasn't able to remain calm under pressure.,Who is the girl?,"['A different man from Kevin', 'Kevin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Handling emergencies was never very difficult for Kevin
+Target sentence: The man wasn't able to remain calm under pressure.
+Question: Who is the girl?
+Choices:
+
+1. A different man from Kevin
+2. Kevin
+3. It cannot be said
+ The correct answer is:","[('A different man from Kevin', 0.24472826719284058), ('Kevin', 0.5870726108551025), ('It cannot be said', 0.16819912195205688)]","[('A different man from Kevin', 0.23117944598197937), ('Kevin', 0.010812405496835709), ('It cannot be said', 0.7580081820487976)]",Kevin,It cannot be said
+7,Elena had a horrendous coughing fit from the pollen.,The girl was immune to allergies.,Who is the girl?,"['A different girl from Elena', 'Elena', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Elena had a horrendous coughing fit from the pollen.
+Target sentence: The girl was immune to allergies.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Elena
+2. Elena
+3. It cannot be said
+ The correct answer is:","[('A different girl from Elena', 0.33396652340888977), ('Elena', 0.5506176948547363), ('It cannot be said', 0.11541573703289032)]","[('A different girl from Elena', 0.17095278203487396), ('Elena', 0.06289001554250717), ('It cannot be said', 0.7661572098731995)]",Elena,It cannot be said
+8,Elena had a horrendous coughing fit from the pollen.,The girl was susceptible to allergies.,Who is the girl?,"['A different girl from Elena', 'Elena', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Elena had a horrendous coughing fit from the pollen.
+Target sentence: The girl was susceptible to allergies.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Elena
+2. Elena
+3. It cannot be said
+ The correct answer is:","[('A different girl from Elena', 0.18100006878376007), ('Elena', 0.7158691883087158), ('It cannot be said', 0.10313074290752411)]","[('A different girl from Elena', 0.17686891555786133), ('Elena', 0.07848510146141052), ('It cannot be said', 0.7446459531784058)]",Elena,It cannot be said
+9,"Once in Poland, Dennis enjoyed the trip.",The guy had a shallow understanding of the Polish language.,Who is the guy?,"['A different guy from Dennis', 'Dennis', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Once in Poland, Dennis enjoyed the trip.
+Target sentence: The guy had a shallow understanding of the Polish language.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Dennis
+2. Dennis
+3. It cannot be said
+ The correct answer is:","[('A different guy from Dennis', 0.18943434953689575), ('Dennis', 0.6211313009262085), ('It cannot be said', 0.18943434953689575)]","[('A different guy from Dennis', 0.17288756370544434), ('Dennis', 0.14332883059978485), ('It cannot be said', 0.6837835907936096)]",Dennis,It cannot be said
+10,"Once in Poland, Dennis enjoyed the trip.",The guy had a deeper understanding of the Polish language.,Who is the guy?,"['A different guy from Dennis', 'Dennis', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Once in Poland, Dennis enjoyed the trip.
+Target sentence: The guy had a deeper understanding of the Polish language.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Dennis
+2. Dennis
+3. It cannot be said
+ The correct answer is:","[('A different guy from Dennis', 0.16964997351169586), ('Dennis', 0.6709786653518677), ('It cannot be said', 0.15937140583992004)]","[('A different guy from Dennis', 0.18236076831817627), ('Dennis', 0.16093282401561737), ('It cannot be said', 0.6567063927650452)]",Dennis,It cannot be said
+11,The house Benjamin designed was beautiful.,The architect used it in his portfolio.,Who is the architect?,"['A different person from Benjamin', 'Benjamin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The house Benjamin designed was beautiful.
+Target sentence: The architect used it in his portfolio.
+Question: Who is the architect?
+Choices:
+
+1. A different person from Benjamin
+2. Benjamin
+3. It cannot be said
+ The correct answer is:","[('A different person from Benjamin', 0.2140229195356369), ('Benjamin', 0.6192958354949951), ('It cannot be said', 0.1666812151670456)]","[('A different person from Benjamin', 0.05251684784889221), ('Benjamin', 0.8215017318725586), ('It cannot be said', 0.1259813755750656)]",Benjamin,Benjamin
+12,The house Benjamin designed was awful.,The architect used it in his portfolio.,Who is the architect?,"['A different person from Benjamin', 'Benjamin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The house Benjamin designed was awful.
+Target sentence: The architect used it in his portfolio.
+Question: Who is the architect?
+Choices:
+
+1. A different person from Benjamin
+2. Benjamin
+3. It cannot be said
+ The correct answer is:","[('A different person from Benjamin', 0.3773616850376129), ('Benjamin', 0.45518508553504944), ('It cannot be said', 0.16745324432849884)]","[('A different person from Benjamin', 0.07935991883277893), ('Benjamin', 0.801506757736206), ('It cannot be said', 0.1191333457827568)]",Benjamin,Benjamin
+13,Sue wanted to practice meditation so she went to the gym with her class,The girl was too busy.,Who is the girl?,"['A different girl from Sue', 'Sue', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Sue wanted to practice meditation so she went to the gym with her class
+Target sentence: The girl was too busy.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Sue
+2. Sue
+3. It cannot be said
+ The correct answer is:","[('A different girl from Sue', 0.27814337611198425), ('Sue', 0.5531541705131531), ('It cannot be said', 0.16870249807834625)]","[('A different girl from Sue', 0.19140873849391937), ('Sue', 0.0027302992530167103), ('It cannot be said', 0.8058609366416931)]",Sue,It cannot be said
+14,Sue wanted to practice meditation so she went to the gym with her class,The girl was too late.,Who is the girl?,"['A different girl from Sue', 'Sue', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Sue wanted to practice meditation so she went to the gym with her class
+Target sentence: The girl was too late.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Sue
+2. Sue
+3. It cannot be said
+ The correct answer is:","[('A different girl from Sue', 0.290499746799469), ('Sue', 0.5098429322242737), ('It cannot be said', 0.1996573507785797)]","[('A different girl from Sue', 0.22207759320735931), ('Sue', 0.002795544220134616), ('It cannot be said', 0.7751269340515137)]",Sue,It cannot be said
+15,Natalie thinks emeralds are beautiful gems. ,The woman bought a necklace featuring a big diamond.,Who is the woman?,"['A different woman from Natalie', 'Natalie', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Natalie thinks emeralds are beautiful gems. 
+Target sentence: The woman bought a necklace featuring a big diamond.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Natalie
+2. Natalie
+3. It cannot be said
+ The correct answer is:","[('A different woman from Natalie', 0.3812294006347656), ('Natalie', 0.4598504602909088), ('It cannot be said', 0.1589200794696808)]","[('A different woman from Natalie', 0.09415606409311295), ('Natalie', 0.7405948042869568), ('It cannot be said', 0.1652490347623825)]",Natalie,Natalie
+16,Natalie thinks emeralds are beautiful gems. ,The woman bought a necklace featuring a big emerald.,Who is the woman?,"['A different woman from Natalie', 'Natalie', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Natalie thinks emeralds are beautiful gems. 
+Target sentence: The woman bought a necklace featuring a big emerald.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Natalie
+2. Natalie
+3. It cannot be said
+ The correct answer is:","[('A different woman from Natalie', 0.24838820099830627), ('Natalie', 0.6342815160751343), ('It cannot be said', 0.11733028292655945)]","[('A different woman from Natalie', 0.0771135538816452), ('Natalie', 0.7788192629814148), ('It cannot be said', 0.14406707882881165)]",Natalie,Natalie
+17,Kyle loves the flavor of apricots.,The guy couldn't wait for plum season,Who is the guy?,"['A different guy from Kyle', 'Kyle', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kyle loves the flavor of apricots.
+Target sentence: The guy couldn't wait for plum season
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Kyle
+2. Kyle
+3. It cannot be said
+ The correct answer is:","[('A different guy from Kyle', 0.2877883315086365), ('Kyle', 0.5376593470573425), ('It cannot be said', 0.17455242574214935)]","[('A different guy from Kyle', 0.10501769185066223), ('Kyle', 0.775981605052948), ('It cannot be said', 0.1190006360411644)]",Kyle,Kyle
+18,Kyle loves the flavor of apricots.,The guy couldn't wait for apricot season.,Who is the guy?,"['A different guy from Kyle', 'Kyle', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kyle loves the flavor of apricots.
+Target sentence: The guy couldn't wait for apricot season.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Kyle
+2. Kyle
+3. It cannot be said
+ The correct answer is:","[('A different guy from Kyle', 0.2496625930070877), ('Kyle', 0.5989094376564026), ('It cannot be said', 0.1514280140399933)]","[('A different guy from Kyle', 0.15428076684474945), ('Kyle', 0.6914383769035339), ('It cannot be said', 0.15428076684474945)]",Kyle,Kyle
+19,Derrick was unable to stay focused at work,The man had a fun job.,Who is the man?,"['A different man from Derrick', 'Derrick', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Derrick was unable to stay focused at work
+Target sentence: The man had a fun job.
+Question: Who is the man?
+Choices:
+
+1. A different man from Derrick
+2. Derrick
+3. It cannot be said
+ The correct answer is:","[('A different man from Derrick', 0.32663494348526), ('Derrick', 0.4752510190010071), ('It cannot be said', 0.19811409711837769)]","[('A different man from Derrick', 0.13280554115772247), ('Derrick', 0.02783755213022232), ('It cannot be said', 0.8393568396568298)]",Derrick,It cannot be said
+20,Derrick was unable to stay focused at work,The man had a boring job.,Who is the man?,"['A different man from Derrick', 'Derrick', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Derrick was unable to stay focused at work
+Target sentence: The man had a boring job.
+Question: Who is the man?
+Choices:
+
+1. A different man from Derrick
+2. Derrick
+3. It cannot be said
+ The correct answer is:","[('A different man from Derrick', 0.26879167556762695), ('Derrick', 0.5345560908317566), ('It cannot be said', 0.19665220379829407)]","[('A different man from Derrick', 0.15665628015995026), ('Derrick', 0.04777746647596359), ('It cannot be said', 0.7955662608146667)]",Derrick,It cannot be said
+21,Kayla dated many more people at once.,The girl was in an open relationship.,Who is the girl?,"['A different girl from Kayla', 'Kayla', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kayla dated many more people at once.
+Target sentence: The girl was in an open relationship.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Kayla
+2. Kayla
+3. It cannot be said
+ The correct answer is:","[('A different girl from Kayla', 0.3177972733974457), ('Kayla', 0.5577515363693237), ('It cannot be said', 0.12445119023323059)]","[('A different girl from Kayla', 0.027261843904852867), ('Kayla', 0.9610130786895752), ('It cannot be said', 0.011725172400474548)]",Kayla,Kayla
+22,Kayla dated many more people at once.,The girl was in an exclusive relationship.,Who is the girl?,"['A different girl from Kayla', 'Kayla', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kayla dated many more people at once.
+Target sentence: The girl was in an exclusive relationship.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Kayla
+2. Kayla
+3. It cannot be said
+ The correct answer is:","[('A different girl from Kayla', 0.33808648586273193), ('Kayla', 0.49191293120384216), ('It cannot be said', 0.1700005680322647)]","[('A different girl from Kayla', 0.02811303734779358), ('Kayla', 0.9605283141136169), ('It cannot be said', 0.011358694173395634)]",Kayla,Kayla
+23,In the lagoon Emily swam in the nude,The girl was very hesitant with showing their body.,Who is the girl?,"['A different girl from Emily', 'Emily', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: In the lagoon Emily swam in the nude
+Target sentence: The girl was very hesitant with showing their body.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Emily
+2. Emily
+3. It cannot be said
+ The correct answer is:","[('A different girl from Emily', 0.1768389195203781), ('Emily', 0.657036304473877), ('It cannot be said', 0.16612479090690613)]","[('A different girl from Emily', 0.1529276967048645), ('Emily', 0.3905145525932312), ('It cannot be said', 0.4565577805042267)]",Emily,It cannot be said
+24,In the lagoon Emily swam in the nude,The girl was very free with showing their body.,Who is the girl?,"['A different girl from Emily', 'Emily', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: In the lagoon Emily swam in the nude
+Target sentence: The girl was very free with showing their body.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Emily
+2. Emily
+3. It cannot be said
+ The correct answer is:","[('A different girl from Emily', 0.15152059495449066), ('Emily', 0.7228643298149109), ('It cannot be said', 0.1256149858236313)]","[('A different girl from Emily', 0.13399125635623932), ('Emily', 0.4127221405506134), ('It cannot be said', 0.4532865881919861)]",Emily,It cannot be said
+25,Joseph had to have well manicured nails for work,The man worked at a bank.,Who is the man?,"['A different man from Joseph', 'Joseph', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Joseph had to have well manicured nails for work
+Target sentence: The man worked at a bank.
+Question: Who is the man?
+Choices:
+
+1. A different man from Joseph
+2. Joseph
+3. It cannot be said
+ The correct answer is:","[('A different man from Joseph', 0.21174664795398712), ('Joseph', 0.6127092242240906), ('It cannot be said', 0.1755441427230835)]","[('A different man from Joseph', 0.22952556610107422), ('Joseph', 0.23681148886680603), ('It cannot be said', 0.5336629152297974)]",Joseph,It cannot be said
+26,Joseph had to have well manicured nails for work,The man worked at a farm.,Who is the man?,"['A different man from Joseph', 'Joseph', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Joseph had to have well manicured nails for work
+Target sentence: The man worked at a farm.
+Question: Who is the man?
+Choices:
+
+1. A different man from Joseph
+2. Joseph
+3. It cannot be said
+ The correct answer is:","[('A different man from Joseph', 0.2421019822359085), ('Joseph', 0.5807724595069885), ('It cannot be said', 0.17712560296058655)]","[('A different man from Joseph', 0.20469781756401062), ('Joseph', 0.28867021203041077), ('It cannot be said', 0.5066319704055786)]",Joseph,It cannot be said
+27,"While out playing golf, Dennis fell in the mud",The man had spiked shoes on.,Who is the man?,"['A different man from Dennis', 'Dennis', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: While out playing golf, Dennis fell in the mud
+Target sentence: The man had spiked shoes on.
+Question: Who is the man?
+Choices:
+
+1. A different man from Dennis
+2. Dennis
+3. It cannot be said
+ The correct answer is:","[('A different man from Dennis', 0.24177764356136322), ('Dennis', 0.5448543429374695), ('It cannot be said', 0.2133680135011673)]","[('A different man from Dennis', 0.17714998126029968), ('Dennis', 0.02891894057393074), ('It cannot be said', 0.7939311265945435)]",Dennis,It cannot be said
+28,"While out playing golf, Dennis fell in the mud",The man had slippery shoes on.,Who is the man?,"['A different man from Dennis', 'Dennis', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: While out playing golf, Dennis fell in the mud
+Target sentence: The man had slippery shoes on.
+Question: Who is the man?
+Choices:
+
+1. A different man from Dennis
+2. Dennis
+3. It cannot be said
+ The correct answer is:","[('A different man from Dennis', 0.20434869825839996), ('Dennis', 0.5913025140762329), ('It cannot be said', 0.20434869825839996)]","[('A different man from Dennis', 0.20578187704086304), ('Dennis', 0.029645690694451332), ('It cannot be said', 0.7645724415779114)]",Dennis,It cannot be said
+29,Leslie was fascinated with collecting new shoes,The woman loved fashion trends.,Who is the woman?,"['A different woman from Leslie', 'Leslie', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Leslie was fascinated with collecting new shoes
+Target sentence: The woman loved fashion trends.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Leslie
+2. Leslie
+3. It cannot be said
+ The correct answer is:","[('A different woman from Leslie', 0.1597319096326828), ('Leslie', 0.7158687114715576), ('It cannot be said', 0.1243993267416954)]","[('A different woman from Leslie', 0.07136982679367065), ('Leslie', 0.059167664498090744), ('It cannot be said', 0.8694624900817871)]",Leslie,It cannot be said
+30,Leslie was fascinated with collecting new shoes,The woman hated fashion trends.,Who is the woman?,"['A different woman from Leslie', 'Leslie', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Leslie was fascinated with collecting new shoes
+Target sentence: The woman hated fashion trends.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Leslie
+2. Leslie
+3. It cannot be said
+ The correct answer is:","[('A different woman from Leslie', 0.23580019176006317), ('Leslie', 0.6021369099617004), ('It cannot be said', 0.16206295788288116)]","[('A different woman from Leslie', 0.07848510146141052), ('Leslie', 0.17686891555786133), ('It cannot be said', 0.7446459531784058)]",Leslie,It cannot be said
+31,Jessica thought Sandstorm was the greatest song ever written,The woman bought a ticket to the jazz concert.,Who is the woman?,"['A different woman from Jessica', 'Jessica', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Jessica thought Sandstorm was the greatest song ever written
+Target sentence: The woman bought a ticket to the jazz concert.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Jessica
+2. Jessica
+3. It cannot be said
+ The correct answer is:","[('A different woman from Jessica', 0.22236639261245728), ('Jessica', 0.604454517364502), ('It cannot be said', 0.17317911982536316)]","[('A different woman from Jessica', 0.20588912069797516), ('Jessica', 0.3846515119075775), ('It cannot be said', 0.4094594120979309)]",Jessica,It cannot be said
+32,Jessica thought Sandstorm was the greatest song ever written,The woman bought a ticket to the Darude rave.,Who is the woman?,"['A different woman from Jessica', 'Jessica', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Jessica thought Sandstorm was the greatest song ever written
+Target sentence: The woman bought a ticket to the Darude rave.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Jessica
+2. Jessica
+3. It cannot be said
+ The correct answer is:","[('A different woman from Jessica', 0.23336105048656464), ('Jessica', 0.5959083437919617), ('It cannot be said', 0.1707306057214737)]","[('A different woman from Jessica', 0.2666138708591461), ('Jessica', 0.49810025095939636), ('It cannot be said', 0.2352858930826187)]",Jessica,Jessica
+33,Kyle loves chocolate and candy,The girl loves sour foods.,Who is the girl?,"['A different girl from Kyle', 'Kyle', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kyle loves chocolate and candy
+Target sentence: The girl loves sour foods.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Kyle
+2. Kyle
+3. It cannot be said
+ The correct answer is:","[('A different girl from Kyle', 0.4554433524608612), ('Kyle', 0.35469964146614075), ('It cannot be said', 0.18985703587532043)]","[('A different girl from Kyle', 0.19665221869945526), ('Kyle', 0.5345561504364014), ('It cannot be said', 0.26879170536994934)]",A different girl from Kyle,Kyle
+34,Kyle loves chocolate and candy,The girl loves sweet foods.,Who is the girl?,"['A different girl from Kyle', 'Kyle', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kyle loves chocolate and candy
+Target sentence: The girl loves sweet foods.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Kyle
+2. Kyle
+3. It cannot be said
+ The correct answer is:","[('A different girl from Kyle', 0.3309946656227112), ('Kyle', 0.5126545429229736), ('It cannot be said', 0.15635080635547638)]","[('A different girl from Kyle', 0.1806616634130478), ('Kyle', 0.5564771294593811), ('It cannot be said', 0.2628611624240875)]",Kyle,Kyle
+35,Samantha brought a get well card to the hospital,The girl was preoccupied.,Who is the girl?,"['A different girl from Samantha', 'Samantha', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Samantha brought a get well card to the hospital
+Target sentence: The girl was preoccupied.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Samantha
+2. Samantha
+3. It cannot be said
+ The correct answer is:","[('A different girl from Samantha', 0.21991020441055298), ('Samantha', 0.5977779030799866), ('It cannot be said', 0.18231196701526642)]","[('A different girl from Samantha', 0.20150265097618103), ('Samantha', 0.177825465798378), ('It cannot be said', 0.6206718683242798)]",Samantha,It cannot be said
+36,Samantha brought a get well card to the hospital,The girl was thoughtful.,Who is the girl?,"['A different girl from Samantha', 'Samantha', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Samantha brought a get well card to the hospital
+Target sentence: The girl was thoughtful.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Samantha
+2. Samantha
+3. It cannot be said
+ The correct answer is:","[('A different girl from Samantha', 0.18213799595832825), ('Samantha', 0.6357240676879883), ('It cannot be said', 0.18213799595832825)]","[('A different girl from Samantha', 0.1491604894399643), ('Samantha', 0.2966410517692566), ('It cannot be said', 0.5541984438896179)]",Samantha,It cannot be said
+37,Brian wanted to be a home based administrative assistant,The man liked staying at home.,Who is the man?,"['A different man from Brian', 'Brian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Brian wanted to be a home based administrative assistant
+Target sentence: The man liked staying at home.
+Question: Who is the man?
+Choices:
+
+1. A different man from Brian
+2. Brian
+3. It cannot be said
+ The correct answer is:","[('A different man from Brian', 0.21829842031002045), ('Brian', 0.6316673755645752), ('It cannot be said', 0.15003414452075958)]","[('A different man from Brian', 0.28640419244766235), ('Brian', 0.14401307702064514), ('It cannot be said', 0.5695827603340149)]",Brian,It cannot be said
+38,Brian wanted to be a home based administrative assistant,The man did not like staying at home.,Who is the man?,"['A different man from Brian', 'Brian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Brian wanted to be a home based administrative assistant
+Target sentence: The man did not like staying at home.
+Question: Who is the man?
+Choices:
+
+1. A different man from Brian
+2. Brian
+3. It cannot be said
+ The correct answer is:","[('A different man from Brian', 0.27814337611198425), ('Brian', 0.5531541705131531), ('It cannot be said', 0.16870249807834625)]","[('A different man from Brian', 0.3293331265449524), ('Brian', 0.17627930641174316), ('It cannot be said', 0.49438756704330444)]",Brian,It cannot be said
+39,Brian had a large collection of coins,The man asked him for some duplicates.,Who is the man?,"['A different man from Brian', 'Brian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Brian had a large collection of coins
+Target sentence: The man asked him for some duplicates.
+Question: Who is the man?
+Choices:
+
+1. A different man from Brian
+2. Brian
+3. It cannot be said
+ The correct answer is:","[('A different man from Brian', 0.32424458861351013), ('Brian', 0.5021998286247253), ('It cannot be said', 0.1735556274652481)]","[('A different man from Brian', 0.07146316021680832), ('Brian', 0.11068430542945862), ('It cannot be said', 0.8178525567054749)]",Brian,It cannot be said
+40,Brian had a large collection of coins,The man offered him some duplicates.,Who is the man?,"['A different man from Brian', 'Brian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Brian had a large collection of coins
+Target sentence: The man offered him some duplicates.
+Question: Who is the man?
+Choices:
+
+1. A different man from Brian
+2. Brian
+3. It cannot be said
+ The correct answer is:","[('A different man from Brian', 0.30076658725738525), ('Brian', 0.5278617739677429), ('It cannot be said', 0.17137162387371063)]","[('A different man from Brian', 0.13274213671684265), ('Brian', 0.10337967425584793), ('It cannot be said', 0.7638782262802124)]",Brian,It cannot be said
+41,Katrina's being taught how to speak Korean,The girl was most likely born in Korea.,Who is the girl?,"['A different girl from Katrina', 'Katrina', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Katrina's being taught how to speak Korean
+Target sentence: The girl was most likely born in Korea.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Katrina
+2. Katrina
+3. It cannot be said
+ The correct answer is:","[('A different girl from Katrina', 0.23050564527511597), ('Katrina', 0.5529543161392212), ('It cannot be said', 0.21654000878334045)]","[('A different girl from Katrina', 0.18048743903636932), ('Katrina', 0.169552281498909), ('It cannot be said', 0.6499602794647217)]",Katrina,It cannot be said
+42,Katrina's being taught how to speak Korean,The girl was most likely born in the US.,Who is the girl?,"['A different girl from Katrina', 'Katrina', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Katrina's being taught how to speak Korean
+Target sentence: The girl was most likely born in the US.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Katrina
+2. Katrina
+3. It cannot be said
+ The correct answer is:","[('A different girl from Katrina', 0.2704694867134094), ('Katrina', 0.5053035020828247), ('It cannot be said', 0.22422707080841064)]","[('A different girl from Katrina', 0.1765027940273285), ('Katrina', 0.18788625299930573), ('It cannot be said', 0.6356109976768494)]",Katrina,It cannot be said
+43,Kyle thought the temperature was too warm,The girl turned the heat down.,Who is the girl?,"['A different girl from Kyle', 'Katrina', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kyle thought the temperature was too warm
+Target sentence: The girl turned the heat down.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Kyle
+2. Katrina
+3. It cannot be said
+ The correct answer is:","[('A different girl from Kyle', 0.2365237921476364), ('Katrina', 0.5673910975456238), ('It cannot be said', 0.196085125207901)]","[('A different girl from Kyle', 0.39219650626182556), ('Katrina', 0.0003576369199436158), ('It cannot be said', 0.6074458360671997)]",Katrina,It cannot be said
+44,Kyle thought the temperature was too warm,The girl turned the heat up.,Who is the girl?,"['A different girl from Kyle', 'Katrina', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kyle thought the temperature was too warm
+Target sentence: The girl turned the heat up.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Kyle
+2. Katrina
+3. It cannot be said
+ The correct answer is:","[('A different girl from Kyle', 0.26193323731422424), ('Katrina', 0.5209164619445801), ('It cannot be said', 0.21715028584003448)]","[('A different girl from Kyle', 0.43767860531806946), ('Katrina', 0.00033087481278926134), ('It cannot be said', 0.5619904398918152)]",Katrina,It cannot be said
+45,Justin wrote a paragraph in his planner every day,The guy was disorganized.,Who is the guy?,"['A different guy from Justin', 'Justin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Justin wrote a paragraph in his planner every day
+Target sentence: The guy was disorganized.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Justin
+2. Justin
+3. It cannot be said
+ The correct answer is:","[('A different guy from Justin', 0.2421019822359085), ('Justin', 0.5807724595069885), ('It cannot be said', 0.17712560296058655)]","[('A different guy from Justin', 0.040585488080978394), ('Justin', 0.7657920122146606), ('It cannot be said', 0.19362254440784454)]",Justin,Justin
+46,Justin wrote a paragraph in his planner every day,The guy was organized.,Who is the guy?,"['A different guy from Justin', 'Justin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Justin wrote a paragraph in his planner every day
+Target sentence: The guy was organized.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Justin
+2. Justin
+3. It cannot be said
+ The correct answer is:","[('A different guy from Justin', 0.18978416919708252), ('Justin', 0.6624118089675903), ('It cannot be said', 0.14780405163764954)]","[('A different guy from Justin', 0.03299654647707939), ('Justin', 0.799433171749115), ('It cannot be said', 0.1675702929496765)]",Justin,Justin
+47,Erin is known an an entrepreneur.,The woman owns a business.,Who is the woman?,"['A different woman from Erin', 'Erin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Erin is known an an entrepreneur.
+Target sentence: The woman owns a business.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Erin
+2. Erin
+3. It cannot be said
+ The correct answer is:","[('A different woman from Erin', 0.13186292350292206), ('Erin', 0.7588187456130981), ('It cannot be said', 0.10931821167469025)]","[('A different woman from Erin', 0.17130404710769653), ('Erin', 0.15117529034614563), ('It cannot be said', 0.6775206327438354)]",Erin,It cannot be said
+48,Erin is known an an entrepreneur.,The woman doesn't yet own a business.,Who is the woman?,"['A different woman from Erin', 'Erin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Erin is known an an entrepreneur.
+Target sentence: The woman doesn't yet own a business.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Erin
+2. Erin
+3. It cannot be said
+ The correct answer is:","[('A different woman from Erin', 0.22236639261245728), ('Erin', 0.604454517364502), ('It cannot be said', 0.17317911982536316)]","[('A different woman from Erin', 0.30440399050712585), ('Erin', 0.12689445912837982), ('It cannot be said', 0.5687015056610107)]",Erin,It cannot be said
+49,Christopher wanted to be a specialist,The guy had an interest in a limited number of subjects.,Who is the guy?,"['A different guy from Christofer', 'Christofer', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Christopher wanted to be a specialist
+Target sentence: The guy had an interest in a limited number of subjects.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Christofer
+2. Christofer
+3. It cannot be said
+ The correct answer is:","[('A different guy from Christofer', 0.2590629756450653), ('Christofer', 0.5838074088096619), ('It cannot be said', 0.15712963044643402)]","[('A different guy from Christofer', 0.1491604894399643), ('Christofer', 0.5541984438896179), ('It cannot be said', 0.2966410517692566)]",Christofer,Christofer
+50,Christopher wanted to be a specialist,The guy had an interest in a many number of subjects.,Who is the guy?,"['A different guy from Christofer', 'Christofer', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Christopher wanted to be a specialist
+Target sentence: The guy had an interest in a many number of subjects.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Christofer
+2. Christofer
+3. It cannot be said
+ The correct answer is:","[('A different guy from Christofer', 0.25375404953956604), ('Christofer', 0.5718435645103455), ('It cannot be said', 0.17440244555473328)]","[('A different guy from Christofer', 0.16572950780391693), ('Christofer', 0.5434061288833618), ('It cannot be said', 0.29086434841156006)]",Christofer,Christofer
+51,Megan enjoyed summer,The girl spent much time indoors.,Who is the girl?,"['A different girl from Megan', 'Megan', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Megan enjoyed summer
+Target sentence: The girl spent much time indoors.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Megan
+2. Megan
+3. It cannot be said
+ The correct answer is:","[('A different girl from Megan', 0.19577506184577942), ('Megan', 0.6419216990470886), ('It cannot be said', 0.16230322420597076)]","[('A different girl from Megan', 0.2853657603263855), ('Megan', 0.030077330768108368), ('It cannot be said', 0.6845569014549255)]",Megan,It cannot be said
+52,Megan enjoyed summer,The girl spent much time at the beach.,Who is the girl?,"['A different girl from Megan', 'Megan', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Megan enjoyed summer
+Target sentence: The girl spent much time at the beach.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Megan
+2. Megan
+3. It cannot be said
+ The correct answer is:","[('A different girl from Megan', 0.17440205812454224), ('Megan', 0.6897734999656677), ('It cannot be said', 0.13582445681095123)]","[('A different girl from Megan', 0.3976070284843445), ('Megan', 0.023878157138824463), ('It cannot be said', 0.578514814376831)]",Megan,It cannot be said
+53,Lawrence made a bowl at the pottery store and accidentally broke it.,The man decided to make another.,Who is the man?,"['A different man from Lawrence', 'Lawrence', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Lawrence made a bowl at the pottery store and accidentally broke it.
+Target sentence: The man decided to make another.
+Question: Who is the man?
+Choices:
+
+1. A different man from Lawrence
+2. Lawrence
+3. It cannot be said
+ The correct answer is:","[('A different man from Lawrence', 0.37374359369277954), ('Lawrence', 0.47989627718925476), ('It cannot be said', 0.1463600993156433)]","[('A different man from Lawrence', 0.4139344096183777), ('Lawrence', 0.0867653638124466), ('It cannot be said', 0.4993002116680145)]",Lawrence,It cannot be said
+54,Lawrence made a bowl at the pottery store and accidentally broke it.,The man offered to make another.,Who is the man?,"['A different man from Lawrence', 'Lawrence', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Lawrence made a bowl at the pottery store and accidentally broke it.
+Target sentence: The man offered to make another.
+Question: Who is the man?
+Choices:
+
+1. A different man from Lawrence
+2. Lawrence
+3. It cannot be said
+ The correct answer is:","[('A different man from Lawrence', 0.3773616850376129), ('Lawrence', 0.45518508553504944), ('It cannot be said', 0.16745324432849884)]","[('A different man from Lawrence', 0.3234805464744568), ('Lawrence', 0.07217826694250107), ('It cannot be said', 0.6043412089347839)]",Lawrence,It cannot be said
+55,Matthew offered to help write a fitness plan,The man was out of shape.,Who is the man?,"['A different man from Matthew', 'Matthew', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Matthew offered to help write a fitness plan
+Target sentence: The man was out of shape.
+Question: Who is the man?
+Choices:
+
+1. A different man from Matthew
+2. Matthew
+3. It cannot be said
+ The correct answer is:","[('A different man from Matthew', 0.26577022671699524), ('Matthew', 0.562635600566864), ('It cannot be said', 0.17159417271614075)]","[('A different man from Matthew', 0.08466041088104248), ('Matthew', 0.45766982436180115), ('It cannot be said', 0.45766982436180115)]",Matthew,Matthew
+56,Matthew offered to help write a fitness plan,The man was a personal trainer.,Who is the man?,"['A different man from Matthew', 'Matthew', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Matthew offered to help write a fitness plan
+Target sentence: The man was a personal trainer.
+Question: Who is the man?
+Choices:
+
+1. A different man from Matthew
+2. Matthew
+3. It cannot be said
+ The correct answer is:","[('A different man from Matthew', 0.2140229195356369), ('Matthew', 0.6192958354949951), ('It cannot be said', 0.1666812151670456)]","[('A different man from Matthew', 0.1004512682557106), ('Matthew', 0.373221755027771), ('It cannot be said', 0.5263270139694214)]",Matthew,It cannot be said
+57,Christine didn't pass the lie detection test,The woman had something to hide.,Who is the woman?,"['A different woman from Christine', 'Christine', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Christine didn't pass the lie detection test
+Target sentence: The woman had something to hide.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Christine
+2. Christine
+3. It cannot be said
+ The correct answer is:","[('A different woman from Christine', 0.26879167556762695), ('Christine', 0.5345560908317566), ('It cannot be said', 0.19665220379829407)]","[('A different woman from Christine', 0.3881310522556305), ('Christine', 0.08135668933391571), ('It cannot be said', 0.5305122137069702)]",Christine,It cannot be said
+58,Christine didn't pass the lie detection test,The woman had nothing to hide.,Who is the woman?,"['A different woman from Christine', 'Christine', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Christine didn't pass the lie detection test
+Target sentence: The woman had nothing to hide.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Christine
+2. Christine
+3. It cannot be said
+ The correct answer is:","[('A different woman from Christine', 0.2598336637020111), ('Christine', 0.5500679016113281), ('It cannot be said', 0.19009838998317719)]","[('A different woman from Christine', 0.39187729358673096), ('Christine', 0.07249000668525696), ('It cannot be said', 0.5356327295303345)]",Christine,It cannot be said
+59,The winter made Jason's hands dry,The man always forgot to moisturize at night.,Who is the man?,"['A different man from Jason', 'Jason', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The winter made Jason's hands dry
+Target sentence: The man always forgot to moisturize at night.
+Question: Who is the man?
+Choices:
+
+1. A different man from Jason
+2. Jason
+3. It cannot be said
+ The correct answer is:","[('A different man from Jason', 0.1995813101530075), ('Jason', 0.6544018983840942), ('It cannot be said', 0.14601680636405945)]","[('A different man from Jason', 0.09061545878648758), ('Jason', 0.33667728304862976), ('It cannot be said', 0.5727073550224304)]",Jason,It cannot be said
+60,The winter made Jason's hands dry,The man never forgot to moisturize at night.,Who is the man?,"['A different man from Jason', 'Jason', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The winter made Jason's hands dry
+Target sentence: The man never forgot to moisturize at night.
+Question: Who is the man?
+Choices:
+
+1. A different man from Jason
+2. Jason
+3. It cannot be said
+ The correct answer is:","[('A different man from Jason', 0.2046913504600525), ('Jason', 0.6711570620536804), ('It cannot be said', 0.12415158003568649)]","[('A different man from Jason', 0.14010368287563324), ('Jason', 0.1914990395307541), ('It cannot be said', 0.6683973073959351)]",Jason,It cannot be said
+61,Monica enjoyed watching Western films,The girl grew up on a farm.,Who is the girl?,"['A different girl from Monica', 'Monica', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Monica enjoyed watching Western films
+Target sentence: The girl grew up on a farm.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Monica
+2. Monica
+3. It cannot be said
+ The correct answer is:","[('A different girl from Monica', 0.25093159079551697), ('Monica', 0.565483033657074), ('It cannot be said', 0.18358546495437622)]","[('A different girl from Monica', 0.18250493705272675), ('Monica', 0.04912053793668747), ('It cannot be said', 0.768374502658844)]",Monica,It cannot be said
+62,Monica enjoyed watching Western films,The girl grew up watching soap operas.,Who is the girl?,"['A different girl from Monica', 'Monica', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Monica enjoyed watching Western films
+Target sentence: The girl grew up watching soap operas.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Monica
+2. Monica
+3. It cannot be said
+ The correct answer is:","[('A different girl from Monica', 0.20580291748046875), ('Monica', 0.6339176297187805), ('It cannot be said', 0.16027948260307312)]","[('A different girl from Monica', 0.14123529195785522), ('Monica', 0.07101757079362869), ('It cannot be said', 0.7877472043037415)]",Monica,It cannot be said
+63,Lawrence read fiction,The guy liked to escape into an imaginary world.,Who is the guy?,"['A different guy from Lawrence', 'Lawrence', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Lawrence read fiction
+Target sentence: The guy liked to escape into an imaginary world.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Lawrence
+2. Lawrence
+3. It cannot be said
+ The correct answer is:","[('A different guy from Lawrence', 0.22236639261245728), ('Lawrence', 0.604454517364502), ('It cannot be said', 0.17317911982536316)]","[('A different guy from Lawrence', 0.2913341522216797), ('Lawrence', 0.1292787492275238), ('It cannot be said', 0.5793871283531189)]",Lawrence,It cannot be said
+64,Lawrence read fiction,The guy struggled to escape into an imaginary world.,Who is the guy?,"['A different guy from Lawrence', 'Lawrence', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Lawrence read fiction
+Target sentence: The guy struggled to escape into an imaginary world.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Lawrence
+2. Lawrence
+3. It cannot be said
+ The correct answer is:","[('A different guy from Lawrence', 0.25093159079551697), ('Lawrence', 0.565483033657074), ('It cannot be said', 0.18358546495437622)]","[('A different guy from Lawrence', 0.17130404710769653), ('Lawrence', 0.15117529034614563), ('It cannot be said', 0.6775206327438354)]",Lawrence,It cannot be said
+65,Ian is making a pool party,The guy could safely enjoy party.,Who is the guy?,"['A different guy from Ian', 'Ian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Ian is making a pool party
+Target sentence: The guy could safely enjoy party.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Ian
+2. Ian
+3. It cannot be said
+ The correct answer is:","[('A different guy from Ian', 0.23122389614582062), ('Ian', 0.6285316944122314), ('It cannot be said', 0.14024437963962555)]","[('A different guy from Ian', 0.20434871315956116), ('Ian', 0.20434871315956116), ('It cannot be said', 0.5913025736808777)]",Ian,It cannot be said
+66,Ian is making a pool party,The guy buys pH raising preparates.,Who is the guy?,"['A different guy from Ian', 'Ian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Ian is making a pool party
+Target sentence: The guy buys pH raising preparates.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Ian
+2. Ian
+3. It cannot be said
+ The correct answer is:","[('A different guy from Ian', 0.369131475687027), ('Ian', 0.4452575743198395), ('It cannot be said', 0.18561096489429474)]","[('A different guy from Ian', 0.15600457787513733), ('Ian', 0.22698532044887543), ('It cannot be said', 0.6170100569725037)]",Ian,It cannot be said
+67,Robert helped create an internet viral video.,The man danced in video.,Who is the man?,"['A different man from Robert', 'Robert', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Robert helped create an internet viral video.
+Target sentence: The man danced in video.
+Question: Who is the man?
+Choices:
+
+1. A different man from Robert
+2. Robert
+3. It cannot be said
+ The correct answer is:","[('A different man from Robert', 0.21620634198188782), ('Robert', 0.6256137490272522), ('It cannot be said', 0.15817992389202118)]","[('A different man from Robert', 0.1287614107131958), ('Robert', 0.10674695670604706), ('It cannot be said', 0.7644916772842407)]",Robert,It cannot be said
+68,Robert helped create an internet viral video.,The man directed the video.,Who is the man?,"['A different man from Robert', 'Robert', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Robert helped create an internet viral video.
+Target sentence: The man directed the video.
+Question: Who is the man?
+Choices:
+
+1. A different man from Robert
+2. Robert
+3. It cannot be said
+ The correct answer is:","[('A different man from Robert', 0.21829842031002045), ('Robert', 0.6316673755645752), ('It cannot be said', 0.15003414452075958)]","[('A different man from Robert', 0.21722477674484253), ('Robert', 0.07052256166934967), ('It cannot be said', 0.7122526168823242)]",Robert,It cannot be said
+69,Nick gets jock itch a lot.,The guy is an artist.,Who is the guy?,"['A different guy from Nick', 'Nick', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Nick gets jock itch a lot.
+Target sentence: The guy is an artist.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Nick
+2. Nick
+3. It cannot be said
+ The correct answer is:","[('A different guy from Nick', 0.3274258077144623), ('Nick', 0.44753798842430115), ('It cannot be said', 0.22503623366355896)]","[('A different guy from Nick', 0.1432962864637375), ('Nick', 0.005914543755352497), ('It cannot be said', 0.8507891893386841)]",Nick,It cannot be said
+70,Nick gets jock itch a lot.,The guy is an athlete.,Who is the guy?,"['A different guy from Nick', 'Nick', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Nick gets jock itch a lot.
+Target sentence: The guy is an athlete.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Nick
+2. Nick
+3. It cannot be said
+ The correct answer is:","[('A different guy from Nick', 0.29086434841156006), ('Nick', 0.5434061288833618), ('It cannot be said', 0.16572950780391693)]","[('A different guy from Nick', 0.2108006477355957), ('Nick', 0.005979953799396753), ('It cannot be said', 0.7832193970680237)]",Nick,It cannot be said
+71,Learning to play a glockenspiel was instinctual for Derrick,The guy is arty.,Who is the guy?,"['A different guy from Derrick', 'Derrick', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Learning to play a glockenspiel was instinctual for Derrick
+Target sentence: The guy is arty.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Derrick
+2. Derrick
+3. It cannot be said
+ The correct answer is:","[('A different guy from Derrick', 0.24177764356136322), ('Derrick', 0.5448543429374695), ('It cannot be said', 0.2133680135011673)]","[('A different guy from Derrick', 0.07234817743301392), ('Derrick', 0.018292484804987907), ('It cannot be said', 0.909359335899353)]",Derrick,It cannot be said
+72,Learning to play a glockenspiel was instinctual for Derrick,The guy is unmusical.,Who is the guy?,"['A different guy from Derrick', 'Derrick', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Learning to play a glockenspiel was instinctual for Derrick
+Target sentence: The guy is unmusical.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Derrick
+2. Derrick
+3. It cannot be said
+ The correct answer is:","[('A different guy from Derrick', 0.26542529463768005), ('Derrick', 0.5278612375259399), ('It cannot be said', 0.20671342313289642)]","[('A different guy from Derrick', 0.08753275871276855), ('Derrick', 0.02841772697865963), ('It cannot be said', 0.8840495347976685)]",Derrick,It cannot be said
+73,Sunday afternoon Laura made some buttermilk biscuits.,The girl made quick work of making them.,Who is the girl?,"['A different girl from Laura', 'Laura', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Sunday afternoon Laura made some buttermilk biscuits.
+Target sentence: The girl made quick work of making them.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Laura
+2. Laura
+3. It cannot be said
+ The correct answer is:","[('A different girl from Laura', 0.1931384801864624), ('Laura', 0.6741195321083069), ('It cannot be said', 0.1327420026063919)]","[('A different girl from Laura', 0.16267752647399902), ('Laura', 0.366599440574646), ('It cannot be said', 0.4707230031490326)]",Laura,It cannot be said
+74,Sunday afternoon Laura made some buttermilk biscuits.,The girl made quick work of eating them.,Who is the girl?,"['A different girl from Laura', 'Laura', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Sunday afternoon Laura made some buttermilk biscuits.
+Target sentence: The girl made quick work of eating them.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Laura
+2. Laura
+3. It cannot be said
+ The correct answer is:","[('A different girl from Laura', 0.19771933555603027), ('Laura', 0.6482967138290405), ('It cannot be said', 0.1539839655160904)]","[('A different girl from Laura', 0.1463600993156433), ('Laura', 0.37374359369277954), ('It cannot be said', 0.47989627718925476)]",Laura,It cannot be said
+75,Adam had to schedule a visit a dermatologist,The guy had bad skin.,Who is the guy?,"['A different guy from Adam', 'Adam', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Adam had to schedule a visit a dermatologist
+Target sentence: The guy had bad skin.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Adam
+2. Adam
+3. It cannot be said
+ The correct answer is:","[('A different guy from Adam', 0.32424458861351013), ('Adam', 0.5021998286247253), ('It cannot be said', 0.1735556274652481)]","[('A different guy from Adam', 0.18304970860481262), ('Adam', 0.046282216906547546), ('It cannot be said', 0.770668089389801)]",Adam,It cannot be said
+76,Adam had to schedule a visit a dermatologist,The guy had good skin.,Who is the guy?,"['A different guy from Adam', 'Adam', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Adam had to schedule a visit a dermatologist
+Target sentence: The guy had good skin.
+Question: Who is the guy?
+Choices:
+
+1. A different guy from Adam
+2. Adam
+3. It cannot be said
+ The correct answer is:","[('A different guy from Adam', 0.36279311776161194), ('Adam', 0.4658356010913849), ('It cannot be said', 0.17137134075164795)]","[('A different guy from Adam', 0.12153799086809158), ('Adam', 0.03482121229171753), ('It cannot be said', 0.8436408042907715)]",Adam,It cannot be said
+77,Maria rode the bus to work,The woman had an unexpired license.,Who is the woman?,"['A different woman from Maria', 'Maria', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Maria rode the bus to work
+Target sentence: The woman had an unexpired license.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Maria
+2. Maria
+3. It cannot be said
+ The correct answer is:","[('A different woman from Maria', 0.21620634198188782), ('Maria', 0.6256137490272522), ('It cannot be said', 0.15817992389202118)]","[('A different woman from Maria', 0.06160404160618782), ('Maria', 0.276090145111084), ('It cannot be said', 0.6623058319091797)]",Maria,It cannot be said
+78,Maria rode the bus to work,The woman had an expired license.,Who is the woman?,"['A different woman from Maria', 'Maria', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Maria rode the bus to work
+Target sentence: The woman had an expired license.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Maria
+2. Maria
+3. It cannot be said
+ The correct answer is:","[('A different woman from Maria', 0.25375404953956604), ('Maria', 0.5718435645103455), ('It cannot be said', 0.17440244555473328)]","[('A different woman from Maria', 0.05570029467344284), ('Maria', 0.26573121547698975), ('It cannot be said', 0.6785684823989868)]",Maria,It cannot be said
+79,Steven only had one ear,The man was very lopsided.,Who is the man?,"['A different man from Steven', 'Steven', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Steven only had one ear
+Target sentence: The man was very lopsided.
+Question: Who is the man?
+Choices:
+
+1. A different man from Steven
+2. Steven
+3. It cannot be said
+ The correct answer is:","[('A different man from Steven', 0.2683914303779602), ('Steven', 0.6048294305801392), ('It cannot be said', 0.12677913904190063)]","[('A different man from Steven', 0.08986379951238632), ('Steven', 0.15771587193012238), ('It cannot be said', 0.7524203658103943)]",Steven,It cannot be said
+80,Steven only had one ear,The man was very symmetrical.,Who is the man?,"['A different man from Steven', 'Steven', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Steven only had one ear
+Target sentence: The man was very symmetrical.
+Question: Who is the man?
+Choices:
+
+1. A different man from Steven
+2. Steven
+3. It cannot be said
+ The correct answer is:","[('A different man from Steven', 0.2639360725879669), ('Steven', 0.5947891473770142), ('It cannot be said', 0.1412748098373413)]","[('A different man from Steven', 0.10839637368917465), ('Steven', 0.13918370008468628), ('It cannot be said', 0.7524199485778809)]",Steven,It cannot be said
+81,Kevin repaired the wooden  furniture,The man was an expert carpenter.,Who is the man?,"['A different man from kevin', 'Kevin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kevin repaired the wooden  furniture
+Target sentence: The man was an expert carpenter.
+Question: Who is the man?
+Choices:
+
+1. A different man from kevin
+2. Kevin
+3. It cannot be said
+ The correct answer is:","[('A different man from kevin', 0.17496433854103088), ('Kevin', 0.650071382522583), ('It cannot be said', 0.17496433854103088)]","[('A different man from kevin', 0.09602075815200806), ('Kevin', 0.27784526348114014), ('It cannot be said', 0.6261339783668518)]",Kevin,It cannot be said
+82,Kevin repaired the wooden  furniture,The man needed an expert carpenter.,Who is the man?,"['A different man from kevin', 'Kevin', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kevin repaired the wooden  furniture
+Target sentence: The man needed an expert carpenter.
+Question: Who is the man?
+Choices:
+
+1. A different man from kevin
+2. Kevin
+3. It cannot be said
+ The correct answer is:","[('A different man from kevin', 0.2590629756450653), ('Kevin', 0.5838074088096619), ('It cannot be said', 0.15712963044643402)]","[('A different man from kevin', 0.08695860207080841), ('Kevin', 0.4280252456665039), ('It cannot be said', 0.4850161373615265)]",Kevin,It cannot be said
+83,Eric thought the clothes looked very nice,The man didn't buy the clothes.,Who is the man?,"['A different man from Eric', 'Eric', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Eric thought the clothes looked very nice
+Target sentence: The man didn't buy the clothes.
+Question: Who is the man?
+Choices:
+
+1. A different man from Eric
+2. Eric
+3. It cannot be said
+ The correct answer is:","[('A different man from Eric', 0.3035481870174408), ('Eric', 0.5004663467407227), ('It cannot be said', 0.19598543643951416)]","[('A different man from Eric', 0.15809915959835052), ('Eric', 0.6451432704925537), ('It cannot be said', 0.19675758481025696)]",Eric,Eric
+84,Eric thought the clothes looked very nice,The man bought the clothes.,Who is the man?,"['A different man from Eric', 'Eric', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Eric thought the clothes looked very nice
+Target sentence: The man bought the clothes.
+Question: Who is the man?
+Choices:
+
+1. A different man from Eric
+2. Eric
+3. It cannot be said
+ The correct answer is:","[('A different man from Eric', 0.2564639747142792), ('Eric', 0.5779504776000977), ('It cannot be said', 0.16558559238910675)]","[('A different man from Eric', 0.20834164321422577), ('Eric', 0.5156505107879639), ('It cannot be said', 0.27600783109664917)]",Eric,Eric
+85,Jessica often experiences severe nausea,The girl does not ride roller coasters.,Who is the girl?,"['A different girl from Jessica', 'Jessica', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Jessica often experiences severe nausea
+Target sentence: The girl does not ride roller coasters.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Jessica
+2. Jessica
+3. It cannot be said
+ The correct answer is:","[('A different girl from Jessica', 0.2564639747142792), ('Jessica', 0.5779504776000977), ('It cannot be said', 0.16558559238910675)]","[('A different girl from Jessica', 0.318535178899765), ('Jessica', 0.4090072512626648), ('It cannot be said', 0.2724575698375702)]",Jessica,Jessica
+86,Jessica often experiences severe nausea,The girl often rides big roller coasters.,Who is the girl?,"['A different girl from Jessica', 'Jessica', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Jessica often experiences severe nausea
+Target sentence: The girl often rides big roller coasters.
+Question: Who is the girl?
+Choices:
+
+1. A different girl from Jessica
+2. Jessica
+3. It cannot be said
+ The correct answer is:","[('A different girl from Jessica', 0.21829842031002045), ('Jessica', 0.6316673755645752), ('It cannot be said', 0.15003414452075958)]","[('A different girl from Jessica', 0.21629570424556732), ('Jessica', 0.3796107769012451), ('It cannot be said', 0.40409356355667114)]",Jessica,It cannot be said
+87,Have you ever been on  a nature walk Samantha asked Tanya,The woman is giving a reply to a question.,Who is the woman?,"['A different woman from Samantha', 'Samantha', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Have you ever been on  a nature walk Samantha asked Tanya
+Target sentence: The woman is giving a reply to a question.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Samantha
+2. Samantha
+3. It cannot be said
+ The correct answer is:","[('A different woman from Samantha', 0.25197431445121765), ('Samantha', 0.6044549942016602), ('It cannot be said', 0.1435706466436386)]","[('A different woman from Samantha', 0.009487517178058624), ('Samantha', 0.9677531123161316), ('It cannot be said', 0.022759372368454933)]",Samantha,Samantha
+88,Have you ever been on  a nature walk Samantha asked Tanya,The woman is waiting for a reply to a question.,Who is the woman?,"['A different woman from Samantha', 'Samantha', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Have you ever been on  a nature walk Samantha asked Tanya
+Target sentence: The woman is waiting for a reply to a question.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Samantha
+2. Samantha
+3. It cannot be said
+ The correct answer is:","[('A different woman from Samantha', 0.2628611624240875), ('Samantha', 0.5564771294593811), ('It cannot be said', 0.1806616634130478)]","[('A different woman from Samantha', 0.018285181373357773), ('Samantha', 0.9378509521484375), ('It cannot be said', 0.043863873928785324)]",Samantha,Samantha
+89,Jason was going to a job interview,The man was proud.,Who is the man?,"['A different man from Jason', 'Jason', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Jason was going to a job interview
+Target sentence: The man was proud.
+Question: Who is the man?
+Choices:
+
+1. A different man from Jason
+2. Jason
+3. It cannot be said
+ The correct answer is:","[('A different man from Jason', 0.2777884602546692), ('Jason', 0.518977165222168), ('It cannot be said', 0.20323437452316284)]","[('A different man from Jason', 0.19163377583026886), ('Jason', 0.18002326786518097), ('It cannot be said', 0.6283429265022278)]",Jason,It cannot be said
+90,Jason was going to a job interview,The man was grateful.,Who is the man?,"['A different man from Jason', 'Jason', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Jason was going to a job interview
+Target sentence: The man was grateful.
+Question: Who is the man?
+Choices:
+
+1. A different man from Jason
+2. Jason
+3. It cannot be said
+ The correct answer is:","[('A different man from Jason', 0.26542529463768005), ('Jason', 0.5278612375259399), ('It cannot be said', 0.20671342313289642)]","[('A different man from Jason', 0.2578487694263458), ('Jason', 0.08371124416589737), ('It cannot be said', 0.6584399342536926)]",Jason,It cannot be said
+91,Eric was easier to amuse,The man had a great sense of humor.,Who is the man?,"['A different man from Eric', 'Eric', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Eric was easier to amuse
+Target sentence: The man had a great sense of humor.
+Question: Who is the man?
+Choices:
+
+1. A different man from Eric
+2. Eric
+3. It cannot be said
+ The correct answer is:","[('A different man from Eric', 0.16612479090690613), ('Eric', 0.657036304473877), ('It cannot be said', 0.1768389195203781)]","[('A different man from Eric', 0.49191293120384216), ('Eric', 0.1700005680322647), ('It cannot be said', 0.33808648586273193)]",Eric,A different man from Eric
+92,Eric was easier to amuse,The man had a bad sense of humor.,Who is the man?,"['A different man from Eric', 'Eric', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Eric was easier to amuse
+Target sentence: The man had a bad sense of humor.
+Question: Who is the man?
+Choices:
+
+1. A different man from Eric
+2. Eric
+3. It cannot be said
+ The correct answer is:","[('A different man from Eric', 0.20691044628620148), ('Eric', 0.5987151861190796), ('It cannot be said', 0.19437435269355774)]","[('A different man from Eric', 0.4643593430519104), ('Eric', 0.22631067037582397), ('It cannot be said', 0.309330016374588)]",Eric,A different man from Eric
+93,The payments were made by Jason,The man had borrowed so much money in the past.,Who is the man?,"['A different man from Jason', 'Jason', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The payments were made by Jason
+Target sentence: The man had borrowed so much money in the past.
+Question: Who is the man?
+Choices:
+
+1. A different man from Jason
+2. Jason
+3. It cannot be said
+ The correct answer is:","[('A different man from Jason', 0.30483660101890564), ('Jason', 0.4721401631832123), ('It cannot be said', 0.2230232208967209)]","[('A different man from Jason', 0.26434725522994995), ('Jason', 0.12102698534727097), ('It cannot be said', 0.6146257519721985)]",Jason,It cannot be said
+94,The payments were made by Jason,The man had lent so much money in the past.,Who is the man?,"['A different man from Jason', 'Jason', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The payments were made by Jason
+Target sentence: The man had lent so much money in the past.
+Question: Who is the man?
+Choices:
+
+1. A different man from Jason
+2. Jason
+3. It cannot be said
+ The correct answer is:","[('A different man from Jason', 0.286806583404541), ('Jason', 0.5033612251281738), ('It cannot be said', 0.20983217656612396)]","[('A different man from Jason', 0.28248271346092224), ('Jason', 0.08093266189098358), ('It cannot be said', 0.6365846395492554)]",Jason,It cannot be said
+95,Samantha won the dance competition,The woman had a superior sense of rhythm.,Who is the woman?,"['A different woman from Samantha', 'Samantha', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Samantha won the dance competition
+Target sentence: The woman had a superior sense of rhythm.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Samantha
+2. Samantha
+3. It cannot be said
+ The correct answer is:","[('A different woman from Samantha', 0.13502660393714905), ('Samantha', 0.7299469113349915), ('It cannot be said', 0.13502660393714905)]","[('A different woman from Samantha', 0.07735885679721832), ('Samantha', 0.41819801926612854), ('It cannot be said', 0.5044431090354919)]",Samantha,It cannot be said
+96,Samantha won the dance competition,The woman had a bad sense of rhythm.,Who is the woman?,"['A different woman from Samantha', 'Samantha', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Samantha won the dance competition
+Target sentence: The woman had a bad sense of rhythm.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Samantha
+2. Samantha
+3. It cannot be said
+ The correct answer is:","[('A different woman from Samantha', 0.21469847857952118), ('Samantha', 0.5836109519004822), ('It cannot be said', 0.20169055461883545)]","[('A different woman from Samantha', 0.050702743232250214), ('Samantha', 0.6575231552124023), ('It cannot be said', 0.29177412390708923)]",Samantha,Samantha
+97,Tanya couldn't stretch,The woman was had a very flexible body.,Who is the woman?,"['A different woman from Tanya', 'Tanya', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Tanya couldn't stretch
+Target sentence: The woman was had a very flexible body.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Tanya
+2. Tanya
+3. It cannot be said
+ The correct answer is:","[('A different woman from Tanya', 0.31526681780815125), ('Tanya', 0.5533104538917542), ('It cannot be said', 0.1314227432012558)]","[('A different woman from Tanya', 0.06144573539495468), ('Tanya', 0.8751579523086548), ('It cannot be said', 0.06339623034000397)]",Tanya,Tanya
+98,Tanya couldn't stretch,The woman was had a very rigid body.,Who is the woman?,"['A different woman from Tanya', 'Tanya', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Tanya couldn't stretch
+Target sentence: The woman was had a very rigid body.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Tanya
+2. Tanya
+3. It cannot be said
+ The correct answer is:","[('A different woman from Tanya', 0.303922176361084), ('Tanya', 0.5333999991416931), ('It cannot be said', 0.1626778095960617)]","[('A different woman from Tanya', 0.042652226984500885), ('Tanya', 0.9119448065757751), ('It cannot be said', 0.04540305584669113)]",Tanya,Tanya
+99,Kayla decided to talk to her daughter Sarah about puberty,The woman found out she had just gotten her first period.,Who is the woman?,"['A different woman from Kayla', 'Kayla', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kayla decided to talk to her daughter Sarah about puberty
+Target sentence: The woman found out she had just gotten her first period.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Kayla
+2. Kayla
+3. It cannot be said
+ The correct answer is:","[('A different woman from Kayla', 0.27245011925697327), ('Kayla', 0.6139758229255676), ('It cannot be said', 0.11357410997152328)]","[('A different woman from Kayla', 0.03997180610895157), ('Kayla', 0.9386328458786011), ('It cannot be said', 0.02139536663889885)]",Kayla,Kayla
+100,Kayla decided to talk to her daughter Sarah about puberty,The woman said she had just gotten her first period.,Who is the woman?,"['A different woman from Kayla', 'Kayla', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Kayla decided to talk to her daughter Sarah about puberty
+Target sentence: The woman said she had just gotten her first period.
+Question: Who is the woman?
+Choices:
+
+1. A different woman from Kayla
+2. Kayla
+3. It cannot be said
+ The correct answer is:","[('A different woman from Kayla', 0.3019329905509949), ('Kayla', 0.564085066318512), ('It cannot be said', 0.13398194313049316)]","[('A different woman from Kayla', 0.037347353994846344), ('Kayla', 0.9335664510726929), ('It cannot be said', 0.029086150228977203)]",Kayla,Kayla

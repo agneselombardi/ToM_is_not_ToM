@@ -1,0 +1,721 @@
+ID,Target,Question,Choices,Human answer,Correct Answer,Prompt,choices_prob,sentences_prob,choice_win,Generated Text
+1,Sarah and David danced under the moonlight at the party.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Sarah and David danced under the moonlight at the party.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.31290414929389954), ('No', 0.42768925428390503), ('It cannot be said', 0.2594066560268402)]","[('Yes', 0.041405294090509415), ('No', 0.01621454581618309), ('It cannot be said', 0.9423801302909851)]",No,It cannot be said
+2,New York and Los Angeles hosted the biggest music festival of the year.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: New York and Los Angeles hosted the biggest music festival of the year.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.20691044628620148), ('Yes', 0.5987151861190796), ('It cannot be said', 0.19437435269355774)]","[('No', 0.00712519371882081), ('Yes', 0.05965851619839668), ('It cannot be said', 0.9332162141799927)]",Yes,It cannot be said
+3,Emily and James cooked a delicious dinner for their friends.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Emily and James cooked a delicious dinner for their friends.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.26193323731422424), ('No', 0.5209164619445801), ('It cannot be said', 0.21715028584003448)]","[('Yes', 0.009689951315522194), ('No', 0.0019080647034570575), ('It cannot be said', 0.9884019494056702)]",No,It cannot be said
+4,Alice and Bob built a beautiful sandcastle on the shore.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Alice and Bob built a beautiful sandcastle on the shore.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2914324402809143), ('No', 0.4513793885707855), ('It cannot be said', 0.25718823075294495)]","[('Yes', 0.04181781783699989), ('No', 0.006412970367819071), ('It cannot be said', 0.9517691731452942)]",No,It cannot be said
+5,The tiger and the lion fought fiercely for dominance in the wild.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The tiger and the lion fought fiercely for dominance in the wild.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.2960455119609833), ('Yes', 0.458524227142334), ('It cannot be said', 0.2454303503036499)]","[('No', 0.03189036622643471), ('Yes', 0.03613651916384697), ('It cannot be said', 0.9319730997085571)]",Yes,It cannot be said
+6,Tokyo and Seoul signed a historic trade agreement.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Tokyo and Seoul signed a historic trade agreement.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.29747873544692993), ('No', 0.5220913887023926), ('It cannot be said', 0.18042996525764465)]","[('Yes', 0.037086326628923416), ('No', 0.006444637198001146), ('It cannot be said', 0.9564689993858337)]",No,It cannot be said
+7,Jessica and Michael hiked to the top of the mountain and admired the view.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Jessica and Michael hiked to the top of the mountain and admired the view.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.33655139803886414), ('No', 0.4321405291557312), ('It cannot be said', 0.23130816221237183)]","[('Yes', 0.014933544211089611), ('No', 0.0015739839291200042), ('It cannot be said', 0.9834924936294556)]",No,It cannot be said
+8,The bird and the squirrel played in the treetops.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The bird and the squirrel played in the treetops.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.3077552914619446), ('No', 0.4206515848636627), ('It cannot be said', 0.2715930938720703)]","[('Yes', 0.052493225783109665), ('No', 0.01704205572605133), ('It cannot be said', 0.9304646849632263)]",No,It cannot be said
+9,Emily and Daniel sang a duet that moved the audience to tears.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Emily and Daniel sang a duet that moved the audience to tears.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.27675342559814453), ('No', 0.4286440908908844), ('It cannot be said', 0.29460248351097107)]","[('Yes', 0.0258865337818861), ('No', 0.002728420542553067), ('It cannot be said', 0.9713850021362305)]",No,It cannot be said
+10,Madrid and Barcelona competed fiercely in the soccer match.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Madrid and Barcelona competed fiercely in the soccer match.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.2583155632019043), ('Yes', 0.5137218236923218), ('It cannot be said', 0.2279626727104187)]","[('No', 0.002936576260253787), ('Yes', 0.014913163147866726), ('It cannot be said', 0.9821502566337585)]",Yes,It cannot be said
+11,Sophie and Liam planted a garden full of colorful flowers.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Sophie and Liam planted a garden full of colorful flowers.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2875422239303589), ('No', 0.4740769565105438), ('It cannot be said', 0.23838086426258087)]","[('Yes', 0.015787767246365547), ('No', 0.007457613479346037), ('It cannot be said', 0.9767546057701111)]",No,It cannot be said
+12,The eagle and the hawk soared high above the canyon.,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The eagle and the hawk soared high above the canyon.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.14196614921092987), ('No', 0.36252328753471375), ('Yes', 0.4955105483531952)]","[('It cannot be said', 0.9643967151641846), ('No', 0.01292292308062315), ('Yes', 0.022680437192320824)]",Yes,It cannot be said
+13,Lily and Ethan studied late into the night for their final exams.,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Lily and Ethan studied late into the night for their final exams.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.1387229710817337), ('No', 0.31261706352233887), ('Yes', 0.5486599802970886)]","[('It cannot be said', 0.9583797454833984), ('No', 0.00882637221366167), ('Yes', 0.03279395028948784)]",Yes,It cannot be said
+14,Anna and William strolled through the park,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Anna and William strolled through the park
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.12689445912837982), ('No', 0.30440399050712585), ('Yes', 0.5687015056610107)]","[('It cannot be said', 0.982810378074646), ('No', 0.0013039736077189445), ('Yes', 0.015885649248957634)]",Yes,It cannot be said
+15,The horse and the rider galloped across the open field.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The horse and the rider galloped across the open field.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.34559985995292664), ('No', 0.416873037815094), ('It cannot be said', 0.23752710223197937)]","[('Yes', 0.036931924521923065), ('No', 0.01058117300271988), ('It cannot be said', 0.9524868726730347)]",No,It cannot be said
+16,Olivia and Benjamin collaborated on a groundbreaking scientific research project.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Olivia and Benjamin collaborated on a groundbreaking scientific research project.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2740686237812042), ('No', 0.45186275243759155), ('It cannot be said', 0.2740686237812042)]","[('Yes', 0.02912176214158535), ('No', 0.0064979433082044125), ('It cannot be said', 0.9643803238868713)]",No,It cannot be said
+17,Sydney and Melbourne hosted the prestigious international film festival.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Sydney and Melbourne hosted the prestigious international film festival.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.22817407548427582), ('Yes', 0.5826629400253296), ('It cannot be said', 0.1891629546880722)]","[('No', 0.013545786030590534), ('Yes', 0.036821264773607254), ('It cannot be said', 0.9496329426765442)]",Yes,It cannot be said
+18,Emma and Christopher prepared a delicious meal for their guests.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Emma and Christopher prepared a delicious meal for their guests.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2875422239303589), ('No', 0.4740769565105438), ('It cannot be said', 0.23838086426258087)]","[('Yes', 0.015884313732385635), ('No', 0.0013879559701308608), ('It cannot be said', 0.9827277064323425)]",No,It cannot be said
+19,The lion and the cheetah raced across the savannah.,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The lion and the cheetah raced across the savannah.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.14515435695648193), ('No', 0.3482072055339813), ('Yes', 0.5066384673118591)]","[('It cannot be said', 0.9329403638839722), ('No', 0.020611338317394257), ('Yes', 0.04644836485385895)]",Yes,It cannot be said
+20,Chloe and Samuel painted a beautiful mural on the city wall,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Chloe and Samuel painted a beautiful mural on the city wall
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.3316044211387634), ('No', 0.4257885217666626), ('It cannot be said', 0.2426069974899292)]","[('Yes', 0.009109267964959145), ('No', 0.0017937213415279984), ('It cannot be said', 0.989096999168396)]",No,It cannot be said
+21,The butterfly and the bee danced among the flowers.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The butterfly and the bee danced among the flowers.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.30245736241340637), ('No', 0.4134101867675781), ('It cannot be said', 0.2841323912143707)]","[('Yes', 0.03886421024799347), ('No', 0.01954215206205845), ('It cannot be said', 0.9415936470031738)]",No,It cannot be said
+22,Sophia and Noah built a sandcastle fit for a king.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Sophia and Noah built a sandcastle fit for a king.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.27491021156311035), ('No', 0.4824824035167694), ('It cannot be said', 0.24260738492012024)]","[('Yes', 0.017949987202882767), ('No', 0.00201393268071115), ('It cannot be said', 0.9800360798835754)]",No,It cannot be said
+23,Isabella and Ethan hiked through the dense forest,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Isabella and Ethan hiked through the dense forest
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2875422239303589), ('No', 0.4740769565105438), ('It cannot be said', 0.23838086426258087)]","[('Yes', 0.01493630651384592), ('No', 0.0013892930001020432), ('It cannot be said', 0.9836744070053101)]",No,It cannot be said
+24,Barcelona and Madrid hosted the final of the national soccer championship.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Barcelona and Madrid hosted the final of the national soccer championship.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.2308194637298584), ('Yes', 0.5894181728363037), ('It cannot be said', 0.17976239323616028)]","[('No', 0.004466653801500797), ('Yes', 0.03100472502410412), ('It cannot be said', 0.9645286798477173)]",Yes,It cannot be said
+25,Ava and Mason planted a variety of vegetables,Did they act together?,"['It cannot be said', 'Yes', 'No']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Ava and Mason planted a variety of vegetables
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. Yes
+3. No
+ The correct answer is:","[('It cannot be said', 0.17159417271614075), ('Yes', 0.562635600566864), ('No', 0.26577022671699524)]","[('It cannot be said', 0.9888609051704407), ('Yes', 0.009107093326747417), ('No', 0.0020320673938840628)]",Yes,It cannot be said
+26,Ava and Mason planted a variety of vegetables in their backyard garden.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Ava and Mason planted a variety of vegetables in their backyard garden.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.286806583404541), ('No', 0.5033612251281738), ('It cannot be said', 0.20983217656612396)]","[('Yes', 0.016788896173238754), ('No', 0.0074500273913145065), ('It cannot be said', 0.9757610559463501)]",No,It cannot be said
+27,The bear and the cub frolicked in the meadow.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The bear and the cub frolicked in the meadow.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.3689842224121094), ('No', 0.39278164505958557), ('It cannot be said', 0.23823411762714386)]","[('Yes', 0.049736060202121735), ('No', 0.011813349090516567), ('It cannot be said', 0.9384505748748779)]",No,It cannot be said
+28,Grace and Henry danced the night away at the masquerade ball.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Grace and Henry danced the night away at the masquerade ball.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.34038543701171875), ('No', 0.4105832278728485), ('It cannot be said', 0.24903132021427155)]","[('Yes', 0.016873793676495552), ('No', 0.0024309006985276937), ('It cannot be said', 0.9806953072547913)]",No,It cannot be said
+29,Victoria and Benjamin explored the ancient ruins and discovered hidden treasures.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Victoria and Benjamin explored the ancient ruins and discovered hidden treasures.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.3138134181499481), ('No', 0.45659583806991577), ('It cannot be said', 0.22959080338478088)]","[('Yes', 0.044149938970804214), ('No', 0.01188279502093792), ('It cannot be said', 0.9439672827720642)]",No,It cannot be said
+30,Chloe and Daniel created a stunning sculpture out of recycled materials,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Chloe and Daniel created a stunning sculpture out of recycled materials
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2786963880062103), ('No', 0.45949265360832214), ('It cannot be said', 0.2618110477924347)]","[('Yes', 0.007569478824734688), ('No', 0.0010244175791740417), ('It cannot be said', 0.9914060831069946)]",No,It cannot be said
+31,Emily and William went on a romantic picnic and watched the sunset.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Emily and William went on a romantic picnic and watched the sunset.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.28178298473358154), ('No', 0.4364340305328369), ('It cannot be said', 0.28178298473358154)]","[('Yes', 0.019026106223464012), ('No', 0.005120806861668825), ('It cannot be said', 0.9758530855178833)]",No,It cannot be said
+32,Lily and Sophia baked a delicious cake and decorated it with colorful icing,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Lily and Sophia baked a delicious cake and decorated it with colorful icing
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2740686237812042), ('No', 0.45186275243759155), ('It cannot be said', 0.2740686237812042)]","[('Yes', 0.012378470040857792), ('No', 0.0042778849601745605), ('It cannot be said', 0.9833436608314514)]",No,It cannot be said
+33,Ethan and Noah explored the ancient ruins and uncovered a hidden passage,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Ethan and Noah explored the ancient ruins and uncovered a hidden passage
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2917559742927551), ('No', 0.48102426528930664), ('It cannot be said', 0.22721977531909943)]","[('Yes', 0.02018139883875847), ('No', 0.007424321956932545), ('It cannot be said', 0.9723942875862122)]",No,It cannot be said
+34,Olivia and Samuel wrote a heartfelt song and performed it for their friends.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Olivia and Samuel wrote a heartfelt song and performed it for their friends.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.26441946625709534), ('No', 0.4359540045261383), ('It cannot be said', 0.29962652921676636)]","[('Yes', 0.021523721516132355), ('No', 0.004238272085785866), ('It cannot be said', 0.9742379784584045)]",No,It cannot be said
+35,Ava and Benjamin planted a garden full of fragrant flowers and fresh herbs.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Ava and Benjamin planted a garden full of fragrant flowers and fresh herbs.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2618110477924347), ('No', 0.45949265360832214), ('It cannot be said', 0.2786963880062103)]","[('Yes', 0.017914315685629845), ('No', 0.0039972239173948765), ('It cannot be said', 0.9780884385108948)]",No,It cannot be said
+36,Emily and Liam baked a batch of cookies and shared them with their neighbors,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Emily and Liam baked a batch of cookies and shared them with their neighbors
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2666138708591461), ('No', 0.49810025095939636), ('It cannot be said', 0.2352858930826187)]","[('Yes', 0.02414454147219658), ('No', 0.01140507496893406), ('It cannot be said', 0.9644503593444824)]",No,It cannot be said
+37,Emily and Liam baked a batch of cookies,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Emily and Liam baked a batch of cookies
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.13398194313049316), ('No', 0.3019329905509949), ('Yes', 0.564085066318512)]","[('It cannot be said', 0.992779552936554), ('No', 0.0013172004837542772), ('Yes', 0.005903283134102821)]",Yes,It cannot be said
+38,The fish and the dolphins swam playfully in the azure water.,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The fish and the dolphins swam playfully in the azure water.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.11939892917871475), ('No', 0.34549224376678467), ('Yes', 0.5351088643074036)]","[('It cannot be said', 0.9559831619262695), ('No', 0.011304945684969425), ('Yes', 0.0327119454741478)]",Yes,It cannot be said
+39,"Time and Newsweek run profiles of Betty Currie (here's Time's), more maps of who was where in the White House, and updated scandal time lines.",Did they act together?,"['No', 'It cannot be said', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Time and Newsweek run profiles of Betty Currie (here's Time's), more maps of who was where in the White House, and updated scandal time lines.
+Question: Did they act together?
+Choices:
+
+1. No
+2. It cannot be said
+3. Yes
+ The correct answer is:","[('No', 0.1891629546880722), ('It cannot be said', 0.22817407548427582), ('Yes', 0.5826629400253296)]","[('No', 0.005126717034727335), ('It cannot be said', 0.9769793152809143), ('Yes', 0.017894001677632332)]",Yes,It cannot be said
+40,"In Palma, the shops Can Bonet and Dana sell fine handmade embroidery.",Did they act together?,"['No', 'It cannot be said', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: In Palma, the shops Can Bonet and Dana sell fine handmade embroidery.
+Question: Did they act together?
+Choices:
+
+1. No
+2. It cannot be said
+3. Yes
+ The correct answer is:","[('No', 0.18714788556098938), ('It cannot be said', 0.19921788573265076), ('Yes', 0.6136342883110046)]","[('No', 0.010529396124184132), ('It cannot be said', 0.9478260278701782), ('Yes', 0.04164456948637962)]",Yes,It cannot be said
+41,"Dayak Bidayuh and Iban get for round after round of palm toddy, rice wine, and other jollities.",Did they act together?,"['Yes', 'It cannot be said', 'No']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Dayak Bidayuh and Iban get for round after round of palm toddy, rice wine, and other jollities.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. It cannot be said
+3. No
+ The correct answer is:","[('Yes', 0.23752710223197937), ('It cannot be said', 0.34559985995292664), ('No', 0.416873037815094)]","[('Yes', 0.025642937049269676), ('It cannot be said', 0.9622441530227661), ('No', 0.012112866155803204)]",No,It cannot be said
+42,In vain Mary and John tried to administer more brandy.,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: In vain Mary and John tried to administer more brandy.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.1507430225610733), ('No', 0.38493576645851135), ('Yes', 0.46432119607925415)]","[('It cannot be said', 0.9606553912162781), ('No', 0.0064728450961411), ('Yes', 0.03287182003259659)]",Yes,It cannot be said
+43,"Using a more sophisticated version of the same techniques, De Long and Lang concluded that some of the 78 confirmed hypotheses might be true, but probably not more than about a third of them.",Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Using a more sophisticated version of the same techniques, De Long and Lang concluded that some of the 78 confirmed hypotheses might be true, but probably not more than about a third of them.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.14291523396968842), ('No', 0.38848385214805603), ('Yes', 0.4686009883880615)]","[('It cannot be said', 0.9263105392456055), ('No', 0.01806017942726612), ('Yes', 0.055629272013902664)]",Yes,It cannot be said
+44,"In their writings, Barlow and Dyson make clear they're aware of this fact.",Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: In their writings, Barlow and Dyson make clear they're aware of this fact.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.13032102584838867), ('No', 0.3542492985725403), ('Yes', 0.515429675579071)]","[('It cannot be said', 0.9262516498565674), ('No', 0.019833967089653015), ('Yes', 0.05391431227326393)]",Yes,It cannot be said
+45,"Reagan and Thatcher present us with contrasting retirement strategies--pathetic senility and rancorous immortality, each in its way a grotesque form of self-parody.",Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Reagan and Thatcher present us with contrasting retirement strategies--pathetic senility and rancorous immortality, each in its way a grotesque form of self-parody.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.12612822651863098), ('No', 0.34285208582878113), ('Yes', 0.5310196876525879)]","[('It cannot be said', 0.9581390619277954), ('No', 0.008034484460949898), ('Yes', 0.033826448023319244)]",Yes,It cannot be said
+46,"Opponents such as Harris and Pfeifer argued loudly that the city was forecasting a deficit because it is saddled with debt voters didn't approve, to fund a library they didn't request, for the president who didn't inhale.",Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Opponents such as Harris and Pfeifer argued loudly that the city was forecasting a deficit because it is saddled with debt voters didn't approve, to fund a library they didn't request, for the president who didn't inhale.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.12827637791633606), ('No', 0.3951190412044525), ('Yes', 0.47660455107688904)]","[('It cannot be said', 0.9233053922653198), ('No', 0.02460525557398796), ('Yes', 0.052089326083660126)]",Yes,It cannot be said
+47,Jon and Susan ate breakfast.,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Jon and Susan ate breakfast.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.13032102584838867), ('No', 0.3542492985725403), ('Yes', 0.515429675579071)]","[('It cannot be said', 0.9130832552909851), ('No', 0.03540407866239548), ('Yes', 0.05151263251900673)]",Yes,It cannot be said
+48,"Ca'daan and Adrin watched the riders leave, heading north with fresh provisions",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Ca'daan and Adrin watched the riders leave, heading north with fresh provisions
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.25003141164779663), ('No', 0.5293165445327759), ('It cannot be said', 0.22065195441246033)]","[('Yes', 0.008558923378586769), ('No', 0.002164034638553858), ('It cannot be said', 0.9892770051956177)]",No,It cannot be said
+49,Jon and San'doro moved forward until they could see the riders cutting through the middle of the town.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Jon and San'doro moved forward until they could see the riders cutting through the middle of the town.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2875422239303589), ('No', 0.4740769565105438), ('It cannot be said', 0.23838086426258087)]","[('Yes', 0.01987445540726185), ('No', 0.02252070978283882), ('It cannot be said', 0.9576048851013184)]",No,It cannot be said
+50,Jon and Thorn turned back to the rest of the group.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Jon and Thorn turned back to the rest of the group.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2790113687515259), ('No', 0.4896801710128784), ('It cannot be said', 0.23130853474140167)]","[('Yes', 0.030600814148783684), ('No', 0.017435817047953606), ('It cannot be said', 0.9519633650779724)]",No,It cannot be said
+51,Time and Newsweek celebrate the U.S.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Time and Newsweek celebrate the U.S.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.24177764356136322), ('Yes', 0.5448543429374695), ('It cannot be said', 0.2133680135011673)]","[('No', 0.002696658717468381), ('Yes', 0.037226226180791855), ('It cannot be said', 0.9600770473480225)]",Yes,It cannot be said
+52,"Tommy and Julius watched it out of sight, and then turned to the narrow path.",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Tommy and Julius watched it out of sight, and then turned to the narrow path.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.23612283170223236), ('No', 0.4411354959011078), ('It cannot be said', 0.32274162769317627)]","[('Yes', 0.03268811106681824), ('No', 0.01202528364956379), ('It cannot be said', 0.9552866220474243)]",No,It cannot be said
+53,"In the letter to Administrator Whitman, Senators Jeffords and Lieberman asked for an analysis of four different scenarios",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: In the letter to Administrator Whitman, Senators Jeffords and Lieberman asked for an analysis of four different scenarios
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2786963880062103), ('No', 0.45949265360832214), ('It cannot be said', 0.2618110477924347)]","[('Yes', 0.07071150094270706), ('No', 0.012287816032767296), ('It cannot be said', 0.9170007109642029)]",No,It cannot be said
+54,Senators Jeffords and Lieberman asked for an analysis of four different scenarios,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Senators Jeffords and Lieberman asked for an analysis of four different scenarios
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.10230856388807297), ('No', 0.23055590689182281), ('Yes', 0.6671355962753296)]","[('It cannot be said', 0.9228934049606323), ('No', 0.010252419859170914), ('Yes', 0.06685417890548706)]",Yes,It cannot be said
+55,Adrin and San'doro began the hike to the north passage.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Adrin and San'doro began the hike to the north passage.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.3158038854598999), ('No', 0.405500203371048), ('It cannot be said', 0.2786959409713745)]","[('Yes', 0.007113159634172916), ('No', 0.0011611913796514273), ('It cannot be said', 0.9917256832122803)]",No,It cannot be said
+56,Sir James and Julius accompanied her to the door.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Sir James and Julius accompanied her to the door.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.29962652921676636), ('No', 0.4359540045261383), ('It cannot be said', 0.26441946625709534)]","[('Yes', 0.006671758368611336), ('No', 0.003151515731588006), ('It cannot be said', 0.9901767373085022)]",No,It cannot be said
+57,"First, the President and Congress designed the Acid Rain Program to focus on reducing the SO2 emissions that cause acid deposition and translated the emission reduction goal into a nationwide cap on emissions from electric generating sources.",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: First, the President and Congress designed the Acid Rain Program to focus on reducing the SO2 emissions that cause acid deposition and translated the emission reduction goal into a nationwide cap on emissions from electric generating sources.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.29381459951400757), ('No', 0.5489178895950317), ('It cannot be said', 0.15726761519908905)]","[('Yes', 0.056100133806467056), ('No', 0.00974874198436737), ('It cannot be said', 0.9341511130332947)]",No,It cannot be said
+58,The CIA and FBI touted this arrest as proof that they had fixed the bureaucratic bungling that had allowed Ames to go undetected for six years.    ,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The CIA and FBI touted this arrest as proof that they had fixed the bureaucratic bungling that had allowed Ames to go undetected for six years.    
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.13398194313049316), ('No', 0.3019329905509949), ('Yes', 0.564085066318512)]","[('It cannot be said', 0.43451839685440063), ('No', 0.31790047883987427), ('Yes', 0.2475811392068863)]",Yes,It cannot be said
+59,The Korbels and Simova continued to correspond after the war,Did they act together?,"['No', 'It cannot be said', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The Korbels and Simova continued to correspond after the war
+Question: Did they act together?
+Choices:
+
+1. No
+2. It cannot be said
+3. Yes
+ The correct answer is:","[('No', 0.1539839655160904), ('It cannot be said', 0.19771933555603027), ('Yes', 0.6482967138290405)]","[('No', 0.002155640162527561), ('It cannot be said', 0.9854394793510437), ('Yes', 0.0124048525467515)]",Yes,It cannot be said
+60,"Subsequently, the Office of Management and Budget and OPM developed criteria that recognized the importance of creating a performance culture that appraises and rewards employees based on their contributions to organizational goals as a key dimension of effective human capital management.",Did they act together?,"['Yes', 'It cannot be said', 'No']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Subsequently, the Office of Management and Budget and OPM developed criteria that recognized the importance of creating a performance culture that appraises and rewards employees based on their contributions to organizational goals as a key dimension of effective human capital management.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. It cannot be said
+3. No
+ The correct answer is:","[('Yes', 0.23752710223197937), ('It cannot be said', 0.34559985995292664), ('No', 0.416873037815094)]","[('Yes', 0.014943664893507957), ('It cannot be said', 0.984158992767334), ('No', 0.0008974368683993816)]",No,It cannot be said
+61,Red and Slim found the two strange little animals the morning after they heard the thunder sounds.,Did they act together?,"['Yes', 'It cannot be said', 'No']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Red and Slim found the two strange little animals the morning after they heard the thunder sounds.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. It cannot be said
+3. No
+ The correct answer is:","[('Yes', 0.22639411687850952), ('It cannot be said', 0.3506460189819336), ('No', 0.4229598641395569)]","[('Yes', 0.014915818348526955), ('It cannot be said', 0.9823250770568848), ('No', 0.002759148832410574)]",No,It cannot be said
+62,Adrin and San'doro arrived.,Did they act together?,"['It cannot be said', 'Yes', 'No']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Adrin and San'doro arrived.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. Yes
+3. No
+ The correct answer is:","[('It cannot be said', 0.17764994502067566), ('Yes', 0.5472003817558289), ('No', 0.2751496434211731)]","[('It cannot be said', 0.9899222254753113), ('Yes', 0.009116868488490582), ('No', 0.000960910867433995)]",Yes,It cannot be said
+63,Both Glenridding and Patterdale offer boat rentals.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Both Glenridding and Patterdale offer boat rentals.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.2585151195526123), ('Yes', 0.48296982049942017), ('It cannot be said', 0.2585151195526123)]","[('No', 0.013883352279663086), ('Yes', 0.042763736099004745), ('It cannot be said', 0.9433528780937195)]",Yes,It cannot be said
+64,Nye and Drew jumped up to ease him into a seat.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Nye and Drew jumped up to ease him into a seat.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2960455119609833), ('No', 0.458524227142334), ('It cannot be said', 0.2454303503036499)]","[('Yes', 0.02433195523917675), ('No', 0.003731426317244768), ('It cannot be said', 0.9719365835189819)]",No,It cannot be said
+65,Tommy and Julius gave the history of the last week and their futile search.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Tommy and Julius gave the history of the last week and their futile search.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.22721977531909943), ('No', 0.48102426528930664), ('It cannot be said', 0.2917559742927551)]","[('Yes', 0.011662046425044537), ('No', 0.0021572615951299667), ('It cannot be said', 0.9861807227134705)]",No,It cannot be said
+66,Glassman and Hassett write in to say I have misrepresented their argument.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Glassman and Hassett write in to say I have misrepresented their argument.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2524433434009552), ('No', 0.44305184483528137), ('It cannot be said', 0.30450478196144104)]","[('Yes', 0.015312980860471725), ('No', 0.007233339827507734), ('It cannot be said', 0.9774536490440369)]",No,It cannot be said
+67,Thorn and Vrenna hiked to the top of the bluff during the day.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Thorn and Vrenna hiked to the top of the bluff during the day.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.31290414929389954), ('No', 0.42768925428390503), ('It cannot be said', 0.2594066560268402)]","[('Yes', 0.011666348204016685), ('No', 0.0017890925519168377), ('It cannot be said', 0.9865445494651794)]",No,It cannot be said
+68,Vernell and Pamela visited Dahmer's apartment often.,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Vernell and Pamela visited Dahmer's apartment often.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.1331794410943985), ('No', 0.34008562564849854), ('Yes', 0.5267348885536194)]","[('It cannot be said', 0.9807329177856445), ('No', 0.009032237343490124), ('Yes', 0.010234867222607136)]",Yes,It cannot be said
+69,Vrenna and Thorn walked down from the path of the bluff.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Vrenna and Thorn walked down from the path of the bluff.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.26262855529785156), ('No', 0.49065473675727844), ('It cannot be said', 0.2467166930437088)]","[('Yes', 0.010964659042656422), ('No', 0.002028257818892598), ('It cannot be said', 0.9870071411132812)]",No,It cannot be said
+70,"The two Ulster earls, O'Neill and O'Donnell went into exile on the Continent, along with many other Irish lords",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The two Ulster earls, O'Neill and O'Donnell went into exile on the Continent, along with many other Irish lords
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.27067500352859497), ('No', 0.47504937648773193), ('It cannot be said', 0.2542756199836731)]","[('Yes', 0.02146470546722412), ('No', 0.006968569476157427), ('It cannot be said', 0.9715667366981506)]",No,It cannot be said
+71,"The two Ulster earls, O'Neill and O'Donnell went into exile on the Continent.",Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The two Ulster earls, O'Neill and O'Donnell went into exile on the Continent.
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.11939892917871475), ('No', 0.34549224376678467), ('Yes', 0.5351088643074036)]","[('It cannot be said', 0.9622441530227661), ('No', 0.012112866155803204), ('Yes', 0.025642937049269676)]",Yes,It cannot be said
+72,German and Koch adopted three sisters from Costa Rica.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: German and Koch adopted three sisters from Costa Rica.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2831884026527405), ('No', 0.46689873933792114), ('It cannot be said', 0.24991290271282196)]","[('Yes', 0.03298446908593178), ('No', 0.0030680338386446238), ('It cannot be said', 0.9639475345611572)]",No,It cannot be said
+73,Bergen and Hudson nixed the plan last month.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Bergen and Hudson nixed the plan last month.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.20908358693122864), ('No', 0.5683481097221375), ('It cannot be said', 0.2225683182477951)]","[('Yes', 0.041889920830726624), ('No', 0.004699918441474438), ('It cannot be said', 0.9534101486206055)]",No,It cannot be said
+74,Chloe and Liam cooked a delicious meal.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Chloe and Liam cooked a delicious meal.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.29582852125167847), ('No', 0.4877387583255768), ('It cannot be said', 0.21643276512622833)]","[('Yes', 0.011667613871395588), ('No', 0.0016808791551738977), ('It cannot be said', 0.9866515398025513)]",No,It cannot be said
+75,Lily and Ethan sailed across the open sea.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Lily and Ethan sailed across the open sea.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.25070589780807495), ('No', 0.4985882043838501), ('It cannot be said', 0.25070589780807495)]","[('Yes', 0.02030905708670616), ('No', 0.001145758549682796), ('It cannot be said', 0.9785451889038086)]",No,It cannot be said
+76,Sophia and Mason captured breathtaking photographs of wildlife,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Sophia and Mason captured breathtaking photographs of wildlife
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.1434929072856903), ('No', 0.3233662545681), ('Yes', 0.5331408381462097)]","[('It cannot be said', 0.9783438444137573), ('No', 0.004822831135243177), ('Yes', 0.016833335161209106)]",Yes,It cannot be said
+77,Lily and Ethan devoured a delicious meal at their favorite restaurant.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Lily and Ethan devoured a delicious meal at their favorite restaurant.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.30923447012901306), ('No', 0.4499334990978241), ('It cannot be said', 0.24083206057548523)]","[('Yes', 0.016822533681988716), ('No', 0.00546147720888257), ('It cannot be said', 0.9777160286903381)]",No,It cannot be said
+78,Grace and Henry watched a captivating movie at the cinema.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Grace and Henry watched a captivating movie at the cinema.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2790113687515259), ('No', 0.4896801710128784), ('It cannot be said', 0.23130853474140167)]","[('Yes', 0.007568978704512119), ('No', 0.0010904147056862712), ('It cannot be said', 0.9913405776023865)]",No,It cannot be said
+79,Emily and Samuel immersed themselves in studying ancient history and archaeology.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Emily and Samuel immersed themselves in studying ancient history and archaeology.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.19437435269355774), ('Yes', 0.5987151861190796), ('It cannot be said', 0.20691044628620148)]","[('No', 0.0027769687585532665), ('Yes', 0.008553666062653065), ('It cannot be said', 0.9886693358421326)]",Yes,It cannot be said
+80,"Lily and Oliver ventured on a culinary tour, tasting diverse cuisines along the way.",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Lily and Oliver ventured on a culinary tour, tasting diverse cuisines along the way.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2960455119609833), ('No', 0.458524227142334), ('It cannot be said', 0.2454303503036499)]","[('Yes', 0.019060691818594933), ('No', 0.003312251763418317), ('It cannot be said', 0.9776270389556885)]",No,It cannot be said
+81,Ava and Benjamin drank freshly brewed coffee,Did they act together?,"['It cannot be said', 'No', 'Yes']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Ava and Benjamin drank freshly brewed coffee
+Question: Did they act together?
+Choices:
+
+1. It cannot be said
+2. No
+3. Yes
+ The correct answer is:","[('It cannot be said', 0.12445119023323059), ('No', 0.3177972733974457), ('Yes', 0.5577515363693237)]","[('It cannot be said', 0.9898518919944763), ('No', 0.001584161538630724), ('Yes', 0.008563896641135216)]",Yes,It cannot be said
+82,"Seven months later, T-Boz and Chilli released the group's fourth album 3D",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Seven months later, T-Boz and Chilli released the group's fourth album 3D
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.27675342559814453), ('No', 0.4286440908908844), ('It cannot be said', 0.29460248351097107)]","[('Yes', 0.02216131053864956), ('No', 0.005603257101029158), ('It cannot be said', 0.9722354412078857)]",No,It cannot be said
+83,"Philips and Jeremy Garelick rewrote the script to include a tiger as well as a subplot involving a baby and a police cruiser, and also including boxer Mike Tyson .",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Philips and Jeremy Garelick rewrote the script to include a tiger as well as a subplot involving a baby and a police cruiser, and also including boxer Mike Tyson .
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.24083206057548523), ('No', 0.4499334990978241), ('It cannot be said', 0.30923447012901306)]","[('Yes', 0.10557276755571365), ('No', 0.06403312087059021), ('It cannot be said', 0.8303940892219543)]",No,It cannot be said
+84,Italy and Bulgaria went to war in 1915.,Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Italy and Bulgaria went to war in 1915.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.24289530515670776), ('Yes', 0.5142093896865845), ('It cannot be said', 0.24289530515670776)]","[('No', 0.004817600827664137), ('Yes', 0.017899559810757637), ('It cannot be said', 0.9772828221321106)]",Yes,It cannot be said
+85,"From the late 15th century, Europeans and Arabs took slaves from West , Central and Southeast Africa overseas in the African slave trade.",Did they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: From the late 15th century, Europeans and Arabs took slaves from West , Central and Southeast Africa overseas in the African slave trade.
+Question: Did they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.24289530515670776), ('Yes', 0.5142093896865845), ('It cannot be said', 0.24289530515670776)]","[('No', 0.004001567605882883), ('Yes', 0.01684722676873207), ('It cannot be said', 0.9791512489318848)]",Yes,It cannot be said
+86,"Le Pera and Gardel died in an airplane crash in Medellín , (Colombia), on June 24, 1935.",Did they die together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Le Pera and Gardel died in an airplane crash in Medellín , (Colombia), on June 24, 1935.
+Question: Did they die together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.2618110477924347), ('No', 0.45949265360832214), ('It cannot be said', 0.2786963880062103)]","[('Yes', 0.21174681186676025), ('No', 0.09396207332611084), ('It cannot be said', 0.6942910552024841)]",No,It cannot be said
+87,"In 60 BC, Caesar, Crassus and Pompey formed a political alliance that was to dominate Roman politics for several years.",Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: In 60 BC, Caesar, Crassus and Pompey formed a political alliance that was to dominate Roman politics for several years.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.31022772192955017), ('No', 0.39834028482437134), ('It cannot be said', 0.2914319932460785)]","[('Yes', 0.05942612886428833), ('No', 0.010992729105055332), ('It cannot be said', 0.9295811057090759)]",No,It cannot be said
+88,Myers and Briggs extrapolated their MBTI theory from Jung's writings in his book Psychological Types.,Did they act together?,"['Yes', 'No', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Myers and Briggs extrapolated their MBTI theory from Jung's writings in his book Psychological Types.
+Question: Did they act together?
+Choices:
+
+1. Yes
+2. No
+3. It cannot be said
+ The correct answer is:","[('Yes', 0.1933012306690216), ('No', 0.5254471898078918), ('It cannot be said', 0.2812516391277313)]","[('Yes', 0.044314607977867126), ('No', 0.008197377435863018), ('It cannot be said', 0.947488009929657)]",No,It cannot be said
+89,"Maine and Nebraska use the congressional district method, selecting one elector within each congressional district by popular vote and selecting the remaining two electors by a statewide popular vote.",Do they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Maine and Nebraska use the congressional district method, selecting one elector within each congressional district by popular vote and selecting the remaining two electors by a statewide popular vote.
+Question: Do they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.2914324402809143), ('Yes', 0.4513793885707855), ('It cannot be said', 0.25718823075294495)]","[('No', 0.0020236815325915813), ('Yes', 0.013196061365306377), ('It cannot be said', 0.9847801923751831)]",Yes,It cannot be said
+90,The Soviet Union and Russia launched monkeys between 1983 and 1996.,Do they act together?,"['No', 'Yes', 'It cannot be said']",,[1],"Task: I'll give you a target sentence and three options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: The Soviet Union and Russia launched monkeys between 1983 and 1996.
+Question: Do they act together?
+Choices:
+
+1. No
+2. Yes
+3. It cannot be said
+ The correct answer is:","[('No', 0.22404597699642181), ('Yes', 0.5374583601951599), ('It cannot be said', 0.23849570751190186)]","[('No', 0.014096969738602638), ('Yes', 0.028035171329975128), ('It cannot be said', 0.9578678607940674)]",Yes,It cannot be said
