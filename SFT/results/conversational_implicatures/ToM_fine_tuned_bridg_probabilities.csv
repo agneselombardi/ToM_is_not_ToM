@@ -1,0 +1,801 @@
+ID,Context utterance,Completions,Human answer,Correct Answer,Prompt,choices_prob,sentences_prob,choice_win,Generated Text
+1,"Kyle doesn't wear leg warmers to bed, while Logan almost always does.","['Logan is more likely to live in a colder climate', 'Logan is more likely to live in a warmer climate', 'Kyle and Logan are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Kyle doesn't wear leg warmers to bed, while Logan almost always does.
+
+Choices:
+
+1. Logan is more likely to live in a colder climate
+2. Logan is more likely to live in a warmer climate
+3. Kyle and Logan are good friends
+ The correct answer is:","[('Logan is more likely to live in a colder climate', 0.3077552914619446), ('Logan is more likely to live in a warmer climate', 0.2715930938720703), ('Kyle and Logan are good friends', 0.4206515848636627)]","[('Logan is more likely to live in a colder climate', 0.38331639766693115), ('Logan is more likely to live in a warmer climate', 0.29389888048171997), ('Kyle and Logan are good friends', 0.32278475165367126)]",Kyle and Logan are good friends,Logan is more likely to live in a colder climate
+2,The GPS and map helped me navigate home.,"['I got lost when the GPS got turned off.', 'I got lost when the GPS got turned upside down.', 'GPS are better than maps']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The GPS and map helped me navigate home.
+
+Choices:
+
+1. I got lost when the GPS got turned off.
+2. I got lost when the GPS got turned upside down.
+3. GPS are better than maps
+ The correct answer is:","[('I got lost when the GPS got turned off.', 0.3077552914619446), ('I got lost when the GPS got turned upside down.', 0.2715930938720703), ('GPS are better than maps', 0.4206515848636627)]","[('I got lost when the GPS got turned off.', 0.6783121228218079), ('I got lost when the GPS got turned upside down.', 0.2740628719329834), ('GPS are better than maps', 0.04762498661875725)]",GPS are better than maps,I got lost when the GPS got turned off.
+3,She remembered how annoying it is to dust her wood chair so she bought a plastic table instead.,"['Cleaning the plastic is quick.', 'Cleaning the plastic is time consuming.', ""The wooden chairs don't match the plastic table""]",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: She remembered how annoying it is to dust her wood chair so she bought a plastic table instead.
+
+Choices:
+
+1. Cleaning the plastic is quick.
+2. Cleaning the plastic is time consuming.
+3. The wooden chairs don't match the plastic table
+ The correct answer is:","[('Cleaning the plastic is quick.', 0.6095105409622192), ('Cleaning the plastic is time consuming.', 0.3262474834918976), (""The wooden chairs don't match the plastic table"", 0.0642419382929802)]","[('Cleaning the plastic is quick.', 0.054169781506061554), ('Cleaning the plastic is time consuming.', 0.2210465371608734), (""The wooden chairs don't match the plastic table"", 0.7247836589813232)]",Cleaning the plastic is quick.,The wooden chairs don't match the plastic table
+4,Megan has a lot less money than Jessica.,"['Jessica just bought the winning lottery ticket.', 'Megan just bought the winning lottery ticket.', 'Megan and Jessica are good friends.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Megan has a lot less money than Jessica.
+
+Choices:
+
+1. Jessica just bought the winning lottery ticket.
+2. Megan just bought the winning lottery ticket.
+3. Megan and Jessica are good friends.
+ The correct answer is:","[('Jessica just bought the winning lottery ticket.', 0.21194155514240265), ('Megan just bought the winning lottery ticket.', 0.21194155514240265), ('Megan and Jessica are good friends.', 0.5761168599128723)]","[('Jessica just bought the winning lottery ticket.', 0.4353550374507904), ('Megan just bought the winning lottery ticket.', 0.3087129592895508), ('Megan and Jessica are good friends.', 0.2559320032596588)]",Megan and Jessica are good friends.,Jessica just bought the winning lottery ticket.
+5,The geese prefer to nest in the fields rather than the forests.,"['In the fields predators are very visible.', 'In the fields predators are more hidden.', 'The fields and the forests have the same amount of predators.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The geese prefer to nest in the fields rather than the forests.
+
+Choices:
+
+1. In the fields predators are very visible.
+2. In the fields predators are more hidden.
+3. The fields and the forests have the same amount of predators.
+ The correct answer is:","[('In the fields predators are very visible.', 0.3005141019821167), ('In the fields predators are more hidden.', 0.465445339679718), ('The fields and the forests have the same amount of predators.', 0.23404061794281006)]","[('In the fields predators are very visible.', 0.026913996785879135), ('In the fields predators are more hidden.', 0.05352487415075302), ('The fields and the forests have the same amount of predators.', 0.9195610880851746)]",In the fields predators are more hidden.,The fields and the forests have the same amount of predators.
+6,The plant took up too much room in the urn.,"['The plant was large.', 'The plant was small.', 'The urn was large']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The plant took up too much room in the urn.
+
+Choices:
+
+1. The plant was large.
+2. The plant was small.
+3. The urn was large
+ The correct answer is:","[('The plant was large.', 0.303922176361084), ('The plant was small.', 0.5333999991416931), ('The urn was large', 0.1626778095960617)]","[('The plant was large.', 0.20095649361610413), ('The plant was small.', 0.4973720908164978), ('The urn was large', 0.30167141556739807)]",The plant was small.,The plant was small.
+7,Megan said it would be liberating to go out without makeup like Elena does.,"['Elena never wore makeup when she left the house.', 'Elena always wore makeup when she left the house.', 'Elena and Megare are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Megan said it would be liberating to go out without makeup like Elena does.
+
+Choices:
+
+1. Elena never wore makeup when she left the house.
+2. Elena always wore makeup when she left the house.
+3. Elena and Megare are good friends
+ The correct answer is:","[('Elena never wore makeup when she left the house.', 0.32946112751960754), ('Elena always wore makeup when she left the house.', 0.27313289046287537), ('Elena and Megare are good friends', 0.3974060118198395)]","[('Elena never wore makeup when she left the house.', 0.42264360189437866), ('Elena always wore makeup when she left the house.', 0.5599117875099182), ('Elena and Megare are good friends', 0.017444584518671036)]",Elena and Megare are good friends,Elena always wore makeup when she left the house.
+8,Donald was richer than Leslie was.,"['Companies had found oil on the property of Donald', 'Companies had found oil on the property of Leslie', 'Donald and Leslie are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Donald was richer than Leslie was.
+
+Choices:
+
+1. Companies had found oil on the property of Donald
+2. Companies had found oil on the property of Leslie
+3. Donald and Leslie are good friends
+ The correct answer is:","[('Companies had found oil on the property of Donald', 0.4338427484035492), ('Companies had found oil on the property of Leslie', 0.1323145627975464), ('Donald and Leslie are good friends', 0.4338427484035492)]","[('Companies had found oil on the property of Donald', 0.15915419161319733), ('Companies had found oil on the property of Leslie', 0.14951153099536896), ('Donald and Leslie are good friends', 0.6913343071937561)]",Companies had found oil on the property of Donald,Donald and Leslie are good friends
+9,"Feeling a draft, William asked Neil to please close the front door.","['Neil was closer', 'Neil was farther away.', 'William was closer']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Feeling a draft, William asked Neil to please close the front door.
+
+Choices:
+
+1. Neil was closer
+2. Neil was farther away.
+3. William was closer
+ The correct answer is:","[('Neil was closer', 0.286806583404541), ('Neil was farther away.', 0.20983217656612396), ('William was closer', 0.5033612251281738)]","[('Neil was closer', 0.024714931845664978), ('Neil was farther away.', 0.8712313771247864), ('William was closer', 0.10405375063419342)]",William was closer,Neil was farther away.
+10,"When buying a home, Patricia doesn't have as much money to spend as Tanya","['Patricia buys a 1 bedroom house.', 'Patricia buys a 5 bedroom house.', 'Patricia and Tanya are good friends.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: When buying a home, Patricia doesn't have as much money to spend as Tanya
+
+Choices:
+
+1. Patricia buys a 1 bedroom house.
+2. Patricia buys a 5 bedroom house.
+3. Patricia and Tanya are good friends.
+ The correct answer is:","[('Patricia buys a 1 bedroom house.', 0.27067500352859497), ('Patricia buys a 5 bedroom house.', 0.2542756199836731), ('Patricia and Tanya are good friends.', 0.47504937648773193)]","[('Patricia buys a 1 bedroom house.', 0.1454111933708191), ('Patricia buys a 5 bedroom house.', 0.19263853132724762), ('Patricia and Tanya are good friends.', 0.6619503498077393)]",Patricia and Tanya are good friends.,Patricia and Tanya are good friends.
+11,"Elena had a horrendous coughing fit from the pollen, unlike Tanya","['Tanya was immune to allergies.', 'Tanya was susceptible to allergies.', 'Elena and Tanya are good friends.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Elena had a horrendous coughing fit from the pollen, unlike Tanya
+
+Choices:
+
+1. Tanya was immune to allergies.
+2. Tanya was susceptible to allergies.
+3. Elena and Tanya are good friends.
+ The correct answer is:","[('Tanya was immune to allergies.', 0.34647127985954285), ('Tanya was susceptible to allergies.', 0.5712345838546753), ('Elena and Tanya are good friends.', 0.08229415118694305)]","[('Tanya was immune to allergies.', 0.3652511537075043), ('Tanya was susceptible to allergies.', 0.3223330080509186), ('Elena and Tanya are good friends.', 0.31241586804389954)]",Tanya was susceptible to allergies.,Tanya was immune to allergies.
+12,Rebecca picked up Amy to carpool to work every day,"['Rebecca asked for some gas money.', 'Rebecca offered some gas money..', 'Rebecca and Amy love their jobs.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Rebecca picked up Amy to carpool to work every day
+
+Choices:
+
+1. Rebecca asked for some gas money.
+2. Rebecca offered some gas money..
+3. Rebecca and Amy love their jobs.
+ The correct answer is:","[('Rebecca asked for some gas money.', 0.26441946625709534), ('Rebecca offered some gas money..', 0.4359540045261383), ('Rebecca and Amy love their jobs.', 0.29962652921676636)]","[('Rebecca asked for some gas money.', 0.09205010533332825), ('Rebecca offered some gas money..', 0.006879755295813084), ('Rebecca and Amy love their jobs.', 0.9010701179504395)]",Rebecca offered some gas money..,Rebecca and Amy love their jobs.
+13,Joseph had to have well manicured nails for work,"['Joseph worked at a bank.', 'Joseph worked at a farm.', 'Joseph loves his work.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Joseph had to have well manicured nails for work
+
+Choices:
+
+1. Joseph worked at a bank.
+2. Joseph worked at a farm.
+3. Joseph loves his work.
+ The correct answer is:","[('Joseph worked at a bank.', 0.4959526062011719), ('Joseph worked at a farm.', 0.1177990660071373), ('Joseph loves his work.', 0.38624829053878784)]","[('Joseph worked at a bank.', 0.7769176363945007), ('Joseph worked at a farm.', 0.14371532201766968), ('Joseph loves his work.', 0.07936713099479675)]",Joseph worked at a bank.,Joseph worked at a bank.
+14,"While out playing golf, Dennis fell in the mud.","['Dennis had slippery shoes on.', 'Dennis had spiked shoes on.', 'Dennis loves playing golf.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: While out playing golf, Dennis fell in the mud.
+
+Choices:
+
+1. Dennis had slippery shoes on.
+2. Dennis had spiked shoes on.
+3. Dennis loves playing golf.
+ The correct answer is:","[('Dennis had slippery shoes on.', 0.51157546043396), ('Dennis had spiked shoes on.', 0.11414791643619537), ('Dennis loves playing golf.', 0.37427660822868347)]","[('Dennis had slippery shoes on.', 0.3500900864601135), ('Dennis had spiked shoes on.', 0.2406131476163864), ('Dennis loves playing golf.', 0.40929678082466125)]",Dennis had slippery shoes on.,Dennis loves playing golf.
+15,Jessica thought Sandstorm was the greatest song ever written.,"['She bought a ticket to the Darude rave.', 'She bought a ticket to the jazz concert.', 'Jessica likes music.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Jessica thought Sandstorm was the greatest song ever written.
+
+Choices:
+
+1. She bought a ticket to the Darude rave.
+2. She bought a ticket to the jazz concert.
+3. Jessica likes music.
+ The correct answer is:","[('She bought a ticket to the Darude rave.', 0.21965549886226654), ('She bought a ticket to the jazz concert.', 0.10375791788101196), ('Jessica likes music.', 0.6765865683555603)]","[('She bought a ticket to the Darude rave.', 0.1905105859041214), ('She bought a ticket to the jazz concert.', 0.7774021625518799), ('Jessica likes music.', 0.03208721801638603)]",Jessica likes music.,She bought a ticket to the jazz concert.
+16,There was more shade in the yard of Christine than there was in the yard of Victoria.,"['Christine had more plants.', 'Christine had less plants.', 'Christine and Victoria are good friends.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: There was more shade in the yard of Christine than there was in the yard of Victoria.
+
+Choices:
+
+1. Christine had more plants.
+2. Christine had less plants.
+3. Christine and Victoria are good friends.
+ The correct answer is:","[('Christine had more plants.', 0.38848385214805603), ('Christine had less plants.', 0.4686009883880615), ('Christine and Victoria are good friends.', 0.14291523396968842)]","[('Christine had more plants.', 0.05668286979198456), ('Christine had less plants.', 0.02850193716585636), ('Christine and Victoria are good friends.', 0.9148151874542236)]",Christine had less plants.,Christine and Victoria are good friends.
+17,Kyle loves chocolate and candy,"['Kyle loves sweet foods.', 'Kyle loves sour foods.', 'Kyle loves food.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Kyle loves chocolate and candy
+
+Choices:
+
+1. Kyle loves sweet foods.
+2. Kyle loves sour foods.
+3. Kyle loves food.
+ The correct answer is:","[('Kyle loves sweet foods.', 0.7306790947914124), ('Kyle loves sour foods.', 0.05997779220342636), ('Kyle loves food.', 0.2093430757522583)]","[('Kyle loves sweet foods.', 0.1724110096693039), ('Kyle loves sour foods.', 0.40086764097213745), ('Kyle loves food.', 0.42672136425971985)]",Kyle loves sweet foods.,Kyle loves food.
+18,"The lawsuit bankrupted the company, causing Megan to be let go from their job","['She felt depressed and hopeless.', 'She felt relieved and elated.', 'Megan loved her job.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The lawsuit bankrupted the company, causing Megan to be let go from their job
+
+Choices:
+
+1. She felt depressed and hopeless.
+2. She felt relieved and elated.
+3. Megan loved her job.
+ The correct answer is:","[('She felt depressed and hopeless.', 0.21336759626865387), ('She felt relieved and elated.', 0.6572184562683105), ('Megan loved her job.', 0.12941399216651917)]","[('She felt depressed and hopeless.', 0.4345189332962036), ('She felt relieved and elated.', 0.36022883653640747), ('Megan loved her job.', 0.20525220036506653)]",She felt relieved and elated.,She felt depressed and hopeless.
+19,They opted not to go to the dance but to the movie instead,"['The cinema seemed like a proper destination for their date.', 'The disco seemed like a proper destination for their date.', 'The movie seemed like an inappropriate destination for their date.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: They opted not to go to the dance but to the movie instead
+
+Choices:
+
+1. The cinema seemed like a proper destination for their date.
+2. The disco seemed like a proper destination for their date.
+3. The movie seemed like an inappropriate destination for their date.
+ The correct answer is:","[('The cinema seemed like a proper destination for their date.', 0.28101566433906555), ('The disco seemed like a proper destination for their date.', 0.16011790931224823), ('The movie seemed like an inappropriate destination for their date.', 0.5588663816452026)]","[('The cinema seemed like a proper destination for their date.', 0.472280889749527), ('The disco seemed like a proper destination for their date.', 0.2031254917383194), ('The movie seemed like an inappropriate destination for their date.', 0.32459360361099243)]",The movie seemed like an inappropriate destination for their date.,The cinema seemed like a proper destination for their date.
+20,Jason ha negato la richiesta di passaporto di Ian ,"['Jason did not provide the correct paperwork in time.', 'Jason provided the correct paperwork in time.', 'Jason and Ian are good friends.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Jason ha negato la richiesta di passaporto di Ian 
+
+Choices:
+
+1. Jason did not provide the correct paperwork in time.
+2. Jason provided the correct paperwork in time.
+3. Jason and Ian are good friends.
+ The correct answer is:","[('Jason did not provide the correct paperwork in time.', 0.13892072439193726), ('Jason provided the correct paperwork in time.', 0.7994335293769836), ('Jason and Ian are good friends.', 0.06164569407701492)]","[('Jason did not provide the correct paperwork in time.', 0.27700096368789673), ('Jason provided the correct paperwork in time.', 0.0987677276134491), ('Jason and Ian are good friends.', 0.6242312788963318)]",Jason provided the correct paperwork in time.,Jason and Ian are good friends.
+21,Kyle thought the temperature was too warm,"['He turned the heat down.', 'He turned the heat up.', 'Kyle wore a sweater.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Kyle thought the temperature was too warm
+
+Choices:
+
+1. He turned the heat down.
+2. He turned the heat up.
+3. Kyle wore a sweater.
+ The correct answer is:","[('He turned the heat down.', 0.2666138708591461), ('He turned the heat up.', 0.2352858930826187), ('Kyle wore a sweater.', 0.49810025095939636)]","[('He turned the heat down.', 0.13274213671684265), ('He turned the heat up.', 0.10337967425584793), ('Kyle wore a sweater.', 0.7638782262802124)]",Kyle wore a sweater.,Kyle wore a sweater.
+22,"Cricket is a favorite past time of Lindsey, while Rachel has never heard of it.","['Lindsey is more likely to be British.', 'Lindsey is more likely to be American.', 'Lindsay and Rachel are good friends.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Cricket is a favorite past time of Lindsey, while Rachel has never heard of it.
+
+Choices:
+
+1. Lindsey is more likely to be British.
+2. Lindsey is more likely to be American.
+3. Lindsay and Rachel are good friends.
+ The correct answer is:","[('Lindsey is more likely to be British.', 0.4313822388648987), ('Lindsey is more likely to be American.', 0.4888201355934143), ('Lindsay and Rachel are good friends.', 0.07979769259691238)]","[('Lindsey is more likely to be British.', 0.2107933610677719), ('Lindsey is more likely to be American.', 0.1980220377445221), ('Lindsay and Rachel are good friends.', 0.5911846160888672)]",Lindsey is more likely to be American.,Lindsay and Rachel are good friends.
+23,Megan enjoyed summer,"['She spent much time at the beach.', 'She spent much time indoors.', 'Megan hated winter']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Megan enjoyed summer
+
+Choices:
+
+1. She spent much time at the beach.
+2. She spent much time indoors.
+3. Megan hated winter
+ The correct answer is:","[('She spent much time at the beach.', 0.7597948908805847), ('She spent much time indoors.', 0.1695331633090973), ('Megan hated winter', 0.0706719383597374)]","[('She spent much time at the beach.', 0.9246776103973389), ('She spent much time indoors.', 0.057293955236673355), ('Megan hated winter', 0.018028343096375465)]",She spent much time at the beach.,She spent much time at the beach.
+24,Matthew offered to help write a fitness plan for Christopher,"['Christofer was out of shape.', 'Christofer was a personal trainer.', 'Christofer hates the gim']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Matthew offered to help write a fitness plan for Christopher
+
+Choices:
+
+1. Christofer was out of shape.
+2. Christofer was a personal trainer.
+3. Christofer hates the gim
+ The correct answer is:","[('Christofer was out of shape.', 0.27675342559814453), ('Christofer was a personal trainer.', 0.4286440908908844), ('Christofer hates the gim', 0.29460248351097107)]","[('Christofer was out of shape.', 0.35972610116004944), ('Christofer was a personal trainer.', 0.5930880904197693), ('Christofer hates the gim', 0.04718579351902008)]",Christofer was a personal trainer.,Christofer was a personal trainer.
+25,"Avid bookworms, Lawrence read fiction while Jason read non-fiction","['Lawrence liked to escape into an imaginary world.', 'Lawrence struggled to escape into an imaginary world.', 'Lawrence and Jason are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Avid bookworms, Lawrence read fiction while Jason read non-fiction
+
+Choices:
+
+1. Lawrence liked to escape into an imaginary world.
+2. Lawrence struggled to escape into an imaginary world.
+3. Lawrence and Jason are good friends
+ The correct answer is:","[('Lawrence liked to escape into an imaginary world.', 0.44753798842430115), ('Lawrence struggled to escape into an imaginary world.', 0.3274258077144623), ('Lawrence and Jason are good friends', 0.22503623366355896)]","[('Lawrence liked to escape into an imaginary world.', 0.2355201244354248), ('Lawrence struggled to escape into an imaginary world.', 0.13419532775878906), ('Lawrence and Jason are good friends', 0.6302845478057861)]",Lawrence liked to escape into an imaginary world.,Lawrence and Jason are good friends
+26,Donald didn't like to keep clean the way Matthew did,"['Matthew tended to smell nice.', 'Matthew tended to smell nasty.', 'Donald and Matthew are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Donald didn't like to keep clean the way Matthew did
+
+Choices:
+
+1. Matthew tended to smell nice.
+2. Matthew tended to smell nasty.
+3. Donald and Matthew are good friends
+ The correct answer is:","[('Matthew tended to smell nice.', 0.32274162769317627), ('Matthew tended to smell nasty.', 0.23612283170223236), ('Donald and Matthew are good friends', 0.4411354959011078)]","[('Matthew tended to smell nice.', 0.29747873544692993), ('Matthew tended to smell nasty.', 0.18042996525764465), ('Donald and Matthew are good friends', 0.5220913887023926)]",Donald and Matthew are good friends,Donald and Matthew are good friends
+27,Jessica often experiences severe nausea,"['She might be pregnant.', 'She often rides big roller coasters.', 'She is healthy']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Jessica often experiences severe nausea
+
+Choices:
+
+1. She might be pregnant.
+2. She often rides big roller coasters.
+3. She is healthy
+ The correct answer is:","[('She might be pregnant.', 0.2663077116012573), ('She often rides big roller coasters.', 0.2663077116012573), ('She is healthy', 0.46738457679748535)]","[('She might be pregnant.', 0.5675329566001892), ('She often rides big roller coasters.', 0.4283963441848755), ('She is healthy', 0.00407063402235508)]",She is healthy,She might be pregnant.
+28,Jason was going to a job interview after being prepped by Logan.,"['Logan was proud.', 'Logan was grateful.', 'Jason and Logan are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Jason was going to a job interview after being prepped by Logan.
+
+Choices:
+
+1. Logan was proud.
+2. Logan was grateful.
+3. Jason and Logan are good friends
+ The correct answer is:","[('Logan was proud.', 0.1850912719964981), ('Logan was grateful.', 0.12721124291419983), ('Jason and Logan are good friends', 0.6876974701881409)]","[('Logan was proud.', 0.02586854062974453), ('Logan was grateful.', 0.09029007703065872), ('Jason and Logan are good friends', 0.883841335773468)]",Jason and Logan are good friends,Jason and Logan are good friends
+29,Mary had a better body and was more of a showoff than Emily.,"['Mary loves wearing bikinis to the beach.', 'Mary hates wearing bikinis to the beach.', 'Mary and Emmily are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Mary had a better body and was more of a showoff than Emily.
+
+Choices:
+
+1. Mary loves wearing bikinis to the beach.
+2. Mary hates wearing bikinis to the beach.
+3. Mary and Emmily are good friends
+ The correct answer is:","[('Mary loves wearing bikinis to the beach.', 0.3836517333984375), ('Mary hates wearing bikinis to the beach.', 0.3836517333984375), ('Mary and Emmily are good friends', 0.2326965481042862)]","[('Mary loves wearing bikinis to the beach.', 0.515752911567688), ('Mary hates wearing bikinis to the beach.', 0.4551503360271454), ('Mary and Emmily are good friends', 0.02909678779542446)]",Mary loves wearing bikinis to the beach.,Mary loves wearing bikinis to the beach.
+30,Ben had to stop driving his car or motorcycle.,"['He chose to stop the motorcycle because it was risky.', 'He chose to stop the car because it was risky.', 'Ben loves driving']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Ben had to stop driving his car or motorcycle.
+
+Choices:
+
+1. He chose to stop the motorcycle because it was risky.
+2. He chose to stop the car because it was risky.
+3. Ben loves driving
+ The correct answer is:","[('He chose to stop the motorcycle because it was risky.', 0.2831884026527405), ('He chose to stop the car because it was risky.', 0.24991290271282196), ('Ben loves driving', 0.46689873933792114)]","[('He chose to stop the motorcycle because it was risky.', 0.37810081243515015), ('He chose to stop the car because it was risky.', 0.5856139659881592), ('Ben loves driving', 0.03628522902727127)]",Ben loves driving,He chose to stop the car because it was risky.
+31,Kayla decided to talk to her daughter Sarah about puberty.,"['Kayla found out she had just gotten her first period.', 'Kayla said she had just gotten her first period.', 'Kayla and Sarah are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Kayla decided to talk to her daughter Sarah about puberty.
+
+Choices:
+
+1. Kayla found out she had just gotten her first period.
+2. Kayla said she had just gotten her first period.
+3. Kayla and Sarah are good friends
+ The correct answer is:","[('Kayla found out she had just gotten her first period.', 0.31790000200271606), ('Kayla said she had just gotten her first period.', 0.3834606111049652), ('Kayla and Sarah are good friends', 0.2986394166946411)]","[('Kayla found out she had just gotten her first period.', 0.38445553183555603), ('Kayla said she had just gotten her first period.', 0.4784626364707947), ('Kayla and Sarah are good friends', 0.13708184659481049)]",Kayla said she had just gotten her first period.,Kayla said she had just gotten her first period.
+32,"Dennis liked pop music, but Jason preferred classical music.","['Jason liked music with string instruments.', 'Jason liked music you can dance to.', 'Dennsi and Jason are good friends']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Dennis liked pop music, but Jason preferred classical music.
+
+Choices:
+
+1. Jason liked music with string instruments.
+2. Jason liked music you can dance to.
+3. Dennsi and Jason are good friends
+ The correct answer is:","[('Jason liked music with string instruments.', 0.3127303719520569), ('Jason liked music you can dance to.', 0.3328997492790222), ('Dennsi and Jason are good friends', 0.3543699383735657)]","[('Jason liked music with string instruments.', 0.30318278074264526), ('Jason liked music you can dance to.', 0.5664199590682983), ('Dennsi and Jason are good friends', 0.1303972750902176)]",Dennsi and Jason are good friends,Jason liked music you can dance to.
+33,Katrina loves the taste of lettuce.,"['Katrina ordered a big salad for dinner.', 'Katrina ordered a meat steak for dinner.', 'Katrina loves eating']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Katrina loves the taste of lettuce.
+
+Choices:
+
+1. Katrina ordered a big salad for dinner.
+2. Katrina ordered a meat steak for dinner.
+3. Katrina loves eating
+ The correct answer is:","[('Katrina ordered a big salad for dinner.', 0.7914544343948364), ('Katrina ordered a meat steak for dinner.', 0.09452575445175171), ('Katrina loves eating', 0.11401982605457306)]","[('Katrina ordered a big salad for dinner.', 0.6275618672370911), ('Katrina ordered a meat steak for dinner.', 0.3359096646308899), ('Katrina loves eating', 0.03652847930788994)]",Katrina ordered a big salad for dinner.,Katrina ordered a big salad for dinner.
+34,Kevin found running the marathon easier than Dennis.,"['Kevin managed to stop smoking.', 'Kevin had repeatedly meant to stop smoking.', 'Kevin and Dennis are good friends.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Kevin found running the marathon easier than Dennis.
+
+Choices:
+
+1. Kevin managed to stop smoking.
+2. Kevin had repeatedly meant to stop smoking.
+3. Kevin and Dennis are good friends.
+ The correct answer is:","[('Kevin managed to stop smoking.', 0.26090207695961), ('Kevin had repeatedly meant to stop smoking.', 0.33500489592552185), ('Kevin and Dennis are good friends.', 0.40409305691719055)]","[('Kevin managed to stop smoking.', 0.07485069334506989), ('Kevin had repeatedly meant to stop smoking.', 0.041336480528116226), ('Kevin and Dennis are good friends.', 0.8838128447532654)]",Kevin and Dennis are good friends.,Kevin and Dennis are good friends.
+35,Emily was having difficulty going through puberty,"['Emily had very strong acne causing hormones.', 'Emily had very weak acne causing hormones.', 'Emily was enjoying puberty.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Emily was having difficulty going through puberty
+
+Choices:
+
+1. Emily had very strong acne causing hormones.
+2. Emily had very weak acne causing hormones.
+3. Emily was enjoying puberty.
+ The correct answer is:","[('Emily had very strong acne causing hormones.', 0.2739078402519226), ('Emily had very weak acne causing hormones.', 0.37438759207725525), ('Emily was enjoying puberty.', 0.35170459747314453)]","[('Emily had very strong acne causing hormones.', 0.38994693756103516), ('Emily had very weak acne causing hormones.', 0.2765137851238251), ('Emily was enjoying puberty.', 0.33353927731513977)]",Emily had very weak acne causing hormones.,Emily had very strong acne causing hormones.
+36,"In some places around China,the junior high school graduates have to take a P. E. test","['The full marks are usually 30 points.', 'The students play a lot of sports.', 'There many places around China.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: In some places around China,the junior high school graduates have to take a P. E. test
+
+Choices:
+
+1. The full marks are usually 30 points.
+2. The students play a lot of sports.
+3. There many places around China.
+ The correct answer is:","[('The full marks are usually 30 points.', 0.2786959409713745), ('The students play a lot of sports.', 0.405500203371048), ('There many places around China.', 0.3158038854598999)]","[('The full marks are usually 30 points.', 0.2150605022907257), ('The students play a lot of sports.', 0.5000306367874146), ('There many places around China.', 0.28490889072418213)]",The students play a lot of sports.,The students play a lot of sports.
+37,Some people do not eat some kinds of meat.,"['Muslims do not eat pork.', 'Muslims eat all kinds of meat.', 'Italians do not eat pork.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Some people do not eat some kinds of meat.
+
+Choices:
+
+1. Muslims do not eat pork.
+2. Muslims eat all kinds of meat.
+3. Italians do not eat pork.
+ The correct answer is:","[('Muslims do not eat pork.', 0.4513793885707855), ('Muslims eat all kinds of meat.', 0.2914324402809143), ('Italians do not eat pork.', 0.25718823075294495)]","[('Muslims do not eat pork.', 0.5864574909210205), ('Muslims eat all kinds of meat.', 0.22609950602054596), ('Italians do not eat pork.', 0.1874430775642395)]",Muslims do not eat pork.,Muslims do not eat pork.
+38,Japanese eat lots of fish.,"['They are near the sea.', 'They are far from the sea.', 'They are close to the mountains.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Japanese eat lots of fish.
+
+Choices:
+
+1. They are near the sea.
+2. They are far from the sea.
+3. They are close to the mountains.
+ The correct answer is:","[('They are near the sea.', 0.5186607837677002), ('They are far from the sea.', 0.4299848675727844), ('They are close to the mountains.', 0.05135437473654747)]","[('They are near the sea.', 0.18810155987739563), ('They are far from the sea.', 0.5113130211830139), ('They are close to the mountains.', 0.30058538913726807)]",They are near the sea.,They are far from the sea.
+39,My friends like different clothes. Sue likes red clothes.,"['She is often in a red skirt and red shoes.', 'She is in a white shirt.', 'She likes to wear a green skirt.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: My friends like different clothes. Sue likes red clothes.
+
+Choices:
+
+1. She is often in a red skirt and red shoes.
+2. She is in a white shirt.
+3. She likes to wear a green skirt.
+ The correct answer is:","[('She is often in a red skirt and red shoes.', 0.6517783999443054), ('She is in a white shirt.', 0.21160146594047546), ('She likes to wear a green skirt.', 0.1366201788187027)]","[('She is often in a red skirt and red shoes.', 0.4552765190601349), ('She is in a white shirt.', 0.22188405692577362), ('She likes to wear a green skirt.', 0.3228394091129303)]",She is often in a red skirt and red shoes.,She is often in a red skirt and red shoes.
+40,"A student can know a lot about English, but maybe  he can't speak English. If you want to know how to   swim, you must get into the river.And if you want to be a football player, you must play football.","['You can learn English only by  using it.', 'Learning English is difficult', 'Lerning English is like playing sport']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: A student can know a lot about English, but maybe  he can't speak English. If you want to know how to   swim, you must get into the river.And if you want to be a football player, you must play football.
+
+Choices:
+
+1. You can learn English only by  using it.
+2. Learning English is difficult
+3. Lerning English is like playing sport
+ The correct answer is:","[('You can learn English only by  using it.', 0.405500203371048), ('Learning English is difficult', 0.3158038854598999), ('Lerning English is like playing sport', 0.2786959409713745)]","[('You can learn English only by  using it.', 0.648297131061554), ('Learning English is difficult', 0.2240455001592636), ('Lerning English is like playing sport', 0.12765727937221527)]",You can learn English only by  using it.,You can learn English only by  using it.
+41,Sarah organized the books,"['The shelves were dusty', 'The house was dusty', 'The school was closed']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Sarah organized the books
+
+Choices:
+
+1. The shelves were dusty
+2. The house was dusty
+3. The school was closed
+ The correct answer is:","[('The shelves were dusty', 0.2914319932460785), ('The house was dusty', 0.39834028482437134), ('The school was closed', 0.31022772192955017)]","[('The shelves were dusty', 0.683131754398346), ('The house was dusty', 0.06555816531181335), ('The school was closed', 0.2513101398944855)]",The house was dusty,The shelves were dusty
+42,David washed the car.,"['The windows were sparkling.', 'The house was sparkling', 'The motorcycle was sparkling']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: David washed the car.
+
+Choices:
+
+1. The windows were sparkling.
+2. The house was sparkling
+3. The motorcycle was sparkling
+ The correct answer is:","[('The windows were sparkling.', 0.5486599802970886), ('The house was sparkling', 0.31261706352233887), ('The motorcycle was sparkling', 0.1387229710817337)]","[('The windows were sparkling.', 0.8899053931236267), ('The house was sparkling', 0.09379533678293228), ('The motorcycle was sparkling', 0.016299186274409294)]",The windows were sparkling.,The windows were sparkling.
+43,Michael painted the wall. ,"['The color was vibrant.', 'The wall was painted', 'Michael loved painting']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Michael painted the wall. 
+
+Choices:
+
+1. The color was vibrant.
+2. The wall was painted
+3. Michael loved painting
+ The correct answer is:","[('The color was vibrant.', 0.2739078402519226), ('The wall was painted', 0.37438759207725525), ('Michael loved painting', 0.35170459747314453)]","[('The color was vibrant.', 0.32006141543388367), ('The wall was painted', 0.6775700449943542), ('Michael loved painting', 0.0023685144260525703)]",The wall was painted,The wall was painted
+44,A young man woke up one morning under a bridge and checked his pocket.,"['All he had left was less than ten dollars.', 'All he had left was less than 1000 dollars.', 'It was a sunny day']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: A young man woke up one morning under a bridge and checked his pocket.
+
+Choices:
+
+1. All he had left was less than ten dollars.
+2. All he had left was less than 1000 dollars.
+3. It was a sunny day
+ The correct answer is:","[('All he had left was less than ten dollars.', 0.2914319932460785), ('All he had left was less than 1000 dollars.', 0.39834028482437134), ('It was a sunny day', 0.31022772192955017)]","[('All he had left was less than ten dollars.', 0.15521711111068726), ('All he had left was less than 1000 dollars.', 0.24040494859218597), ('It was a sunny day', 0.6043779850006104)]",All he had left was less than 1000 dollars.,It was a sunny day
+45,John lives on a farm.,"['His parents grow rice and corn.', 'Every morning, he goes to the beach', 'His parents are fisherman']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: John lives on a farm.
+
+Choices:
+
+1. His parents grow rice and corn.
+2. Every morning, he goes to the beach
+3. His parents are fisherman
+ The correct answer is:","[('His parents grow rice and corn.', 0.31916776299476624), ('Every morning, he goes to the beach', 0.36166447401046753), ('His parents are fisherman', 0.31916776299476624)]","[('His parents grow rice and corn.', 0.13422106206417084), ('Every morning, he goes to the beach', 0.8222036957740784), ('His parents are fisherman', 0.04357520118355751)]","Every morning, he goes to the beach","Every morning, he goes to the beach"
+46,It's the doll that my sister loved most and wanted so much for Christmas.,"['She was so sure that Santa Claus would bring it to her.', 'She was so sure that Santa Claus would bring a peluche to her.', 'She was looking forward to Easter.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: It's the doll that my sister loved most and wanted so much for Christmas.
+
+Choices:
+
+1. She was so sure that Santa Claus would bring it to her.
+2. She was so sure that Santa Claus would bring a peluche to her.
+3. She was looking forward to Easter.
+ The correct answer is:","[('She was so sure that Santa Claus would bring it to her.', 0.5779504776000977), ('She was so sure that Santa Claus would bring a peluche to her.', 0.2564639747142792), ('She was looking forward to Easter.', 0.16558559238910675)]","[('She was so sure that Santa Claus would bring it to her.', 0.8346978425979614), ('She was so sure that Santa Claus would bring a peluche to her.', 0.14504873752593994), ('She was looking forward to Easter.', 0.020253341645002365)]",She was so sure that Santa Claus would bring it to her.,She was so sure that Santa Claus would bring it to her.
+47,It is not easy for people to sail around the world in quite small boats.,"['Accidents can happen easily and quickly.', 'Accidents are infrequent.', 'Wider boats can accomodate more people.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: It is not easy for people to sail around the world in quite small boats.
+
+Choices:
+
+1. Accidents can happen easily and quickly.
+2. Accidents are infrequent.
+3. Wider boats can accomodate more people.
+ The correct answer is:","[('Accidents can happen easily and quickly.', 0.20671342313289642), ('Accidents are infrequent.', 0.5278612375259399), ('Wider boats can accomodate more people.', 0.26542529463768005)]","[('Accidents can happen easily and quickly.', 0.48112186789512634), ('Accidents are infrequent.', 0.10735280066728592), ('Wider boats can accomodate more people.', 0.41152533888816833)]",Accidents are infrequent.,Accidents can happen easily and quickly.
+48,"After a quick breakfast, I went into the lecture  hall in a hurry.","['A famous teacher was speaking to the students.', 'A famous musician was playing the guitar', 'The lecture hall is beautiful.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: After a quick breakfast, I went into the lecture  hall in a hurry.
+
+Choices:
+
+1. A famous teacher was speaking to the students.
+2. A famous musician was playing the guitar
+3. The lecture hall is beautiful.
+ The correct answer is:","[('A famous teacher was speaking to the students.', 0.4499334990978241), ('A famous musician was playing the guitar', 0.24083206057548523), ('The lecture hall is beautiful.', 0.30923447012901306)]","[('A famous teacher was speaking to the students.', 0.09334204345941544), ('A famous musician was playing the guitar', 0.14916016161441803), ('The lecture hall is beautiful.', 0.7574977874755859)]",A famous teacher was speaking to the students.,The lecture hall is beautiful.
+49,The farmland needed irrigation.,"['A canal was constructed', 'A flood occurred.', 'A new granary was built']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The farmland needed irrigation.
+
+Choices:
+
+1. A canal was constructed
+2. A flood occurred.
+3. A new granary was built
+ The correct answer is:","[('A canal was constructed', 0.5218896269798279), ('A flood occurred.', 0.23158711194992065), ('A new granary was built', 0.2465232014656067)]","[('A canal was constructed', 0.525730311870575), ('A flood occurred.', 0.02458873577415943), ('A new granary was built', 0.44968095421791077)]",A canal was constructed,A canal was constructed
+50, The patient was dehydrated.,"['The nurse gave him an IV.', 'The nurse tested his reflexes.', 'The nurse discharged him']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence:  The patient was dehydrated.
+
+Choices:
+
+1. The nurse gave him an IV.
+2. The nurse tested his reflexes.
+3. The nurse discharged him
+ The correct answer is:","[('The nurse gave him an IV.', 0.44881537556648254), ('The nurse tested his reflexes.', 0.3960781693458557), ('The nurse discharged him', 0.15510645508766174)]","[('The nurse gave him an IV.', 0.5996133685112), ('The nurse tested his reflexes.', 0.3871394991874695), ('The nurse discharged him', 0.01324718538671732)]",The nurse gave him an IV.,The nurse gave him an IV.
+51,The papers were disorganized.,"['I put them into alphabetical order.', 'I made photocopies of them.', 'I collected them in a book']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The papers were disorganized.
+
+Choices:
+
+1. I put them into alphabetical order.
+2. I made photocopies of them.
+3. I collected them in a book
+ The correct answer is:","[('I put them into alphabetical order.', 0.3127303719520569), ('I made photocopies of them.', 0.3543699383735657), ('I collected them in a book', 0.3328997492790222)]","[('I put them into alphabetical order.', 0.2826928496360779), ('I made photocopies of them.', 0.45174187421798706), ('I collected them in a book', 0.26556533575057983)]",I made photocopies of them.,I made photocopies of them.
+52,The woman won the lottery.,"['She bought a yacht.', 'She joined a church.', 'She bought a pack of gum']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The woman won the lottery.
+
+Choices:
+
+1. She bought a yacht.
+2. She joined a church.
+3. She bought a pack of gum
+ The correct answer is:","[('She bought a yacht.', 0.3274258077144623), ('She joined a church.', 0.22503623366355896), ('She bought a pack of gum', 0.44753798842430115)]","[('She bought a yacht.', 0.1930881291627884), ('She joined a church.', 0.06672947108745575), ('She bought a pack of gum', 0.7401823997497559)]",She bought a pack of gum,She bought a pack of gum
+53,The bird couldn't fly.,"['It injured its wing.', 'It migrated for the winter.', 'It built a nest']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The bird couldn't fly.
+
+Choices:
+
+1. It injured its wing.
+2. It migrated for the winter.
+3. It built a nest
+ The correct answer is:","[('It injured its wing.', 0.45278382301330566), ('It migrated for the winter.', 0.4253510534763336), ('It built a nest', 0.12186511605978012)]","[('It injured its wing.', 0.7101709842681885), ('It migrated for the winter.', 0.1584605723619461), ('It built a nest', 0.13136842846870422)]",It injured its wing.,It injured its wing.
+54,The nurse prepared the needle for the patient's injection.,"['The patient bled', 'The patient tensed up.', 'The patient was discharged']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The nurse prepared the needle for the patient's injection.
+
+Choices:
+
+1. The patient bled
+2. The patient tensed up.
+3. The patient was discharged
+ The correct answer is:","[('The patient bled', 0.27987152338027954), ('The patient tensed up.', 0.33758947253227234), ('The patient was discharged', 0.3825390040874481)]","[('The patient bled', 0.1321832537651062), ('The patient tensed up.', 0.8354238867759705), ('The patient was discharged', 0.03239290043711662)]",The patient was discharged,The patient tensed up.
+55,My stomach growled,"['I forgot to eat breakfast.', 'I was full from breakfast.', 'I love to eat']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: My stomach growled
+
+Choices:
+
+1. I forgot to eat breakfast.
+2. I was full from breakfast.
+3. I love to eat
+ The correct answer is:","[('I forgot to eat breakfast.', 0.40409305691719055), ('I was full from breakfast.', 0.26090207695961), ('I love to eat', 0.33500489592552185)]","[('I forgot to eat breakfast.', 0.6359446048736572), ('I was full from breakfast.', 0.10711054503917694), ('I love to eat', 0.25694483518600464)]",I forgot to eat breakfast.,I forgot to eat breakfast.
+56,The man removed his coat.,"['He entered the house.', 'He loosened his tie.', 'The coat was ugly']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The man removed his coat.
+
+Choices:
+
+1. He entered the house.
+2. He loosened his tie.
+3. The coat was ugly
+ The correct answer is:","[('He entered the house.', 0.21563534438610077), ('He loosened his tie.', 0.3555225729942322), ('The coat was ugly', 0.42884209752082825)]","[('He entered the house.', 0.34332942962646484), ('He loosened his tie.', 0.4548375904560089), ('The coat was ugly', 0.20183296501636505)]",The coat was ugly,He loosened his tie.
+57,The bar closed,"['It was 3 AM.', 'It was crowded.', 'It was a beautiful bar']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The bar closed
+
+Choices:
+
+1. It was 3 AM.
+2. It was crowded.
+3. It was a beautiful bar
+ The correct answer is:","[('It was 3 AM.', 0.28571540117263794), ('It was crowded.', 0.32375794649124146), ('It was a beautiful bar', 0.3905266523361206)]","[('It was 3 AM.', 0.5307289361953735), ('It was crowded.', 0.1045067235827446), ('It was a beautiful bar', 0.3647643029689789)]",It was a beautiful bar,It was 3 AM.
+58,The pharmaceutical company recalled the drug.,"['Users reported dangerous side effects.', 'Users got refills on their prescriptions.', 'The pharmaceutical company had made a lot of gains']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The pharmaceutical company recalled the drug.
+
+Choices:
+
+1. Users reported dangerous side effects.
+2. Users got refills on their prescriptions.
+3. The pharmaceutical company had made a lot of gains
+ The correct answer is:","[('Users reported dangerous side effects.', 0.3687960207462311), ('Users got refills on their prescriptions.', 0.30574262142181396), ('The pharmaceutical company had made a lot of gains', 0.32546132802963257)]","[('Users reported dangerous side effects.', 0.31499889492988586), ('Users got refills on their prescriptions.', 0.48787984251976013), ('The pharmaceutical company had made a lot of gains', 0.1971212774515152)]",Users reported dangerous side effects.,Users got refills on their prescriptions.
+59,I moved to a new city.,"['I found a better-paying job.', 'My son was born.', 'I had three children']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: I moved to a new city.
+
+Choices:
+
+1. I found a better-paying job.
+2. My son was born.
+3. I had three children
+ The correct answer is:","[('I found a better-paying job.', 0.24724788963794708), ('My son was born.', 0.5931168794631958), ('I had three children', 0.1596352458000183)]","[('I found a better-paying job.', 0.800288736820221), ('My son was born.', 0.19611918926239014), ('I had three children', 0.0035920480731874704)]",My son was born.,I found a better-paying job.
+60,The fans in the stadium cheered.,"['The player scored.', 'The game ended in a tie.', 'A player is injured.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The fans in the stadium cheered.
+
+Choices:
+
+1. The player scored.
+2. The game ended in a tie.
+3. A player is injured.
+ The correct answer is:","[('The player scored.', 0.5683481097221375), ('The game ended in a tie.', 0.2225683182477951), ('A player is injured.', 0.20908358693122864)]","[('The player scored.', 0.0031961831264197826), ('The game ended in a tie.', 0.9886420369148254), ('A player is injured.', 0.008161739446222782)]",The player scored.,The game ended in a tie.
+61,The trip took a long time.,"['The driver made a wrong turn.', 'The driver talked the whole way.', 'The trip was pleasant.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The trip took a long time.
+
+Choices:
+
+1. The driver made a wrong turn.
+2. The driver talked the whole way.
+3. The trip was pleasant.
+ The correct answer is:","[('The driver made a wrong turn.', 0.1596352458000183), ('The driver talked the whole way.', 0.24724788963794708), ('The trip was pleasant.', 0.5931168794631958)]","[('The driver made a wrong turn.', 0.40577566623687744), ('The driver talked the whole way.', 0.05665897578001022), ('The trip was pleasant.', 0.5375654101371765)]",The trip was pleasant.,The trip was pleasant.
+62,A burglar broke into the house.,"['The security alarm went off.', 'The security alarm did not go off.', 'The homeowners were having dinner.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: A burglar broke into the house.
+
+Choices:
+
+1. The security alarm went off.
+2. The security alarm did not go off.
+3. The homeowners were having dinner.
+ The correct answer is:","[('The security alarm went off.', 0.3371894061565399), ('The security alarm did not go off.', 0.522249162197113), ('The homeowners were having dinner.', 0.14056146144866943)]","[('The security alarm went off.', 0.223831444978714), ('The security alarm did not go off.', 0.7572120428085327), ('The homeowners were having dinner.', 0.01895643211901188)]",The security alarm did not go off.,The security alarm did not go off.
+63,The mirror in the bathroom fogged up.,"['The girl turned on the fan.', 'The girl applied her makeup.', 'The girl bought a new mirror.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The mirror in the bathroom fogged up.
+
+Choices:
+
+1. The girl turned on the fan.
+2. The girl applied her makeup.
+3. The girl bought a new mirror.
+ The correct answer is:","[('The girl turned on the fan.', 0.4910148084163666), ('The girl applied her makeup.', 0.35923412442207336), ('The girl bought a new mirror.', 0.14975106716156006)]","[('The girl turned on the fan.', 0.6728924512863159), ('The girl applied her makeup.', 0.05523437634110451), ('The girl bought a new mirror.', 0.2718731164932251)]",The girl turned on the fan.,The girl turned on the fan.
+64,The driver rotated the steering wheel.,"['The car turned.', 'The car halted.', 'The car accelerated.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The driver rotated the steering wheel.
+
+Choices:
+
+1. The car turned.
+2. The car halted.
+3. The car accelerated.
+ The correct answer is:","[('The car turned.', 0.6148271560668945), ('The car halted.', 0.25629809498786926), ('The car accelerated.', 0.1288747787475586)]","[('The car turned.', 0.14140117168426514), ('The car halted.', 0.29934629797935486), ('The car accelerated.', 0.5592525005340576)]",The car turned.,The car accelerated.
+65,The woman covered her ears.,"['The fire alarm blared.', 'There was a smell of smoke.', 'It was very hot.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The woman covered her ears.
+
+Choices:
+
+1. The fire alarm blared.
+2. There was a smell of smoke.
+3. It was very hot.
+ The correct answer is:","[('The fire alarm blared.', 0.3405275046825409), ('There was a smell of smoke.', 0.465445876121521), ('It was very hot.', 0.19402670860290527)]","[('The fire alarm blared.', 0.4565577805042267), ('There was a smell of smoke.', 0.3905145525932312), ('It was very hot.', 0.1529276967048645)]",There was a smell of smoke.,The fire alarm blared.
+66,My car was towed.,"['I parked illegally.', 'I jumped the battery.', 'I parked legally']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: My car was towed.
+
+Choices:
+
+1. I parked illegally.
+2. I jumped the battery.
+3. I parked legally
+ The correct answer is:","[('I parked illegally.', 0.2426069974899292), ('I jumped the battery.', 0.4257885217666626), ('I parked legally', 0.3316044211387634)]","[('I parked illegally.', 0.20595267415046692), ('I jumped the battery.', 0.7894972562789917), ('I parked legally', 0.0045500872656702995)]",I jumped the battery.,I jumped the battery.
+67,The boy climbed the tree.,"['A cat got stuck', 'A bird built a nest', 'The tree had many dry branches']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The boy climbed the tree.
+
+Choices:
+
+1. A cat got stuck
+2. A bird built a nest
+3. The tree had many dry branches
+ The correct answer is:","[('A cat got stuck', 0.20908358693122864), ('A bird built a nest', 0.2225683182477951), ('The tree had many dry branches', 0.5683481097221375)]","[('A cat got stuck', 0.04375101625919342), ('A bird built a nest', 0.3133324682712555), ('The tree had many dry branches', 0.6429165005683899)]",The tree had many dry branches,The tree had many dry branches
+68,The father shut off the television.,"['It was bedtime for the children.', 'The children were watching cartoons.', 'The television was broken']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The father shut off the television.
+
+Choices:
+
+1. It was bedtime for the children.
+2. The children were watching cartoons.
+3. The television was broken
+ The correct answer is:","[('It was bedtime for the children.', 0.37575656175613403), ('The children were watching cartoons.', 0.33160400390625), ('The television was broken', 0.29263949394226074)]","[('It was bedtime for the children.', 0.5996586084365845), ('The children were watching cartoons.', 0.25790995359420776), ('The television was broken', 0.14243140816688538)]",It was bedtime for the children.,It was bedtime for the children.
+69,The boat capsized.,"['It was caught in a hurricane.', 'The captain raised the sail.', 'The sea was calm']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The boat capsized.
+
+Choices:
+
+1. It was caught in a hurricane.
+2. The captain raised the sail.
+3. The sea was calm
+ The correct answer is:","[('It was caught in a hurricane.', 0.21872307360172272), ('The captain raised the sail.', 0.3182401955127716), ('The sea was calm', 0.46303674578666687)]","[('It was caught in a hurricane.', 0.5959083437919617), ('The captain raised the sail.', 0.23336105048656464), ('The sea was calm', 0.1707306057214737)]",The sea was calm,It was caught in a hurricane.
+70,A crater formed on the moon.,"['A comet passed by.', 'A comet collided.', 'The moon was beautiful']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: A crater formed on the moon.
+
+Choices:
+
+1. A comet passed by.
+2. A comet collided.
+3. The moon was beautiful
+ The correct answer is:","[('A comet passed by.', 0.32122793793678284), ('A comet collided.', 0.41246482729911804), ('The moon was beautiful', 0.2663073241710663)]","[('A comet passed by.', 0.8238867521286011), ('A comet collided.', 0.03734814003109932), ('The moon was beautiful', 0.13876517117023468)]",A comet collided.,A comet passed by.
+71,The bureau drawers were cluttered.,"['I threw away unnecessary contents.', 'I locked the drawers shut.', 'I added other clothes']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The bureau drawers were cluttered.
+
+Choices:
+
+1. I threw away unnecessary contents.
+2. I locked the drawers shut.
+3. I added other clothes
+ The correct answer is:","[('I threw away unnecessary contents.', 0.5062783360481262), ('I locked the drawers shut.', 0.23914894461631775), ('I added other clothes', 0.2545727491378784)]","[('I threw away unnecessary contents.', 0.17253969609737396), ('I locked the drawers shut.', 0.8231408596038818), ('I added other clothes', 0.004319446627050638)]",I threw away unnecessary contents.,I locked the drawers shut.
+72,The flight got delayed.,"['Tornadoes were sighted in the area.', 'I was held up at airport security.', 'There was a very good weather for flying']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The flight got delayed.
+
+Choices:
+
+1. Tornadoes were sighted in the area.
+2. I was held up at airport security.
+3. There was a very good weather for flying
+ The correct answer is:","[('Tornadoes were sighted in the area.', 0.1827039271593094), ('I was held up at airport security.', 0.32065537571907043), ('There was a very good weather for flying', 0.49664074182510376)]","[('Tornadoes were sighted in the area.', 0.2962656617164612), ('I was held up at airport security.', 0.35736462473869324), ('There was a very good weather for flying', 0.3463696539402008)]",There was a very good weather for flying,I was held up at airport security.
+73,The smoke alarm went off.,"['I burnt my dinner.', 'I lit a candle.', 'The batteries were dead']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The smoke alarm went off.
+
+Choices:
+
+1. I burnt my dinner.
+2. I lit a candle.
+3. The batteries were dead
+ The correct answer is:","[('I burnt my dinner.', 0.21872307360172272), ('I lit a candle.', 0.3182401955127716), ('The batteries were dead', 0.46303674578666687)]","[('I burnt my dinner.', 0.011998001486063004), ('I lit a candle.', 0.2906849682331085), ('The batteries were dead', 0.6973170042037964)]",The batteries were dead,The batteries were dead
+74,The vase broke.,"['I glued it back together.', 'I stenciled it.', 'I put it on the library']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The vase broke.
+
+Choices:
+
+1. I glued it back together.
+2. I stenciled it.
+3. I put it on the library
+ The correct answer is:","[('I glued it back together.', 0.3825390338897705), ('I stenciled it.', 0.3375895023345947), ('I put it on the library', 0.27987155318260193)]","[('I glued it back together.', 0.8889747262001038), ('I stenciled it.', 0.04860949143767357), ('I put it on the library', 0.062415823340415955)]",I glued it back together.,I glued it back together.
+75,The company lost money.,"['Some products were manufactured defectively.', 'The products received positive consumer reviews.', 'All the products have been sold']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The company lost money.
+
+Choices:
+
+1. Some products were manufactured defectively.
+2. The products received positive consumer reviews.
+3. All the products have been sold
+ The correct answer is:","[('Some products were manufactured defectively.', 0.5004663467407227), ('The products received positive consumer reviews.', 0.3035481870174408), ('All the products have been sold', 0.19598543643951416)]","[('Some products were manufactured defectively.', 0.06590870022773743), ('The products received positive consumer reviews.', 0.7310782074928284), ('All the products have been sold', 0.203013077378273)]",Some products were manufactured defectively.,The products received positive consumer reviews.
+76,The team lost the game.,"['The best player was injured.', 'Their coach pumped them up.', 'The best player scored ten points']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The team lost the game.
+
+Choices:
+
+1. The best player was injured.
+2. Their coach pumped them up.
+3. The best player scored ten points
+ The correct answer is:","[('The best player was injured.', 0.2352858930826187), ('Their coach pumped them up.', 0.2666138708591461), ('The best player scored ten points', 0.49810025095939636)]","[('The best player was injured.', 0.5970531702041626), ('Their coach pumped them up.', 0.08336730301380157), ('The best player scored ten points', 0.319579541683197)]",The best player scored ten points,The best player was injured.
+77,The woman deleted the email,"['The sender tried to solicit money', 'The sender requested a response', 'The text was of the utmost importance']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The woman deleted the email
+
+Choices:
+
+1. The sender tried to solicit money
+2. The sender requested a response
+3. The text was of the utmost importance
+ The correct answer is:","[('The sender tried to solicit money', 0.22503623366355896), ('The sender requested a response', 0.3274258077144623), ('The text was of the utmost importance', 0.44753798842430115)]","[('The sender tried to solicit money', 0.12646818161010742), ('The sender requested a response', 0.18985122442245483), ('The text was of the utmost importance', 0.683680534362793)]",The text was of the utmost importance,The text was of the utmost importance
+78,The student's answer on the exam was incorrect.,"['The teacher subtracted points off the grade', 'The teacher added bonus points to the grade', 'The teacher gave the student full marks']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The student's answer on the exam was incorrect.
+
+Choices:
+
+1. The teacher subtracted points off the grade
+2. The teacher added bonus points to the grade
+3. The teacher gave the student full marks
+ The correct answer is:","[('The teacher subtracted points off the grade', 0.32546132802963257), ('The teacher added bonus points to the grade', 0.30574262142181396), ('The teacher gave the student full marks', 0.3687960207462311)]","[('The teacher subtracted points off the grade', 0.08065591007471085), ('The teacher added bonus points to the grade', 0.2333855926990509), ('The teacher gave the student full marks', 0.6859584450721741)]",The teacher gave the student full marks,The teacher gave the student full marks
+79,The school principal implemented a dress code,"['Students protested the decision.', 'Students were expelled from school.', 'Students could wear whatever they wanted']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The school principal implemented a dress code
+
+Choices:
+
+1. Students protested the decision.
+2. Students were expelled from school.
+3. Students could wear whatever they wanted
+ The correct answer is:","[('Students protested the decision.', 0.1995813101530075), ('Students were expelled from school.', 0.14601680636405945), ('Students could wear whatever they wanted', 0.6544018983840942)]","[('Students protested the decision.', 0.09703422337770462), ('Students were expelled from school.', 0.28969067335128784), ('Students could wear whatever they wanted', 0.6132751703262329)]",Students could wear whatever they wanted,Students could wear whatever they wanted
+80,A fistfight broke out in the hall of the school.,"['The principal suspended the students involved.', 'The principal called off classes for the day.', 'The school was a quiet place']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: A fistfight broke out in the hall of the school.
+
+Choices:
+
+1. The principal suspended the students involved.
+2. The principal called off classes for the day.
+3. The school was a quiet place
+ The correct answer is:","[('The principal suspended the students involved.', 0.346921443939209), ('The principal called off classes for the day.', 0.346921443939209), ('The school was a quiet place', 0.30615708231925964)]","[('The principal suspended the students involved.', 0.3768830895423889), ('The principal called off classes for the day.', 0.5151380896568298), ('The school was a quiet place', 0.10797880589962006)]",The principal suspended the students involved.,The principal called off classes for the day.
+81,The family postponed the barbeque.,"['The forecast called for storms.', 'It was a holiday weekend.', 'The school weather was sunny']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The family postponed the barbeque.
+
+Choices:
+
+1. The forecast called for storms.
+2. It was a holiday weekend.
+3. The school weather was sunny
+ The correct answer is:","[('The forecast called for storms.', 0.27814337611198425), ('It was a holiday weekend.', 0.5531541705131531), ('The school weather was sunny', 0.16870249807834625)]","[('The forecast called for storms.', 0.4139975309371948), ('It was a holiday weekend.', 0.5838300585746765), ('The school weather was sunny', 0.0021724593825638294)]",It was a holiday weekend.,It was a holiday weekend.
+82,The woman pressed down on the piano key.,"['A sound played.', 'The key got stuck', 'She loved the piano']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The woman pressed down on the piano key.
+
+Choices:
+
+1. A sound played.
+2. The key got stuck
+3. She loved the piano
+ The correct answer is:","[('A sound played.', 0.6848007440567017), ('The key got stuck', 0.1961987018585205), ('She loved the piano', 0.11900052428245544)]","[('A sound played.', 0.04153035581111908), ('The key got stuck', 0.783620297908783), ('She loved the piano', 0.17484933137893677)]",A sound played.,The key got stuck
+83,The vehicles travelled slowly,"['It was foggy.', 'It was cloudy.', 'It was sunny']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The vehicles travelled slowly
+
+Choices:
+
+1. It was foggy.
+2. It was cloudy.
+3. It was sunny
+ The correct answer is:","[('It was foggy.', 0.2875422239303589), ('It was cloudy.', 0.23838086426258087), ('It was sunny', 0.4740769565105438)]","[('It was foggy.', 0.8309884071350098), ('It was cloudy.', 0.11246205121278763), ('It was sunny', 0.056549470871686935)]",It was sunny,It was foggy.
+84,The clouds looked dark.,"['I brought my umbrella to work.', 'I brought my laptop to work.', 'I brought my agenda to work']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The clouds looked dark.
+
+Choices:
+
+1. I brought my umbrella to work.
+2. I brought my laptop to work.
+3. I brought my agenda to work
+ The correct answer is:","[('I brought my umbrella to work.', 0.47860726714134216), ('I brought my laptop to work.', 0.21238069236278534), ('I brought my agenda to work', 0.3090120851993561)]","[('I brought my umbrella to work.', 0.7868503332138062), ('I brought my laptop to work.', 0.19282595813274384), ('I brought my agenda to work', 0.020323706790804863)]",I brought my umbrella to work.,I brought my umbrella to work.
+85,Cars moved to the shoulder of the road.,"['A screaming ambulance approached.', 'The traffic light turned green.', 'The road was very clean.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: Cars moved to the shoulder of the road.
+
+Choices:
+
+1. A screaming ambulance approached.
+2. The traffic light turned green.
+3. The road was very clean.
+ The correct answer is:","[('A screaming ambulance approached.', 0.2674500048160553), ('The traffic light turned green.', 0.3891374468803406), ('The road was very clean.', 0.3434125781059265)]","[('A screaming ambulance approached.', 0.0044330451637506485), ('The traffic light turned green.', 0.9572712182998657), ('The road was very clean.', 0.03829566389322281)]",The traffic light turned green.,The traffic light turned green.
+86,My grandmother passed away.,"['My family held a funeral.', 'My family held a reunion.', 'My family was very happy.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: My grandmother passed away.
+
+Choices:
+
+1. My family held a funeral.
+2. My family held a reunion.
+3. My family was very happy.
+ The correct answer is:","[('My family held a funeral.', 0.7420886158943176), ('My family held a reunion.', 0.1289556622505188), ('My family was very happy.', 0.1289556622505188)]","[('My family held a funeral.', 0.4877004027366638), ('My family held a reunion.', 0.36813557147979736), ('My family was very happy.', 0.14416396617889404)]",My family held a funeral.,My family held a funeral.
+87,My mailbox was overflowing with letters.,"['I went on vacation for two weeks.', 'I stayed home for the past two weeks', 'The mailbox was red.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: My mailbox was overflowing with letters.
+
+Choices:
+
+1. I went on vacation for two weeks.
+2. I stayed home for the past two weeks
+3. The mailbox was red.
+ The correct answer is:","[('I went on vacation for two weeks.', 0.18358546495437622), ('I stayed home for the past two weeks', 0.565483033657074), ('The mailbox was red.', 0.25093159079551697)]","[('I went on vacation for two weeks.', 0.8062193393707275), ('I stayed home for the past two weeks', 0.1316116899251938), ('The mailbox was red.', 0.06216895952820778)]",I stayed home for the past two weeks,I went on vacation for two weeks.
+88,My feet were blistered,"['I went hiking.', 'I went swimming.', 'My shoe size is 37.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: My feet were blistered
+
+Choices:
+
+1. I went hiking.
+2. I went swimming.
+3. My shoe size is 37.
+ The correct answer is:","[('I went hiking.', 0.34133490920066833), ('I went swimming.', 0.22038237750530243), ('My shoe size is 37.', 0.43828269839286804)]","[('I went hiking.', 0.14480645954608917), ('I went swimming.', 0.09646189957857132), ('My shoe size is 37.', 0.7587316036224365)]",My shoe size is 37.,My shoe size is 37.
+89,The competition ended.,"['The teams shook hands.', 'The teams got pumped up.', 'The weather was sunny']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The competition ended.
+
+Choices:
+
+1. The teams shook hands.
+2. The teams got pumped up.
+3. The weather was sunny
+ The correct answer is:","[('The teams shook hands.', 0.46303674578666687), ('The teams got pumped up.', 0.3182401955127716), ('The weather was sunny', 0.21872307360172272)]","[('The teams shook hands.', 0.23484671115875244), ('The teams got pumped up.', 0.2832792103290558), ('The weather was sunny', 0.48187416791915894)]",The teams shook hands.,The weather was sunny
+90,The documents contained important information.,"['I kept them in a secure place.', 'I paper clipped them together.', 'The documents were handwritten']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The documents contained important information.
+
+Choices:
+
+1. I kept them in a secure place.
+2. I paper clipped them together.
+3. The documents were handwritten
+ The correct answer is:","[('I kept them in a secure place.', 0.3891374468803406), ('I paper clipped them together.', 0.2674500048160553), ('The documents were handwritten', 0.3434125781059265)]","[('I kept them in a secure place.', 0.3731341063976288), ('I paper clipped them together.', 0.04894454404711723), ('The documents were handwritten', 0.5779213905334473)]",I kept them in a secure place.,The documents were handwritten
+91,The ocean tide was dangerous,"['The swimmers returned towards the shore.', 'The swimmers put on more sunscreen.', 'The ocean was beautiful']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The ocean tide was dangerous
+
+Choices:
+
+1. The swimmers returned towards the shore.
+2. The swimmers put on more sunscreen.
+3. The ocean was beautiful
+ The correct answer is:","[('The swimmers returned towards the shore.', 0.5945380926132202), ('The swimmers put on more sunscreen.', 0.2808398902416229), ('The ocean was beautiful', 0.12462195008993149)]","[('The swimmers returned towards the shore.', 0.5293165445327759), ('The swimmers put on more sunscreen.', 0.22065195441246033), ('The ocean was beautiful', 0.25003141164779663)]",The swimmers returned towards the shore.,The swimmers returned towards the shore.
+92,The sun emerged from the clouds.,"['The woman took her sweater off.', 'The woman glanced at her watch.', 'The woman put her sweater on']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The sun emerged from the clouds.
+
+Choices:
+
+1. The woman took her sweater off.
+2. The woman glanced at her watch.
+3. The woman put her sweater on
+ The correct answer is:","[('The woman took her sweater off.', 0.23050564527511597), ('The woman glanced at her watch.', 0.21654000878334045), ('The woman put her sweater on', 0.5529543161392212)]","[('The woman took her sweater off.', 0.38767531514167786), ('The woman glanced at her watch.', 0.48246970772743225), ('The woman put her sweater on', 0.1298549622297287)]",The woman put her sweater on,The woman glanced at her watch.
+93,I applied pressure to the cut on my arm.,"['It stopped bleeding.', 'It healed.', 'My arm was very tanned']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: I applied pressure to the cut on my arm.
+
+Choices:
+
+1. It stopped bleeding.
+2. It healed.
+3. My arm was very tanned
+ The correct answer is:","[('It stopped bleeding.', 0.7284084558486938), ('It healed.', 0.1730121672153473), ('My arm was very tanned', 0.09857936203479767)]","[('It stopped bleeding.', 0.5343098044395447), ('It healed.', 0.0363602377474308), ('My arm was very tanned', 0.4293299913406372)]",It stopped bleeding.,It stopped bleeding.
+94,The administrator cleared her throat.,"['The meeting commenced.', 'The meeting was postponed.', 'The meeting was boring']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The administrator cleared her throat.
+
+Choices:
+
+1. The meeting commenced.
+2. The meeting was postponed.
+3. The meeting was boring
+ The correct answer is:","[('The meeting commenced.', 0.5897976160049438), ('The meeting was postponed.', 0.27860066294670105), ('The meeting was boring', 0.13160164654254913)]","[('The meeting commenced.', 0.23760990798473358), ('The meeting was postponed.', 0.7093721628189087), ('The meeting was boring', 0.053017936646938324)]",The meeting commenced.,The meeting was postponed.
+95,The car stopped at the crosswalk.,"['The pedestrian crossed the road.', 'The pedestrian waited on the sidewalk.', 'The pedestrian was scared']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The car stopped at the crosswalk.
+
+Choices:
+
+1. The pedestrian crossed the road.
+2. The pedestrian waited on the sidewalk.
+3. The pedestrian was scared
+ The correct answer is:","[('The pedestrian crossed the road.', 0.2693083584308624), ('The pedestrian waited on the sidewalk.', 0.44401440024375916), ('The pedestrian was scared', 0.2866772413253784)]","[('The pedestrian crossed the road.', 0.6241673231124878), ('The pedestrian waited on the sidewalk.', 0.372707337141037), ('The pedestrian was scared', 0.0031253413762897253)]",The pedestrian waited on the sidewalk.,The pedestrian crossed the road.
+96,My knees buckled on the stairs.,"['I caught myself on the railing.', 'The railing came loose from the wall.', 'The stairs were dirty.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: My knees buckled on the stairs.
+
+Choices:
+
+1. I caught myself on the railing.
+2. The railing came loose from the wall.
+3. The stairs were dirty.
+ The correct answer is:","[('I caught myself on the railing.', 0.6945120692253113), ('The railing came loose from the wall.', 0.19898104667663574), ('The stairs were dirty.', 0.10650687664747238)]","[('I caught myself on the railing.', 0.5634934306144714), ('The railing came loose from the wall.', 0.42534714937210083), ('The stairs were dirty.', 0.01115938276052475)]",I caught myself on the railing.,I caught myself on the railing.
+97,The DJ turned the music on.,"['People began to dance.', 'People left the party.', 'People were bored.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The DJ turned the music on.
+
+Choices:
+
+1. People began to dance.
+2. People left the party.
+3. People were bored.
+ The correct answer is:","[('People began to dance.', 0.825004518032074), ('People left the party.', 0.11885317414999008), ('People were bored.', 0.05614226311445236)]","[('People began to dance.', 0.8467278480529785), ('People left the party.', 0.13397179543972015), ('People were bored.', 0.019300468266010284)]",People began to dance.,People began to dance.
+98,The milk stayed cold.,"['I stored it in the refrigerator.', 'It was pasteurized.', 'It is important to drink milk.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The milk stayed cold.
+
+Choices:
+
+1. I stored it in the refrigerator.
+2. It was pasteurized.
+3. It is important to drink milk.
+ The correct answer is:","[('I stored it in the refrigerator.', 0.4824824035167694), ('It was pasteurized.', 0.24260738492012024), ('It is important to drink milk.', 0.27491021156311035)]","[('I stored it in the refrigerator.', 0.3682079315185547), ('It was pasteurized.', 0.5357393622398376), ('It is important to drink milk.', 0.09605277329683304)]",I stored it in the refrigerator.,It was pasteurized.
+99,The rain subsided.,"['I went for a walk.', 'I browsed the internet.', 'I like rains.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The rain subsided.
+
+Choices:
+
+1. I went for a walk.
+2. I browsed the internet.
+3. I like rains.
+ The correct answer is:","[('I went for a walk.', 0.23158711194992065), ('I browsed the internet.', 0.2465232014656067), ('I like rains.', 0.5218896269798279)]","[('I went for a walk.', 0.6552498936653137), ('I browsed the internet.', 0.31934329867362976), ('I like rains.', 0.025406794622540474)]",I like rains.,I went for a walk.
+100,The cup of tea was scalding hot.,"['I blew on it.', 'I poured it out.', 'I like tea.']",,[1],"Task: I'll give you a sentence and three options. Each option is a possible following of the first sentence. You must choose the most probable following. Answer with the number correspondent to the right option. Sentence: The cup of tea was scalding hot.
+
+Choices:
+
+1. I blew on it.
+2. I poured it out.
+3. I like tea.
+ The correct answer is:","[('I blew on it.', 0.28026509284973145), ('I poured it out.', 0.35986748337745667), ('I like tea.', 0.35986748337745667)]","[('I blew on it.', 0.19524459540843964), ('I poured it out.', 0.36476489901542664), ('I like tea.', 0.43999049067497253)]",I poured it out.,I like tea.

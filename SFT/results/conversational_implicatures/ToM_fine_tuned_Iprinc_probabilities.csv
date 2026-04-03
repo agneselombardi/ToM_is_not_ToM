@@ -1,0 +1,491 @@
+ID,Target,Context utterance,Question,Choices,Human answer,Correct Answer,Prompt,choices_prob,sentences_prob,choice_win,Generated Text
+1,They were arguing about the production. ,The assembly line needed to be adjusted right away.,Who was arguing about production?,"['The workers', 'The dancers', 'The engineers', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The assembly line needed to be adjusted right away.
+Target sentence: They were arguing about the production. 
+Question: Who was arguing about production?
+Choices:
+
+1. The workers
+2. The dancers
+3. The engineers
+4. It cannot be said
+ The correct answer is:","[('The workers', 0.2601936459541321), ('The dancers', 0.2948380410671234), ('The engineers', 0.27697470784187317), ('It cannot be said', 0.1679936647415161)]","[('The workers', 0.6684717535972595), ('The dancers', 0.0014622760936617851), ('The engineers', 0.06828869134187698), ('It cannot be said', 0.26177728176116943)]",The dancers,The workers
+2,They were arguing about the production. ,The chorus line needed to be adjusted right away.,Who was arguing about production?,"['The dancers', 'The workers', 'The engineers', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The chorus line needed to be adjusted right away.
+Target sentence: They were arguing about the production. 
+Question: Who was arguing about production?
+Choices:
+
+1. The dancers
+2. The workers
+3. The engineers
+4. It cannot be said
+ The correct answer is:","[('The dancers', 0.18736101686954498), ('The workers', 0.4784431457519531), ('The engineers', 0.2560921609401703), ('It cannot be said', 0.0781036987900734)]","[('The dancers', 0.4917447566986084), ('The workers', 0.028622977435588837), ('The engineers', 0.003016839502379298), ('It cannot be said', 0.4766153395175934)]",The workers,The dancers
+3,They were arguing about the production. ,The line needed to be adjusted right away.,Who was arguing about production?,"['The engineers', 'The workers', 'The dancers', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The line needed to be adjusted right away.
+Target sentence: They were arguing about the production. 
+Question: Who was arguing about production?
+Choices:
+
+1. The engineers
+2. The workers
+3. The dancers
+4. It cannot be said
+ The correct answer is:","[('The engineers', 0.4825146496295929), ('The workers', 0.21411457657814026), ('The dancers', 0.21411457657814026), ('It cannot be said', 0.08925623446702957)]","[('The engineers', 0.02783278003334999), ('The workers', 0.1458333432674408), ('The dancers', 0.08573100715875626), ('It cannot be said', 0.7406028509140015)]",The engineers,It cannot be said
+4,She tested the filling.,The custard was smooth and even.,Who was testing the filling?,"['The baker', 'The dentist', 'The mechanic', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The custard was smooth and even.
+Target sentence: She tested the filling.
+Question: Who was testing the filling?
+Choices:
+
+1. The baker
+2. The dentist
+3. The mechanic
+4. It cannot be said
+ The correct answer is:","[('The baker', 0.282135933637619), ('The dentist', 0.4951639473438263), ('The mechanic', 0.08083329349756241), ('It cannot be said', 0.14186684787273407)]","[('The baker', 0.1392548680305481), ('The dentist', 0.022732732817530632), ('The mechanic', 0.13081784546375275), ('It cannot be said', 0.7071945667266846)]",The dentist,It cannot be said
+5,She tested the filling.,The metal was smooth and even.,Who was testing the filling?,"['The dentist', 'The baker', 'The mechanic', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The metal was smooth and even.
+Target sentence: She tested the filling.
+Question: Who was testing the filling?
+Choices:
+
+1. The dentist
+2. The baker
+3. The mechanic
+4. It cannot be said
+ The correct answer is:","[('The dentist', 0.2885095477104187), ('The baker', 0.2885095477104187), ('The mechanic', 0.2246914654970169), ('It cannot be said', 0.19828952848911285)]","[('The dentist', 0.07267304509878159), ('The baker', 0.007659683004021645), ('The mechanic', 0.034328315407037735), ('It cannot be said', 0.8853389620780945)]",The dentist,It cannot be said
+6,She tested the filling.,The brake fluid was within the alloud limits.,Who was testing the filling?,"['The mechanic', 'The baker', 'The dentist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The brake fluid was within the alloud limits.
+Target sentence: She tested the filling.
+Question: Who was testing the filling?
+Choices:
+
+1. The mechanic
+2. The baker
+3. The dentist
+4. It cannot be said
+ The correct answer is:","[('The mechanic', 0.4812866747379303), ('The baker', 0.2576141953468323), ('The dentist', 0.16632823646068573), ('It cannot be said', 0.09477096796035767)]","[('The mechanic', 0.7778671383857727), ('The baker', 0.004625367466360331), ('The dentist', 0.0015016368124634027), ('It cannot be said', 0.21600589156150818)]",The mechanic,The mechanic
+7,He complained about the trunk.,The log was too large for just one man to move.,Who was complaining about the trunk?,"['The lumberjack', 'The bellhop', 'The architect', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The log was too large for just one man to move.
+Target sentence: He complained about the trunk.
+Question: Who was complaining about the trunk?
+Choices:
+
+1. The lumberjack
+2. The bellhop
+3. The architect
+4. It cannot be said
+ The correct answer is:","[('The lumberjack', 0.3595631718635559), ('The bellhop', 0.29808831214904785), ('The architect', 0.192460298538208), ('It cannot be said', 0.14988823235034943)]","[('The lumberjack', 0.8718261122703552), ('The bellhop', 0.009098322130739689), ('The architect', 0.0010866395896300673), ('It cannot be said', 0.11798883229494095)]",The lumberjack,The lumberjack
+8,He complained about the trunk.,The luggage was too large for just one man to move.,Who was complaining about the trunk?,"['The bellhop', 'The lumberjack', 'The architect', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The luggage was too large for just one man to move.
+Target sentence: He complained about the trunk.
+Question: Who was complaining about the trunk?
+Choices:
+
+1. The bellhop
+2. The lumberjack
+3. The architect
+4. It cannot be said
+ The correct answer is:","[('The bellhop', 0.3345314860343933), ('The lumberjack', 0.4867404103279114), ('The architect', 0.07012160867452621), ('It cannot be said', 0.10860646516084671)]","[('The bellhop', 0.1965092122554779), ('The lumberjack', 0.5866681337356567), ('The architect', 0.000999459414742887), ('It cannot be said', 0.21582314372062683)]",The lumberjack,The lumberjack
+9,He complained about the trunk.,That part of the house did not correspond to the design.,Who was complaining about the trunk?,"['The architect', 'The lumberjack', 'The bellhop', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: That part of the house did not correspond to the design.
+Target sentence: He complained about the trunk.
+Question: Who was complaining about the trunk?
+Choices:
+
+1. The architect
+2. The lumberjack
+3. The bellhop
+4. It cannot be said
+ The correct answer is:","[('The architect', 0.1800215244293213), ('The lumberjack', 0.5545053482055664), ('The bellhop', 0.1691145896911621), ('It cannot be said', 0.09635858237743378)]","[('The architect', 0.039180681109428406), ('The lumberjack', 0.32805582880973816), ('The bellhop', 0.0570075549185276), ('It cannot be said', 0.5757558941841125)]",The lumberjack,It cannot be said
+10,They were pleased with the corn,The chowder they had prepared looked hearty,Who was pleased?,"['The chefs', 'The scientists', 'The farmers', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The chowder they had prepared looked hearty
+Target sentence: They were pleased with the corn
+Question: Who was pleased?
+Choices:
+
+1. The chefs
+2. The scientists
+3. The farmers
+4. It cannot be said
+ The correct answer is:","[('The chefs', 0.43409162759780884), ('The scientists', 0.23235251009464264), ('The farmers', 0.19262699782848358), ('It cannot be said', 0.14092890918254852)]","[('The chefs', 0.031040577217936516), ('The scientists', 0.0014517870731651783), ('The farmers', 0.11532972753047943), ('It cannot be said', 0.8521778583526611)]",The chefs,It cannot be said
+11,They were pleased with the corn,The stalks they were examining looked hearty,Who was pleased?,"['The scientists', 'The chefs', 'The farmers', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The stalks they were examining looked hearty
+Target sentence: They were pleased with the corn
+Question: Who was pleased?
+Choices:
+
+1. The scientists
+2. The chefs
+3. The farmers
+4. It cannot be said
+ The correct answer is:","[('The scientists', 0.3795417249202728), ('The chefs', 0.13962559401988983), ('The farmers', 0.2776786684989929), ('It cannot be said', 0.203154057264328)]","[('The scientists', 0.025901272892951965), ('The chefs', 0.003972088918089867), ('The farmers', 0.3806164264678955), ('It cannot be said', 0.5895102620124817)]",The scientists,It cannot be said
+12,They were pleased with the corn,Their harvest that year looked hearty,Who was pleased?,"['The farmers', 'The chefs', 'The scientists', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Their harvest that year looked hearty
+Target sentence: They were pleased with the corn
+Question: Who was pleased?
+Choices:
+
+1. The farmers
+2. The chefs
+3. The scientists
+4. It cannot be said
+ The correct answer is:","[('The farmers', 0.6464924216270447), ('The chefs', 0.13551217317581177), ('The scientists', 0.174001082777977), ('It cannot be said', 0.04399435967206955)]","[('The farmers', 0.3202260434627533), ('The chefs', 0.001154915546067059), ('The scientists', 0.0007004916551522911), ('It cannot be said', 0.677918553352356)]",The farmers,It cannot be said
+13,They wondered about the tin.,The cookie container was suddenly hard to find.,Who wondered?,"['The children', 'The miners', 'The chefs', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The cookie container was suddenly hard to find.
+Target sentence: They wondered about the tin.
+Question: Who wondered?
+Choices:
+
+1. The children
+2. The miners
+3. The chefs
+4. It cannot be said
+ The correct answer is:","[('The children', 0.31507375836372375), ('The miners', 0.2959844172000885), ('The chefs', 0.23051290214061737), ('It cannot be said', 0.15842904150485992)]","[('The children', 0.12705664336681366), ('The miners', 0.0031808004714548588), ('The chefs', 0.04124924913048744), ('It cannot be said', 0.8285133242607117)]",The children,It cannot be said
+14,They wondered about the tin.,The metallic element was suddenly hard to find.,Who wondered?,"['The miners', 'The children', 'The chefs', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The metallic element was suddenly hard to find.
+Target sentence: They wondered about the tin.
+Question: Who wondered?
+Choices:
+
+1. The miners
+2. The children
+3. The chefs
+4. It cannot be said
+ The correct answer is:","[('The miners', 0.3849455416202545), ('The children', 0.2485395222902298), ('The chefs', 0.2334812730550766), ('It cannot be said', 0.1330336332321167)]","[('The miners', 0.4812462329864502), ('The children', 0.08902160823345184), ('The chefs', 0.030765041708946228), ('It cannot be said', 0.39896711707115173)]",The miners,The miners
+15,They wondered about the tin.,They couldn't find it in the pantry and they needed the tomatoes to prepare pizza for restaurant customers.,Who wondered?,"['The chefs', 'The miners', 'The children', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: They couldn't find it in the pantry and they needed the tomatoes to prepare pizza for restaurant customers.
+Target sentence: They wondered about the tin.
+Question: Who wondered?
+Choices:
+
+1. The chefs
+2. The miners
+3. The children
+4. It cannot be said
+ The correct answer is:","[('The chefs', 0.40870097279548645), ('The miners', 0.2478896677494049), ('The children', 0.15035268664360046), ('It cannot be said', 0.19305665791034698)]","[('The chefs', 0.33170902729034424), ('The miners', 0.003684954484924674), ('The children', 0.04489193484187126), ('It cannot be said', 0.6197140216827393)]",The chefs,It cannot be said
+16,They discussed the cotton.,The fabric wasn't what they were hoping for and it would take them another three months to make a new dress.,Who discussed?,"['The fashion designers', 'The farm owners', 'The customers', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The fabric wasn't what they were hoping for and it would take them another three months to make a new dress.
+Target sentence: They discussed the cotton.
+Question: Who discussed?
+Choices:
+
+1. The fashion designers
+2. The farm owners
+3. The customers
+4. It cannot be said
+ The correct answer is:","[('The fashion designers', 0.41290900111198425), ('The farm owners', 0.36439090967178345), ('The customers', 0.1183004155755043), ('It cannot be said', 0.10439974814653397)]","[('The fashion designers', 0.4937933683395386), ('The farm owners', 0.15537896752357483), ('The customers', 0.04181968793272972), ('It cannot be said', 0.30900800228118896)]",The fashion designers,The fashion designers
+17,They discussed the cotton.,The crop wasn't what they were hoping for.,Who discussed?,"['The farm owners', 'The fashion designers', 'The customers', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The crop wasn't what they were hoping for.
+Target sentence: They discussed the cotton.
+Question: Who discussed?
+Choices:
+
+1. The farm owners
+2. The fashion designers
+3. The customers
+4. It cannot be said
+ The correct answer is:","[('The farm owners', 0.4295210540294647), ('The fashion designers', 0.22990606725215912), ('The customers', 0.24473373591899872), ('It cannot be said', 0.09583910554647446)]","[('The farm owners', 0.5841552019119263), ('The fashion designers', 0.057839199900627136), ('The customers', 0.003697536187246442), ('It cannot be said', 0.35430803894996643)]",The farm owners,The farm owners
+18,They discussed the cotton.,The fabric was not what they were hoping for and they asked for a full refund of all the goods.,Who discussed?,"['The customers', 'The fashion designers', 'The farm owners', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The fabric was not what they were hoping for and they asked for a full refund of all the goods.
+Target sentence: They discussed the cotton.
+Question: Who discussed?
+Choices:
+
+1. The customers
+2. The fashion designers
+3. The farm owners
+4. It cannot be said
+ The correct answer is:","[('The customers', 0.3094939887523651), ('The fashion designers', 0.2731274962425232), ('The farm owners', 0.24103416502475739), ('It cannot be said', 0.1763443648815155)]","[('The customers', 0.03853365778923035), ('The fashion designers', 0.2847273647785187), ('The farm owners', 0.22174587845802307), ('It cannot be said', 0.45499300956726074)]",The customers,It cannot be said
+19,They were the biggest drinkers there.,All the kindergarten Kool-aid had disappeared in a flash.,Who were the biggest drinkers?,"['The toddlers', 'The fraternity members', 'The Scottish', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: All the kindergarten Kool-aid had disappeared in a flash.
+Target sentence: They were the biggest drinkers there.
+Question: Who were the biggest drinkers?
+Choices:
+
+1. The toddlers
+2. The fraternity members
+3. The Scottish
+4. It cannot be said
+ The correct answer is:","[('The toddlers', 0.2180279940366745), ('The fraternity members', 0.35946738719940186), ('The Scottish', 0.2629919648170471), ('It cannot be said', 0.1595126837491989)]","[('The toddlers', 0.016859499737620354), ('The fraternity members', 0.21863731741905212), ('The Scottish', 0.0013839120510965586), ('It cannot be said', 0.7631192207336426)]",The fraternity members,It cannot be said
+20,They were the biggest drinkers there.,All the fraternity scotch had disappeared in a flash.,Who were the biggest drinkers?,"['The fraternity members', 'The toddlers', 'The Scottish', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: All the fraternity scotch had disappeared in a flash.
+Target sentence: They were the biggest drinkers there.
+Question: Who were the biggest drinkers?
+Choices:
+
+1. The fraternity members
+2. The toddlers
+3. The Scottish
+4. It cannot be said
+ The correct answer is:","[('The fraternity members', 0.6421158909797668), ('The toddlers', 0.09847166389226913), ('The Scottish', 0.19583429396152496), ('It cannot be said', 0.06357808411121368)]","[('The fraternity members', 0.6867370009422302), ('The toddlers', 0.00040432001696899533), ('The Scottish', 0.008120984770357609), ('It cannot be said', 0.3047376871109009)]",The fraternity members,The fraternity members
+21,They were the biggest drinkers there.,The Scots are famous for their beer consumption,Who were the biggest drinkers?,"['The Scottish', 'The toddlers', 'The fraternity members', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The Scots are famous for their beer consumption
+Target sentence: They were the biggest drinkers there.
+Question: Who were the biggest drinkers?
+Choices:
+
+1. The Scottish
+2. The toddlers
+3. The fraternity members
+4. It cannot be said
+ The correct answer is:","[('The Scottish', 0.6512460112571716), ('The toddlers', 0.10631299018859863), ('The fraternity members', 0.16466078162193298), ('It cannot be said', 0.07778024673461914)]","[('The Scottish', 0.06743773818016052), ('The toddlers', 0.00090366619406268), ('The fraternity members', 0.25056159496307373), ('It cannot be said', 0.6810970306396484)]",The Scottish,It cannot be said
+22,He pondered his fortune.,His luck was tremendous.,Who pondered?,"['The gambler', 'The investor', 'The groom', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: His luck was tremendous.
+Target sentence: He pondered his fortune.
+Question: Who pondered?
+Choices:
+
+1. The gambler
+2. The investor
+3. The groom
+4. It cannot be said
+ The correct answer is:","[('The gambler', 0.26157891750335693), ('The investor', 0.10243577510118484), ('The groom', 0.3575359880924225), ('It cannot be said', 0.27844929695129395)]","[('The gambler', 0.6860374212265015), ('The investor', 0.0059353867545723915), ('The groom', 0.0035999941173940897), ('It cannot be said', 0.30442726612091064)]",The groom,The gambler
+23,He pondered his fortune.,His wealth was tremendous.,Who pondered?,"['The investor', 'The gambler', 'The groom', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: His wealth was tremendous.
+Target sentence: He pondered his fortune.
+Question: Who pondered?
+Choices:
+
+1. The investor
+2. The gambler
+3. The groom
+4. It cannot be said
+ The correct answer is:","[('The investor', 0.33614417910575867), ('The gambler', 0.07500389963388443), ('The groom', 0.35782361030578613), ('It cannot be said', 0.23102828860282898)]","[('The investor', 0.045578714460134506), ('The gambler', 0.2792034447193146), ('The groom', 0.0054436009377241135), ('It cannot be said', 0.6697742938995361)]",The groom,It cannot be said
+24,He pondered his fortune.,He couldn't believe he had just married such a beautiful woman.,Who pondered?,"['The groom', 'The gambler', 'The investor', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: He couldn't believe he had just married such a beautiful woman.
+Target sentence: He pondered his fortune.
+Question: Who pondered?
+Choices:
+
+1. The groom
+2. The gambler
+3. The investor
+4. It cannot be said
+ The correct answer is:","[('The groom', 0.5168445706367493), ('The gambler', 0.10833650827407837), ('The investor', 0.24414008855819702), ('It cannot be said', 0.13067877292633057)]","[('The groom', 0.2548550069332123), ('The gambler', 0.1281491369009018), ('The investor', 0.005630480125546455), ('It cannot be said', 0.6113653779029846)]",The groom,It cannot be said
+25,She remembered the shower.,"The shampooing took only a minute, then went down to the lobby to check out.",Who was remembering the shower?,"['The guest', 'The plumber', 'The postman', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The shampooing took only a minute, then went down to the lobby to check out.
+Target sentence: She remembered the shower.
+Question: Who was remembering the shower?
+Choices:
+
+1. The guest
+2. The plumber
+3. The postman
+4. It cannot be said
+ The correct answer is:","[('The guest', 0.33274078369140625), ('The plumber', 0.2758517861366272), ('The postman', 0.1895899921655655), ('It cannot be said', 0.20181748270988464)]","[('The guest', 0.32198140025138855), ('The plumber', 0.013289759866893291), ('The postman', 0.32198140025138855), ('It cannot be said', 0.34274742007255554)]",The guest,It cannot be said
+26,She remembered the shower.,The repair took only a minute.,Who was remembering the shower?,"['The plumber', 'The guest', 'The postman', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The repair took only a minute.
+Target sentence: She remembered the shower.
+Question: Who was remembering the shower?
+Choices:
+
+1. The plumber
+2. The guest
+3. The postman
+4. It cannot be said
+ The correct answer is:","[('The plumber', 0.26651251316070557), ('The guest', 0.3642793893814087), ('The postman', 0.20756015181541443), ('It cannot be said', 0.1616480052471161)]","[('The plumber', 0.2683963477611542), ('The guest', 0.020696505904197693), ('The postman', 0.2683963477611542), ('It cannot be said', 0.44251078367233276)]",The guest,It cannot be said
+27,He contemplated the atmosphere.,"The cluds appeared dark and ominous, so he took out the barometer to take a reading.",Who contemplated the atmosphere?,"['The meteorologist', 'The decorator', 'The customer', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The cluds appeared dark and ominous, so he took out the barometer to take a reading.
+Target sentence: He contemplated the atmosphere.
+Question: Who contemplated the atmosphere?
+Choices:
+
+1. The meteorologist
+2. The decorator
+3. The customer
+4. It cannot be said
+ The correct answer is:","[('The meteorologist', 0.6429308652877808), ('The decorator', 0.14345726370811462), ('The customer', 0.12660059332847595), ('It cannot be said', 0.08701123297214508)]","[('The meteorologist', 0.8776122331619263), ('The decorator', 0.0007756567792966962), ('The customer', 0.006494494620710611), ('It cannot be said', 0.11511766910552979)]",The meteorologist,The meteorologist
+28,He contemplated the atmosphere.,"The ambience appeared dark and ominous, it would take a lot of work to make it welcoming.",Who contemplated the atmosphere?,"['The decorator', 'The meteorologist', 'The customer', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The ambience appeared dark and ominous, it would take a lot of work to make it welcoming.
+Target sentence: He contemplated the atmosphere.
+Question: Who contemplated the atmosphere?
+Choices:
+
+1. The decorator
+2. The meteorologist
+3. The customer
+4. It cannot be said
+ The correct answer is:","[('The decorator', 0.32136377692222595), ('The meteorologist', 0.22086988389492035), ('The customer', 0.2074880599975586), ('It cannot be said', 0.2502783536911011)]","[('The decorator', 0.02077644132077694), ('The meteorologist', 0.26943299174308777), ('The customer', 0.17395901679992676), ('It cannot be said', 0.5358315110206604)]",The decorator,It cannot be said
+29,She scrutinized the sign.,The speed limit was not what he had expected.,Who scrutinized the sign?,"['The driver', 'The mathematician', 'The hunter', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The speed limit was not what he had expected.
+Target sentence: She scrutinized the sign.
+Question: Who scrutinized the sign?
+Choices:
+
+1. The driver
+2. The mathematician
+3. The hunter
+4. It cannot be said
+ The correct answer is:","[('The driver', 0.25641757249832153), ('The mathematician', 0.42276111245155334), ('The hunter', 0.19969820976257324), ('It cannot be said', 0.12112309038639069)]","[('The driver', 0.1767836958169937), ('The mathematician', 0.12150153517723083), ('The hunter', 0.0025216839276254177), ('It cannot be said', 0.6991930603981018)]",The mathematician,It cannot be said
+30,She scrutinized the sign.,The equals symbol was not what he had expected.,Who scrutinized the sign?,"['The mathematician', 'The driver', 'The hunter', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The equals symbol was not what he had expected.
+Target sentence: She scrutinized the sign.
+Question: Who scrutinized the sign?
+Choices:
+
+1. The mathematician
+2. The driver
+3. The hunter
+4. It cannot be said
+ The correct answer is:","[('The mathematician', 0.41563233733177185), ('The driver', 0.22247196733951569), ('The hunter', 0.208993062376976), ('It cannot be said', 0.15290260314941406)]","[('The mathematician', 0.3278600573539734), ('The driver', 0.03246254473924637), ('The hunter', 0.007710529491305351), ('It cannot be said', 0.6319668292999268)]",The mathematician,It cannot be said
+31,She scrutinized the sign.,"It was definitely the trace of a wild animal, he had to start chasing it immediately.",Who scrutinized the sign?,"['The hunter', 'The driver', 'The mathematician', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It was definitely the trace of a wild animal, he had to start chasing it immediately.
+Target sentence: She scrutinized the sign.
+Question: Who scrutinized the sign?
+Choices:
+
+1. The hunter
+2. The driver
+3. The mathematician
+4. It cannot be said
+ The correct answer is:","[('The hunter', 0.3358512222766876), ('The driver', 0.27843043208122253), ('The mathematician', 0.16887660324573517), ('It cannot be said', 0.21684184670448303)]","[('The hunter', 0.17042213678359985), ('The driver', 0.005831524729728699), ('The mathematician', 0.03572241961956024), ('It cannot be said', 0.7880239486694336)]",The hunter,It cannot be said
+32,She inspected the glasses.,Each lens had been properly polished.,Who inspected the glasses?,"['The optometrist', 'The bartender', 'The clerk', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Each lens had been properly polished.
+Target sentence: She inspected the glasses.
+Question: Who inspected the glasses?
+Choices:
+
+1. The optometrist
+2. The bartender
+3. The clerk
+4. It cannot be said
+ The correct answer is:","[('The optometrist', 0.5209093689918518), ('The bartender', 0.15886838734149933), ('The clerk', 0.1800214648246765), ('It cannot be said', 0.14020085334777832)]","[('The optometrist', 0.9831925630569458), ('The bartender', 9.158891771221533e-05), ('The clerk', 0.0003196767356712371), ('It cannot be said', 0.016396287828683853)]",The optometrist,The optometrist
+33,She inspected the glasses.,Each goblet had been properly polished.,Who inspected the glasses?,"['The bartender', 'The optometrist', 'The clerk', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Each goblet had been properly polished.
+Target sentence: She inspected the glasses.
+Question: Who inspected the glasses?
+Choices:
+
+1. The bartender
+2. The optometrist
+3. The clerk
+4. It cannot be said
+ The correct answer is:","[('The bartender', 0.2206985354423523), ('The optometrist', 0.38733798265457153), ('The clerk', 0.26621323823928833), ('It cannot be said', 0.12575022876262665)]","[('The bartender', 0.023698166012763977), ('The optometrist', 0.8619072437286377), ('The clerk', 0.0013369590742513537), ('It cannot be said', 0.11305762082338333)]",The optometrist,The optometrist
+34,She inspected the glasses.,They were full of fingerprints and needed to be cleaned before the store opened.,Who inspected the glasses?,"['The clerk', 'The bartender', 'The optometrist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: They were full of fingerprints and needed to be cleaned before the store opened.
+Target sentence: She inspected the glasses.
+Question: Who inspected the glasses?
+Choices:
+
+1. The clerk
+2. The bartender
+3. The optometrist
+4. It cannot be said
+ The correct answer is:","[('The clerk', 0.15762148797512054), ('The bartender', 0.31346777081489563), ('The optometrist', 0.31346777081489563), ('It cannot be said', 0.21544304490089417)]","[('The clerk', 0.0024910871870815754), ('The bartender', 0.00015924987383186817), ('The optometrist', 0.9440878629684448), ('It cannot be said', 0.05326179042458534)]",The bartender,The optometrist
+35,He looked at the oak.,The tree was likely to get damaged easily. The park had to be closed to prevent accidents.,Who looked at the oak?,"['The park ranger', 'The carpenter', 'The tattoo artist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The tree was likely to get damaged easily. The park had to be closed to prevent accidents.
+Target sentence: He looked at the oak.
+Question: Who looked at the oak?
+Choices:
+
+1. The park ranger
+2. The carpenter
+3. The tattoo artist
+4. It cannot be said
+ The correct answer is:","[('The park ranger', 0.6292749047279358), ('The carpenter', 0.18029028177261353), ('The tattoo artist', 0.13190318644046783), ('It cannot be said', 0.058531686663627625)]","[('The park ranger', 0.7673127055168152), ('The carpenter', 0.12140649557113647), ('The tattoo artist', 0.022457944229245186), ('It cannot be said', 0.08882289379835129)]",The park ranger,The park ranger
+36,He looked at the oak.,The plank was likely to get damaged easily. He had to do an excellent repair job,Who looked at the oak?,"['The carpenter', 'The park ranger', 'The tattoo artist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The plank was likely to get damaged easily. He had to do an excellent repair job
+Target sentence: He looked at the oak.
+Question: Who looked at the oak?
+Choices:
+
+1. The carpenter
+2. The park ranger
+3. The tattoo artist
+4. It cannot be said
+ The correct answer is:","[('The carpenter', 0.3504061698913574), ('The park ranger', 0.3730054199695587), ('The tattoo artist', 0.17619527876377106), ('It cannot be said', 0.10039304941892624)]","[('The carpenter', 0.6911637783050537), ('The park ranger', 0.18030084669589996), ('The tattoo artist', 0.0485273152589798), ('It cannot be said', 0.08000801503658295)]",The park ranger,The carpenter
+37,He looked at the oak.,The edges were blurred and it should have covered the tree tattoo completely,Who looked at the oak?,"['The tattoo artist', 'The park ranger', 'The carpenter', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The edges were blurred and it should have covered the tree tattoo completely
+Target sentence: He looked at the oak.
+Question: Who looked at the oak?
+Choices:
+
+1. The tattoo artist
+2. The park ranger
+3. The carpenter
+4. It cannot be said
+ The correct answer is:","[('The tattoo artist', 0.2686331570148468), ('The park ranger', 0.3240334689617157), ('The carpenter', 0.22270473837852478), ('It cannot be said', 0.1846287101507187)]","[('The tattoo artist', 0.3893372714519501), ('The park ranger', 0.13882248103618622), ('The carpenter', 0.13882248103618622), ('It cannot be said', 0.3330177962779999)]",The park ranger,The tattoo artist
+38,She brooded about the differences among the classes.,The homework inequalities were greater than she had predicted.,Who brooded about the differences among the classes?,"['The sophomore', 'The sociologist', 'The biologist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The homework inequalities were greater than she had predicted.
+Target sentence: She brooded about the differences among the classes.
+Question: Who brooded about the differences among the classes?
+Choices:
+
+1. The sophomore
+2. The sociologist
+3. The biologist
+4. It cannot be said
+ The correct answer is:","[('The sophomore', 0.1827472299337387), ('The sociologist', 0.4118272364139557), ('The biologist', 0.30129924416542053), ('It cannot be said', 0.1041262298822403)]","[('The sophomore', 0.04655943065881729), ('The sociologist', 0.12656165659427643), ('The biologist', 0.0015931761590763927), ('It cannot be said', 0.8252856731414795)]",The sociologist,It cannot be said
+39,She brooded about the differences among the classes.,The economic inequalities were greater than she had predicted.,Who brooded about the differences among the classes?,"['The sociologist', 'The sophomore', 'The biologist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The economic inequalities were greater than she had predicted.
+Target sentence: She brooded about the differences among the classes.
+Question: Who brooded about the differences among the classes?
+Choices:
+
+1. The sociologist
+2. The sophomore
+3. The biologist
+4. It cannot be said
+ The correct answer is:","[('The sociologist', 0.498854398727417), ('The sophomore', 0.32208460569381714), ('The biologist', 0.14292418956756592), ('It cannot be said', 0.036136891692876816)]","[('The sociologist', 0.3599790334701538), ('The sophomore', 0.007018472999334335), ('The biologist', 0.0012196277966722846), ('It cannot be said', 0.6317828297615051)]",The sociologist,It cannot be said
+40,She brooded about the differences among the classes.,She was reflecting on the various taxonomic classifications of organisms and how they've evolved over time.,Who brooded about the differences among the classes?,"['The biologist', 'The sophomore', 'The sociologist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: She was reflecting on the various taxonomic classifications of organisms and how they've evolved over time.
+Target sentence: She brooded about the differences among the classes.
+Question: Who brooded about the differences among the classes?
+Choices:
+
+1. The biologist
+2. The sophomore
+3. The sociologist
+4. It cannot be said
+ The correct answer is:","[('The biologist', 0.6519324779510498), ('The sophomore', 0.19882817566394806), ('The sociologist', 0.12059538811445236), ('It cannot be said', 0.028643913567066193)]","[('The biologist', 0.03642379119992256), ('The sophomore', 0.0071722702123224735), ('The sociologist', 0.269137442111969), ('It cannot be said', 0.6872665286064148)]",The biologist,It cannot be said
+41,He condidered the coat,"The sweater matched almost perfectly, so decided he would buy it.",Who was considering the coat?,"['The customer', 'The painter', 'The veterinarian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The sweater matched almost perfectly, so decided he would buy it.
+Target sentence: He condidered the coat
+Question: Who was considering the coat?
+Choices:
+
+1. The customer
+2. The painter
+3. The veterinarian
+4. It cannot be said
+ The correct answer is:","[('The customer', 0.26686158776283264), ('The painter', 0.3023937940597534), ('The veterinarian', 0.23550452291965485), ('It cannot be said', 0.1952401101589203)]","[('The customer', 0.5089805126190186), ('The painter', 0.01796920970082283), ('The veterinarian', 0.009618224576115608), ('It cannot be said', 0.46343204379081726)]",The painter,The customer
+42,He condidered the coat,The brushstrokes matched almost perfectly.,Who was considering the coat?,"['The painter', 'The customer', 'The veterinarian', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The brushstrokes matched almost perfectly.
+Target sentence: He condidered the coat
+Question: Who was considering the coat?
+Choices:
+
+1. The painter
+2. The customer
+3. The veterinarian
+4. It cannot be said
+ The correct answer is:","[('The painter', 0.2375221848487854), ('The customer', 0.32465431094169617), ('The veterinarian', 0.2528410255908966), ('It cannot be said', 0.18498246371746063)]","[('The painter', 0.2037656009197235), ('The customer', 0.4450649917125702), ('The veterinarian', 0.07265486568212509), ('It cannot be said', 0.278514564037323)]",The customer,The customer
+43,He condidered the coat,He was carefully examining its texture and sheen to assess the animal's overall health and well-being.,Who was considering the coat?,"['The veterinarian', 'The customer', 'The painter', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: He was carefully examining its texture and sheen to assess the animal's overall health and well-being.
+Target sentence: He condidered the coat
+Question: Who was considering the coat?
+Choices:
+
+1. The veterinarian
+2. The customer
+3. The painter
+4. It cannot be said
+ The correct answer is:","[('The veterinarian', 0.6742953062057495), ('The customer', 0.17048855125904083), ('The painter', 0.11717495322227478), ('It cannot be said', 0.0380411371588707)]","[('The veterinarian', 0.11135352402925491), ('The customer', 0.03615119680762291), ('The painter', 0.0035794535651803017), ('It cannot be said', 0.8489158749580383)]",The veterinarian,It cannot be said
+44,He finally found the cup.,"Its intricate designs and symbols needed to be documented, in hopes of deciphering the story it contained and sharing its historical meaning with the world.",Who found the cup?,"['The archeologist', 'The husband', 'The champion', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Its intricate designs and symbols needed to be documented, in hopes of deciphering the story it contained and sharing its historical meaning with the world.
+Target sentence: He finally found the cup.
+Question: Who found the cup?
+Choices:
+
+1. The archeologist
+2. The husband
+3. The champion
+4. It cannot be said
+ The correct answer is:","[('The archeologist', 0.379896879196167), ('The husband', 0.24527986347675323), ('The champion', 0.21645872294902802), ('It cannot be said', 0.15836457908153534)]","[('The archeologist', 0.927587628364563), ('The husband', 0.0003872585657518357), ('The champion', 0.0004972498281858861), ('It cannot be said', 0.0715278759598732)]",The archeologist,The archeologist
+45,He finally found the cup.,He could finally bring coffee to his wife.,Who found the cup?,"['The husband', 'The archeologist', 'The champion', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: He could finally bring coffee to his wife.
+Target sentence: He finally found the cup.
+Question: Who found the cup?
+Choices:
+
+1. The husband
+2. The archeologist
+3. The champion
+4. It cannot be said
+ The correct answer is:","[('The husband', 0.4101046323776245), ('The archeologist', 0.2195132076740265), ('The champion', 0.2195132076740265), ('It cannot be said', 0.15086907148361206)]","[('The husband', 0.08986929804086685), ('The archeologist', 0.7068767547607422), ('The champion', 0.0007304140599444509), ('It cannot be said', 0.2025235891342163)]",The husband,The archeologist
+45,He finally found the cup.,It was passed from one champion to another every year.,Who found the cup?,"['The champion', 'The husband', 'The archeologist', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It was passed from one champion to another every year.
+Target sentence: He finally found the cup.
+Question: Who found the cup?
+Choices:
+
+1. The champion
+2. The husband
+3. The archeologist
+4. It cannot be said
+ The correct answer is:","[('The champion', 0.1925688534975052), ('The husband', 0.1925688534975052), ('The archeologist', 0.43396061658859253), ('It cannot be said', 0.1809016913175583)]","[('The champion', 0.008364193141460419), ('The husband', 0.00225119199603796), ('The archeologist', 0.5863752365112305), ('It cannot be said', 0.40300941467285156)]",The archeologist,The archeologist
+46,She presented the model to the client.,"It conveyed the grandeur and functionality of the proposed structure, inspiring confidence in the project's success.",Who presented the model?,"['The architect', 'The mathematician', 'The car seller', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It conveyed the grandeur and functionality of the proposed structure, inspiring confidence in the project's success.
+Target sentence: She presented the model to the client.
+Question: Who presented the model?
+Choices:
+
+1. The architect
+2. The mathematician
+3. The car seller
+4. It cannot be said
+ The correct answer is:","[('The architect', 0.42453867197036743), ('The mathematician', 0.39881718158721924), ('The car seller', 0.06930403411388397), ('It cannot be said', 0.10734018683433533)]","[('The architect', 0.5027284026145935), ('The mathematician', 0.04977685213088989), ('The car seller', 0.0038383787032216787), ('It cannot be said', 0.4436562657356262)]",The architect,The architect
+47,She presented the model to the audience.," It solved a complex problem in number theory, unveiling a new theorem that would reshape the field.",Who presented the model?,"['The mathematician', 'The architect', 'The car seller', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance:  It solved a complex problem in number theory, unveiling a new theorem that would reshape the field.
+Target sentence: She presented the model to the audience.
+Question: Who presented the model?
+Choices:
+
+1. The mathematician
+2. The architect
+3. The car seller
+4. It cannot be said
+ The correct answer is:","[('The mathematician', 0.5635699033737183), ('The architect', 0.18296435475349426), ('The car seller', 0.09200026094913483), ('It cannot be said', 0.16146548092365265)]","[('The mathematician', 0.7045360207557678), ('The architect', 0.005907894112169743), ('The car seller', 0.004897816106677055), ('It cannot be said', 0.284658282995224)]",The mathematician,The mathematician
+48,She presented the new model to the client.,The car had just come on the market and he hoped to sell it immediately,Who presented the model?,"['The car seller', 'The architect', 'The mathematician', 'It cannot be said']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The car had just come on the market and he hoped to sell it immediately
+Target sentence: She presented the new model to the client.
+Question: Who presented the model?
+Choices:
+
+1. The car seller
+2. The architect
+3. The mathematician
+4. It cannot be said
+ The correct answer is:","[('The car seller', 0.5311383605003357), ('The architect', 0.2508919835090637), ('The mathematician', 0.1619880497455597), ('It cannot be said', 0.05598156899213791)]","[('The car seller', 0.44855383038520813), ('The architect', 0.0035334641579538584), ('The mathematician', 0.05527267977595329), ('It cannot be said', 0.49264001846313477)]",The car seller,It cannot be said

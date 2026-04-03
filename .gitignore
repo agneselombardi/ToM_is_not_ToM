@@ -1,0 +1,14 @@
+# Wandb run artifacts
+wandb/
+
+# Large result files (>100MB, exceed GitHub limit)
+**/results/evaluated_responses_*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

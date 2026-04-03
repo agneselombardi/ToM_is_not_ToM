@@ -1,0 +1,401 @@
+ID,Context utterance,Target,Question,Choices,Human answer,Correct Answer,Prompt,choices_prob,sentences_prob,choice_win,Generated Text
+1,"It would be nice to drink something hot, tea for instance.","Honey, my guest wants some tea",What is the intended meaning of the target?,"['I am asking someone to prepare tea for my guest', ""I'm telling someone that my guest wants some tea"", ""I'm telling someone that my guest is thirsty"", 'I want some tea']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It would be nice to drink something hot, tea for instance.
+Target sentence: Honey, my guest wants some tea
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I am asking someone to prepare tea for my guest
+2. I'm telling someone that my guest wants some tea
+3. I'm telling someone that my guest is thirsty
+4. I want some tea
+ The correct answer is:","[('I am asking someone to prepare tea for my guest', 0.16585087776184082), (""I'm telling someone that my guest wants some tea"", 0.6162107586860657), (""I'm telling someone that my guest is thirsty"", 0.12916478514671326), ('I want some tea', 0.08877357840538025)]","[('I am asking someone to prepare tea for my guest', 0.3052607476711273), (""I'm telling someone that my guest wants some tea"", 0.5032898783683777), (""I'm telling someone that my guest is thirsty"", 0.12333648651838303), ('I want some tea', 0.06811287999153137)]",I'm telling someone that my guest wants some tea,I'm telling someone that my guest wants some tea
+2,"Sorry , I don't smoke .",Do you have a lighter?,What is the intended meaning of the target?,"['I want you to lend me your lighter', 'I want to know if you have a lighter', 'I want to know what you think about smoking', ""I don't like smoking""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Sorry , I don't smoke .
+Target sentence: Do you have a lighter?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want you to lend me your lighter
+2. I want to know if you have a lighter
+3. I want to know what you think about smoking
+4. I don't like smoking
+ The correct answer is:","[('I want you to lend me your lighter', 0.2163834273815155), ('I want to know if you have a lighter', 0.5190768837928772), ('I want to know what you think about smoking', 0.14871801435947418), (""I don't like smoking"", 0.1158217117190361)]","[('I want you to lend me your lighter', 0.14556600153446198), ('I want to know if you have a lighter', 0.4848088026046753), ('I want to know what you think about smoking', 0.2986820340156555), (""I don't like smoking"", 0.0709432065486908)]",I want to know if you have a lighter,I want to know if you have a lighter
+3,Welcome to my new home,We usually take off our shoes when we enter the house so as not to ruin the parquet,What is the intended meaning of the target?,"['We are asking the guest to remove his shoes before entering the house', 'We are telling the guest our habit of removing our shoes before entering the house', 'We are telling the guest the importance of being shoeless in the house', 'We are telling the guest how important the new parquet is']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Welcome to my new home
+Target sentence: We usually take off our shoes when we enter the house so as not to ruin the parquet
+Question: What is the intended meaning of the target?
+Choices:
+
+1. We are asking the guest to remove his shoes before entering the house
+2. We are telling the guest our habit of removing our shoes before entering the house
+3. We are telling the guest the importance of being shoeless in the house
+4. We are telling the guest how important the new parquet is
+ The correct answer is:","[('We are asking the guest to remove his shoes before entering the house', 0.304318904876709), ('We are telling the guest our habit of removing our shoes before entering the house', 0.47133833169937134), ('We are telling the guest the importance of being shoeless in the house', 0.10516980290412903), ('We are telling the guest how important the new parquet is', 0.11917299032211304)]","[('We are asking the guest to remove his shoes before entering the house', 0.43596407771110535), ('We are telling the guest our habit of removing our shoes before entering the house', 0.24076223373413086), ('We are telling the guest the importance of being shoeless in the house', 0.18173685669898987), ('We are telling the guest how important the new parquet is', 0.14153681695461273)]",We are telling the guest our habit of removing our shoes before entering the house,We are asking the guest to remove his shoes before entering the house
+4,I just want to smoke a cigarette before we go,"You know, smoking does do harm to your health .",What is the intended meaning of the target?,"['You should not smoke', ""I'm telling that smoking is not good for you"", ""I'm explaining that smoking harms people's health"", ""I'm thinking of starting to smoke""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I just want to smoke a cigarette before we go
+Target sentence: You know, smoking does do harm to your health .
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You should not smoke
+2. I'm telling that smoking is not good for you
+3. I'm explaining that smoking harms people's health
+4. I'm thinking of starting to smoke
+ The correct answer is:","[('You should not smoke', 0.16861192882061005), (""I'm telling that smoking is not good for you"", 0.5528572201728821), (""I'm explaining that smoking harms people's health"", 0.21650199592113495), (""I'm thinking of starting to smoke"", 0.06202886253595352)]","[('You should not smoke', 0.2871552109718323), (""I'm telling that smoking is not good for you"", 0.3804188370704651), (""I'm explaining that smoking harms people's health"", 0.1636161059141159), (""I'm thinking of starting to smoke"", 0.16880983114242554)]",I'm telling that smoking is not good for you,I'm telling that smoking is not good for you
+5,I'm glad you agreed to study at my house,"Yes but I'm exhausted, I really need a coffee",What is the intended meaning of the target?,"[""I'm asking for a coffee"", ""I'm saying that coffee is useful for staying awake"", ""I'm saying I like coffee"", ""I'm asking your opinion about coffee""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I'm glad you agreed to study at my house
+Target sentence: Yes but I'm exhausted, I really need a coffee
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm asking for a coffee
+2. I'm saying that coffee is useful for staying awake
+3. I'm saying I like coffee
+4. I'm asking your opinion about coffee
+ The correct answer is:","[(""I'm asking for a coffee"", 0.2913326025009155), (""I'm saying that coffee is useful for staying awake"", 0.2131434828042984), (""I'm saying I like coffee"", 0.12144549190998077), (""I'm asking your opinion about coffee"", 0.3740784525871277)]","[(""I'm asking for a coffee"", 0.18572142720222473), (""I'm saying that coffee is useful for staying awake"", 0.5720622539520264), (""I'm saying I like coffee"", 0.062208883464336395), (""I'm asking your opinion about coffee"", 0.18000736832618713)]",I'm asking your opinion about coffee,I'm saying that coffee is useful for staying awake
+6,"I feel like going for a drink , it's been a long day.",How about the new bar across the road?,What is the intended meaning of the target?,"[""I'm inviting you to go to the new bar across the road"", 'I want to know what you think about the new bar across the road', ""I'm ordering you to go to the new bar across the road"", ""I'm saying that there is a new bar across the road""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I feel like going for a drink , it's been a long day.
+Target sentence: How about the new bar across the road?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm inviting you to go to the new bar across the road
+2. I want to know what you think about the new bar across the road
+3. I'm ordering you to go to the new bar across the road
+4. I'm saying that there is a new bar across the road
+ The correct answer is:","[(""I'm inviting you to go to the new bar across the road"", 0.17973078787326813), ('I want to know what you think about the new bar across the road', 0.5893145203590393), (""I'm ordering you to go to the new bar across the road"", 0.06211329251527786), (""I'm saying that there is a new bar across the road"", 0.1688414365053177)]","[(""I'm inviting you to go to the new bar across the road"", 0.18949036300182343), ('I want to know what you think about the new bar across the road', 0.4763787090778351), (""I'm ordering you to go to the new bar across the road"", 0.09830630570650101), (""I'm saying that there is a new bar across the road"", 0.2358245551586151)]",I want to know what you think about the new bar across the road,I want to know what you think about the new bar across the road
+7,"I'm afraid of being late and missing the train, I don't even know what time it is.",Oh but you have a watch,What is the intended meaning of the target?,"[""I'm asking you to tell me the time"", 'I just noticed your watch', 'I like your new watch', ""I'm asking you to lend me the watch""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I'm afraid of being late and missing the train, I don't even know what time it is.
+Target sentence: Oh but you have a watch
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm asking you to tell me the time
+2. I just noticed your watch
+3. I like your new watch
+4. I'm asking you to lend me the watch
+ The correct answer is:","[(""I'm asking you to tell me the time"", 0.32824787497520447), ('I just noticed your watch', 0.42147862911224365), ('I like your new watch', 0.11343943327665329), (""I'm asking you to lend me the watch"", 0.1368340700864792)]","[(""I'm asking you to tell me the time"", 0.5759297609329224), ('I just noticed your watch', 0.02651898004114628), ('I like your new watch', 0.025703076273202896), (""I'm asking you to lend me the watch"", 0.3718481957912445)]",I just noticed your watch,I'm asking you to tell me the time
+8,Do you need more eggs for the omelette?,Yes but my hands are full,What is the intended meaning of the target?,"[""I'm asking you to put another egg in the omelette"", ""I'm telling you I have something in my hand"", ""I'm telling you I'm busy doing something"", 'I want to shake your hand']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Do you need more eggs for the omelette?
+Target sentence: Yes but my hands are full
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm asking you to put another egg in the omelette
+2. I'm telling you I have something in my hand
+3. I'm telling you I'm busy doing something
+4. I want to shake your hand
+ The correct answer is:","[(""I'm asking you to put another egg in the omelette"", 0.18420277535915375), (""I'm telling you I have something in my hand"", 0.5673844814300537), (""I'm telling you I'm busy doing something"", 0.14345726370811462), ('I want to shake your hand', 0.10495557636022568)]","[(""I'm asking you to put another egg in the omelette"", 0.7590932250022888), (""I'm telling you I have something in my hand"", 0.1339879184961319), (""I'm telling you I'm busy doing something"", 0.049291402101516724), ('I want to shake your hand', 0.05762748420238495)]",I'm telling you I have something in my hand,I'm asking you to put another egg in the omelette
+9,A package arrived for you this morning,"I won't arrive until tomorrow, could you check what's inside?",What is the intended meaning of the target?,"[""I'm asking you to open the box"", ""I'm asking you what is in the box"", ""I'm asking you if you know what's in the box"", ""I'm asking you to leave the box closed until tomorrow""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: A package arrived for you this morning
+Target sentence: I won't arrive until tomorrow, could you check what's inside?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm asking you to open the box
+2. I'm asking you what is in the box
+3. I'm asking you if you know what's in the box
+4. I'm asking you to leave the box closed until tomorrow
+ The correct answer is:","[(""I'm asking you to open the box"", 0.25447437167167664), (""I'm asking you what is in the box"", 0.37025803327560425), (""I'm asking you if you know what's in the box"", 0.21096667647361755), (""I'm asking you to leave the box closed until tomorrow"", 0.16430100798606873)]","[(""I'm asking you to open the box"", 0.1507919281721115), (""I'm asking you what is in the box"", 0.1461525410413742), (""I'm asking you if you know what's in the box"", 0.5780445337295532), (""I'm asking you to leave the box closed until tomorrow"", 0.1250109076499939)]",I'm asking you what is in the box,I'm asking you if you know what's in the box
+10,I'm going to the supermarket do you want to come?,"Sorry, what did you say?",What is the intended meaning of the target?,"[""I didn't understand what you said, can you repeat it?"", ""I didn't understand what you said"", ""I don't want to go to the supermarket"", ""I'm sorry for what you said""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I'm going to the supermarket do you want to come?
+Target sentence: Sorry, what did you say?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I didn't understand what you said, can you repeat it?
+2. I didn't understand what you said
+3. I don't want to go to the supermarket
+4. I'm sorry for what you said
+ The correct answer is:","[(""I didn't understand what you said, can you repeat it?"", 0.23051287233829498), (""I didn't understand what you said"", 0.2959843873977661), (""I don't want to go to the supermarket"", 0.15842902660369873), (""I'm sorry for what you said"", 0.31507372856140137)]","[(""I didn't understand what you said, can you repeat it?"", 0.5710599422454834), (""I didn't understand what you said"", 0.1853960156440735), (""I don't want to go to the supermarket"", 0.23072907328605652), (""I'm sorry for what you said"", 0.012815036810934544)]",I'm sorry for what you said,"I didn't understand what you said, can you repeat it?"
+11,I think you're a really hateful person and your hair is ugly,"Sorry, what did you say?",What is the intended meaning of the target?,"['I am very shocked by your words, try repeating them if you want to fight', ""I didn't understand what you said, can you repeat it?"", ""I didn't understand what you said"", ""I'm sorry for what you said""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I think you're a really hateful person and your hair is ugly
+Target sentence: Sorry, what did you say?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I am very shocked by your words, try repeating them if you want to fight
+2. I didn't understand what you said, can you repeat it?
+3. I didn't understand what you said
+4. I'm sorry for what you said
+ The correct answer is:","[('I am very shocked by your words, try repeating them if you want to fight', 0.25481316447257996), (""I didn't understand what you said, can you repeat it?"", 0.307363361120224), (""I didn't understand what you said"", 0.23937483131885529), (""I'm sorry for what you said"", 0.19844870269298553)]","[('I am very shocked by your words, try repeating them if you want to fight', 0.027402976527810097), (""I didn't understand what you said, can you repeat it?"", 0.6743685007095337), (""I didn't understand what you said"", 0.21893540024757385), (""I'm sorry for what you said"", 0.0792931467294693)]","I didn't understand what you said, can you repeat it?","I didn't understand what you said, can you repeat it?"
+12,"Hi Sara, what's up?","Hi Zoe, remember when I introduced you to Mark and you said you'd return the favor? Well your friend Steve is very cute.",What is the intended meaning of the target?,"[""I'd like you to introduce me to Steve"", 'You owe me a favor for introducing you to Mark', 'I want you to know that I like Steve', 'You should introduce Steve to Mark']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Hi Sara, what's up?
+Target sentence: Hi Zoe, remember when I introduced you to Mark and you said you'd return the favor? Well your friend Steve is very cute.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'd like you to introduce me to Steve
+2. You owe me a favor for introducing you to Mark
+3. I want you to know that I like Steve
+4. You should introduce Steve to Mark
+ The correct answer is:","[(""I'd like you to introduce me to Steve"", 0.2375219315290451), ('You owe me a favor for introducing you to Mark', 0.2231312096118927), ('I want you to know that I like Steve', 0.2528407871723175), ('You should introduce Steve to Mark', 0.28650614619255066)]","[(""I'd like you to introduce me to Steve"", 0.2937256991863251), ('You owe me a favor for introducing you to Mark', 0.34340015053749084), ('I want you to know that I like Steve', 0.2983512282371521), ('You should introduce Steve to Mark', 0.06452297419309616)]",You should introduce Steve to Mark,You owe me a favor for introducing you to Mark
+13,Tomorrow we could go for a trip to the lake,"My car is broken, does yours work?",What is the intended meaning of the target?,"['I want you to take your car', 'I want to know if your car works', 'I want to go to the lake by car', 'I want to walk to the lake']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Tomorrow we could go for a trip to the lake
+Target sentence: My car is broken, does yours work?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want you to take your car
+2. I want to know if your car works
+3. I want to go to the lake by car
+4. I want to walk to the lake
+ The correct answer is:","[('I want you to take your car', 0.19084432721138), ('I want to know if your car works', 0.5878419280052185), ('I want to go to the lake by car', 0.1311652660369873), ('I want to walk to the lake', 0.09014848619699478)]","[('I want you to take your car', 0.08124347031116486), ('I want to know if your car works', 0.34743425250053406), ('I want to go to the lake by car', 0.4602756202220917), ('I want to walk to the lake', 0.11104666441679001)]",I want to know if your car works,I want to go to the lake by car
+14,Did you hear that Mark and Katie had a baby?,"Yes, Mark gave her a beautiful ring after giving birth. We have two children and I can't see anything on my finger.",What is the intended meaning of the target?,"['I want you to give me a ring', ""You didn't give me any rings after our children were born"", 'Katie has a ring and I have none', ""Katie's ring is beautiful""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Did you hear that Mark and Katie had a baby?
+Target sentence: Yes, Mark gave her a beautiful ring after giving birth. We have two children and I can't see anything on my finger.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want you to give me a ring
+2. You didn't give me any rings after our children were born
+3. Katie has a ring and I have none
+4. Katie's ring is beautiful
+ The correct answer is:","[('I want you to give me a ring', 0.19828972220420837), (""You didn't give me any rings after our children were born"", 0.18627595901489258), ('Katie has a ring and I have none', 0.2885098457336426), (""Katie's ring is beautiful"", 0.32692447304725647)]","[('I want you to give me a ring', 0.46598437428474426), (""You didn't give me any rings after our children were born"", 0.3629089891910553), ('Katie has a ring and I have none', 0.10397516936063766), (""Katie's ring is beautiful"", 0.0671314150094986)]",Katie's ring is beautiful,I want you to give me a ring
+15,"Actually , the business trip itself was very successful . We arrived on time , we had nice conversations and we settled some important issues for the next year .","Sounds quite fruitful , why do you call it still a nightmare then ?",What is the intended meaning of the target?,"[""You don't have to say that the trip was a nightmare"", ""The trip wasn't a nightmare"", 'I think your business trip was very interesting', 'You should go on another business trip']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Actually , the business trip itself was very successful . We arrived on time , we had nice conversations and we settled some important issues for the next year .
+Target sentence: Sounds quite fruitful , why do you call it still a nightmare then ?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You don't have to say that the trip was a nightmare
+2. The trip wasn't a nightmare
+3. I think your business trip was very interesting
+4. You should go on another business trip
+ The correct answer is:","[(""You don't have to say that the trip was a nightmare"", 0.22210727632045746), (""The trip wasn't a nightmare"", 0.4702011048793793), ('I think your business trip was very interesting', 0.19600898027420044), ('You should go on another business trip', 0.11168254911899567)]","[(""You don't have to say that the trip was a nightmare"", 0.6031192541122437), (""The trip wasn't a nightmare"", 0.10480640828609467), ('I think your business trip was very interesting', 0.18394099175930023), ('You should go on another business trip', 0.10813332349061966)]",The trip wasn't a nightmare,You don't have to say that the trip was a nightmare
+16,Do you want dessert now?,I actually felt like drinking a coffee. I don't know if you have any at home.,What is the intended meaning of the target?,"['I would like you to make me a coffee', 'I want to know if you have any coffee', 'I would like to drink some coffee', ""I don't like dessert""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Do you want dessert now?
+Target sentence: I actually felt like drinking a coffee. I don't know if you have any at home.
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to make me a coffee
+2. I want to know if you have any coffee
+3. I would like to drink some coffee
+4. I don't like dessert
+ The correct answer is:","[('I would like you to make me a coffee', 0.1896684616804123), ('I want to know if you have any coffee', 0.29376426339149475), ('I would like to drink some coffee', 0.4549909830093384), (""I don't like dessert"", 0.06157633289694786)]","[('I would like you to make me a coffee', 0.1708991974592209), ('I want to know if you have any coffee', 0.5691812038421631), ('I would like to drink some coffee', 0.20614376664161682), (""I don't like dessert"", 0.05377581715583801)]",I would like to drink some coffee,I want to know if you have any coffee
+17,After the first course we can choose whether to eat the second course or move directly to dessert,"I'm still very hungry, what did you cook for second?",What is the intended meaning of the target?,"['I would like you to bring me the second course', 'I would like to know what you cooked for the second course', 'I want to eat something more', 'I would like to eat dessert']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: After the first course we can choose whether to eat the second course or move directly to dessert
+Target sentence: I'm still very hungry, what did you cook for second?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to bring me the second course
+2. I would like to know what you cooked for the second course
+3. I want to eat something more
+4. I would like to eat dessert
+ The correct answer is:","[('I would like you to bring me the second course', 0.1578415334224701), ('I would like to know what you cooked for the second course', 0.486186146736145), ('I want to eat something more', 0.2602367103099823), ('I would like to eat dessert', 0.09573572874069214)]","[('I would like you to bring me the second course', 0.08350571244955063), ('I would like to know what you cooked for the second course', 0.5618107318878174), ('I want to eat something more', 0.15120930969715118), ('I would like to eat dessert', 0.20347435772418976)]",I would like to know what you cooked for the second course,I would like to know what you cooked for the second course
+18,So Mark are you enjoying dinner?,It's all delicious but I can't get to the water,What is the intended meaning of the target?,"['I would like you to pass me the water', ""I'm far from the water"", 'I would like you to know that I really like dinner', 'I only drank wine during dinner']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: So Mark are you enjoying dinner?
+Target sentence: It's all delicious but I can't get to the water
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to pass me the water
+2. I'm far from the water
+3. I would like you to know that I really like dinner
+4. I only drank wine during dinner
+ The correct answer is:","[('I would like you to pass me the water', 0.394366592168808), (""I'm far from the water"", 0.19829997420310974), ('I would like you to know that I really like dinner', 0.27104392647743225), ('I only drank wine during dinner', 0.13628944754600525)]","[('I would like you to pass me the water', 0.3057709336280823), (""I'm far from the water"", 0.11974161118268967), ('I would like you to know that I really like dinner', 0.5536795854568481), ('I only drank wine during dinner', 0.020807970315217972)]",I would like you to pass me the water,I would like you to know that I really like dinner
+19,Did you hear that a new Chinese restaurant just opened?,"Yes I would like to go tonight, but all my friends are busy. Do you have plans for tonight?",What is the intended meaning of the target?,"['I would like you to come with me to the new Chinese restaurant', 'I would like to know what your plans are for tonight', 'I would like to go to the new Chinese restaurant', ""I don't like Chinese food""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Did you hear that a new Chinese restaurant just opened?
+Target sentence: Yes I would like to go tonight, but all my friends are busy. Do you have plans for tonight?
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to come with me to the new Chinese restaurant
+2. I would like to know what your plans are for tonight
+3. I would like to go to the new Chinese restaurant
+4. I don't like Chinese food
+ The correct answer is:","[('I would like you to come with me to the new Chinese restaurant', 0.2277330458164215), ('I would like to know what your plans are for tonight', 0.24242058396339417), ('I would like to go to the new Chinese restaurant', 0.4821108877658844), (""I don't like Chinese food"", 0.047735441476106644)]","[('I would like you to come with me to the new Chinese restaurant', 0.3173820674419403), ('I would like to know what your plans are for tonight', 0.1955334097146988), ('I would like to go to the new Chinese restaurant', 0.4406413435935974), (""I don't like Chinese food"", 0.04644325375556946)]",I would like to go to the new Chinese restaurant,I would like to go to the new Chinese restaurant
+20,"Oh , uh ... Thanks .",Cigarette ? ,What is the intended meaning of the target?,"[""I'm offering you a cigarette"", ""I'm asking you a cigarette"", 'I want to know if you have a cigarette', ""I don't want to smoke""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Oh , uh ... Thanks .
+Target sentence: Cigarette ? 
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I'm offering you a cigarette
+2. I'm asking you a cigarette
+3. I want to know if you have a cigarette
+4. I don't want to smoke
+ The correct answer is:","[(""I'm offering you a cigarette"", 0.22723610699176788), (""I'm asking you a cigarette"", 0.35195016860961914), ('I want to know if you have a cigarette', 0.27409908175468445), (""I don't want to smoke"", 0.14671465754508972)]","[(""I'm offering you a cigarette"", 0.13573171198368073), (""I'm asking you a cigarette"", 0.03326248377561569), ('I want to know if you have a cigarette', 0.5203127861022949), (""I don't want to smoke"", 0.3106929361820221)]",I'm asking you a cigarette,I want to know if you have a cigarette
+21,What do you think of this actor?,I could tell you if I could just watch the movie without your constant interruptions,What is the intended meaning of the target?,"['You should stop talking', 'I would like to watch the film without interruption', ""I can't understand the plot of the film"", ""I don't like the movie""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: What do you think of this actor?
+Target sentence: I could tell you if I could just watch the movie without your constant interruptions
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You should stop talking
+2. I would like to watch the film without interruption
+3. I can't understand the plot of the film
+4. I don't like the movie
+ The correct answer is:","[('You should stop talking', 0.1648411899805069), ('I would like to watch the film without interruption', 0.6940073370933533), (""I can't understand the plot of the film"", 0.04722779244184494), (""I don't like the movie"", 0.09392368048429489)]","[('You should stop talking', 0.023183105513453484), ('I would like to watch the film without interruption', 0.3626447916030884), (""I can't understand the plot of the film"", 0.437433123588562), (""I don't like the movie"", 0.17673896253108978)]",I would like to watch the film without interruption,I can't understand the plot of the film
+22,The audio is too low you can't hear anything,You have the remote control,What is the intended meaning of the target?,"['I would like you to turn up the volume', ""I don't have the remote control"", 'I would like you to turn the volume down', 'I would like you to give me the remote control']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: The audio is too low you can't hear anything
+Target sentence: You have the remote control
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to turn up the volume
+2. I don't have the remote control
+3. I would like you to turn the volume down
+4. I would like you to give me the remote control
+ The correct answer is:","[('I would like you to turn up the volume', 0.2866179347038269), (""I don't have the remote control"", 0.1534155160188675), ('I would like you to turn the volume down', 0.08741353452205658), ('I would like you to give me the remote control', 0.4725530743598938)]","[('I would like you to turn up the volume', 0.23357287049293518), (""I don't have the remote control"", 0.3293905258178711), ('I would like you to turn the volume down', 0.19978545606136322), ('I would like you to give me the remote control', 0.23725110292434692)]",I would like you to give me the remote control,I don't have the remote control
+23,I can't turn off the television,"I'll help you, but you have the remote control",What is the intended meaning of the target?,"['You should pass me the remote control', ""I don't have the remote control"", 'You have to use the remote control', 'The television is broken']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I can't turn off the television
+Target sentence: I'll help you, but you have the remote control
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You should pass me the remote control
+2. I don't have the remote control
+3. You have to use the remote control
+4. The television is broken
+ The correct answer is:","[('You should pass me the remote control', 0.4388239085674286), (""I don't have the remote control"", 0.23488552868366241), ('You have to use the remote control', 0.2500343322753906), ('The television is broken', 0.076256163418293)]","[('You should pass me the remote control', 0.04574442282319069), (""I don't have the remote control"", 0.7044693827629089), ('You have to use the remote control', 0.136567622423172), ('The television is broken', 0.1132185310125351)]",You should pass me the remote control,I don't have the remote control
+24,How can I help you?,I can't find the lemons,What is the intended meaning of the target?,"['You could help me find the lemons', ""I don't know where the lemons are"", 'I need lemons', ""I don't need your help""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How can I help you?
+Target sentence: I can't find the lemons
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You could help me find the lemons
+2. I don't know where the lemons are
+3. I need lemons
+4. I don't need your help
+ The correct answer is:","[('You could help me find the lemons', 0.2745484709739685), (""I don't know where the lemons are"", 0.2579144239425659), ('I need lemons', 0.3111041784286499), (""I don't need your help"", 0.15643300116062164)]","[('You could help me find the lemons', 0.12777572870254517), (""I don't know where the lemons are"", 0.7352985143661499), ('I need lemons', 0.027633437886834145), (""I don't need your help"", 0.10929236561059952)]",I need lemons,I don't know where the lemons are
+25,Change the channel I don't like this show,The remote control is on your right,What is the intended meaning of the target?,"['Take the remote control to change channels', ""I'm not near the remote control"", 'The remote control is needed to change channels', ""I don't want to change the channel""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Change the channel I don't like this show
+Target sentence: The remote control is on your right
+Question: What is the intended meaning of the target?
+Choices:
+
+1. Take the remote control to change channels
+2. I'm not near the remote control
+3. The remote control is needed to change channels
+4. I don't want to change the channel
+ The correct answer is:","[('Take the remote control to change channels', 0.3257111608982086), (""I'm not near the remote control"", 0.1357766091823578), ('The remote control is needed to change channels', 0.4451943635940552), (""I don't want to change the channel"", 0.09331780672073364)]","[('Take the remote control to change channels', 0.04936543107032776), (""I'm not near the remote control"", 0.09515435248613358), ('The remote control is needed to change channels', 0.1300605833530426), (""I don't want to change the channel"", 0.7254197001457214)]",The remote control is needed to change channels,I don't want to change the channel
+26,How can I help you?,We have to go to a birthday party tonight and we don't know what to wear,What is the intended meaning of the target?,"['You could help us find something to wear tonight.', 'We need to find something to wear tonight', 'The birthday party has a dress code', ""We don't need your help""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How can I help you?
+Target sentence: We have to go to a birthday party tonight and we don't know what to wear
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You could help us find something to wear tonight.
+2. We need to find something to wear tonight
+3. The birthday party has a dress code
+4. We don't need your help
+ The correct answer is:","[('You could help us find something to wear tonight.', 0.24140483140945435), ('We need to find something to wear tonight', 0.48009082674980164), ('The birthday party has a dress code', 0.2001316249370575), (""We don't need your help"", 0.07837267220020294)]","[('You could help us find something to wear tonight.', 0.2893131673336029), ('We need to find something to wear tonight', 0.2474626749753952), ('The birthday party has a dress code', 0.31774836778640747), (""We don't need your help"", 0.14547580480575562)]",We need to find something to wear tonight,The birthday party has a dress code
+27,I buy a computer magazine every month . It keeps me up-to date with all the latest developments .,I'd like to read some of them,What is the intended meaning of the target?,"['I would like you to lend me some of them', 'I would also like to read some computer magazines', 'I like computer mahazines', ""I'll buy some computer magazines too""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I buy a computer magazine every month . It keeps me up-to date with all the latest developments .
+Target sentence: I'd like to read some of them
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to lend me some of them
+2. I would also like to read some computer magazines
+3. I like computer mahazines
+4. I'll buy some computer magazines too
+ The correct answer is:","[('I would like you to lend me some of them', 0.43521514534950256), ('I would also like to read some computer magazines', 0.23295389115810394), ('I like computer mahazines', 0.18142466247081757), (""I'll buy some computer magazines too"", 0.15040633082389832)]","[('I would like you to lend me some of them', 0.18995092809200287), ('I would also like to read some computer magazines', 0.7281562685966492), ('I like computer mahazines', 0.0027095042169094086), (""I'll buy some computer magazines too"", 0.07918332517147064)]",I would like you to lend me some of them,I would also like to read some computer magazines
+28,"Mom, can I go out with my friends?",Your room is still dirty and I certainly won't be the one to clean it,What is the intended meaning of the target?,"['I want you to clean the room', ""You can't go out with friends"", 'Your room must be clean', 'Your friends will help you clean the room']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Mom, can I go out with my friends?
+Target sentence: Your room is still dirty and I certainly won't be the one to clean it
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want you to clean the room
+2. You can't go out with friends
+3. Your room must be clean
+4. Your friends will help you clean the room
+ The correct answer is:","[('I want you to clean the room', 0.21990807354450226), (""You can't go out with friends"", 0.13338099420070648), ('Your room must be clean', 0.1511404663324356), ('Your friends will help you clean the room', 0.49557048082351685)]","[('I want you to clean the room', 0.17017421126365662), (""You can't go out with friends"", 0.19283264875411987), ('Your room must be clean', 0.04302678257226944), ('Your friends will help you clean the room', 0.5939663648605347)]",Your friends will help you clean the room,Your friends will help you clean the room
+29,How about we move in together?,I'm still waiting for your marriage proposal,What is the intended meaning of the target?,"['I want you to propose to me', 'I want to marry you', ""I don't want to live with you"", ""I don't want to marry you""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: How about we move in together?
+Target sentence: I'm still waiting for your marriage proposal
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I want you to propose to me
+2. I want to marry you
+3. I don't want to live with you
+4. I don't want to marry you
+ The correct answer is:","[('I want you to propose to me', 0.3488968014717102), ('I want to marry you', 0.3953518867492676), (""I don't want to live with you"", 0.05695584416389465), (""I don't want to marry you"", 0.1987954080104828)]","[('I want you to propose to me', 0.31990358233451843), ('I want to marry you', 0.18227557837963104), (""I don't want to live with you"", 0.20654527842998505), (""I don't want to marry you"", 0.2912755310535431)]",I want to marry you,I want you to propose to me
+30,Let's go pay the bill,"I forgot my wallet, but I will give you the money back as soon as we get home",What is the intended meaning of the target?,"['I would like you to lend me the money', 'I would like you to pay for me', ""I can't pay because I don't have money"", ""I don't want to pay""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Let's go pay the bill
+Target sentence: I forgot my wallet, but I will give you the money back as soon as we get home
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to lend me the money
+2. I would like you to pay for me
+3. I can't pay because I don't have money
+4. I don't want to pay
+ The correct answer is:","[('I would like you to lend me the money', 0.2925894558429718), ('I would like you to pay for me', 0.2925894558429718), (""I can't pay because I don't have money"", 0.2582092881202698), (""I don't want to pay"", 0.1566118597984314)]","[('I would like you to lend me the money', 0.20165127515792847), ('I would like you to pay for me', 0.2843738794326782), (""I can't pay because I don't have money"", 0.31232360005378723), (""I don't want to pay"", 0.20165127515792847)]",I would like you to lend me the money,I can't pay because I don't have money
+31,It was a pleasure meeting you in person,"I'd like to see you again, but I don't have your number",What is the intended meaning of the target?,"['I would like you to give me your number', ""I can't call you because I don't have your number"", 'I lost your number', ""I don't want to see you anymore""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: It was a pleasure meeting you in person
+Target sentence: I'd like to see you again, but I don't have your number
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to give me your number
+2. I can't call you because I don't have your number
+3. I lost your number
+4. I don't want to see you anymore
+ The correct answer is:","[('I would like you to give me your number', 0.6360141634941101), (""I can't call you because I don't have your number"", 0.2339765429496765), ('I lost your number', 0.06703539937734604), (""I don't want to see you anymore"", 0.06297393143177032)]","[('I would like you to give me your number', 0.1717763990163803), (""I can't call you because I don't have your number"", 0.6584861874580383), ('I lost your number', 0.0032460649963468313), (""I don't want to see you anymore"", 0.16649137437343597)]",I would like you to give me your number,I can't call you because I don't have your number
+32,I think our relationship is going very well,It would be nice if you knew your parents at this point,What is the intended meaning of the target?,"['I would like you to introduce me to your parents', ""I haven't met your parents yet"", 'You should have already introduced your parents to me', ""I don't want to met your parents""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I think our relationship is going very well
+Target sentence: It would be nice if you knew your parents at this point
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to introduce me to your parents
+2. I haven't met your parents yet
+3. You should have already introduced your parents to me
+4. I don't want to met your parents
+ The correct answer is:","[('I would like you to introduce me to your parents', 0.32412055134773254), (""I haven't met your parents yet"", 0.36727669835090637), ('You should have already introduced your parents to me', 0.17348922789096832), (""I don't want to met your parents"", 0.13511355221271515)]","[('I would like you to introduce me to your parents', 0.5239362120628357), (""I haven't met your parents yet"", 0.28485918045043945), ('You should have already introduced your parents to me', 0.10156966745853424), (""I don't want to met your parents"", 0.08963491767644882)]",I haven't met your parents yet,I would like you to introduce me to your parents
+33,"Welcome to dinner, enjoy the steak","Sorry Jane, but I don't see the salt",What is the intended meaning of the target?,"['I would like you to give me salt', ""I don't know where is the salt"", 'I would like more salt on the steak', 'I like steak without salt']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Welcome to dinner, enjoy the steak
+Target sentence: Sorry Jane, but I don't see the salt
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to give me salt
+2. I don't know where is the salt
+3. I would like more salt on the steak
+4. I like steak without salt
+ The correct answer is:","[('I would like you to give me salt', 0.22418086230754852), (""I don't know where is the salt"", 0.1978389173746109), ('I would like more salt on the steak', 0.5051993727684021), ('I like steak without salt', 0.07278087735176086)]","[('I would like you to give me salt', 0.06632159650325775), (""I don't know where is the salt"", 0.38165444135665894), ('I would like more salt on the steak', 0.5216597318649292), ('I like steak without salt', 0.03036423772573471)]",I would like more salt on the steak,I would like more salt on the steak
+34,He's been sitting in his room everyday for the last 4 days .,Maybe it would help him to know some of your friends,What is the intended meaning of the target?,"['You should introduce him to some of your friends', 'He should have more friends', 'He has no friends', 'He is depressed']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: He's been sitting in his room everyday for the last 4 days .
+Target sentence: Maybe it would help him to know some of your friends
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You should introduce him to some of your friends
+2. He should have more friends
+3. He has no friends
+4. He is depressed
+ The correct answer is:","[('You should introduce him to some of your friends', 0.29776808619499207), ('He should have more friends', 0.21785180270671844), ('He has no friends', 0.2046528160572052), ('He is depressed', 0.2797272205352783)]","[('You should introduce him to some of your friends', 0.8976395726203918), ('He should have more friends', 0.041983164846897125), ('He has no friends', 0.04757315292954445), ('He is depressed', 0.012804140336811543)]",You should introduce him to some of your friends,You should introduce him to some of your friends
+35,He's been sitting in his room everyday for the last 4 days .,Maybe it would help him to know some of your friends,What is the intended meaning of the target?,"['You should introduce him to some of your friends', 'He should have more friends', 'He has no friends', 'He is depressed']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: He's been sitting in his room everyday for the last 4 days .
+Target sentence: Maybe it would help him to know some of your friends
+Question: What is the intended meaning of the target?
+Choices:
+
+1. You should introduce him to some of your friends
+2. He should have more friends
+3. He has no friends
+4. He is depressed
+ The correct answer is:","[('You should introduce him to some of your friends', 0.29776808619499207), ('He should have more friends', 0.21785180270671844), ('He has no friends', 0.2046528160572052), ('He is depressed', 0.2797272205352783)]","[('You should introduce him to some of your friends', 0.8976395726203918), ('He should have more friends', 0.041983164846897125), ('He has no friends', 0.04757315292954445), ('He is depressed', 0.012804140336811543)]",You should introduce him to some of your friends,You should introduce him to some of your friends
+36,You told me you needed help,"I have to go to the supermarket, but I don't know who to leave the baby with and I can't take him with me",What is the intended meaning of the target?,"[""I would like you to hold the baby while I'm at the grocery store"", ""I can't leave the baby alone"", 'I would like you to come with me to the supermarket', 'The child is not allowed in the supermarket']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: You told me you needed help
+Target sentence: I have to go to the supermarket, but I don't know who to leave the baby with and I can't take him with me
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to hold the baby while I'm at the grocery store
+2. I can't leave the baby alone
+3. I would like you to come with me to the supermarket
+4. The child is not allowed in the supermarket
+ The correct answer is:","[(""I would like you to hold the baby while I'm at the grocery store"", 0.38882339000701904), (""I can't leave the baby alone"", 0.28446927666664124), ('I would like you to come with me to the supermarket', 0.14304013550281525), ('The child is not allowed in the supermarket', 0.1836671531200409)]","[(""I would like you to hold the baby while I'm at the grocery store"", 0.23469865322113037), (""I can't leave the baby alone"", 0.2071208357810974), ('I would like you to come with me to the supermarket', 0.452393501996994), ('The child is not allowed in the supermarket', 0.10578697174787521)]",I would like you to hold the baby while I'm at the grocery store,I would like you to come with me to the supermarket
+37,Do you know what Katy told me?,"Oh come on, don't keep it a secret",What is the intended meaning of the target?,"['I wish you would tell me what Katie said', ""I don't know what Katy said"", 'What Katy told you is a secret', ""You can't keep secrets""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Do you know what Katy told me?
+Target sentence: Oh come on, don't keep it a secret
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I wish you would tell me what Katie said
+2. I don't know what Katy said
+3. What Katy told you is a secret
+4. You can't keep secrets
+ The correct answer is:","[('I wish you would tell me what Katie said', 0.2445748895406723), (""I don't know what Katy said"", 0.21583659946918488), ('What Katy told you is a secret', 0.2950136363506317), (""You can't keep secrets"", 0.2445748895406723)]","[('I wish you would tell me what Katie said', 0.18741177022457123), (""I don't know what Katy said"", 0.542293906211853), ('What Katy told you is a secret', 0.24064145982265472), (""You can't keep secrets"", 0.029652845114469528)]",What Katy told you is a secret,I don't know what Katy said
+38,Where should I sit ?,The back seat is free,What is the intended meaning of the target?,"['I would like you to sit in the back seat', 'No one is sitting in the back seat', 'It is forbidden to sit in the back seat', 'There is no space to sit']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Where should I sit ?
+Target sentence: The back seat is free
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to sit in the back seat
+2. No one is sitting in the back seat
+3. It is forbidden to sit in the back seat
+4. There is no space to sit
+ The correct answer is:","[('I would like you to sit in the back seat', 0.14815381169319153), ('No one is sitting in the back seat', 0.7068023085594177), ('It is forbidden to sit in the back seat', 0.0657428577542305), ('There is no space to sit', 0.07930102199316025)]","[('I would like you to sit in the back seat', 0.41210174560546875), ('No one is sitting in the back seat', 0.431878924369812), ('It is forbidden to sit in the back seat', 0.14925336837768555), ('There is no space to sit', 0.0067658997140824795)]",No one is sitting in the back seat,No one is sitting in the back seat
+39,Next Saturday we will take a trip to the beach,Oh I would love to go to the beach next Saturday,What is the intended meaning of the target?,"['I would like you to invite me to come with you', ""I'm also going to the beach next Saturday"", 'I like the sea', 'I always go to the beach on Saturdays']",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: Next Saturday we will take a trip to the beach
+Target sentence: Oh I would love to go to the beach next Saturday
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I would like you to invite me to come with you
+2. I'm also going to the beach next Saturday
+3. I like the sea
+4. I always go to the beach on Saturdays
+ The correct answer is:","[('I would like you to invite me to come with you', 0.2230968475341797), (""I'm also going to the beach next Saturday"", 0.41679975390434265), ('I like the sea', 0.19688226282596588), ('I always go to the beach on Saturdays', 0.16322112083435059)]","[('I would like you to invite me to come with you', 0.21483321487903595), (""I'm also going to the beach next Saturday"", 0.5153580904006958), ('I like the sea', 0.0065895626321434975), ('I always go to the beach on Saturdays', 0.2632191479206085)]",I'm also going to the beach next Saturday,I'm also going to the beach next Saturday
+40,I ask you to sign the contract,"Perfect, but I didn't bring the pen",What is the intended meaning of the target?,"['I wish you would give me a pen', 'I forgot my pen', ""I can't sign the contract"", ""I don't want to sign the contract""]",,[1],"Task: I'll give you a context utterance and a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Context utterance: I ask you to sign the contract
+Target sentence: Perfect, but I didn't bring the pen
+Question: What is the intended meaning of the target?
+Choices:
+
+1. I wish you would give me a pen
+2. I forgot my pen
+3. I can't sign the contract
+4. I don't want to sign the contract
+ The correct answer is:","[('I wish you would give me a pen', 0.4074767529964447), ('I forgot my pen', 0.4074767529964447), (""I can't sign the contract"", 0.10967088490724564), (""I don't want to sign the contract"", 0.07537562400102615)]","[('I wish you would give me a pen', 0.1743832677602768), ('I forgot my pen', 0.010150322690606117), (""I can't sign the contract"", 0.31087177991867065), (""I don't want to sign the contract"", 0.5045946836471558)]",I wish you would give me a pen,I don't want to sign the contract

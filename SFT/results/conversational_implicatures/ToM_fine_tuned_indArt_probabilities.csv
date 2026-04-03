@@ -1,0 +1,838 @@
+ID,Target,Question,Choices,Human answer,Correct Answer,Context utterance,Prompt,choices_prob,sentences_prob,choice_win,Generated Text
+1,I saw a woman in my office,Who was the woman?,"['A stranger', 'My wife', 'My brother', 'My dog']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I saw a woman in my office
+Question: Who was the woman?
+Choices:
+
+1. A stranger
+2. My wife
+3. My brother
+4. My dog
+ The correct answer is:","[('A stranger', 0.3642796576023102), ('My wife', 0.2665126919746399), ('My brother', 0.23519663512706757), ('My dog', 0.13401100039482117)]","[('A stranger', 0.1112256869673729), ('My wife', 0.20779694616794586), ('My brother', 0.6400596499443054), ('My dog', 0.040917642414569855)]",A stranger,My brother
+2,I saw a woman in my office,Who was the woman?,"['A stranger', 'My wife', 'My brother', 'My dog']",,[1],She looked like my wife,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I saw a woman in my office
+Question: Who was the woman?
+Choices:
+
+1. A stranger
+2. My wife
+3. My brother
+4. My dog
+ The correct answer is:","[('A stranger', 0.3642796576023102), ('My wife', 0.2665126919746399), ('My brother', 0.23519663512706757), ('My dog', 0.13401100039482117)]","[('A stranger', 0.1112256869673729), ('My wife', 0.20779694616794586), ('My brother', 0.6400596499443054), ('My dog', 0.040917642414569855)]",A stranger,My brother
+3,I saw a woman in my office,Who was the woman?,"['My wife', 'A stranger', 'My brother', 'My dog']",,[1],She was my wife,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I saw a woman in my office
+Question: Who was the woman?
+Choices:
+
+1. My wife
+2. A stranger
+3. My brother
+4. My dog
+ The correct answer is:","[('My wife', 0.14975996315479279), ('A stranger', 0.6711775660514832), ('My brother', 0.062429241836071014), ('My dog', 0.11663316935300827)]","[('My wife', 0.20779694616794586), ('A stranger', 0.1112256869673729), ('My brother', 0.6400596499443054), ('My dog', 0.040917642414569855)]",A stranger,My brother
+4,John walked into a house yesterday and saw a tortoise.,Whose house was it?,"[""I don't know"", ""John's"", ""Of John's father"", 'Of the tortoise']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: John walked into a house yesterday and saw a tortoise.
+Question: Whose house was it?
+Choices:
+
+1. I don't know
+2. John's
+3. Of John's father
+4. Of the tortoise
+ The correct answer is:","[(""I don't know"", 0.09347108751535416), (""John's"", 0.6095080375671387), (""Of John's father"", 0.2242254763841629), ('Of the tortoise', 0.07279535382986069)]","[(""I don't know"", 0.9004360437393188), (""John's"", 0.021509703248739243), (""Of John's father"", 0.019584808498620987), ('Of the tortoise', 0.058469437062740326)]",John's,I don't know
+5,John walked into a house yesterday and saw a tortoise.,Whose house was it?,"[""I don't know"", ""John's"", ""Of John's father"", 'Of the tortoise']",,[1],The house was very clean.,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: John walked into a house yesterday and saw a tortoise.
+Question: Whose house was it?
+Choices:
+
+1. I don't know
+2. John's
+3. Of John's father
+4. Of the tortoise
+ The correct answer is:","[(""I don't know"", 0.09347108751535416), (""John's"", 0.6095080375671387), (""Of John's father"", 0.2242254763841629), ('Of the tortoise', 0.07279535382986069)]","[(""I don't know"", 0.9004360437393188), (""John's"", 0.021509703248739243), (""Of John's father"", 0.019584808498620987), ('Of the tortoise', 0.058469437062740326)]",John's,I don't know
+6,John walked into a house yesterday and saw a tortoise.,Whose house was it?,"[""John's"", ""I don't know"", ""Of John's father"", 'Of the tortoise']",,[1],From that moment it would become his home,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: John walked into a house yesterday and saw a tortoise.
+Question: Whose house was it?
+Choices:
+
+1. John's
+2. I don't know
+3. Of John's father
+4. Of the tortoise
+ The correct answer is:","[(""John's"", 0.22336611151695251), (""I don't know"", 0.2694309651851654), (""Of John's father"", 0.2694309651851654), ('Of the tortoise', 0.23777198791503906)]","[(""John's"", 0.021509703248739243), (""I don't know"", 0.9004360437393188), (""Of John's father"", 0.019584808498620987), ('Of the tortoise', 0.058469437062740326)]",I don't know,I don't know
+7,I've just found a lighter,Whose lighter is it?,"[""I don't know"", 'Mine', 'Of my friend', 'Of the tobacconist']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I've just found a lighter
+Question: Whose lighter is it?
+Choices:
+
+1. I don't know
+2. Mine
+3. Of my friend
+4. Of the tobacconist
+ The correct answer is:","[(""I don't know"", 0.14063672721385956), ('Mine', 0.31692975759506226), ('Of my friend', 0.2627439796924591), ('Of the tobacconist', 0.2796895205974579)]","[(""I don't know"", 0.864273726940155), ('Mine', 4.200778221274959e-06), ('Of my friend', 0.0010941901709884405), ('Of the tobacconist', 0.13462787866592407)]",Mine,I don't know
+8,I've just found a lighter,Whose lighter is it?,"[""I don't know"", 'Mine', 'Of my friend', 'Of the tobacconist']",,[1],It has the same color as mine,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I've just found a lighter
+Question: Whose lighter is it?
+Choices:
+
+1. I don't know
+2. Mine
+3. Of my friend
+4. Of the tobacconist
+ The correct answer is:","[(""I don't know"", 0.14063672721385956), ('Mine', 0.31692975759506226), ('Of my friend', 0.2627439796924591), ('Of the tobacconist', 0.2796895205974579)]","[(""I don't know"", 0.864273726940155), ('Mine', 4.200778221274959e-06), ('Of my friend', 0.0010941901709884405), ('Of the tobacconist', 0.13462787866592407)]",Mine,I don't know
+9,I've just found a lighter,Whose lighter is it?,"['Mine', ""I don't know"", 'Of my friend', 'Of the tobacconist']",,[1],That's what I had lost,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I've just found a lighter
+Question: Whose lighter is it?
+Choices:
+
+1. Mine
+2. I don't know
+3. Of my friend
+4. Of the tobacconist
+ The correct answer is:","[('Mine', 0.16236849129199982), (""I don't know"", 0.2677003741264343), ('Of my friend', 0.2849655747413635), ('Of the tobacconist', 0.2849655747413635)]","[('Mine', 4.200778221274959e-06), (""I don't know"", 0.864273726940155), ('Of my friend', 0.0010941901709884405), ('Of the tobacconist', 0.13462787866592407)]",Of my friend,I don't know
+10,"Be careful, there is a child in the car with me",Who is the baby?,"[""I don't know"", 'My son', 'My sister', 'My dad']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Be careful, there is a child in the car with me
+Question: Who is the baby?
+Choices:
+
+1. I don't know
+2. My son
+3. My sister
+4. My dad
+ The correct answer is:","[(""I don't know"", 0.111382856965065), ('My son', 0.6409640908241272), ('My sister', 0.1430184245109558), ('My dad', 0.10463451594114304)]","[(""I don't know"", 0.957522988319397), ('My son', 0.01699806936085224), ('My sister', 0.024732043966650963), ('My dad', 0.0007468429976142943)]",My son,I don't know
+11,"Be careful, there is a child in the car with me",Who is the baby?,"[""I don't know"", 'My son', 'My sister', 'My dad']",,[1],He is afraid of the car,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Be careful, there is a child in the car with me
+Question: Who is the baby?
+Choices:
+
+1. I don't know
+2. My son
+3. My sister
+4. My dad
+ The correct answer is:","[(""I don't know"", 0.111382856965065), ('My son', 0.6409640908241272), ('My sister', 0.1430184245109558), ('My dad', 0.10463451594114304)]","[(""I don't know"", 0.957522988319397), ('My son', 0.01699806936085224), ('My sister', 0.024732043966650963), ('My dad', 0.0007468429976142943)]",My son,I don't know
+12,"Be careful, there is a child in the car with me",Who is the baby?,"['My son', ""I don't know"", 'My sister', 'My dad']",,[1],He's my son,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Be careful, there is a child in the car with me
+Question: Who is the baby?
+Choices:
+
+1. My son
+2. I don't know
+3. My sister
+4. My dad
+ The correct answer is:","[('My son', 0.3879862427711487), (""I don't know"", 0.2210679054260254), ('My sister', 0.2076740860939026), ('My dad', 0.18327172100543976)]","[('My son', 0.01699806936085224), (""I don't know"", 0.957522988319397), ('My sister', 0.024732043966650963), ('My dad', 0.0007468429976142943)]",My son,I don't know
+13,A music band is playing,Who is the band?,"[""I don't know"", 'My favourite band', ""My father's band"", 'The footoball team']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: A music band is playing
+Question: Who is the band?
+Choices:
+
+1. I don't know
+2. My favourite band
+3. My father's band
+4. The footoball team
+ The correct answer is:","[(""I don't know"", 0.15362419188022614), ('My favourite band', 0.4175938367843628), (""My father's band"", 0.3922930955886841), ('The footoball team', 0.03648894280195236)]","[(""I don't know"", 0.9183470606803894), ('My favourite band', 0.01630261167883873), (""My father's band"", 0.041630178689956665), ('The footoball team', 0.023720161989331245)]",My favourite band,I don't know
+14,A music band is playing,Which band?,"[""I don't know"", 'My favourite band', ""My father's band"", 'The footoball team']",,[1],The sound is similar to that of my favorite band,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: A music band is playing
+Question: Which band?
+Choices:
+
+1. I don't know
+2. My favourite band
+3. My father's band
+4. The footoball team
+ The correct answer is:","[(""I don't know"", 0.20013482868671417), ('My favourite band', 0.3980156183242798), (""My father's band"", 0.35124754905700684), ('The footoball team', 0.0506020113825798)]","[(""I don't know"", 0.8913365602493286), ('My favourite band', 0.03678985312581062), (""My father's band"", 0.04578571394085884), ('The footoball team', 0.026087911799550056)]",My favourite band,I don't know
+15,A music band is playing,Does the subject know the band?,"['My favourite band', ""I don't know"", ""My father's band"", 'The footoball team']",,[1],I just realized it's my favourite band,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: A music band is playing
+Question: Does the subject know the band?
+Choices:
+
+1. My favourite band
+2. I don't know
+3. My father's band
+4. The footoball team
+ The correct answer is:","[('My favourite band', 0.21106328070163727), (""I don't know"", 0.3943181037902832), (""My father's band"", 0.28848931193351746), ('The footoball team', 0.10612928122282028)]","[('My favourite band', 0.012354354374110699), (""I don't know"", 0.9512325525283813), (""My father's band"", 0.030577322468161583), ('The footoball team', 0.005835783667862415)]",I don't know,I don't know
+16,I promised to go to a concert with my sister .,What kind of concert is it?,"[""I don't know"", 'A Rock concert', 'A gospel concert', ""My sister's concert""]",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I promised to go to a concert with my sister .
+Question: What kind of concert is it?
+Choices:
+
+1. I don't know
+2. A Rock concert
+3. A gospel concert
+4. My sister's concert
+ The correct answer is:","[(""I don't know"", 0.12592566013336182), ('A Rock concert', 0.3020799458026886), ('A gospel concert', 0.20761632919311523), (""My sister's concert"", 0.3643779754638672)]","[(""I don't know"", 0.8331311345100403), ('A Rock concert', 0.04279584810137749), ('A gospel concert', 0.02763107419013977), (""My sister's concert"", 0.09644193202257156)]",My sister's concert,I don't know
+17,I promised to go to a concert with my sister .,What kind of concert is it?,"[""I don't know"", 'A Rock concert', 'A gospel concert', ""My sister's concert""]",,[1],I hope it's a rock concert,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I promised to go to a concert with my sister .
+Question: What kind of concert is it?
+Choices:
+
+1. I don't know
+2. A Rock concert
+3. A gospel concert
+4. My sister's concert
+ The correct answer is:","[(""I don't know"", 0.12592566013336182), ('A Rock concert', 0.3020799458026886), ('A gospel concert', 0.20761632919311523), (""My sister's concert"", 0.3643779754638672)]","[(""I don't know"", 0.8331311345100403), ('A Rock concert', 0.04279584810137749), ('A gospel concert', 0.02763107419013977), (""My sister's concert"", 0.09644193202257156)]",My sister's concert,I don't know
+18,I promised to go to a concert with my sister .,What kind of concert is it?,"['A gospel concert', 'A Rock concert', ""I don't know"", ""My sister's concert""]",,[1],I will attend a gospel concert for the first time,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I promised to go to a concert with my sister .
+Question: What kind of concert is it?
+Choices:
+
+1. A gospel concert
+2. A Rock concert
+3. I don't know
+4. My sister's concert
+ The correct answer is:","[('A gospel concert', 0.09079273045063019), ('A Rock concert', 0.40690478682518005), (""I don't know"", 0.20460458099842072), (""My sister's concert"", 0.29769790172576904)]","[('A gospel concert', 0.02763107419013977), ('A Rock concert', 0.04279584810137749), (""I don't know"", 0.8331311345100403), (""My sister's concert"", 0.09644193202257156)]",A Rock concert,I don't know
+19,I ordered a dish of about $15.,What was the name of the dish?,"[""I don't know"", 'Moussaka', 'Oysters', 'Champagne']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I ordered a dish of about $15.
+Question: What was the name of the dish?
+Choices:
+
+1. I don't know
+2. Moussaka
+3. Oysters
+4. Champagne
+ The correct answer is:","[(""I don't know"", 0.13847792148590088), ('Moussaka', 0.6206149458885193), ('Oysters', 0.08399109542369843), ('Champagne', 0.1569160372018814)]","[(""I don't know"", 0.9244937896728516), ('Moussaka', 0.06490965187549591), ('Oysters', 0.010596209205687046), ('Champagne', 3.5195623127037834e-07)]",Moussaka,I don't know
+20,I ordered a dish of about $15.,What was the name of the dish?,"[""I don't know"", 'Moussaka', 'Oysters', 'Champagne']",,[1],It is usually the price of the Moussaka,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I ordered a dish of about $15.
+Question: What was the name of the dish?
+Choices:
+
+1. I don't know
+2. Moussaka
+3. Oysters
+4. Champagne
+ The correct answer is:","[(""I don't know"", 0.13847792148590088), ('Moussaka', 0.6206149458885193), ('Oysters', 0.08399109542369843), ('Champagne', 0.1569160372018814)]","[(""I don't know"", 0.9244937896728516), ('Moussaka', 0.06490965187549591), ('Oysters', 0.010596209205687046), ('Champagne', 3.5195623127037834e-07)]",Moussaka,I don't know
+21,I ordered a dish of about $15.,What was the name of the dish?,"['Moussaka', ""I don't know"", 'Oysters', 'Champagne']",,[1],I think its name was Moussaka,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I ordered a dish of about $15.
+Question: What was the name of the dish?
+Choices:
+
+1. Moussaka
+2. I don't know
+3. Oysters
+4. Champagne
+ The correct answer is:","[('Moussaka', 0.22488965094089508), (""I don't know"", 0.5742758512496948), ('Oysters', 0.06443196535110474), ('Champagne', 0.13640247285366058)]","[('Moussaka', 0.06490965187549591), (""I don't know"", 0.9244937896728516), ('Oysters', 0.010596209205687046), ('Champagne', 3.5195623127037834e-07)]",I don't know,I don't know
+22,I just found a card on the ground,What kind of card was it?,"[""I don't know"", 'The library card', 'A credit card', 'A postcard']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just found a card on the ground
+Question: What kind of card was it?
+Choices:
+
+1. I don't know
+2. The library card
+3. A credit card
+4. A postcard
+ The correct answer is:","[(""I don't know"", 0.1555648148059845), ('The library card', 0.5429745316505432), ('A credit card', 0.11381364613771439), ('A postcard', 0.1876469850540161)]","[(""I don't know"", 0.7253100872039795), ('The library card', 0.007569290231913328), ('A credit card', 0.08937574177980423), ('A postcard', 0.17774488031864166)]",The library card,I don't know
+23,I just found a card on the ground,What kind of card was it?,"[""I don't know"", 'The library card', 'A credit card', 'A postcard']",,[1],The card was just in front of the library,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just found a card on the ground
+Question: What kind of card was it?
+Choices:
+
+1. I don't know
+2. The library card
+3. A credit card
+4. A postcard
+ The correct answer is:","[(""I don't know"", 0.1555648148059845), ('The library card', 0.5429745316505432), ('A credit card', 0.11381364613771439), ('A postcard', 0.1876469850540161)]","[(""I don't know"", 0.7253100872039795), ('The library card', 0.007569290231913328), ('A credit card', 0.08937574177980423), ('A postcard', 0.17774488031864166)]",The library card,I don't know
+24,I just found a card on the ground,What kind of card was it?,"['The library card', ""I don't know"", 'A credit card', 'A postcard']",,[1],The card had the library logo,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just found a card on the ground
+Question: What kind of card was it?
+Choices:
+
+1. The library card
+2. I don't know
+3. A credit card
+4. A postcard
+ The correct answer is:","[('The library card', 0.20580154657363892), (""I don't know"", 0.46378093957901), ('A credit card', 0.09721376746892929), ('A postcard', 0.2332037091255188)]","[('The library card', 0.007569290231913328), (""I don't know"", 0.7253100872039795), ('A credit card', 0.08937574177980423), ('A postcard', 0.17774488031864166)]",I don't know,I don't know
+25,I just found a card on the ground,Whose card was it?,"[""I don't know"", 'Mine', ""My sister's"", 'Of my dog']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just found a card on the ground
+Question: Whose card was it?
+Choices:
+
+1. I don't know
+2. Mine
+3. My sister's
+4. Of my dog
+ The correct answer is:","[(""I don't know"", 0.17574459314346313), ('Mine', 0.32833412289619446), (""My sister's"", 0.24021439254283905), ('Of my dog', 0.25570687651634216)]","[(""I don't know"", 0.8432844877243042), ('Mine', 1.086063434740936e-06), (""My sister's"", 0.15599195659160614), ('Of my dog', 0.0007223860011436045)]",Mine,I don't know
+26,I just found a card on the ground,Whose card was it?,"[""I don't know"", 'Mine', ""My sister's"", 'Of my dog']",,[1],It's quite similar to my library card,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just found a card on the ground
+Question: Whose card was it?
+Choices:
+
+1. I don't know
+2. Mine
+3. My sister's
+4. Of my dog
+ The correct answer is:","[(""I don't know"", 0.17574459314346313), ('Mine', 0.32833412289619446), (""My sister's"", 0.24021439254283905), ('Of my dog', 0.25570687651634216)]","[(""I don't know"", 0.8432844877243042), ('Mine', 1.086063434740936e-06), (""My sister's"", 0.15599195659160614), ('Of my dog', 0.0007223860011436045)]",Mine,I don't know
+27,I just found a card on the ground,Whose card was it?,"['Mine', ""I don't know"", ""My sister's"", 'Of my dog']",,[1],It's the library card I had lost,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just found a card on the ground
+Question: Whose card was it?
+Choices:
+
+1. Mine
+2. I don't know
+3. My sister's
+4. Of my dog
+ The correct answer is:","[('Mine', 0.15040633082389832), (""I don't know"", 0.43521514534950256), (""My sister's"", 0.23295389115810394), ('Of my dog', 0.18142466247081757)]","[('Mine', 1.086063434740936e-06), (""I don't know"", 0.8432844877243042), (""My sister's"", 0.15599195659160614), ('Of my dog', 0.0007223860011436045)]",I don't know,I don't know
+28,I'm looking for a gas station,What kind of gas station?,"['Any', 'American gas', 'A closed gas station', 'A gas station with bathrooms']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I'm looking for a gas station
+Question: What kind of gas station?
+Choices:
+
+1. Any
+2. American gas
+3. A closed gas station
+4. A gas station with bathrooms
+ The correct answer is:","[('Any', 0.2345857322216034), ('American gas', 0.3867664933204651), ('A closed gas station', 0.20702119171619415), ('A gas station with bathrooms', 0.17162659764289856)]","[('Any', 3.836809628410265e-05), ('American gas', 0.009993861429393291), ('A closed gas station', 0.679067850112915), ('A gas station with bathrooms', 0.31089991331100464)]",American gas,A closed gas station
+29,I'm looking for a gas station,What kind of gas station?,"['Any', 'American gas', 'A closed gas station', 'A gas station with bathrooms']",,[1],American gas stations are the most common,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I'm looking for a gas station
+Question: What kind of gas station?
+Choices:
+
+1. Any
+2. American gas
+3. A closed gas station
+4. A gas station with bathrooms
+ The correct answer is:","[('Any', 0.2345857322216034), ('American gas', 0.3867664933204651), ('A closed gas station', 0.20702119171619415), ('A gas station with bathrooms', 0.17162659764289856)]","[('Any', 3.836809628410265e-05), ('American gas', 0.009993861429393291), ('A closed gas station', 0.679067850112915), ('A gas station with bathrooms', 0.31089991331100464)]",American gas,A closed gas station
+30,I'm looking for a gas station,What kind of gas station?,"['American gas', 'Any', 'A closed gas station', 'A gas station with bathrooms']",,[1],Only American Gas sells the type of petrol I need,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I'm looking for a gas station
+Question: What kind of gas station?
+Choices:
+
+1. American gas
+2. Any
+3. A closed gas station
+4. A gas station with bathrooms
+ The correct answer is:","[('American gas', 0.22684495151042938), ('Any', 0.48023077845573425), ('A closed gas station', 0.1464621126651764), ('A gas station with bathrooms', 0.1464621126651764)]","[('American gas', 0.009993861429393291), ('Any', 3.836809628410265e-05), ('A closed gas station', 0.679067850112915), ('A gas station with bathrooms', 0.31089991331100464)]",Any,A closed gas station
+31,I would love to receive a gift,What kind of gift?,"['Any', 'A scarf', 'A child', 'An island']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would love to receive a gift
+Question: What kind of gift?
+Choices:
+
+1. Any
+2. A scarf
+3. A child
+4. An island
+ The correct answer is:","[('Any', 0.20405302941799164), ('A scarf', 0.4058079123497009), ('A child', 0.23122239112854004), ('An island', 0.1589166522026062)]","[('Any', 0.020953843370079994), ('A scarf', 0.5076651573181152), ('A child', 0.37141579389572144), ('An island', 0.09996519982814789)]",A scarf,A scarf
+32,I would love to receive a gift,What kind of gift?,"['Any', 'A scarf', 'A child', 'An island']",,[1],You may receive a scarf,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would love to receive a gift
+Question: What kind of gift?
+Choices:
+
+1. Any
+2. A scarf
+3. A child
+4. An island
+ The correct answer is:","[('Any', 0.20405302941799164), ('A scarf', 0.4058079123497009), ('A child', 0.23122239112854004), ('An island', 0.1589166522026062)]","[('Any', 0.020953843370079994), ('A scarf', 0.5076651573181152), ('A child', 0.37141579389572144), ('An island', 0.09996519982814789)]",A scarf,A scarf
+33,I would love to receive a gift,What kind of gift?,"['A scarf', 'Any', 'A child', 'An island']",,[1],It would be nice if I received a scarf,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would love to receive a gift
+Question: What kind of gift?
+Choices:
+
+1. A scarf
+2. Any
+3. A child
+4. An island
+ The correct answer is:","[('A scarf', 0.12269871681928635), ('Any', 0.485282838344574), ('A child', 0.24401552975177765), ('An island', 0.14800290763378143)]","[('A scarf', 0.5076651573181152), ('Any', 0.020953843370079994), ('A child', 0.37141579389572144), ('An island', 0.09996519982814789)]",Any,A scarf
+34,There's a picture of a man in the living room,Who is the man?,"[""I don't know"", 'My great grandfather', 'Me', 'My dog']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: There's a picture of a man in the living room
+Question: Who is the man?
+Choices:
+
+1. I don't know
+2. My great grandfather
+3. Me
+4. My dog
+ The correct answer is:","[(""I don't know"", 0.11977596580982208), ('My great grandfather', 0.2699193060398102), ('Me', 0.5714191794395447), ('My dog', 0.03888556361198425)]","[(""I don't know"", 0.9932221174240112), ('My great grandfather', 0.006692278198897839), ('Me', 6.496149580925703e-06), ('My dog', 7.913930312497541e-05)]",Me,I don't know
+35,There's a picture of a man in the living room,Who is the man?,"[""I don't know"", 'My great grandfather', 'Me', 'My dog']",,[1],He looks a lot like me,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: There's a picture of a man in the living room
+Question: Who is the man?
+Choices:
+
+1. I don't know
+2. My great grandfather
+3. Me
+4. My dog
+ The correct answer is:","[(""I don't know"", 0.11977596580982208), ('My great grandfather', 0.2699193060398102), ('Me', 0.5714191794395447), ('My dog', 0.03888556361198425)]","[(""I don't know"", 0.9932221174240112), ('My great grandfather', 0.006692278198897839), ('Me', 6.496149580925703e-06), ('My dog', 7.913930312497541e-05)]",Me,I don't know
+36,There's a picture of a man in the living room,Who is the man?,"['My great grandfather', ""I don't know"", 'Me', 'My dog']",,[1],He should be my great grandfather,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: There's a picture of a man in the living room
+Question: Who is the man?
+Choices:
+
+1. My great grandfather
+2. I don't know
+3. Me
+4. My dog
+ The correct answer is:","[('My great grandfather', 0.11433065682649612), (""I don't know"", 0.21359778940677643), ('Me', 0.6180656552314758), ('My dog', 0.05400597304105759)]","[('My great grandfather', 0.006692278198897839), (""I don't know"", 0.9932221174240112), ('Me', 6.496149580925703e-06), ('My dog', 7.913930312497541e-05)]",Me,I don't know
+37,Can you pass me a bowl?,What kind of bowl?,"['Any', 'A coupe bowl', 'A flower vase', 'An urn of ashes']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Can you pass me a bowl?
+Question: What kind of bowl?
+Choices:
+
+1. Any
+2. A coupe bowl
+3. A flower vase
+4. An urn of ashes
+ The correct answer is:","[('Any', 0.2264312207698822), ('A coupe bowl', 0.3973991572856903), ('A flower vase', 0.19982483983039856), ('An urn of ashes', 0.17634481191635132)]","[('Any', 0.0003152569697704166), ('A coupe bowl', 0.3917534649372101), ('A flower vase', 0.47254490852355957), ('An urn of ashes', 0.1353863924741745)]",A coupe bowl,A flower vase
+38,Can you pass me a bowl?,What kind of bowl?,"['Any', 'A coupe bowl', 'A flower vase', 'An urn of ashes']",,[1],Do you think a coupe bowl would be better?,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Can you pass me a bowl?
+Question: What kind of bowl?
+Choices:
+
+1. Any
+2. A coupe bowl
+3. A flower vase
+4. An urn of ashes
+ The correct answer is:","[('Any', 0.2264312207698822), ('A coupe bowl', 0.3973991572856903), ('A flower vase', 0.19982483983039856), ('An urn of ashes', 0.17634481191635132)]","[('Any', 0.0003152569697704166), ('A coupe bowl', 0.3917534649372101), ('A flower vase', 0.47254490852355957), ('An urn of ashes', 0.1353863924741745)]",A coupe bowl,A flower vase
+39,Can you pass me a bowl?,What kind of bowl?,"['A coupe bowl', 'Any', 'A flower vase', 'An urn of ashes']",,[1],A coupe bowl would be better,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Can you pass me a bowl?
+Question: What kind of bowl?
+Choices:
+
+1. A coupe bowl
+2. Any
+3. A flower vase
+4. An urn of ashes
+ The correct answer is:","[('A coupe bowl', 0.20681573450565338), ('Any', 0.5281224846839905), ('A flower vase', 0.1039934828877449), ('An urn of ashes', 0.16106826066970825)]","[('A coupe bowl', 0.3917534649372101), ('Any', 0.0003152569697704166), ('A flower vase', 0.47254490852355957), ('An urn of ashes', 0.1353863924741745)]",Any,A flower vase
+40,Do you want to play a game?,What is the game?,"['Any', 'Mahjong', 'Laser game', 'Hunger games']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Do you want to play a game?
+Question: What is the game?
+Choices:
+
+1. Any
+2. Mahjong
+3. Laser game
+4. Hunger games
+ The correct answer is:","[('Any', 0.20416264235973358), ('Mahjong', 0.33660727739334106), ('Laser game', 0.27905723452568054), ('Hunger games', 0.1801729053258896)]","[('Any', 0.00026361626805737615), ('Mahjong', 0.3951396644115448), ('Laser game', 0.06450477987527847), ('Hunger games', 0.540091872215271)]",Mahjong,Hunger games
+41,Do you want to play a game?,What is the game?,"['Any', 'Mahjong', 'Laser game', 'Hunger games']",,[1],I already played mahjong a little while ago,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Do you want to play a game?
+Question: What is the game?
+Choices:
+
+1. Any
+2. Mahjong
+3. Laser game
+4. Hunger games
+ The correct answer is:","[('Any', 0.20416264235973358), ('Mahjong', 0.33660727739334106), ('Laser game', 0.27905723452568054), ('Hunger games', 0.1801729053258896)]","[('Any', 0.00026361626805737615), ('Mahjong', 0.3951396644115448), ('Laser game', 0.06450477987527847), ('Hunger games', 0.540091872215271)]",Mahjong,Hunger games
+42,Do you want to play a game?,What is the game?,"['Mahjong', 'Any', 'Laser game', 'Hunger games']",,[1],I want to play mahjong,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Do you want to play a game?
+Question: What is the game?
+Choices:
+
+1. Mahjong
+2. Any
+3. Laser game
+4. Hunger games
+ The correct answer is:","[('Mahjong', 0.1708984076976776), ('Any', 0.4645500183105469), ('Laser game', 0.1708984076976776), ('Hunger games', 0.19365325570106506)]","[('Mahjong', 0.3951396644115448), ('Any', 0.00026361626805737615), ('Laser game', 0.06450477987527847), ('Hunger games', 0.540091872215271)]",Any,Hunger games
+43,Let's find a table and sit down.,Which table?,"['Any', 'The table near the window', 'A round table', 'A surfboard']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let's find a table and sit down.
+Question: Which table?
+Choices:
+
+1. Any
+2. The table near the window
+3. A round table
+4. A surfboard
+ The correct answer is:","[('Any', 0.15311244130134583), ('The table near the window', 0.4430455267429352), ('A round table', 0.26872068643569946), ('A surfboard', 0.13512125611305237)]","[('Any', 0.0007492966251447797), ('The table near the window', 0.5647480487823486), ('A round table', 0.3881452977657318), ('A surfboard', 0.04635734111070633)]",The table near the window,The table near the window
+44,Let's find a table and sit down.,Which table?,"['Any', 'The table near the window', 'A round table', 'A surfboard']",,[1],There are two free tables: the one near the exit and the one near the window,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let's find a table and sit down.
+Question: Which table?
+Choices:
+
+1. Any
+2. The table near the window
+3. A round table
+4. A surfboard
+ The correct answer is:","[('Any', 0.15311244130134583), ('The table near the window', 0.4430455267429352), ('A round table', 0.26872068643569946), ('A surfboard', 0.13512125611305237)]","[('Any', 0.0007492966251447797), ('The table near the window', 0.5647480487823486), ('A round table', 0.3881452977657318), ('A surfboard', 0.04635734111070633)]",The table near the window,The table near the window
+45,Let's find a table and sit down.,Which table?,"['The table near the window', 'Any', 'A round table', 'A surfboard']",,[1],We could sit in the one near the window,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let's find a table and sit down.
+Question: Which table?
+Choices:
+
+1. The table near the window
+2. Any
+3. A round table
+4. A surfboard
+ The correct answer is:","[('The table near the window', 0.15397849678993225), ('Any', 0.3931978642940521), ('A round table', 0.34699589014053345), ('A surfboard', 0.10582777112722397)]","[('The table near the window', 0.5647480487823486), ('Any', 0.0007492966251447797), ('A round table', 0.3881452977657318), ('A surfboard', 0.04635734111070633)]",Any,The table near the window
+46,"If you want to graduated this year, you've got to take a course .",Which course?,"['Any', 'A science course', 'A lifeguard course', 'A driving course']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: If you want to graduated this year, you've got to take a course .
+Question: Which course?
+Choices:
+
+1. Any
+2. A science course
+3. A lifeguard course
+4. A driving course
+ The correct answer is:","[('Any', 0.17783133685588837), ('A science course', 0.2754305303096771), ('A lifeguard course', 0.33223265409469604), ('A driving course', 0.21450552344322205)]","[('Any', 0.004956533201038837), ('A science course', 0.5910831093788147), ('A lifeguard course', 0.3264271020889282), ('A driving course', 0.07753323018550873)]",A lifeguard course,A science course
+47,"If you want to graduated this year , you've got to take a course .",Which course?,"['Any', 'A science course', 'A lifeguard course', 'A driving course']",,[1],Science class starts next semester,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: If you want to graduated this year , you've got to take a course .
+Question: Which course?
+Choices:
+
+1. Any
+2. A science course
+3. A lifeguard course
+4. A driving course
+ The correct answer is:","[('Any', 0.15574176609516144), ('A science course', 0.2733353078365326), ('A lifeguard course', 0.3297053277492523), ('A driving course', 0.24121758341789246)]","[('Any', 0.004151108209043741), ('A science course', 0.6160790920257568), ('A lifeguard course', 0.2910151481628418), ('A driving course', 0.08875460922718048)]",A lifeguard course,A science course
+48,"If you want to graduated this year , you've got to take a course .",Which course?,"['A science course', 'Any', 'A lifeguard course', 'A driving course']",,[1],The course must be in science,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: If you want to graduated this year , you've got to take a course .
+Question: Which course?
+Choices:
+
+1. A science course
+2. Any
+3. A lifeguard course
+4. A driving course
+ The correct answer is:","[('A science course', 0.12677769362926483), ('Any', 0.501415491104126), ('A lifeguard course', 0.16278576850891113), ('A driving course', 0.20902107656002045)]","[('A science course', 0.6160790920257568), ('Any', 0.004151108209043741), ('A lifeguard course', 0.2910151481628418), ('A driving course', 0.08875460922718048)]",Any,A science course
+49,I think I'll write a book .,What kind of book?,"[""I don't know"", 'A novel', 'A dictionary', 'A telephone directory']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I think I'll write a book .
+Question: What kind of book?
+Choices:
+
+1. I don't know
+2. A novel
+3. A dictionary
+4. A telephone directory
+ The correct answer is:","[(""I don't know"", 0.24376912415027618), ('A novel', 0.5847717523574829), ('A dictionary', 0.06984102725982666), ('A telephone directory', 0.10161809623241425)]","[(""I don't know"", 0.9786412119865417), ('A novel', 0.015818262472748756), ('A dictionary', 0.002425809158012271), ('A telephone directory', 0.0031148006673902273)]",A novel,I don't know
+50,I think I'll write a book .,What kind of book?,"[""I don't know"", 'A novel', 'A dictionary', 'A telephone directory']",,[1],My favorite books are novels,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I think I'll write a book .
+Question: What kind of book?
+Choices:
+
+1. I don't know
+2. A novel
+3. A dictionary
+4. A telephone directory
+ The correct answer is:","[(""I don't know"", 0.24376912415027618), ('A novel', 0.5847717523574829), ('A dictionary', 0.06984102725982666), ('A telephone directory', 0.10161809623241425)]","[(""I don't know"", 0.9786412119865417), ('A novel', 0.015818262472748756), ('A dictionary', 0.002425809158012271), ('A telephone directory', 0.0031148006673902273)]",A novel,I don't know
+51,I think I'll write a book .,What kind of book?,"['A novel', ""I don't know"", 'A dictionary', 'A telephone directory']",,[1],I'd like it to be a novel,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I think I'll write a book .
+Question: What kind of book?
+Choices:
+
+1. A novel
+2. I don't know
+3. A dictionary
+4. A telephone directory
+ The correct answer is:","[('A novel', 0.24575328826904297), (""I don't know"", 0.5202597379684448), ('A dictionary', 0.14905691146850586), ('A telephone directory', 0.08493006974458694)]","[('A novel', 0.015818262472748756), (""I don't know"", 0.9786412119865417), ('A dictionary', 0.002425809158012271), ('A telephone directory', 0.0031148006673902273)]",I don't know,I don't know
+52,I would like to find a job,What kind of job?,"['Any', 'A job in the real estate field', 'A full-time job', 'I would like to become president of the United States']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would like to find a job
+Question: What kind of job?
+Choices:
+
+1. Any
+2. A job in the real estate field
+3. A full-time job
+4. I would like to become president of the United States
+ The correct answer is:","[('Any', 0.3271431028842926), ('A job in the real estate field', 0.22484195232391357), ('A full-time job', 0.34824201464653015), ('I would like to become president of the United States', 0.09977301210165024)]","[('Any', 1.9129784050164744e-06), ('A job in the real estate field', 0.1830310970544815), ('A full-time job', 0.10428798198699951), ('I would like to become president of the United States', 0.7126789689064026)]",A full-time job,I would like to become president of the United States
+53,I would like to find a job,What kind of job?,"['Any', 'A job in the real estate field', 'A full-time job', 'I would like to become president of the United States']",,[1],The real estate field is expanding,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would like to find a job
+Question: What kind of job?
+Choices:
+
+1. Any
+2. A job in the real estate field
+3. A full-time job
+4. I would like to become president of the United States
+ The correct answer is:","[('Any', 0.3271431028842926), ('A job in the real estate field', 0.22484195232391357), ('A full-time job', 0.34824201464653015), ('I would like to become president of the United States', 0.09977301210165024)]","[('Any', 1.9129784050164744e-06), ('A job in the real estate field', 0.1830310970544815), ('A full-time job', 0.10428798198699951), ('I would like to become president of the United States', 0.7126789689064026)]",A full-time job,I would like to become president of the United States
+54,I would like to find a job,What kind of job?,"['A job in the real estate field', 'Any', 'A full-time job', 'I would like to become president of the United States']",,[1],I'm a real estate agent,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would like to find a job
+Question: What kind of job?
+Choices:
+
+1. A job in the real estate field
+2. Any
+3. A full-time job
+4. I would like to become president of the United States
+ The correct answer is:","[('A job in the real estate field', 0.2030884325504303), ('Any', 0.40388956665992737), ('A full-time job', 0.3348361849784851), ('I would like to become president of the United States', 0.05818581208586693)]","[('A job in the real estate field', 0.1830310970544815), ('Any', 1.9129784050164744e-06), ('A full-time job', 0.10428798198699951), ('I would like to become president of the United States', 0.7126789689064026)]",Any,I would like to become president of the United States
+55,That guy is a very good musician,What instrument does he play?,"[""I don't know"", 'The violin', 'The horn', 'The bell']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: That guy is a very good musician
+Question: What instrument does he play?
+Choices:
+
+1. I don't know
+2. The violin
+3. The horn
+4. The bell
+ The correct answer is:","[(""I don't know"", 0.12299663573503494), ('The violin', 0.40329042077064514), ('The horn', 0.3343394994735718), ('The bell', 0.13937345147132874)]","[(""I don't know"", 0.9864946603775024), ('The violin', 0.012418135069310665), ('The horn', 0.0008450647001154721), ('The bell', 0.0002421150857117027)]",The violin,I don't know
+56,That guy is a very good musician,What instrument does he play?,"[""I don't know"", 'The violin', 'The horn', 'The bell']",,[1],He plays in an orchestra,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: That guy is a very good musician
+Question: What instrument does he play?
+Choices:
+
+1. I don't know
+2. The violin
+3. The horn
+4. The bell
+ The correct answer is:","[(""I don't know"", 0.12299663573503494), ('The violin', 0.40329042077064514), ('The horn', 0.3343394994735718), ('The bell', 0.13937345147132874)]","[(""I don't know"", 0.9864946603775024), ('The violin', 0.012418135069310665), ('The horn', 0.0008450647001154721), ('The bell', 0.0002421150857117027)]",The violin,I don't know
+57,That guy is a very good musician,What instrument does he play?,"['The violin', ""I don't know"", 'The horn', 'The bell']",,[1],He is a violinist,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: That guy is a very good musician
+Question: What instrument does he play?
+Choices:
+
+1. The violin
+2. I don't know
+3. The horn
+4. The bell
+ The correct answer is:","[('The violin', 0.20969173312187195), (""I don't know"", 0.4439174234867096), ('The horn', 0.2692495286464691), ('The bell', 0.07714128494262695)]","[('The violin', 0.012418135069310665), (""I don't know"", 0.9864946603775024), ('The horn', 0.0008450647001154721), ('The bell', 0.0002421150857117027)]",I don't know,I don't know
+58,Why don't you come round for a meal one evening next week?,What meal?,"['Any', 'The lunch', 'The breakfast', 'Christmas lunch']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Why don't you come round for a meal one evening next week?
+Question: What meal?
+Choices:
+
+1. Any
+2. The lunch
+3. The breakfast
+4. Christmas lunch
+ The correct answer is:","[('Any', 0.17885814607143402), ('The lunch', 0.4030630588531494), ('The breakfast', 0.26023706793785095), ('Christmas lunch', 0.157841756939888)]","[('Any', 0.02555842138826847), ('The lunch', 0.07395574450492859), ('The breakfast', 0.0541071780025959), ('Christmas lunch', 0.8463786840438843)]",The lunch,Christmas lunch
+59,Why don't you come round for a meal one evening next week ?,What meal?,"['Any', 'The lunch', 'The breakfast', 'Christmas lunch']",,[1],"You can come for either lunch or dinner, as you prefer","Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Why don't you come round for a meal one evening next week ?
+Question: What meal?
+Choices:
+
+1. Any
+2. The lunch
+3. The breakfast
+4. Christmas lunch
+ The correct answer is:","[('Any', 0.17757591605186462), ('The lunch', 0.40017351508140564), ('The breakfast', 0.27503496408462524), ('Christmas lunch', 0.14721561968326569)]","[('Any', 0.02342030219733715), ('The lunch', 0.06366298347711563), ('The breakfast', 0.03407634049654007), ('Christmas lunch', 0.8788403868675232)]",The lunch,Christmas lunch
+60,Why don't you come round for a meal one evening next week ?,What meal?,"['The lunch', 'Any', 'The breakfast', 'Christmas lunch']",,[1],You can come at noon,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Why don't you come round for a meal one evening next week ?
+Question: What meal?
+Choices:
+
+1. The lunch
+2. Any
+3. The breakfast
+4. Christmas lunch
+ The correct answer is:","[('The lunch', 0.20070862770080566), ('Any', 0.5455825924873352), ('The breakfast', 0.06516055017709732), ('Christmas lunch', 0.18854831159114838)]","[('The lunch', 0.06366298347711563), ('Any', 0.02342030219733715), ('The breakfast', 0.03407634049654007), ('Christmas lunch', 0.8788403868675232)]",Any,Christmas lunch
+61,"Belinda , I’ m going to a party tonight .",What kind of party?,"[""I don't know"", 'A pool party', 'My bachelorette party', ""My dog's birthday""]",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Belinda , I’ m going to a party tonight .
+Question: What kind of party?
+Choices:
+
+1. I don't know
+2. A pool party
+3. My bachelorette party
+4. My dog's birthday
+ The correct answer is:","[(""I don't know"", 0.10173893719911575), ('A pool party', 0.12272058427333832), ('My bachelorette party', 0.5854671597480774), (""My dog's birthday"", 0.19007335603237152)]","[(""I don't know"", 0.4677225947380066), ('A pool party', 0.040869150310754776), ('My bachelorette party', 0.48256972432136536), (""My dog's birthday"", 0.008838573470711708)]",My bachelorette party,My bachelorette party
+62,"Belinda , I’ m going to a party tonight .",What kind of party?,"[""I don't know"", 'A pool party', 'My bachelorette party', ""My dog's birthday""]",,[1],"It's hot, it would be nice if the party was in the pool","Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Belinda , I’ m going to a party tonight .
+Question: What kind of party?
+Choices:
+
+1. I don't know
+2. A pool party
+3. My bachelorette party
+4. My dog's birthday
+ The correct answer is:","[(""I don't know"", 0.10173893719911575), ('A pool party', 0.12272058427333832), ('My bachelorette party', 0.5854671597480774), (""My dog's birthday"", 0.19007335603237152)]","[(""I don't know"", 0.4677225947380066), ('A pool party', 0.040869150310754776), ('My bachelorette party', 0.48256972432136536), (""My dog's birthday"", 0.008838573470711708)]",My bachelorette party,My bachelorette party
+63,"Belinda , I' m going to a party tonight .",What kind of party?,"['A pool party', ""I don't know"", 'My bachelorette party', ""My dog's birthday""]",,[1],I will have to wear a swimsuit because the party will be at the pool,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Belinda , I' m going to a party tonight .
+Question: What kind of party?
+Choices:
+
+1. A pool party
+2. I don't know
+3. My bachelorette party
+4. My dog's birthday
+ The correct answer is:","[('A pool party', 0.08303029835224152), (""I don't know"", 0.21202529966831207), ('My bachelorette party', 0.5763444900512695), (""My dog's birthday"", 0.1285998374223709)]","[('A pool party', 0.049080342054367065), (""I don't know"", 0.5444132089614868), ('My bachelorette party', 0.38604679703712463), (""My dog's birthday"", 0.020459728315472603)]",My bachelorette party,I don't know
+64,Let' s got out tomorrow night . We can go to a bar.,Which bar?,"[""I don't know"", 'The irish bar', 'A closed bar', ""Mc Donald's""]",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let' s got out tomorrow night . We can go to a bar.
+Question: Which bar?
+Choices:
+
+1. I don't know
+2. The irish bar
+3. A closed bar
+4. Mc Donald's
+ The correct answer is:","[(""I don't know"", 0.13700734078884125), ('The irish bar', 0.65362548828125), ('A closed bar', 0.12090855836868286), (""Mc Donald's"", 0.0884585902094841)]","[(""I don't know"", 0.940018355846405), ('The irish bar', 0.04003080725669861), ('A closed bar', 0.00950815062969923), (""Mc Donald's"", 0.010442660190165043)]",The irish bar,I don't know
+65,Let ' s got out tomorrow night . We can go to a bar.,Which bar?,"[""I don't know"", 'The irish bar', 'A closed bar', ""Mc Donald's""]",,[1],I suppose the irish bar will be full of people,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let ' s got out tomorrow night . We can go to a bar.
+Question: Which bar?
+Choices:
+
+1. I don't know
+2. The irish bar
+3. A closed bar
+4. Mc Donald's
+ The correct answer is:","[(""I don't know"", 0.14140012860298157), ('The irish bar', 0.674582302570343), ('A closed bar', 0.11722482740879059), (""Mc Donald's"", 0.06679269671440125)]","[(""I don't know"", 0.9054725170135498), ('The irish bar', 0.07092209160327911), ('A closed bar', 0.014866077341139317), (""Mc Donald's"", 0.008739315904676914)]",The irish bar,I don't know
+66,Let ' s got out tomorrow night . We can go to a bar.,Which bar?,"['The irish bar', ""I don't know"", 'A closed bar', ""Mc Donald's""]",,[1],"We should go to the irish bar, because it will be full of people","Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let ' s got out tomorrow night . We can go to a bar.
+Question: Which bar?
+Choices:
+
+1. The irish bar
+2. I don't know
+3. A closed bar
+4. Mc Donald's
+ The correct answer is:","[('The irish bar', 0.21999511122703552), (""I don't know"", 0.5277408361434937), ('A closed bar', 0.17133235931396484), (""Mc Donald's"", 0.08093167841434479)]","[('The irish bar', 0.07092209160327911), (""I don't know"", 0.9054725170135498), ('A closed bar', 0.014866077341139317), (""Mc Donald's"", 0.008739315904676914)]",I don't know,I don't know
+67,Let's go and get a drink .,What kind of drink?,"['Any', 'A beer', 'A diet coke', 'An espresso']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let's go and get a drink .
+Question: What kind of drink?
+Choices:
+
+1. Any
+2. A beer
+3. A diet coke
+4. An espresso
+ The correct answer is:","[('Any', 0.19281265139579773), ('A beer', 0.33839672803878784), ('A diet coke', 0.1701565533876419), ('An espresso', 0.29863405227661133)]","[('Any', 0.00043203827226534486), ('A beer', 0.9422389268875122), ('A diet coke', 0.04546800255775452), ('An espresso', 0.011861037462949753)]",A beer,A beer
+68,Let's go and get a drink .,What kind of drink?,"['Any', 'A beer', 'A diet coke', 'An espresso']",,[1],I've been drinking too much beer the last few days,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let's go and get a drink .
+Question: What kind of drink?
+Choices:
+
+1. Any
+2. A beer
+3. A diet coke
+4. An espresso
+ The correct answer is:","[('Any', 0.19281265139579773), ('A beer', 0.33839672803878784), ('A diet coke', 0.1701565533876419), ('An espresso', 0.29863405227661133)]","[('Any', 0.00043203827226534486), ('A beer', 0.9422389268875122), ('A diet coke', 0.04546800255775452), ('An espresso', 0.011861037462949753)]",A beer,A beer
+69,Let's go and get a drink .,What kind of drink?,"['A beer', 'Any', 'A diet coke', 'An espresso']",,[1],We can go to the Irish pub for a beer,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Let's go and get a drink .
+Question: What kind of drink?
+Choices:
+
+1. A beer
+2. Any
+3. A diet coke
+4. An espresso
+ The correct answer is:","[('A beer', 0.15798908472061157), ('Any', 0.4866406321525574), ('A diet coke', 0.1394248753786087), ('An espresso', 0.21594546735286713)]","[('A beer', 0.9422389268875122), ('Any', 0.00043203827226534486), ('A diet coke', 0.04546800255775452), ('An espresso', 0.011861037462949753)]",Any,A beer
+70,I really want to have a pet,What kind of pet?,"['Any', 'A cat', 'A monkey', 'A dinosaur']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I really want to have a pet
+Question: What kind of pet?
+Choices:
+
+1. Any
+2. A cat
+3. A monkey
+4. A dinosaur
+ The correct answer is:","[('Any', 0.18126817047595978), ('A cat', 0.5245168209075928), ('A monkey', 0.21865113079547882), ('A dinosaur', 0.07556381821632385)]","[('Any', 0.00025398179423063993), ('A cat', 0.9721472263336182), ('A monkey', 0.020176270976662636), ('A dinosaur', 0.007422435563057661)]",A cat,A cat
+71,I really want to have a pet,What kind of pet?,"['Any', 'A cat', 'A monkey', 'A dinosaur']",,[1],"I love dogs, but cats are cleaner","Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I really want to have a pet
+Question: What kind of pet?
+Choices:
+
+1. Any
+2. A cat
+3. A monkey
+4. A dinosaur
+ The correct answer is:","[('Any', 0.18126817047595978), ('A cat', 0.5245168209075928), ('A monkey', 0.21865113079547882), ('A dinosaur', 0.07556381821632385)]","[('Any', 0.00025398179423063993), ('A cat', 0.9721472263336182), ('A monkey', 0.020176270976662636), ('A dinosaur', 0.007422435563057661)]",A cat,A cat
+72,I really want to have a pet,What kind of pet?,"['A cat', 'Any', 'A monkey', 'A dinosaur']",,[1],I have always wanted to have a cat,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I really want to have a pet
+Question: What kind of pet?
+Choices:
+
+1. A cat
+2. Any
+3. A monkey
+4. A dinosaur
+ The correct answer is:","[('A cat', 0.3417077660560608), ('Any', 0.49718183279037476), ('A monkey', 0.06320957839488983), ('A dinosaur', 0.09790091216564178)]","[('A cat', 0.9721472263336182), ('Any', 0.00025398179423063993), ('A monkey', 0.020176270976662636), ('A dinosaur', 0.007422435563057661)]",Any,A cat
+73,"I've got this really neat idea, you can hire a car and drive straight there .",Which car?,"['Any', 'A small car', 'A caravan', 'A tank']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I've got this really neat idea, you can hire a car and drive straight there .
+Question: Which car?
+Choices:
+
+1. Any
+2. A small car
+3. A caravan
+4. A tank
+ The correct answer is:","[('Any', 0.3673976957798004), ('A small car', 0.4717479646205902), ('A caravan', 0.06796174496412277), ('A tank', 0.09289268404245377)]","[('Any', 0.0005871078465133905), ('A small car', 0.9972019195556641), ('A caravan', 0.000967977219261229), ('A tank', 0.001242907252162695)]",A small car,A small car
+74,"I' ve got this really neat idea , you can hire a car and drive straight there .",Which car?,"['Any', 'A small car', 'A caravan', 'A tank']",,[1],"A small car will be cheaper, but a sports car will be faster","Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I' ve got this really neat idea , you can hire a car and drive straight there .
+Question: Which car?
+Choices:
+
+1. Any
+2. A small car
+3. A caravan
+4. A tank
+ The correct answer is:","[('Any', 0.3000708222389221), ('A small car', 0.5266406536102295), ('A caravan', 0.07586978375911713), ('A tank', 0.09741872549057007)]","[('Any', 0.0007072575972415507), ('A small car', 0.9958928823471069), ('A caravan', 0.0015938295982778072), ('A tank', 0.001806045649573207)]",A small car,A small car
+75,"I've got this really neat idea , you can hire a car and drive straight there .",Which car?,"['A small car', 'Any', 'A caravan', 'A tank']",,[1],I suggest you to choose a small car because the roads are very narrow,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I've got this really neat idea , you can hire a car and drive straight there .
+Question: Which car?
+Choices:
+
+1. A small car
+2. Any
+3. A caravan
+4. A tank
+ The correct answer is:","[('A small car', 0.15768884122371674), ('Any', 0.7067123055458069), ('A caravan', 0.05119406804442406), ('A tank', 0.08440475165843964)]","[('A small car', 0.9970812201499939), ('Any', 0.000708101550117135), ('A caravan', 0.0009678600472398102), ('A tank', 0.0012427568435668945)]",Any,A small car
+76,I just saw a red van pulling into the driveway .,Whose van is it?,"[""I don't know"", ""It's your wife's van"", ""It's the president's van"", ""It's the Scooby-Doo's Mystery Machine""]",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just saw a red van pulling into the driveway .
+Question: Whose van is it?
+Choices:
+
+1. I don't know
+2. It's your wife's van
+3. It's the president's van
+4. It's the Scooby-Doo's Mystery Machine
+ The correct answer is:","[(""I don't know"", 0.14077208936214447), (""It's your wife's van"", 0.5926726460456848), (""It's the president's van"", 0.11670416593551636), (""It's the Scooby-Doo's Mystery Machine"", 0.14985111355781555)]","[(""I don't know"", 0.49621012806892395), (""It's your wife's van"", 0.1537187248468399), (""It's the president's van"", 0.21010857820510864), (""It's the Scooby-Doo's Mystery Machine"", 0.13996249437332153)]",It's your wife's van,I don't know
+77,I just saw a red van pulling into the driveway .,Whose van is it?,"[""I don't know"", ""It's your wife's van"", ""It's the president's van"", ""It's the Scooby-Doo's Mystery Machine""]",,[1],Doesn't your wife have a red van?,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just saw a red van pulling into the driveway .
+Question: Whose van is it?
+Choices:
+
+1. I don't know
+2. It's your wife's van
+3. It's the president's van
+4. It's the Scooby-Doo's Mystery Machine
+ The correct answer is:","[(""I don't know"", 0.14077208936214447), (""It's your wife's van"", 0.5926726460456848), (""It's the president's van"", 0.11670416593551636), (""It's the Scooby-Doo's Mystery Machine"", 0.14985111355781555)]","[(""I don't know"", 0.49621012806892395), (""It's your wife's van"", 0.1537187248468399), (""It's the president's van"", 0.21010857820510864), (""It's the Scooby-Doo's Mystery Machine"", 0.13996249437332153)]",It's your wife's van,I don't know
+78,I just saw a red van pulling into the driveway .,Whose van is it?,"['Your wife', ""I don't know"", ""It's the president's van"", ""It's the Scooby-Doo's Mystery Machine""]",,[1],The license plate is your wife's,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I just saw a red van pulling into the driveway .
+Question: Whose van is it?
+Choices:
+
+1. Your wife
+2. I don't know
+3. It's the president's van
+4. It's the Scooby-Doo's Mystery Machine
+ The correct answer is:","[('Your wife', 0.21020856499671936), (""I don't know"", 0.4180496633052826), (""It's the president's van"", 0.1974726766347885), (""It's the Scooby-Doo's Mystery Machine"", 0.17426902055740356)]","[('Your wife', 0.0002730105188675225), (""I don't know"", 0.5861818194389343), (""It's the president's van"", 0.24820499122142792), (""It's the Scooby-Doo's Mystery Machine"", 0.16534017026424408)]",I don't know,I don't know
+79,"As you know , I am a sports fan .",Which sports?,"[""I don't know"", 'Water sports', 'Table games', 'Quidditch']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: As you know , I am a sports fan .
+Question: Which sports?
+Choices:
+
+1. I don't know
+2. Water sports
+3. Table games
+4. Quidditch
+ The correct answer is:","[(""I don't know"", 0.26287660002708435), ('Water sports', 0.3170897364616394), ('Table games', 0.10294396430253983), ('Quidditch', 0.3170897364616394)]","[(""I don't know"", 0.9590672254562378), ('Water sports', 0.0011953763896599412), ('Table games', 0.0001519750658189878), ('Quidditch', 0.039585430175065994)]",Water sports,I don't know
+80,"As you know , I am a sports fan .",Which sports?,"[""I don't know"", 'Water sports', 'Table games', 'Quidditch']",,[1],And these papers are famous for their water sports section .,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: As you know , I am a sports fan .
+Question: Which sports?
+Choices:
+
+1. I don't know
+2. Water sports
+3. Table games
+4. Quidditch
+ The correct answer is:","[(""I don't know"", 0.26287660002708435), ('Water sports', 0.3170897364616394), ('Table games', 0.10294396430253983), ('Quidditch', 0.3170897364616394)]","[(""I don't know"", 0.9590672254562378), ('Water sports', 0.0011953763896599412), ('Table games', 0.0001519750658189878), ('Quidditch', 0.039585430175065994)]",Water sports,I don't know
+81,"As you know , I am a sports fan .",Which sports?,"['Water sports', ""I don't know"", 'Table games', 'Quidditch']",,[1],I particularly like water sports,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: As you know , I am a sports fan .
+Question: Which sports?
+Choices:
+
+1. Water sports
+2. I don't know
+3. Table games
+4. Quidditch
+ The correct answer is:","[('Water sports', 0.14696279168128967), (""I don't know"", 0.3994862735271454), ('Table games', 0.054064586758613586), ('Quidditch', 0.3994862735271454)]","[('Water sports', 0.0011953763896599412), (""I don't know"", 0.9590672254562378), ('Table games', 0.0001519750658189878), ('Quidditch', 0.039585430175065994)]",I don't know,I don't know
+82,Oh ! I just drop in on him for a chat .,What is the topic of the conversation?,"[""I don't know"", 'The academic career', 'Unicorns', 'The reproduction of ants']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Oh ! I just drop in on him for a chat .
+Question: What is the topic of the conversation?
+Choices:
+
+1. I don't know
+2. The academic career
+3. Unicorns
+4. The reproduction of ants
+ The correct answer is:","[(""I don't know"", 0.19747212529182434), ('The academic career', 0.5042627453804016), ('Unicorns', 0.15379145741462708), ('The reproduction of ants', 0.14447370171546936)]","[(""I don't know"", 0.980946958065033), ('The academic career', 0.0009521986357867718), ('Unicorns', 0.016878124326467514), ('The reproduction of ants', 0.0012226472608745098)]",The academic career,I don't know
+83,Oh ! I just drop in on him for a chat .,What is the topic of the conversation?,"[""I don't know"", 'The academic career', 'Unicorns', 'The reproduction of ants']",,[1],I hope he doesn't ask me about my academic career,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Oh ! I just drop in on him for a chat .
+Question: What is the topic of the conversation?
+Choices:
+
+1. I don't know
+2. The academic career
+3. Unicorns
+4. The reproduction of ants
+ The correct answer is:","[(""I don't know"", 0.19747212529182434), ('The academic career', 0.5042627453804016), ('Unicorns', 0.15379145741462708), ('The reproduction of ants', 0.14447370171546936)]","[(""I don't know"", 0.980946958065033), ('The academic career', 0.0009521986357867718), ('Unicorns', 0.016878124326467514), ('The reproduction of ants', 0.0012226472608745098)]",The academic career,I don't know
+84,Oh ! I just drop in on him for a chat .,What is the topic of the conversation?,"['The academic career', ""I don't know"", 'Unicorns', 'The reproduction of ants']",,[1],I want to ask him for advice on my academic career,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Oh ! I just drop in on him for a chat .
+Question: What is the topic of the conversation?
+Choices:
+
+1. The academic career
+2. I don't know
+3. Unicorns
+4. The reproduction of ants
+ The correct answer is:","[('The academic career', 0.2009907364845276), (""I don't know"", 0.5463494658470154), ('Unicorns', 0.1145210713148117), ('The reproduction of ants', 0.1381387710571289)]","[('The academic career', 0.0009521986357867718), (""I don't know"", 0.980946958065033), ('Unicorns', 0.016878124326467514), ('The reproduction of ants', 0.0012226472608745098)]",I don't know,I don't know
+85,Why don't we go to a park ?,Which park?,"['Any', ""St James' Park"", 'A Luna Park', 'A water park']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Why don't we go to a park ?
+Question: Which park?
+Choices:
+
+1. Any
+2. St James' Park
+3. A Luna Park
+4. A water park
+ The correct answer is:","[('Any', 0.1292499601840973), (""St James' Park"", 0.5111935138702393), ('A Luna Park', 0.21309715509414673), ('A water park', 0.1464594006538391)]","[('Any', 0.0028409326914697886), (""St James' Park"", 0.6951532959938049), ('A Luna Park', 0.0030241571366786957), ('A water park', 0.2989817261695862)]",St James' Park,St James' Park
+86,Why don't we go to a park ?,Which park?,"['Any', ""St James' Park"", 'A Luna Park', 'A water park']",,[1],"The St James' Park is around the corner here, but we could also go to Hide Park which is 10 minutes away","Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Why don't we go to a park ?
+Question: Which park?
+Choices:
+
+1. Any
+2. St James' Park
+3. A Luna Park
+4. A water park
+ The correct answer is:","[('Any', 0.1292499601840973), (""St James' Park"", 0.5111935138702393), ('A Luna Park', 0.21309715509414673), ('A water park', 0.1464594006538391)]","[('Any', 0.0028409326914697886), (""St James' Park"", 0.6951532959938049), ('A Luna Park', 0.0030241571366786957), ('A water park', 0.2989817261695862)]",St James' Park,St James' Park
+87,Why don't we go to a park ?,Which park?,"[""St James' Park"", 'Any', 'A Luna Park', 'A water park']",,[1],The St James' Park is around the corner here.,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Why don't we go to a park ?
+Question: Which park?
+Choices:
+
+1. St James' Park
+2. Any
+3. A Luna Park
+4. A water park
+ The correct answer is:","[(""St James' Park"", 0.16744926571846008), ('Any', 0.3128364086151123), ('A Luna Park', 0.24363723397254944), ('A water park', 0.27607715129852295)]","[(""St James' Park"", 0.6951532959938049), ('Any', 0.0028409326914697886), ('A Luna Park', 0.0030241571366786957), ('A water park', 0.2989817261695862)]",Any,St James' Park
+88,"Hey , Sandy , what's new ? Interested in a movie tonight ?",Which movie?,"['Any', 'Oppenheimer', ""My parents' wedding film"", 'The video of my knee operation']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Hey , Sandy , what's new ? Interested in a movie tonight ?
+Question: Which movie?
+Choices:
+
+1. Any
+2. Oppenheimer
+3. My parents' wedding film
+4. The video of my knee operation
+ The correct answer is:","[('Any', 0.15444855391979218), ('Oppenheimer', 0.419834703207016), (""My parents' wedding film"", 0.3480551838874817), ('The video of my knee operation', 0.07766161113977432)]","[('Any', 0.00016975257312878966), ('Oppenheimer', 0.7362624406814575), (""My parents' wedding film"", 0.2245473712682724), ('The video of my knee operation', 0.03902047872543335)]",Oppenheimer,Oppenheimer
+89,"Hey , Sandy , what's new ? Interested in a movie tonight ?",Which movie?,"['Any', 'Oppenheimer', ""My parents' wedding film"", 'The video of my knee operation']",,[1],I haven't seen Oppenheimer yet but they don't show it in theaters anymore,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Hey , Sandy , what's new ? Interested in a movie tonight ?
+Question: Which movie?
+Choices:
+
+1. Any
+2. Oppenheimer
+3. My parents' wedding film
+4. The video of my knee operation
+ The correct answer is:","[('Any', 0.15444855391979218), ('Oppenheimer', 0.419834703207016), (""My parents' wedding film"", 0.3480551838874817), ('The video of my knee operation', 0.07766161113977432)]","[('Any', 0.00016975257312878966), ('Oppenheimer', 0.7362624406814575), (""My parents' wedding film"", 0.2245473712682724), ('The video of my knee operation', 0.03902047872543335)]",Oppenheimer,Oppenheimer
+90,"Hey , Sandy , what's new ? Interested in a movie tonight ?",Which movie?,"['Oppenheimer', 'Any', ""My parents' wedding film"", 'The video of my knee operation']",,[1],I haven't seen Oppenheimer yet and it's still in theaters,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: Hey , Sandy , what's new ? Interested in a movie tonight ?
+Question: Which movie?
+Choices:
+
+1. Oppenheimer
+2. Any
+3. My parents' wedding film
+4. The video of my knee operation
+ The correct answer is:","[('Oppenheimer', 0.19377388060092926), ('Any', 0.38536536693573), (""My parents' wedding film"", 0.3400837481021881), ('The video of my knee operation', 0.08077696710824966)]","[('Oppenheimer', 0.7362624406814575), ('Any', 0.00016975257312878966), (""My parents' wedding film"", 0.2245473712682724), ('The video of my knee operation', 0.03902047872543335)]",Any,Oppenheimer
+91,I would like to spend a month in America,Which month?,"['Any', 'September', 'From september to october', 'December, January and February']",,[1],,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would like to spend a month in America
+Question: Which month?
+Choices:
+
+1. Any
+2. September
+3. From september to october
+4. December, January and February
+ The correct answer is:","[('Any', 0.15606734156608582), ('September', 0.2915721833705902), ('From september to october', 0.45159581303596497), ('December, January and February', 0.10076464712619781)]","[('Any', 1.1389265637262724e-05), ('September', 0.00022875952709000558), ('From september to october', 0.5310817956924438), ('December, January and February', 0.4686780273914337)]",From september to october,From september to october
+92,I would like to spend a month in America,Which month?,"['Any', 'September', 'From september to october', 'December, January and February']",,[1],I'm still thinking when is the best time to visit New York. Many recommend going in September.,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would like to spend a month in America
+Question: Which month?
+Choices:
+
+1. Any
+2. September
+3. From september to october
+4. December, January and February
+ The correct answer is:","[('Any', 0.15606734156608582), ('September', 0.2915721833705902), ('From september to october', 0.45159581303596497), ('December, January and February', 0.10076464712619781)]","[('Any', 1.1389265637262724e-05), ('September', 0.00022875952709000558), ('From september to october', 0.5310817956924438), ('December, January and February', 0.4686780273914337)]",From september to october,From september to october
+93,I would like to spend a month in America,Which month?,"['September', 'Any', 'From september to october', 'December, January and February']",,[1],I was thinking of leaving in September because the weather is less hot,"Task: I'll give you a target sentence and four options. Then, a question about the target sentence. You must choose the most probable answer. Answer with the number correspondent to the right option. Target sentence: I would like to spend a month in America
+Question: Which month?
+Choices:
+
+1. September
+2. Any
+3. From september to october
+4. December, January and February
+ The correct answer is:","[('September', 0.124256931245327), ('Any', 0.3173011839389801), ('From september to october', 0.46167048811912537), ('December, January and February', 0.09677138924598694)]","[('September', 0.00022875952709000558), ('Any', 1.1389265637262724e-05), ('From september to october', 0.5310817956924438), ('December, January and February', 0.4686780273914337)]",From september to october,From september to october
